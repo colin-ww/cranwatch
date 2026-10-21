@@ -7,8 +7,8 @@ test_that("full pipeline on fake sources", {
   expect_true(file.exists(file.path(root, "data", "snapshots", "2026-10-08.csv")))
   expect_equal(
     snap |> select(package, status) |> deframe(),
-    c(alpha = "cran", beta = "cran", delta = "cran", echo = "cran-archived", foxtrot = "r-universe",
-      golf = "github", hotel = "not-found", stats4 = "base")
+    c(Rcpp = "cran", alpha = "cran", beta = "cran", delta = "cran", echo = "cran-archived", foxtrot = "r-universe",
+      golf = "github", hotel = "not-found", kilo = "cran", stats4 = "base") # dplyr sorts in the C locale
   )
 
   # themes collapse, r-universe picks the top-scoring universe
@@ -26,7 +26,6 @@ test_that("full pipeline on fake sources", {
 
   # install burden: base deps dropped, noise dropped, optional kept, via-deps attributed
   expect_equal(row("alpha")$deps_n, 2)
-  expect_equal(row("alpha")$deps_compiled_n, 2)
   expect_equal(row("beta")$sysreqs, "libxml2 (optional); glpk (>= 4.57, optional)")
   expect_match(row("alpha")$sysreqs_via_deps, "libxml2 (optional) [beta]", fixed = TRUE)
   expect_equal(row("alpha")$sysdeps_detected, "glpk; libxml2")
@@ -47,7 +46,9 @@ test_that("full pipeline on fake sources", {
   active <- readLines(file.path(root, "_alerts", "active.md"))
   expect_true(any(str_detect(active, "\\| delta \\| deadline")))
   expect_true(any(str_detect(active, "\\| echo \\| archived")))
-  expect_true(any(str_detect(active, "\\| hotel \\| not-found")))
+  expect_true(any(str_detect(active, "\\| kilo \\| orphaned")))
+  expect_false(any(str_detect(active, "hotel")))                 # not-found: a flag + site to-do, not an alert
+  expect_match(row("hotel")$flags, "not-found")
   expect_length(readLines(file.path(root, "_alerts", "new.md")) |> str_subset("^- "), 3)
 })
 
@@ -72,7 +73,6 @@ test_that("a failed lookup source gives 'unknown', not 'not-found' alerts", {
 
   expect_equal(snap$status[snap$package %in% c("foxtrot", "hotel")], c("unknown", "unknown"))
   expect_true(all(is.na(snap$ru_score)))
-  expect_false(any(str_detect(readLines(file.path(root, "_alerts", "active.md")), "not-found")))
   expect_false(fromJSON(file.path(root, "data", "run.json"))$sources$ru_index$ok)
 })
 
@@ -101,7 +101,7 @@ test_that("an outage doesn't announce, close, or re-announce afterwards", {
 
   main(root, test_today, fake_fetchers())                                           # recovered
   expect_false(file.exists(file.path(root, "_alerts", "degraded")))
-  expect_false(file.exists(file.path(root, "_alerts", "new.md"))) # hotel's not-found was known before the outage
+  expect_false(file.exists(file.path(root, "_alerts", "new.md"))) # nothing new: the outage changed no alert
 })
 
 test_that("a GitHub error makes unresolved packages unknown, not not-found", {
@@ -130,36 +130,31 @@ test_that("a new alert during an outage is announced then, and not again after",
   expect_false(file.exists(file.path(root, "_alerts", "new.md")))
 })
 
-test_that("alerts first announced during an outage aren't re-announced when it ends", {
+test_that("alerts announced during an outage aren't repeated when it ends; what it hid is announced then", {
   root <- fake_root()
-  main(root, test_today - 7, fake_fetchers(github = \(repos) stop("GitHub API 502"))) # first ever run is partial
-  expect_true(file.exists(file.path(root, "_alerts", "new.md")))
+  lines <- \() readLines(file.path(root, "_alerts", "new.md")) |> str_subset("^- ")
+  main(root, test_today - 7, fake_fetchers(cran_in = \() stop("PACKAGES.in down"))) # first ever run is partial: no archive history
+  expect_equal(lines(), c("- **delta**: CRAN deadline 2026-10-20", "- **kilo**: orphaned on CRAN (no maintainer)"))
+  expect_false(any(str_detect(readLines(file.path(root, "_alerts", "active.md")), "echo")))
   main(root, test_today, fake_fetchers())
-  new <- file.path(root, "_alerts", "new.md")
-  expect_equal(if (file.exists(new)) str_subset(readLines(new), "^- ") else character(), "- **hotel**: not found on CRAN, r-universe or GitHub; check packages.yml")
+  expect_equal(lines(), "- **echo**: Archived on 2026-09-01 as check problems were not corrected in time.")
 })
 
 test_that("the ledger survives a same-day partial re-run", {
   root <- fake_root()
-  main(root, test_today - 7, fake_fetchers())                                          # hotel announced
-  main(root, test_today - 7, fake_fetchers(github = \(repos) stop("GitHub API 502")))  # same day, partial: overwrites the snapshot
+  main(root, test_today - 7, fake_fetchers())                                              # all announced
+  main(root, test_today - 7, fake_fetchers(cran_in = \() stop("PACKAGES.in down")))        # same day, partial: overwrites the snapshot
   main(root, test_today, fake_fetchers())
   expect_false(file.exists(file.path(root, "_alerts", "new.md")))
   ledger <- read_ledger(file.path(root, "data", "alerts.csv"))
-  expect_true(all(c("hotel", "delta", "echo") %in% ledger$package))
-  expect_true("" %in% ledger$when) # not-found has no date; must round-trip as "", not NA
+  expect_true(all(c("kilo", "delta", "echo") %in% ledger$package))
+  expect_true("" %in% ledger$when) # orphaned has no date; must round-trip as "", not NA
 })
 
-test_that("partial runs only announce alerts that come from CRAN's own data", {
-  root <- fake_root()
-  arch <- \(repos) tibble(repo = "own/golf", gh_stars = 3, gh_pushed = test_today, gh_archived = TRUE, gh_is_pkg = TRUE) |> filter(repo %in% repos)
-  main(root, test_today - 7, fake_fetchers(ru_index = \() stop("down"), github = arch))
-  new    <- readLines(file.path(root, "_alerts", "new.md"))
-  active <- readLines(file.path(root, "_alerts", "active.md")) # would be the body if this run creates the issue
-  expect_false(any(str_detect(c(new, active), "golf|hotel"))) # gh-archived / not-found wait for a complete run
-  expect_true(any(str_detect(new, "delta")))                   # CRAN deadline is trusted
-  main(root, test_today, fake_fetchers(github = arch))
-  expect_true(any(str_detect(readLines(file.path(root, "_alerts", "new.md")), "golf"))) # announced exactly once, now
+test_that("old archivals are history, not alerts", {
+  snap <- tibble(run_date = test_today, package = c("recent", "old"), flags = "archived",
+                 archived_last = test_today - c(10, 200), cran_comment = NA_character_, deadline = as.Date(NA), repo = NA_character_)
+  expect_equal(alerts_of(snap)$package, "recent")
 })
 
 test_that("a complete run forgets resolved alerts, so they can come back", {

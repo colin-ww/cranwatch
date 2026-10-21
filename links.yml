@@ -16,7 +16,7 @@ links:
   - {name: METACRAN services, url: "https://www.r-pkg.org/services", note: "crandb, cranlogs, rversions APIs"}
   - {name: r-universe API docs, url: "https://docs.r-universe.dev/browse/api.html"}
 
-# Couldn't identify these. Add a GitHub owner and move to packages.yml, or delete.
+# Couldn't find these on CRAN, r-universe or GitHub. Add a GitHub owner and move to packages.yml, or delete.
 unresolved:
   - {name: os, theme: meta-code, note: "no such package; fs/ps cover file + process ops"}
   - {name: funs, theme: meta-code, note: "no such package (dplyr::funs() is a deprecated function)"}
@@ -25,3 +25,8 @@ unresolved:
   - {name: demoadbcplyr, theme: dbplyr related, note: "owner unknown"}
   - {name: dabases-w-r, theme: dbplyr related, note: "owner unknown; typo of databases-w-r?"}
   - {name: intro-database-r, theme: databases, note: "owner unknown; looks like a course repo"}
+  - {name: surveyanalysis, theme: surveys, note: "was surveyanalaysis; not on CRAN, r-universe or GitHub. Compare with gest?!"}
+  - {name: weighting, theme: surveys, note: "not on CRAN; GitHub owner unknown"}
+  - {name: dbplyrExtra, theme: dbplyr related, note: "not found anywhere yet"}
+  - {name: oRm, theme: databases, note: "not on CRAN; GitHub owner unknown"}
+  - {name: oskey, theme: other, note: "not on CRAN; GitHub owner unknown"}

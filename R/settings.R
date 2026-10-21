@@ -28,5 +28,8 @@ settings <- list(
   # SystemRequirements items not worth *showing* (watch flags still see them):
   # compilers/make, and split-off continuations ("or ...", "see the README", "and ...")
   sysreq_noise      = "(?i)^(gnu make|c\\+\\+\\s*\\d*)$|^(or|see|for|and)\\b",
-  alert_types       = c("deadline", "archived", "orphaned", "not-found", "gh-archived")
+  # What goes in the alert issue: CRAN-side risks, announced once each. not-found /
+  # gh-archived are watchlist housekeeping: flags + a to-do list on the site, no email.
+  alert_types       = c("deadline", "archived", "orphaned"),
+  alert_archived_days = 90 # an archival older than this is history: on the site, not in the issue
 )

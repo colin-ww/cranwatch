@@ -5,15 +5,18 @@ for (f in list.files(test_path("../../R"), pattern = "\\.R$", full.names = TRUE)
 test_today <- as.Date("2026-10-08")
 
 fake_db <- tribble(
-  ~Package, ~Version, ~Title, ~Published, ~Deadline, ~NeedsCompilation, ~SystemRequirements, ~URL, ~`X-CRAN-Comment`, ~`X-CRAN-History`, ~Depends, ~Imports, ~LinkingTo,
-  "alpha", "1.0", "Alpha", "2026-01-01", NA, "no", NA, "https://github.com/me/alpha", NA, "Archived on 2026-03-01 as issues.\nUnarchived on 2026-04-01.", "R (>= 4.1)", "beta, stats", NA,
-  "beta", "2.0", "Beta", "2025-06-01", NA, "yes", "libxml2 (optional), glpk (>= 4.57, optional), GNU make", NA, NA, NA, NA, "Rcpp", "Rcpp",
-  "Rcpp", "1.1", "Rcpp", "2025-01-01", NA, "yes", NA, NA, NA, NA, NA, "methods", NA,
-  "delta", "0.1", "Delta", "2024-01-01", "2026-10-20", "no", "cmake", NA, NA, NA, NA, NA, NA,
-  "rev1", "1", "r1", "2025-01-01", NA, "no", NA, NA, NA, NA, NA, "alpha", NA,
-  "rev2", "1", "r2", "2025-01-01", NA, "no", NA, NA, NA, NA, "alpha", NA, NA,
-  "rev3", "1", "r3", "2025-01-01", NA, "no", NA, NA, NA, NA, NA, "alpha", NA,
-  "rev4", "1", "r4", "2025-01-01", NA, "no", NA, NA, NA, NA, NA, "alpha", NA
+  ~Package, ~Version, ~Title, ~Published, ~Deadline, ~NeedsCompilation, ~SystemRequirements, ~URL, ~`X-CRAN-Comment`, ~`X-CRAN-History`, ~Depends, ~Imports, ~LinkingTo, ~Maintainer, ~Author,
+  "alpha", "1.0", "Alpha", "2026-01-01", NA, "no", NA, "https://github.com/me/alpha", NA, "Archived on 2026-03-01 as issues.\nUnarchived on 2026-04-01.", "R (>= 4.1)", "beta, stats", NA, "Hadley Wickham <h@example.org>", "Hadley Wickham [aut, cre], Posit Software, PBC [cph, fnd]",
+  "beta", "2.0", "Beta", "2025-06-01", NA, "yes", "libxml2 (optional), glpk (>= 4.57, optional), GNU make", NA, NA, NA, NA, "Rcpp", "Rcpp", "Bea Person <b@example.org>", "Bea Person [aut, cre]",
+  "Rcpp", "1.1", "Rcpp", "2025-01-01", NA, "yes", NA, NA, NA, NA, NA, "methods", NA, "Rae Person <r@example.org>", "Rae Person [aut, cre], Hadley Wickham [ctb]",
+  "delta", "0.1", "Delta", "2024-01-01", "2026-10-20", "no", "cmake", NA, NA, NA, NA, NA, NA, "Dee Person <d@example.org>", "Dee Person [aut, cre]",
+  "kilo", "1.0", "Kilo", "2024-01-01", NA, "no", NA, NA, NA, NA, NA, NA, NA, "ORPHANED", "Someone Gone [aut]",
+  "rev1", "1", "r1", "2025-01-01", NA, "no", NA, NA, NA, NA, NA, "alpha", NA, "Someone <s@example.org>", NA,
+  "rev2", "1", "r2", "2025-01-01", NA, "no", NA, NA, NA, NA, "alpha", NA, NA, "Someone <s@example.org>", NA,
+  "rev3", "1", "r3", "2025-01-01", NA, "no", NA, NA, NA, NA, NA, "alpha", NA, "Someone <s@example.org>", NA,
+  "rev4", "1", "r4", "2025-01-01", NA, "no", NA, NA, NA, NA, NA, "alpha", NA, "Someone <s@example.org>", NA,
+  # stand-in for the tidyverse meta-package: install.packages("tidyverse") brings Rcpp
+  "tidyverse", "2.0", "Tidyverse", "2025-01-01", NA, "no", NA, NA, NA, NA, NA, "Rcpp", NA, "Someone <s@example.org>", NA
 )
 
 fake_cran_in <- tibble(
@@ -62,7 +65,7 @@ fake_root <- function() {
   dir.create(root)
   writeLines(c(
     "core:", "  - alpha", "  - beta", "  - delta",
-    "other:", "  - alpha", "  - echo", "  - foxtrot", "  - own/golf", "  - own/hotel", "  - stats4"
+    "other:", "  - alpha", "  - echo", "  - foxtrot", "  - kilo", "  - Rcpp", "  - own/golf", "  - own/hotel", "  - stats4"
   ), file.path(root, "packages.yml"))
   writeLines(c("compile-only:", "  - cmake", "run:", "  - libxml2"), file.path(root, "sys-deps.yml"))
   root

@@ -104,12 +104,10 @@ read-write:
   - parquetize
 
 surveys:
-  - surveyanalysis # ? was "surveyanalaysis"; not on CRAN. compare w gest?!
   - srvyr
   - survey
   - sampling
   - anesrake
-  - weighting # ? not on CRAN; GitHub owner unknown
   - Hmisc
   - surveydata
   - questionr
@@ -186,14 +184,12 @@ data-cleaning: # github.com/data-cleaning (Statistics Netherlands folks)
   - data-cleaning/data.log
 
 dbplyr related:
-  - dbplyrExtra # ? not found anywhere yet
   - halpo/pivot
 
 databases: # was "github, data"
   - cynkra/dm
   - bigrquery
   - {pkg: polarssql, repo: rpolars/r-polarssql}
-  - oRm # ? not on CRAN
   - {pkg: ducklake, repo: tgerke/ducklake-r}
   - tgerke/dplyneage
 
@@ -216,7 +212,6 @@ other:
   - modelr # older (rsample newer) - but is tidyverse!
   - keyring
   - getPass
-  - oskey # ? not on CRAN
   - gert
   - lambda.r
   - yaml

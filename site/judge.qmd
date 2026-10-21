@@ -118,7 +118,7 @@ And one rule that beats the checklist: **write down why you chose it**. A one-li
 
 ## Track your own list
 
-This site is a GitHub repository plus a weekly GitHub Action:
+This site is a GitHub repository plus a monthly GitHub Action:
 
 1. Fork [`r repo`](https://github.com/`r repo`).
 2. In the fork: **Actions** tab → enable workflows; **Settings → Pages** → Source: GitHub Actions; **Settings → General → Features** → tick Issues (for the alert issue).

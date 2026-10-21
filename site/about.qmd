@@ -14,7 +14,7 @@ cached <- unlist(run$requests$from_cache %||% list())
 
 ## What's tracked
 
-One row per package in [`packages.yml`](https://github.com/`r repo`/blob/main/packages.yml), refreshed every Monday by GitHub Actions. Each run writes a dated snapshot to [`data/snapshots/`](https://github.com/`r repo`/tree/main/data/snapshots), so trends build up over time.
+One row per package in [`packages.yml`](https://github.com/`r repo`/blob/main/packages.yml), refreshed on the 1st of every month by GitHub Actions (and whenever the config changes). Each run writes a dated snapshot to [`data/snapshots/`](https://github.com/`r repo`/tree/main/data/snapshots), so trends build up over time.
 
 | Column | Meaning | Source |
 |---|---|---|
@@ -35,11 +35,13 @@ One row per package in [`packages.yml`](https://github.com/`r repo`/blob/main/pa
 
 ## Alerts
 
-When a package gets a CRAN **deadline**, is **archived** (in the past year) or **orphaned**, can't be **found**, or its GitHub repo is **archived**, the workflow keeps a single issue labelled `cranwatch-alert` up to date and closes it when nothing is flagged.
+When a package gets a CRAN **deadline**, is **archived** (in the past 90 days) or **orphaned**, the workflow keeps a single issue labelled `cranwatch-alert` up to date and closes it when nothing is flagged. Older archivals are history: they stay on the site, not in the issue.
+
+`not-found` and `gh-archived` are watchlist housekeeping, not risks: they show as flags and in a to-do list on the Radar page, with no email.
 
 - **New alerts** get a comment that @mentions the repo owner (= an email).
 - **Each alert is announced once.** [`data/alerts.csv`](https://github.com/`r repo`/blob/main/data/alerts.csv) remembers what was announced. A complete run forgets alerts that are no longer flagged, so they're announced again if they come back.
-- **If a data source fails**, the run is *partial*. Only alerts that come from CRAN's own data (deadline, orphaned, archived) are announced; the others wait for the next complete run, and the issue isn't closed.
+- **If a data source fails**, the run is *partial*: the issue says so, and isn't closed even if nothing is flagged, since something may be missing.
 
 ## The r-universe score
 
@@ -103,7 +105,7 @@ if (!is.null(run$requests)) cat(glue(
 
 CRAN, r-universe and cranlogs publish no rate limit and need no authentication. The GitHub API allows 1000 requests/hour with the token GitHub Actions provides. cranwatch stays far below all of them:
 
-- **Bulk endpoints**: one week's run, about 90 requests, covers 160+ watched packages plus scores for every package on r-universe (~31k).
+- **Bulk endpoints**: one run, about 90 requests, covers 160+ watched packages plus scores for every package on r-universe (~31k).
 - **A disk cache**: every response except GitHub's is kept for `r settings$cache_hours` hours and carried between CI runs, so pushes and re-runs in between don't touch the APIs at all.
 - **Identifies itself**: User-Agent `r settings$user_agent`.
 - **Spaced out**: requests go one at a time, at least `r 1 / settings$max_req_per_sec` s apart per host. It backs off and retries on 429 (too many requests) and 5xx (server trouble).
