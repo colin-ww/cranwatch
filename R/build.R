@@ -30,11 +30,12 @@ finalize <- function(snap, today, complete = TRUE) {
         complete         ~ "not-found",
         .default         = "unknown"
       )),
+      # r-universe first: it has the README, docs and NEWS of CRAN packages too
       link = case_when(
+        status == "base"          ~ paste0("https://stat.ethz.ch/R-manual/R-patched/library/", package, "/html/00Index.html"),
+        !is.na(ru_universe)       ~ paste0("https://", ru_universe, ".r-universe.dev/", package),
         status %in% cran_statuses ~ paste0(settings$cran_base, "/package=", package),
-        status == "r-universe"    ~ paste0("https://", ru_universe, ".r-universe.dev/", package),
-        status == "github"        ~ paste0("https://github.com/", repo),
-        status == "base"          ~ paste0("https://stat.ethz.ch/R-manual/R-patched/library/", package, "/html/00Index.html")
+        status == "github"        ~ paste0("https://github.com/", repo)
       )
     ) |>
     add_flags(today) |>

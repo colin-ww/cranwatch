@@ -30,6 +30,7 @@ settings <- list(
   tidyverse_core    = c("ggplot2", "dplyr", "tidyr", "readr", "purrr", "tibble", "stringr", "forcats", "lubridate"),
   ru_multiverse     = "https://r-multiverse.r-universe.dev", # R-multiverse's curated universe
   not_on_cran_n     = 25,
+  not_on_cran_per_universe = 2,
   not_on_cran_skip  = c("cran", "bioc"), # universes left out of the "top scoring, not on CRAN" list
 
   # SystemRequirements items not worth *showing* (watch flags still see them):

@@ -19,15 +19,17 @@ One row per package in [`packages.yml`](https://github.com/`r repo`/blob/main/pa
 | Column | Meaning | Source |
 |---|---|---|
 | **Status** | Where you can install it from today: `base` (ships with R) · `cran` · `r-universe` (not on CRAN, e.g. polars) · `cran-archived` (gone) · `github` (repo only) · `not-found` · `unknown` (a lookup API was down) | all |
-| **Score** | The r-universe score, which r-universe uses to rank search results. Hover for what it's made of (formula below) | r-universe |
+| **Score** | The r-universe score, which r-universe uses to rank search results. Whole numbers here, exact in the CSV. Hover for what it's made of (formula below) | r-universe |
 | **Stars**, **Used by** | GitHub stars; packages across r-universe that depend on it, directly or indirectly | r-universe |
 | more in the CSV | scripts, monthly downloads, weeks with commits, commits, contributors, vignettes, releases, mentions | r-universe |
+| **Maintainer** | CRAN maintainer's name (never the email), with the funders underneath: authors with the `fnd` role, e.g. Posit Software, PBC. `hadley` in the CSV says if Hadley Wickham is the maintainer or an author (CRAN), or one of the top 100 commit contributors (GitHub, via r-universe) | CRAN package db, r-universe |
+| **Universes** | r-universe universes hosting a package of that name (the `cran` mirror aside), marked `multiverse` if it's in [R-multiverse](https://r-multiverse.org). Several universes = a fork or a mirror | r-universe |
 | **DLs/yr**, vs prev | Downloads over the last 365 days vs the 365 before | cranlogs |
 | **Deadline** | CRAN asked the maintainer to fix check problems by this date or the package gets archived | CRAN package db |
 | **Archived** | Distinct "Archived on" events in CRAN's notes. Hover for CRAN's latest comment | CRAN `PACKAGES.in` + package db |
-| **Compiles** | `NeedsCompilation: yes`: needs a compiler when installed from source | CRAN package db |
-| **Deps** | Recursive Depends/Imports/LinkingTo, base R excluded: what a fresh install pulls in | CRAN package db |
-| **Compiled** | How many of those deps need compiling. Matters on source-only mirrors | CRAN package db |
+| **Compiles** | `NeedsCompilation: yes`: needs a compiler when installed from source (no problem with a binary mirror such as Posit Package Manager) | CRAN package db |
+| **Deps** | **extra (total)**: recursive Depends/Imports/LinkingTo, base R excluded. *Total* = what a fresh install pulls in; *extra* = how many of those `install.packages("tidyverse")` wouldn't already have brought. The CSV's `deps` column lists the names | CRAN package db |
+| **Tidyverse** | `core` (attached by `library(tidyverse)`), `member` (a direct dependency of the tidyverse meta-package), `dep` (pulled in by those), blank = not part of a tidyverse install | CRAN package db |
 | **System reqs** | Its own `SystemRequirements` (optional ones say so). "via deps" = ones its dependencies bring in, e.g. `libxml2 [igraph]` for targets. "links" = libraries r-universe saw it (or its deps) link against | CRAN package db, r-universe `/api/sysdeps` |
 | **Reverse deps: Direct** | CRAN packages that Depend on, Import or LinkTo it | CRAN package db |
 | **Top by score** | Its top 3 direct reverse deps by r-universe score, shown only when at least 3 score above 10 | CRAN + r-universe |
@@ -92,6 +94,7 @@ r-universe calls the formula a work in progress, so use the separate ingredients
 | r-universe [`/api/search`](https://docs.r-universe.dev/browse/api.html) (no query) | Score, recursive dependents, scripts, stars and home universe for every package. Global index first, then the cran universe's for CRAN packages global search leaves out | ~7 + ~6 pages of 5000 |
 | r-universe [`<universe>/api/packages?fields=…`](https://docs.r-universe.dev/browse/api.html) | The score's ingredients, only the fields needed | 1 per universe hosting a watched package (~55), + 1 per package that listing misses (~10) |
 | r-universe `cran/api/sysdeps` | System library → packages linking it | 1 |
+| r-universe `r-multiverse/api/packages?fields=Package` | Names in R-multiverse's curated universe | 1 |
 | [cranlogs](https://github.com/metacran/cranlogs.app) `/downloads/total/<from>:<to>/<pkgs>` | Download totals | 2 per 50 packages (~8) |
 | GitHub API | Stars / last push / archived, only for repos not found elsewhere | ≤ 2 per repo |
 

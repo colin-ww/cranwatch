@@ -22,9 +22,19 @@ sources   <- c(
 ) |> paste(collapse = "; ")
 if (!nzchar(sources)) sources <- "all ok"
 note      <- \(l) if (is.null(l$note)) "" else paste0(": ", l$note)
+
+# Follow the page's light/dark theme (Bootstrap's CSS variables)
+options(reactable.theme = reactableTheme(
+  color = "var(--bs-body-color)", backgroundColor = "var(--bs-body-bg)", borderColor = "var(--bs-border-color)",
+  stripedColor = "rgba(128, 128, 128, 0.08)", highlightColor = "rgba(128, 128, 128, 0.16)",
+  inputStyle = list(backgroundColor = "var(--bs-body-bg)", color = "var(--bs-body-color)"),
+  selectStyle = list(backgroundColor = "var(--bs-body-bg)", color = "var(--bs-body-color)"),
+  pageButtonHoverStyle = list(backgroundColor = "rgba(128, 128, 128, 0.16)"),
+  pageButtonActiveStyle = list(backgroundColor = "rgba(128, 128, 128, 0.3)")
+))
 ```
 
-[(https://github.com/colin-ww/cranwatch/actions/workflows/cranwatch.yml/badge.svg)](https://github.com/colin-ww/cranwatch/actions/workflows/cranwatch.yml)
+<a href="https://github.com/`r repo`/actions/workflows/cranwatch.yml"><img src="https://github.com/`r repo`/actions/workflows/cranwatch.yml/badge.svg" alt="workflow status"></a>
 
 **`r nrow(snap)` packages** · run `r run$run_date` · downloads `r run$dl_windows$dl_365[[1]]` to `r run$dl_windows$dl_365[[2]]` · sources `r sources` ·
 [CSV](https://github.com/`r repo`/blob/main/data/latest.csv) · [history](https://github.com/`r repo`/tree/main/data/snapshots) · [edit watchlist](https://github.com/`r repo`/edit/main/packages.yml)
@@ -35,6 +45,20 @@ alerts <- alerts_of(snap) |> left_join(snap |> select(package, link), by = "pack
 if (nrow(alerts)) {
   cat("::: {.callout-warning}\n## Alerts\n\n")
   cat(glue("- **{md_pkg(alerts$package, alerts$link)}**: {alerts$detail}"), sep = "\n")
+  cat("\n:::\n")
+}
+```
+
+```{r}
+#| results: asis
+# watchlist housekeeping: no email, just a to-do list
+has_flag <- \(f) snap |> filter(str_detect(coalesce(flags, ""), fixed(f)))
+missing  <- has_flag("not-found")
+gh_gone  <- has_flag("gh-archived")
+if (nrow(missing) + nrow(gh_gone)) {
+  cat("::: {.callout-note collapse=\"true\"}\n## Watchlist to-do\n\n")
+  if (nrow(missing)) cat(glue("- **Not found** on CRAN, r-universe or GitHub. Typo, or not public yet? Fix it in packages.yml, or move it to links.yml: {paste(missing$package, collapse = ', ')}"), "\n")
+  if (nrow(gh_gone)) cat(glue("- **GitHub repo archived**: {paste(glue('{gh_gone$package} ({gh_gone$repo})'), collapse = ', ')}"), "\n")
   cat("\n:::\n")
 }
 ```
@@ -51,11 +75,11 @@ tbl <- snap |>
     package, title, link, themes, status,
     ru_score, dl_365, dl_growth, ru_stars, ru_dependents,
     deadline, archived_n, archived_last, cran_comment,
-    needs_compilation, deps_n, deps_compiled_n, sysreqs, sysreqs_via_deps, sysdeps_detected,
-    revdeps_n, revdeps_top, flags, notes
+    needs_compilation, deps_extra_n, deps_n, tidyverse, sysreqs, sysreqs_via_deps, sysdeps_detected,
+    revdeps_n, revdeps_top, maintainer, funders, hadley, ru_universes, multiverse, flags, notes
   )
 
-hidden <- c("title", "link", "archived_last", "cran_comment", "sysreqs_via_deps", "sysdeps_detected")
+hidden <- c("title", "link", "archived_last", "cran_comment", "sysreqs_via_deps", "sysdeps_detected", "deps_n", "funders", "hadley", "multiverse")
 
 flag_badges <- \(value) {
   if (is.na(value)) return("")
@@ -78,8 +102,9 @@ reactable(
   columnGroups = list(
     colGroup("Popularity", c("ru_score", "dl_365", "dl_growth", "ru_stars", "ru_dependents")),
     colGroup("CRAN health", c("deadline", "archived_n")),
-    colGroup("Install burden", c("needs_compilation", "deps_n", "deps_compiled_n", "sysreqs")),
-    colGroup("Reverse deps", c("revdeps_n", "revdeps_top"))
+    colGroup("Install burden", c("needs_compilation", "deps_extra_n", "tidyverse", "sysreqs")),
+    colGroup("Reverse deps", c("revdeps_n", "revdeps_top")),
+    colGroup("Behind it", c("maintainer", "ru_universes"))
   ),
   columns = c(
     set_names(map(hidden, \(x) colDef(show = FALSE)), hidden),
@@ -91,7 +116,7 @@ reactable(
       themes  = colDef(name = "Themes", minWidth = 120),
       status  = colDef(name = "Status", minWidth = 100, cell = \(value) span(class = paste0("status status-", value), value)),
       ru_score      = colDef(name = "Score", cell = \(value, i) {
-        if (is.na(value)) "" else span(title = score_tip[i], class = if (nzchar(score_tip[i])) "has-tip", format(round(value, 1), nsmall = 1))
+        if (is.na(value)) "" else span(title = score_tip[i], class = if (nzchar(score_tip[i])) "has-tip", format(round(value)))
       }),
       dl_365        = colDef(name = "DLs/yr", cell = fmt_short),
       dl_growth     = colDef(name = "vs prev", format = colFormat(percent = TRUE, digits = 0)),
@@ -103,8 +128,12 @@ reactable(
         span(title = coalesce(tbl$cran_comment[i], ""), value, muted("last ", format(tbl$archived_last[i])))
       }),
       needs_compilation = colDef(name = "Compiles", minWidth = 85, cell = \(value) if (isTRUE(value)) "yes" else ""),
-      deps_n            = colDef(name = "Deps"),
-      deps_compiled_n   = colDef(name = "Compiled", minWidth = 85),
+      # beyond a tidyverse install (total); sorts by the first number
+      deps_extra_n      = colDef(name = "Deps", minWidth = 85, cell = \(value, i) {
+        total <- tbl$deps_n[i]
+        if (is.na(total)) "" else if (is.na(value)) paste0("(", total, ")") else paste0(value, " (", total, ")")
+      }),
+      tidyverse         = colDef(name = "Tidyverse", minWidth = 90),
       sysreqs = colDef(name = "System reqs", minWidth = 280, cell = \(value, i) {
         via <- tbl$sysreqs_via_deps[i]
         det <- tbl$sysdeps_detected[i]
@@ -116,6 +145,21 @@ reactable(
       }),
       revdeps_n   = colDef(name = "Direct"),
       revdeps_top = colDef(name = "Top by score", minWidth = 220),
+      maintainer  = colDef(name = "Maintainer", minWidth = 170, cell = \(value, i) {
+        funders <- tbl$funders[i]
+        hadley  <- tbl$hadley[i]
+        tagList(
+          if (!is.na(value)) div(value),
+          if (!is.na(funders)) muted("funded by ", funders),
+          if (!is.na(hadley)) muted("hadley: ", hadley)
+        )
+      }),
+      ru_universes = colDef(name = "Universes", minWidth = 130, cell = \(value, i) {
+        tagList(
+          if (!is.na(value)) div(value),
+          if (isTRUE(tbl$multiverse[i])) muted("multiverse")
+        )
+      }),
       flags       = colDef(name = "Flags", minWidth = 160, cell = flag_badges),
       notes       = colDef(name = "Notes", minWidth = 200)
     )
@@ -144,9 +188,35 @@ if (!is.null(old)) {
     slice_max(abs(score_change), n = 10, with_ties = FALSE) |>
     select(package, ru_score, score_change, dl_change) |>
     reactable(compact = TRUE, columns = list(
-      ru_score     = colDef(name = "Score", format = colFormat(digits = 1)),
-      score_change = colDef(name = "Change", format = colFormat(digits = 2)),
+      ru_score     = colDef(name = "Score", format = colFormat(digits = 0)),
+      score_change = colDef(name = "Change", format = colFormat(digits = 1)),
       dl_change    = colDef(name = "Downloads change", format = colFormat(percent = TRUE, digits = 0))
+    ))
+}
+```
+
+```{r}
+#| include: false
+noc_path <- "../data/not-on-cran.csv"
+noc      <- if (file.exists(noc_path)) read_csv(noc_path, show_col_types = FALSE)
+```
+
+`r if (!is.null(noc)) "## Top scoring, but not on CRAN"`
+
+`r if (!is.null(noc)) glue("The highest-scoring packages on r-universe that CRAN doesn't have (at most {settings$not_on_cran_per_universe} per universe; Bioconductor left out). The ones already on the watchlist are marked.")`
+
+```{r}
+if (!is.null(noc)) {
+  noc |>
+    mutate(watching = if_else(package %in% snap$package, "watching", "")) |>
+    reactable(compact = TRUE, striped = TRUE, columns = list(
+      package    = colDef(name = "Package", cell = \(value, i) a(href = paste0("https://", noc$universe[i], ".r-universe.dev/", value), target = "_blank", value)),
+      universe   = colDef(name = "Universe"),
+      score      = colDef(name = "Score", format = colFormat(digits = 0)),
+      stars      = colDef(name = "Stars", cell = fmt_short),
+      dependents = colDef(name = "Used by", cell = fmt_short),
+      scripts    = colDef(name = "Scripts", cell = fmt_short),
+      watching   = colDef(name = "", minWidth = 80)
     ))
 }
 ```

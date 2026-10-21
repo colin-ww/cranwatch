@@ -36,9 +36,9 @@ watch |>
       transmute(
         Package  = md_pkg(package, link),
         Status   = status,
-        Score    = if_else(is.na(ru_score), "", format(round(ru_score, 1), nsmall = 1)),
+        Score    = if_else(is.na(ru_score), "", format(round(ru_score))),
         `DLs/yr` = fmt_short(dl_365),
-        Deps     = if_else(is.na(deps_n), "", glue("{deps_n} ({deps_compiled_n} compiled)")),
+        Deps     = if_else(is.na(deps_n), "", glue("{coalesce(deps_extra_n, deps_n)} ({deps_n})")), # extra beyond tidyverse (total)
         Flags    = coalesce(flags, ""),
         Note     = coalesce(note, "")
       )

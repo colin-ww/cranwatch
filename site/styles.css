@@ -19,3 +19,18 @@
 .status { font-size: 0.85em; }
 .status-cran-archived, .status-not-found { color: #b02a37; }
 .status-unknown { color: #6c757d; font-style: italic; }
+
+/* dark mode (Quarto adds .quarto-dark to <body>) */
+.quarto-dark .muted { color: #adb5bd; }
+.quarto-dark .has-tip { border-bottom-color: #adb5bd; }
+.quarto-dark .bad { color: #ea868f; }
+.quarto-dark .flag { background: #343a40; color: #dee2e6; }
+.quarto-dark .flag-deadline, .quarto-dark .flag-archived, .quarto-dark .flag-orphaned,
+.quarto-dark .flag-not-found, .quarto-dark .flag-gh-archived { background: #58151c; color: #ea868f; }
+.quarto-dark .flag-archived-past-yr, .quarto-dark .flag-watch-sysreq { background: #664d03; color: #ffda6a; }
+.quarto-dark .flag-new-past-yr { background: #0a3622; color: #75b798; }
+.quarto-dark .status-cran-archived, .quarto-dark .status-not-found { color: #ea868f; }
+
+/* reactable's sticky-column rows hard-code a light background: follow the theme instead */
+.reactable .rt-tr-striped-sticky { background-color: color-mix(in srgb, var(--bs-body-bg), var(--bs-body-color) 6%); }
+.reactable .rt-tr-highlight-sticky:hover { background-color: color-mix(in srgb, var(--bs-body-bg), var(--bs-body-color) 12%); }

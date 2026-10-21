@@ -40,9 +40,9 @@ Also bad: **orphaned** (CRAN lists no maintainer) and a GitHub repo marked **arc
 
 ## 2. Can I install it *here*?
 
-On a laptop, CRAN hands you ready-built binaries for Windows and macOS. On a Linux server, especially one that only sees an internal mirror, you may only get **source** packages, which have to be compiled during installation. Two things then matter:
+On a laptop, CRAN hands you ready-built binaries for Windows and macOS. On Linux you get binaries only if your mirror serves them (Posit Package Manager does); otherwise you get **source** packages, which have to be compiled during installation. Two things then matter:
 
-- **Does it compile?** (`NeedsCompilation: yes`, the *Compiles* column.) You need compilers and headers, and big C++ packages can take a long time and a lot of memory to build.
+- **Does it compile?** (`NeedsCompilation: yes`, the *Compiles* column.) With a binary mirror that's no problem. Without one you need compilers and headers, and big C++ packages can take a long time and a lot of memory to build.
 - **Does it need system libraries?** (*System reqs*.) Some packages need libraries from the operating system (libxml2, libcurl, GDAL, CMake…). R can't install those; someone has to add them to the server or container image. Ones marked *optional* only unlock extra features.
 
 The trap is that requirements are **inherited**: a package you pick can be pure R while something three levels down needs a C++ toolchain and libxml2.
@@ -56,7 +56,7 @@ via <- on_cran |>
 if (nrow(via)) cat(glue("For example **{via$package}** declares no system requirements itself, yet its dependencies bring in: {via$sysreqs_via_deps}."), "\n\n")
 ```
 
-`pak::pkg_sysreqs("pkg")` lists the OS packages to ask for. On the Radar, the *System reqs* column (own + via deps) and the `watch-sysreq` flag show the same thing at a glance; *Compiles* / *Compiled* show how much has to be built.
+`pak::pkg_sysreqs("pkg")` lists the OS packages to ask for. On the Radar, the *System reqs* column (own + via deps) and the `watch-sysreq` flag show the same thing at a glance; *Compiles* shows what has to be built if there's no binary.
 
 ## 3. How much does it drag in?
 
@@ -66,7 +66,7 @@ Dependencies come in kinds:
 - **LinkingTo**: needed to compile it.
 - **Suggests**: optional, only for tests, vignettes or extra features.
 
-The *Deps* column counts the first three **recursively**, i.e. everything a fresh install pulls in (base R excluded).
+The *Deps* column counts the first three **recursively**, i.e. everything a fresh install pulls in (base R excluded), as **extra (total)**. *Total* is everything; *extra* leaves out what a plain `install.packages("tidyverse")` already brings, so if the tidyverse is on your server anyway, extra is what the package really adds. The *Tidyverse* column says whether the package is part of that install: `core` (attached by `library(tidyverse)`), `member` (a direct dependency of the tidyverse meta-package) or `dep` (pulled in by those). The CSV also has a `deps` column with the names, to plan an install set.
 
 ```{r}
 #| results: asis

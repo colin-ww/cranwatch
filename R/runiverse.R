@@ -197,11 +197,13 @@ fetch_ru_multiverse <- function() {
     map_chr(\(line) fromJSON(line)$Package)
 }
 
-# The highest-scoring packages on r-universe that CRAN doesn't have
-top_not_on_cran <- function(index, db, n = settings$not_on_cran_n) {
+# The highest-scoring packages on r-universe that CRAN doesn't have, at most a few
+# per universe (monorepos like PEcAn would otherwise fill the list)
+top_not_on_cran <- function(index, db, n = settings$not_on_cran_n, per_universe = settings$not_on_cran_per_universe) {
   index |>
     filter(!package %in% db$Package, !universe %in% settings$not_on_cran_skip) |>
     slice_max(score, n = 1, by = package, with_ties = FALSE) |>
+    slice_max(score, n = per_universe, by = universe, with_ties = FALSE) |>
     slice_max(score, n = n, with_ties = FALSE) |>
     select(package, universe, score, stars, dependents, scripts)
 }
