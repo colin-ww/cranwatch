@@ -21,6 +21,7 @@ packages:
 
 meta-code:
   - devtools
+  - lifecycle
   - pkgconfig
   - usethis # tidyverse. workflow: setup/dev
   - here
@@ -33,15 +34,19 @@ meta-code:
   - cli
   - crayon # terminal colours; superseded by cli
   - pillar # printing for tibble
-  - hms
   - vctrs
   - scales
-  - stats4 # base R
-  - tcltk # base R
   - RSQLite
-  - lifecycle
+  
+assert:
   - assertthat
+  - assert
+  - assertive
+  - assertions
+  - checkmate
   - pointblank
+  - assertr
+  - validate
 
 lint/style:
   - lintr
@@ -82,6 +87,7 @@ dplyr backends:
   - dtplyr
   - duckplyr
   - multidplyr # tidyverse!
+  - ggsql # other?
 
 big data:
   - data.table
@@ -102,6 +108,7 @@ read-write:
   - data.table
   - fastreg
   - parquetize
+  - rio
 
 surveys:
   - srvyr
@@ -198,6 +205,13 @@ llms:
   - mcptools
   - shinychat
 
+web:
+ - httr
+ - httr2
+ - rvest
+ - reqres
+ - bslib # w shiny/for websites
+
 other:
   - config # posit
   - configr
@@ -205,6 +219,7 @@ other:
   - janitor
   - glue # tidyverse!
   - magrittr # tidyverse!
+  - hms
   - zeallot # py multi assignment
   - listenv # auth same as future
   - collapse # fmedian
@@ -215,10 +230,12 @@ other:
   - gert
   - lambda.r
   - yaml
+  - yaml12
   - jsonlite
   - prettydoc
   - ArCo
-  - bslib # w shiny/for websites
+  - stats4 # base R
+  - tcltk # base R
 
 # not tracking: stats::xtabs() (base R function)
 # imports vs depends: https://stackoverflow.com/questions/8637993/better-explanation-of-when-to-use-imports-depends
