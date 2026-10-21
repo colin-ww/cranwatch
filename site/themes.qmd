@@ -3,6 +3,8 @@ title: "Themes"
 subtitle: "What each group of packages is for, how they overlap, and what I'd pick"
 toc: true
 toc-depth: 2
+toc-expand: true # Quarto folds the list by default; show every theme
+toc-title: "Themes"
 ---
 
 ```{r}
@@ -20,9 +22,14 @@ Guides marked [draft]{.flag} haven't been reviewed by a human yet.
 
 ```{r}
 #| results: asis
-watch |>
-  distinct(theme) |>
-  pull() |>
+# jump list for narrow screens, where the side TOC is hidden
+themes <- watch |> distinct(theme) |> pull()
+cat("**Jump to:** ", paste(glue("[{themes}](#theme-{theme_slug(themes)})"), collapse = " | "), "\n\n", sep = "")
+```
+
+```{r}
+#| results: asis
+themes |>
   walk(\(th) {
     guide <- read_guide("../guides", th)
     theme_note <- notes |> filter(theme == th, is.na(package)) |> pull(note)
@@ -43,7 +50,7 @@ watch |>
         Note     = coalesce(note, "")
       )
 
-    cat("\n\n## ", th, if (guide$draft) " [draft]{.flag}", "\n\n", sep = "")
+    cat("\n\n## ", th, if (guide$draft) " [draft]{.flag}", " {#theme-", theme_slug(th), "}\n\n", sep = "")
     if (length(theme_note)) cat("_", theme_note, "_\n\n", sep = "")
     cat(if (is.null(guide$text)) "_No guide yet._" else guide$text, sep = "\n")
     cat("\n\n")

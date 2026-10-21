@@ -23,6 +23,11 @@ sources   <- c(
 if (!nzchar(sources)) sources <- "all ok"
 note      <- \(l) if (is.null(l$note)) "" else paste0(": ", l$note)
 
+# What started the last run (while getting the workflow going): "2026-10-21 14:03 UTC, scheduled @ abc1234"
+info     <- run$run_info
+run_when <- paste0(str_sub(run$run_time, 1, 16), " UTC", if (!is.null(info$trigger)) paste0(", ", info$trigger), if (!is.null(info$commit)) paste0(" @ ", info$commit))
+run_line <- if (is.null(info$run_url)) run_when else glue("[{run_when}]({info$run_url})")
+
 # Follow the page's light/dark theme (Bootstrap's CSS variables)
 options(reactable.theme = reactableTheme(
   color = "var(--bs-body-color)", backgroundColor = "var(--bs-body-bg)", borderColor = "var(--bs-border-color)",
@@ -36,7 +41,7 @@ options(reactable.theme = reactableTheme(
 
 <a href="https://github.com/`r repo`/actions/workflows/cranwatch.yml"><img src="https://github.com/`r repo`/actions/workflows/cranwatch.yml/badge.svg" alt="workflow status"></a>
 
-**`r nrow(snap)` packages** · run `r run$run_date` · downloads `r run$dl_windows$dl_365[[1]]` to `r run$dl_windows$dl_365[[2]]` · sources `r sources` ·
+**`r nrow(snap)` packages** · last run `r run_line` · downloads `r run$dl_windows$dl_365[[1]]` to `r run$dl_windows$dl_365[[2]]` · sources `r sources` ·
 [CSV](https://github.com/`r repo`/blob/main/data/latest.csv) · [history](https://github.com/`r repo`/tree/main/data/snapshots) · [edit watchlist](https://github.com/`r repo`/edit/main/packages.yml)
 
 ```{r}
@@ -71,15 +76,23 @@ notes <- read_watch_notes("../packages.yml") |>
 
 tbl <- snap |>
   left_join(notes, by = "package") |>
+  mutate(
+    # GitHub org / r-universe subdomain: the home universe, else the repo's owner
+    org  = if_else(!is.na(ru_universe) & ru_universe != "cran", ru_universe, str_extract(repo, "^[^/]+")),
+    also = map2_chr(ru_universes, org, \(u, o) {
+      others <- if (is.na(u)) character() else str_split_1(u, "; ") |> keep(\(x) str_to_lower(x) != str_to_lower(o %||% ""))
+      if (length(others)) paste(others, collapse = "; ") else NA_character_
+    })
+  ) |>
   select(
     package, title, link, themes, status,
     ru_score, dl_365, dl_growth, ru_stars, ru_dependents,
     deadline, archived_n, archived_last, cran_comment,
     needs_compilation, deps_extra_n, deps_n, tidyverse, sysreqs, sysreqs_via_deps, sysdeps_detected,
-    revdeps_n, revdeps_top, maintainer, funders, hadley, ru_universes, multiverse, flags, notes
+    revdeps_n, revdeps_top, maintainer, funders, hadley, org, also, multiverse, flags, notes
   )
 
-hidden <- c("title", "link", "archived_last", "cran_comment", "sysreqs_via_deps", "sysdeps_detected", "deps_n", "funders", "hadley", "multiverse")
+hidden <- c("title", "link", "archived_last", "cran_comment", "sysreqs_via_deps", "sysdeps_detected", "deps_n", "funders", "hadley", "also", "multiverse")
 
 flag_badges <- \(value) {
   if (is.na(value)) return("")
@@ -104,7 +117,7 @@ reactable(
     colGroup("CRAN health", c("deadline", "archived_n")),
     colGroup("Install burden", c("needs_compilation", "deps_extra_n", "tidyverse", "sysreqs")),
     colGroup("Reverse deps", c("revdeps_n", "revdeps_top")),
-    colGroup("Behind it", c("maintainer", "ru_universes"))
+    colGroup("Behind it", c("maintainer", "org"))
   ),
   columns = c(
     set_names(map(hidden, \(x) colDef(show = FALSE)), hidden),
@@ -154,9 +167,10 @@ reactable(
           if (!is.na(hadley)) muted("hadley: ", hadley)
         )
       }),
-      ru_universes = colDef(name = "Universes", minWidth = 130, cell = \(value, i) {
+      org = colDef(name = "Org / universe", minWidth = 140, cell = \(value, i) {
         tagList(
           if (!is.na(value)) div(value),
+          if (!is.na(tbl$also[i])) muted("also: ", tbl$also[i]),
           if (isTRUE(tbl$multiverse[i])) muted("multiverse")
         )
       }),

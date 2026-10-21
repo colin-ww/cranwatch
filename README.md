@@ -71,6 +71,14 @@ source("run.R")                                                        # real fe
 
 Then `quarto render site` in a terminal (needs the [Quarto CLI](https://quarto.org/docs/get-started/)).
 
+**Locked-down or cloud environment** (a Claude Code cloud session, an air-gapped box): the pipeline is pure R, and every package in `DESCRIPTION` has Linux binaries on Posit Package Manager, so no compiler is needed. The outbound hosts it needs:
+
+- `cloud.r-project.org`, `cranlogs.r-pkg.org`
+- `r-universe.dev` **and** `*.r-universe.dev` (the wildcard doesn't cover the bare domain)
+- `api.github.com`, only for repos found nowhere else; without a `GITHUB_TOKEN` GitHub answers 403 and those packages show `unknown` (CI has a token)
+
+The Quarto CLI is only needed to render the site, not to produce the CSVs.
+
 ## Layout
 
 | Path | What |

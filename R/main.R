@@ -76,6 +76,17 @@ main <- function(root = ".", today = Sys.Date(), fetch = default_fetchers(), wri
   if (write) write_outputs(snap, root, today, sources, degraded, not_on_cran) else invisible(snap)
 }
 
+# What started this run, from the variables GitHub Actions sets ("local" elsewhere)
+run_info <- function() {
+  event <- Sys.getenv("GITHUB_EVENT_NAME")
+  run   <- Sys.getenv("GITHUB_RUN_ID")
+  compact(list(
+    trigger = switch(event, schedule = "scheduled", workflow_dispatch = "manual", push = "push", pull_request = "pull request", if (nzchar(event)) event else "local"),
+    commit  = if (nzchar(Sys.getenv("GITHUB_SHA"))) str_sub(Sys.getenv("GITHUB_SHA"), 1, 7),
+    run_url = if (nzchar(run)) glue("https://github.com/{gh_repo}/actions/runs/{run}") |> as.character()
+  ))
+}
+
 write_outputs <- function(snap, root, today, sources, degraded = character(), not_on_cran = NULL) {
   data_dir <- file.path(root, "data")
   snap_dir <- file.path(data_dir, "snapshots")
@@ -96,6 +107,7 @@ write_outputs <- function(snap, root, today, sources, degraded = character(), no
   list(
     run_date   = today,
     run_time   = format(Sys.time(), tz = "UTC", usetz = TRUE),
+    run_info   = run_info(),
     previous   = date_of(prev_path),
     dl_windows = dl_windows(today),
     n_packages = nrow(snap),

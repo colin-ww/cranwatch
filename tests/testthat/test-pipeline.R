@@ -225,3 +225,18 @@ test_that("R-multiverse and tidyverse lookups are optional", {
   expect_true(all(is.na(snap$deps_extra_n)))  # baseline unknown, not "all of them"
   expect_equal(snap$deps_n[snap$package == "alpha"], 2)
 })
+
+test_that("run.json says what started the run", {
+  root <- fake_root()
+  withr::local_envvar(GITHUB_EVENT_NAME = "schedule", GITHUB_SHA = "abcdef1234567890", GITHUB_RUN_ID = "42", GITHUB_REPOSITORY = "me/cranwatch")
+  main(root, test_today, fake_fetchers())
+  info <- fromJSON(file.path(root, "data", "run.json"))$run_info
+  expect_equal(info$trigger, "scheduled")
+  expect_equal(info$commit, "abcdef1")
+  expect_match(info$run_url, "/actions/runs/42$")
+
+  withr::local_envvar(GITHUB_EVENT_NAME = "workflow_dispatch")
+  expect_equal(run_info()$trigger, "manual")
+  withr::local_envvar(GITHUB_EVENT_NAME = "", GITHUB_SHA = "", GITHUB_RUN_ID = "")
+  expect_equal(run_info(), list(trigger = "local"))
+})

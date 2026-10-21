@@ -23,7 +23,7 @@ One row per package in [`packages.yml`](https://github.com/`r repo`/blob/main/pa
 | **Stars**, **Used by** | GitHub stars; packages across r-universe that depend on it, directly or indirectly | r-universe |
 | more in the CSV | scripts, monthly downloads, weeks with commits, commits, contributors, vignettes, releases, mentions | r-universe |
 | **Maintainer** | CRAN maintainer's name (never the email), with the funders underneath: authors with the `fnd` role, e.g. Posit Software, PBC. `hadley` in the CSV says if Hadley Wickham is the maintainer or an author (CRAN), or one of the top 100 commit contributors (GitHub, via r-universe) | CRAN package db, r-universe |
-| **Universes** | r-universe universes hosting a package of that name (the `cran` mirror aside), marked `multiverse` if it's in [R-multiverse](https://r-multiverse.org). Several universes = a fork or a mirror | r-universe |
+| **Org / universe** | The GitHub org / r-universe subdomain it lives under (`r-lib`, `posit-dev`, `rstudio`, ...): its home universe, else the owner of its repo. Underneath: *also* = other universes hosting a package of that name (a fork or a mirror), and `multiverse` if it's in [R-multiverse](https://r-multiverse.org). The CSV has `ru_universe`, `ru_universes`, `multiverse` | r-universe, CRAN |
 | **DLs/yr**, vs prev | Downloads over the last 365 days vs the 365 before | cranlogs |
 | **Deadline** | CRAN asked the maintainer to fix check problems by this date or the package gets archived | CRAN package db |
 | **Archived** | Distinct "Archived on" events in CRAN's notes. Hover for CRAN's latest comment | CRAN `PACKAGES.in` + package db |
