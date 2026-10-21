@@ -1,37 +1,37 @@
 {
-  "run_date": "2026-10-19",
-  "run_time": "2026-10-19 13:29:18 UTC",
-  "previous": "2026-10-13",
+  "run_date": "2026-10-21",
+  "run_time": "2026-10-21 14:39:49 UTC",
+  "previous": "2026-10-19",
   "dl_windows": {
-    "dl_365": ["2025-10-18", "2026-10-17"],
-    "dl_prev365": ["2024-10-18", "2025-10-17"]
+    "dl_365": ["2025-10-20", "2026-10-19"],
+    "dl_prev365": ["2024-10-20", "2025-10-19"]
   },
-  "n_packages": 163,
+  "n_packages": 165,
   "sources": {
     "cran_db": {
       "ok": true,
-      "secs": 1.5
+      "secs": 1.9
     },
     "cran_in": {
       "ok": true,
-      "secs": 0.3
+      "secs": 0.7
     },
     "ru_index": {
       "ok": true,
-      "secs": 20.5
+      "secs": 24.2
     },
     "ru_detail": {
       "ok": true,
-      "secs": 17.5,
+      "secs": 27.1,
       "formula_match": 1
     },
     "ru_sysdeps": {
       "ok": true,
-      "secs": 0.9
+      "secs": 1
     },
     "downloads": {
       "ok": true,
-      "secs": 13.7
+      "secs": 6.9
     },
     "github": {
       "ok": true,
@@ -93,6 +93,8 @@
       "dbosak01.r-universe.dev": 1,
       "miachol.r-universe.dev": 1,
       "alinamateikondylis.r-universe.dev": 1,
+      "dp-next.r-universe.dev": 1,
+      "ddotta.r-universe.dev": 1,
       "andrie.r-universe.dev": 1,
       "daranzolin.r-universe.dev": 1,
       "gvelasq.r-universe.dev": 1,
