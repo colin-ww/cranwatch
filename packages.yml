@@ -99,6 +99,9 @@ read-write:
   - fst
   - arrow
   - vroom # tidyverse!
+  - data.table
+  - fastreg
+  - parquetize
 
 surveys:
   - surveyanalysis # ? was "surveyanalaysis"; not on CRAN. compare w gest?!
