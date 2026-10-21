@@ -138,3 +138,26 @@ test_that("tidyverse roles: core, member, dep", {
 test_that("reverse-dependency scores are whole numbers", {
   expect_equal(top_revdeps(c("a", "b", "c"), c(21.3, 15.6, 10.2), list(revdep_min_score = 10, revdep_min_n = 3, revdep_top_n = 3)), "a (21), b (16), c (10)")
 })
+
+test_that("not-on-CRAN list: best name per package, a few per universe", {
+  index <- tibble(package = c("a", "b", "c", "d", "a"), universe = c("u1", "u1", "u1", "u2", "u3"),
+                  score = c(9, 8, 7, 1, 2), stars = 0, dependents = 0, scripts = 0)
+  expect_equal(top_not_on_cran(index, tibble(Package = "x"), n = 10, per_universe = 2)$package, c("a", "b", "d"))
+  expect_equal(top_not_on_cran(index, tibble(Package = "a"), n = 10, per_universe = 2)$package, c("b", "c", "d"))
+})
+
+test_that("the repo slug is written the same way everywhere it's hard-coded", {
+  root <- test_path("../..")
+  slug <- read_lines(file.path(root, "R", "settings.R")) |> str_extract('GITHUB_REPOSITORY", "([^"]+)"', group = 1) |> na.omit() |> first()
+  owner <- dirname(slug)
+  name  <- basename(slug)
+
+  owners <- c("README.md", "site/_quarto.yml") |>
+    map(\(f) read_file(file.path(root, f)) |> str_match_all(glue("(?:github\\.com/([\\w-]+)|([\\w-]+)\\.github\\.io)/{name}\\b"))) |>
+    map(\(m) c(m[[1]][, 2], m[[1]][, 3])) |>
+    unlist() |>
+    na.omit()
+
+  expect_true(length(owners) >= 4) # badge, site links, _quarto.yml: the pattern really finds them
+  expect_equal(unique(str_to_lower(owners)), str_to_lower(owner))
+})

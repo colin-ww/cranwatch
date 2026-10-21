@@ -14,8 +14,10 @@ Per package in [`packages.yml`](packages.yml):
 
 - **Popularity**: r-universe score + its parts (stars, recursive dependents, scripts, commits, contributors), CRAN downloads for the last 365 days vs the 365 before
 - **CRAN health**: current deadline, orphaned, times archived + last date, CRAN's comment, status (`cran` / `cran-archived` / `r-universe` / `github` / `base` / `not-found`)
-- **Install burden**: `NeedsCompilation`, recursive dep count, how many deps compile, SystemRequirements (own + "via deps", optional ones marked), libraries r-universe saw it link, hits on [`sys-deps.yml`](sys-deps.yml)
+- **Install burden**: `NeedsCompilation`, recursive deps as *extra (total)* (extra = beyond what `install.packages("tidyverse")` brings; the CSV also names them), whether it's part of a tidyverse install, SystemRequirements (own + "via deps", optional ones marked), libraries r-universe saw it link, hits on [`sys-deps.yml`](sys-deps.yml)
 - **Reverse deps**: direct count, plus the top 3 by r-universe score when at least 3 score > 10
+- **Behind it**: maintainer (name only), funders, whether Hadley Wickham maintains / authors / contributes to it, which r-universe universes host it, whether it's in R-multiverse
+- **Top scoring but not on CRAN**: [`data/not-on-cran.csv`](data/not-on-cran.csv), the best of r-universe that CRAN doesn't have
 
 ## How it works
 
@@ -24,7 +26,7 @@ Per package in [`packages.yml`](packages.yml):
   └─ Rscript run.R
        ├─ CRAN packages.rds + PACKAGES.in from the cloud CDN   (1 file each)
        ├─ r-universe /api/search pages (every package's score) + per-universe
-       │  /api/packages?fields=... (score ingredients) + /api/sysdeps   (~80 requests)
+       │  /api/packages?fields=... (score ingredients) + /api/sysdeps + R-multiverse's list   (~80 requests)
        ├─ cranlogs totals   (2 requests per 50 packages)
        ├─ GitHub API   (only repos not found elsewhere)
        └─ data/snapshots/<date>.csv, data/latest.csv, data/run.json, _alerts/*.md
@@ -43,6 +45,16 @@ Per package in [`packages.yml`](packages.yml):
 - [`packages.yml`](packages.yml): one key per theme. Entries can be `dplyr`, `owner/repo`, or `{pkg: polars, repo: pola-rs/r-polars}`. A trailing `# comment` shows up as that package's note on the site. Push and the workflow re-runs.
 - [`guides/<theme>.md`](guides/): the text on the Themes page, plain markdown. Delete the `status: draft` line once a guide has been reviewed and the "draft" badge disappears.
 - [`links.yml`](links.yml): things that aren't packages.
+
+## Moving or forking
+
+The repo name is read from `GITHUB_REPOSITORY` when the workflow runs, so most links, the User-Agent and the Pages URL follow it. Four things are written out by hand; change them together (a test fails if they disagree):
+
+- `R/settings.R`: the default for `gh_repo` (only used when running locally)
+- `site/_quarto.yml`: `site-url`, `repo-url` and the GitHub icon link
+- `README.md`: the badge and the site links
+
+Then Settings → Pages → Source: GitHub Actions, and tick Issues (for the alert issue).
 
 ## One-time setup
 
@@ -69,7 +81,7 @@ Then `quarto render site` in a terminal (needs the [Quarto CLI](https://quarto.o
 | `R/` | Pipeline: `cran.R`, `runiverse.R`, `cranlogs.R`, `github.R` (fetch + metrics per source), `build.R` (status/flags), `alerts.R`, `schema.R` (snapshot columns), `main.R` |
 | `tests/testthat/` | Offline tests: unit tests + the full pipeline on fake sources |
 | `site/` | Quarto site: Radar (reactable table), Themes, How to judge a package, Columns & sources |
-| `data/` | Written by the workflow: `snapshots/<date>.csv`, `latest.csv`, `run.json` (sources, request counts), `alerts.csv` (announced alerts) |
+| `data/` | Written by the workflow: `snapshots/<date>.csv`, `latest.csv`, `run.json` (sources, request counts), `alerts.csv` (announced alerts), `not-on-cran.csv` |
 | `IDEAS.txt` | Scratchpad |
 
 ## Caveats
