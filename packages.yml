@@ -212,6 +212,41 @@ web:
  - reqres
  - bslib # w shiny/for websites
 
+tidyverse: # the core, so "beyond tidyverse" dep counts and the Tidyverse column have a reference
+  - tidyverse
+  - ggplot2
+  - dplyr
+  - tidyr
+  - readr
+  - purrr
+  - tibble
+  - stringr
+  - forcats
+  - lubridate
+  - rlang
+  - tidyselect
+
+claude-code-setup: # candidates for the Claude Code cloud env's R install (colin-ww/dotfiles, claude-code/cloud)
+  - stringi
+  - skimr
+  - wrapr
+  - curl
+  - waldo
+  - reticulate
+  - nanonext
+  - DBI
+  - odbc
+  - digest
+  - nanoarrow
+  - Rcpp # dotfiles "no": compiled, brings system needs
+  - S7 # dotfiles "no"
+  - doctest # dotfiles "no"
+  - autometric # dotfiles "no"
+  - onetime # dotfiles "no"
+  - mutagen # dotfiles "no"; not on CRAN
+  - tidypolars # not on CRAN
+  - polars0 # not on CRAN; old r-polars
+
 other:
   - config # posit
   - configr

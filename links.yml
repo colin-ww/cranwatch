@@ -30,3 +30,4 @@ unresolved:
   - {name: dbplyrExtra, theme: dbplyr related, note: "not found anywhere yet"}
   - {name: oRm, theme: databases, note: "not on CRAN; GitHub owner unknown"}
   - {name: oskey, theme: other, note: "not on CRAN; GitHub owner unknown"}
+  - {name: bootstraper, theme: claude-code-setup, note: "from dotfiles; not on CRAN, r-universe or GitHub"}
