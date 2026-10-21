@@ -1,12 +1,12 @@
 {
   "run_date": "2026-10-21",
-  "run_time": "2026-10-21 20:13:46 UTC",
+  "run_time": "2026-10-21 20:29:38 UTC",
   "previous": "2026-10-19",
   "dl_windows": {
     "dl_365": ["2025-10-20", "2026-10-19"],
     "dl_prev365": ["2024-10-20", "2025-10-19"]
   },
-  "n_packages": 166,
+  "n_packages": 177,
   "sources": {
     "cran_db": {
       "ok": true,
@@ -18,11 +18,11 @@
     },
     "ru_index": {
       "ok": true,
-      "secs": 2
+      "secs": 2.2
     },
     "ru_detail": {
       "ok": true,
-      "secs": 1.1,
+      "secs": 3.1,
       "formula_match": 1
     },
     "ru_sysdeps": {
@@ -31,16 +31,21 @@
     },
     "downloads": {
       "ok": true,
-      "secs": 4.2
+      "secs": 10.8
     },
     "github": {
       "ok": true,
-      "secs": 3.7
+      "secs": 3.6
     }
   },
   "requests": {
     "sent": {
-      "cranlogs.r-pkg.org": 4,
+      "mllg.r-universe.dev": 1,
+      "gesistsa.r-universe.dev": 1,
+      "selkamand.r-universe.dev": 1,
+      "thomasp85.r-universe.dev": 1,
+      "olivierbinette.r-universe.dev": 1,
+      "cranlogs.r-pkg.org": 8,
       "api.github.com": 8
     },
     "from_cache": {
@@ -103,8 +108,7 @@
       "daranzolin.r-universe.dev": 1,
       "gvelasq.r-universe.dev": 1,
       "gabrielrvsc.r-universe.dev": 1,
-      "jmping.r-universe.dev": 1,
-      "cranlogs.r-pkg.org": 4
+      "jmping.r-universe.dev": 1
     }
   }
 }
