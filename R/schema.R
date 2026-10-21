@@ -15,6 +15,13 @@ snapshot_cols <- c(
   published         = "date",
   link              = "chr",
   repo              = "chr",
+  # people + curation
+  maintainer        = "chr", # CRAN maintainer's name (no email)
+  hadley            = "chr", # maintainer / author (CRAN) or contributor (GitHub commits, via r-universe) if Hadley Wickham
+  funders           = "chr", # authors with the "fnd" role, e.g. Posit Software, PBC
+  multiverse        = "lgl", # in R-multiverse
+  ru_universes      = "chr", # r-universe universes hosting a package of this name, besides the cran mirror
+  ru_universes_n    = "dbl",
   # popularity: r-universe score + the ingredients it's computed from
   ru_universe       = "chr",
   ru_score          = "dbl",
@@ -44,7 +51,9 @@ snapshot_cols <- c(
   # install burden
   needs_compilation = "lgl",
   deps_n            = "dbl",
-  deps_compiled_n   = "dbl",
+  deps_extra_n      = "dbl", # recursive deps beyond what install.packages("tidyverse") brings
+  tidyverse         = "chr", # core / member / dep: part of a tidyverse install, NA = not
+  deps              = "chr", # the recursive deps themselves, "; "-separated (CSV only)
   sysreqs           = "chr",
   sysreqs_via_deps  = "chr",
   sysdeps_detected  = "chr",

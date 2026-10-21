@@ -1,14 +1,14 @@
 # Alerts: flags worth a GitHub issue + what's new since the previous snapshot --
 
 # One row per (package, alert). `when` makes a moved deadline / re-archival count as new.
-# Archivals older than a year are known history: shown on the site, but they
-# don't hold the issue open.
+# Old archivals are known history: shown on the site, but they don't hold the
+# issue open.
 alerts_of <- function(snap) {
   if (is.null(snap)) return(tibble(package = character(), type = character(), when = character(), detail = character()))
 
   snap |>
     separate_longer_delim(flags, "; ") |>
-    filter(flags %in% settings$alert_types, !(flags == "archived" & coalesce(archived_last < run_date - 365, FALSE))) |>
+    filter(flags %in% settings$alert_types, !(flags == "archived" & coalesce(archived_last < run_date - settings$alert_archived_days, FALSE))) |>
     transmute(
       package,
       type   = flags,
@@ -18,11 +18,9 @@ alerts_of <- function(snap) {
         .default           = ""
       ),
       detail = case_when(
-        type == "deadline"    ~ paste("CRAN deadline", deadline),
-        type == "archived"    ~ coalesce(cran_comment, paste("Archived on CRAN", archived_last)),
-        type == "orphaned"    ~ "orphaned on CRAN (no maintainer)",
-        type == "not-found"   ~ "not found on CRAN, r-universe or GitHub; check packages.yml",
-        type == "gh-archived" ~ paste("GitHub repo", repo, "is archived")
+        type == "deadline" ~ paste("CRAN deadline", deadline),
+        type == "archived" ~ coalesce(cran_comment, paste("Archived on CRAN", archived_last)),
+        type == "orphaned" ~ "orphaned on CRAN (no maintainer)"
       ) |> str_replace_all("\\|", "/")
     )
 }
@@ -47,18 +45,9 @@ update_ledger <- function(ledger, active, new, today, complete) {
     arrange(package, type)
 }
 
-# In a partial run only alerts that come from CRAN's own data are trusted:
-# others (not-found, gh-archived) can be artefacts of the outage, so they wait
-# for a complete run, both for the comment and the issue body
-trusted_types <- function(degraded = character()) {
-  if (!length(degraded)) settings$alert_types else c("deadline", "orphaned", if (!"cran_in" %in% degraded) "archived")
-}
-
-# Flagged now, trusted, and not yet announced
-new_alerts <- function(snap, ledger, degraded = character()) {
-  alerts_of(snap) |>
-    filter(type %in% trusted_types(degraded)) |>
-    anti_join(ledger, by = alert_keys)
+# Flagged now and not yet announced
+new_alerts <- function(snap, ledger) {
+  alerts_of(snap) |> anti_join(ledger, by = alert_keys)
 }
 
 # Files for the workflow's issue step (.github/scripts/sync-alert-issue.sh):
@@ -71,20 +60,17 @@ write_alerts <- function(snap, ledger, prev_date, dir, degraded = character(), m
   dir.create(dir, showWarnings = FALSE)
 
   active <- alerts_of(snap)
-  new    <- new_alerts(snap, ledger, degraded)
-  # what the issue shows: in a partial run, trusted alerts + ones already announced
-  shown  <- if (!length(degraded)) active else
-    bind_rows(filter(active, type %in% trusted_types(degraded)), semi_join(active, ledger, by = alert_keys)) |> distinct()
+  new    <- new_alerts(snap, ledger)
   cc     <- if (nzchar(mention)) paste0("cc @", mention) else ""
 
   if (length(degraded)) writeLines(degraded, file.path(dir, "degraded"))
 
-  if (nrow(shown)) writeLines(c(
+  if (nrow(active)) writeLines(c(
     glue("## cranwatch alerts ({snap$run_date[1]})"), "",
     "| package | alert | details |", "|---|---|---|",
-    glue("| {shown$package} | {shown$type} | {shown$detail} |"), "",
+    glue("| {active$package} | {active$type} | {active$detail} |"), "",
     if (length(degraded)) c(glue("_Partial data: {paste(degraded, collapse = ', ')} failed this run, so some alerts may be missing._"), ""),
-    glue("_Updated by the weekly [cranwatch]({settings$site_url}) run; closes itself when nothing is flagged._ {cc}")
+    glue("_Updated by the scheduled [cranwatch]({settings$site_url}) run; closes itself when nothing is flagged._ {cc}")
   ), file.path(dir, "active.md"))
 
   if (nrow(new)) writeLines(c(

@@ -2,7 +2,7 @@
 
 cran_fields <- c(
   "Title", "Version", "Published", "Deadline", "NeedsCompilation", "SystemRequirements",
-  "URL", "BugReports", "Maintainer", "X-CRAN-Comment", "X-CRAN-History", "Depends", "Imports", "LinkingTo"
+  "URL", "BugReports", "Maintainer", "Author", "X-CRAN-Comment", "X-CRAN-History", "Depends", "Imports", "LinkingTo"
 )
 
 # All current CRAN packages, every DESCRIPTION field + CRAN's own (Deadline, X-CRAN-*).
@@ -56,6 +56,12 @@ cran_metrics <- function(db, cran_in, pkgs) {
       deadline          = as.Date(Deadline),
       needs_compilation = NeedsCompilation %in% "yes",
       orphaned          = Maintainer %in% "ORPHANED",
+      maintainer        = str_remove(Maintainer, "\\s*<[^>]*>\\s*$") |> str_squish(), # name only, no email
+      hadley            = case_when(
+        str_detect(Maintainer, hadley_name) ~ "maintainer",
+        str_detect(Author, hadley_name)     ~ "author"
+      ),
+      funders           = author_funders(Author),
       cran_repo         = gh_repo_from(paste(URL, BugReports)),
       on_cran           = TRUE
     ) |>
@@ -66,6 +72,22 @@ cran_metrics <- function(db, cran_in, pkgs) {
       archived_n    = if (have_in) archived_n else NA_real_,
       archived_last = if (have_in) archived_last else as.Date(NA)
     )
+}
+
+hadley_name <- "Hadley Wickham"
+
+# Who funds it: DESCRIPTION's Author field marks funders with the role "fnd",
+# e.g. "Posit Software, PBC [cph, fnd]" (the structured Authors@R isn't evaluated)
+author_funders <- function(author) {
+  author |>
+    str_remove_all("\\s*\\([^()]*\\)") |> # ORCID / ROR comments
+    map_chr(\(a) {
+      if (is.na(a)) return(NA_character_)
+      entries <- str_split_1(a, "(?<=\\]),\\s*") |> # "Name [roles], Name, Suffix [roles]"
+        str_match("^(.*?)\\s*\\[([^\\]]*)\\]\\s*$")
+      funders <- entries[str_detect(entries[, 3], "\\bfnd\\b") %in% TRUE, 2]
+      if (length(funders)) paste(unique(str_squish(funders)), collapse = "; ") else NA_character_
+    })
 }
 
 # Strong (Depends/Imports/LinkingTo) deps of pkgs on CRAN, base R dropped.
@@ -79,13 +101,32 @@ pkg_deps <- function(db, pkgs, ...) {
     mutate(dep = map(dep, \(d) setdiff(d, base_pkgs())))
 }
 
-# Install burden: recursive deps, how many compile, system requirements (own + via deps)
+# What install.packages("tidyverse") brings: the meta-package's direct and recursive
+# strong deps (NULL if the db has no tidyverse, so the baseline is unknown)
+tidyverse_deps <- function(db) {
+  if (!"tidyverse" %in% db$Package) return(NULL)
+  list(direct = pkg_deps(db, "tidyverse")$dep[[1]], all = pkg_deps(db, "tidyverse", recursive = TRUE)$dep[[1]])
+}
+
+# core = one of the attached 9 (or the meta-package), member = a direct import of
+# tidyverse, dep = reached through other deps; NA = outside the tidyverse install
+tidyverse_role <- function(pkgs, tv) {
+  if (is.null(tv)) return(rep(NA_character_, length(pkgs)))
+  case_when(
+    pkgs %in% c("tidyverse", settings$tidyverse_core) ~ "core",
+    pkgs %in% tv$direct                               ~ "member",
+    pkgs %in% tv$all                                  ~ "dep"
+  )
+}
+
+# Install burden: recursive deps (and how many beyond a tidyverse install), system
+# requirements (own + via deps)
 install_metrics <- function(db, sysdeps, pkgs, sys_watch) {
   deps     <- pkg_deps(db, pkgs, recursive = TRUE)
   dep_long <- deps |> unnest_longer(dep)
   reqs     <- sysreq_items(db)
-  compiled <- db$Package[db$NeedsCompilation %in% "yes"]
   sysdeps  <- sysdeps %||% tibble(package = character(), library = character())
+  tv       <- tidyverse_deps(db)
 
   shown <- reqs |> filter(!noise)
   own   <- shown |> summarise(sysreqs = paste(item, collapse = "; "), .by = package)
@@ -108,7 +149,13 @@ install_metrics <- function(db, sysdeps, pkgs, sys_watch) {
     summarise(req_hits = paste(unique(hit), collapse = "; "), .by = package)
 
   list(
-    deps |> transmute(package, deps_n = lengths(dep), deps_compiled_n = map_dbl(dep, \(d) sum(d %in% compiled))),
+    deps |> transmute(
+      package,
+      deps_n       = lengths(dep),
+      deps_extra_n = if (is.null(tv)) NA_real_ else map_dbl(dep, \(d) sum(!d %in% c("tidyverse", tv$all))),
+      tidyverse    = tidyverse_role(package, tv),
+      deps         = map_chr(dep, \(d) if (length(d)) paste(sort(d, method = "radix"), collapse = "; ") else NA_character_)
+    ),
     own,
     via,
     detected,
@@ -173,5 +220,5 @@ top_revdeps <- function(pkg, score, s = settings) {
   if (length(keep) < s$revdep_min_n) return(NA_character_)
 
   top <- keep[order(score[keep], decreasing = TRUE)] |> head(s$revdep_top_n)
-  paste0(pkg[top], " (", round(score[top], 1), ")", collapse = ", ")
+  paste0(pkg[top], " (", round(score[top]), ")", collapse = ", ")
 }
