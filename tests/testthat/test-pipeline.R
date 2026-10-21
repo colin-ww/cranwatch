@@ -166,3 +166,62 @@ test_that("a complete run forgets resolved alerts, so they can come back", {
   main(root, test_today, fake_fetchers())
   expect_true(any(str_detect(readLines(file.path(root, "_alerts", "new.md")), "delta")))
 })
+
+test_that("people, curation and install-set columns", {
+  root <- fake_root()
+  main(root, test_today, fake_fetchers())
+  snap <- read_snapshot(file.path(root, "data", "latest.csv"))
+  row  <- \(p) snap |> filter(package == p)
+
+  # people: CRAN maintainer (no email), Hadley as maintainer / author, funders
+  expect_equal(row("alpha")$maintainer, "Hadley Wickham")
+  expect_equal(row("alpha")$hadley, "maintainer")
+  expect_equal(row("alpha")$funders, "Posit Software, PBC")
+  expect_equal(row("Rcpp")$hadley, "author")
+  expect_equal(row("delta")$maintainer, "Dee Person")
+  expect_true(is.na(row("beta")$hadley))
+  expect_equal(row("kilo")$maintainer, "ORPHANED")
+  expect_false(any(str_detect(snap$maintainer, "@"), na.rm = TRUE))
+
+  # r-universe: every universe hosting the name (the cran mirror aside), R-multiverse
+  expect_equal(row("alpha")$ru_universes, "fork; me")
+  expect_equal(row("alpha")$ru_universes_n, 2)
+  expect_equal(row("foxtrot")$ru_universes, "other; someone")
+  expect_equal(row("beta")$ru_universes_n, 0)
+  expect_equal(snap$multiverse[snap$package %in% c("alpha", "beta")], c(FALSE, TRUE))
+
+  # install set: beyond what install.packages("tidyverse") brings (= Rcpp here), the deps themselves
+  expect_equal(row("alpha")$deps_n, 2)
+  expect_equal(row("alpha")$deps_extra_n, 1)
+  expect_equal(row("alpha")$deps, "Rcpp; beta")
+  expect_equal(row("delta")$deps_extra_n, 0)
+  expect_equal(row("Rcpp")$tidyverse, "member")
+  expect_true(is.na(row("alpha")$tidyverse))
+
+  # top scorers r-universe has but CRAN doesn't: no Bioconductor, no cran mirror, no CRAN packages
+  expect_equal(read_csv(file.path(root, "data", "not-on-cran.csv"), show_col_types = FALSE)$package, c("golf2", "foxtrot"))
+})
+
+test_that("Hadley as an r-universe contributor, when CRAN's fields don't mention him", {
+  root <- fake_root()
+  db2 <- fake_db |> mutate(Maintainer = "Someone Else <s@example.org>", Author = "Someone Else [aut, cre]")
+  main(root, test_today, fake_fetchers(cran_db = \() add_na_cols(db2, cran_fields)))
+  snap <- read_snapshot(file.path(root, "data", "latest.csv"))
+  expect_equal(snap$hadley[snap$package == "alpha"], "contributor") # from the detail fetch
+  expect_true(is.na(snap$hadley[snap$package == "beta"]))
+})
+
+test_that("R-multiverse and tidyverse lookups are optional", {
+  root <- fake_root()
+  main(root, test_today, fake_fetchers(ru_multiverse = \() stop("down")))
+  snap <- read_snapshot(file.path(root, "data", "latest.csv"))
+  expect_true(all(is.na(snap$multiverse)))
+  expect_false(fromJSON(file.path(root, "data", "run.json"))$sources$ru_multiverse$ok)
+  expect_false(file.exists(file.path(root, "_alerts", "degraded"))) # doesn't decide any status or alert
+
+  no_tv <- fake_db |> filter(Package != "tidyverse")
+  main(root, test_today, fake_fetchers(cran_db = \() add_na_cols(no_tv, cran_fields)))
+  snap <- read_snapshot(file.path(root, "data", "latest.csv"))
+  expect_true(all(is.na(snap$deps_extra_n)))  # baseline unknown, not "all of them"
+  expect_equal(snap$deps_n[snap$package == "alpha"], 2)
+})

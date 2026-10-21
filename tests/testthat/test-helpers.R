@@ -119,3 +119,22 @@ test_that("watch flags see requirement items that the display hides", {
   out <- install_metrics(db, NULL, c("v8ish", "user"), c("libv8", "cmake"))
   expect_equal(out$sysreqs_watch, c("libv8", "libv8"))
 })
+
+test_that("funders come from the Author field's fnd role", {
+  expect_equal(author_funders("Hadley Wickham [aut, cre] (<https://orcid.org/0000-0003-4757-117X>), Posit Software, PBC [cph, fnd] (ROR: <https://ror.org/03wc8by49>)"), "Posit Software, PBC")
+  expect_equal(author_funders("A B [aut, cre], Some Fund [fnd], Other Org [cph, fnd], C D [ctb]"), "Some Fund; Other Org")
+  expect_true(is.na(author_funders("A B [aut, cre], C D [ctb]")))
+  expect_true(is.na(author_funders("A B and C D"))) # no roles at all
+  expect_true(is.na(author_funders(NA_character_)))
+})
+
+test_that("tidyverse roles: core, member, dep", {
+  tv <- list(direct = c("dplyr", "rvest"), all = c("dplyr", "rvest", "rlang"))
+  expect_equal(tidyverse_role(c("ggplot2", "rvest", "rlang", "data.table", "tidyverse"), tv), c("core", "member", "dep", NA, "core"))
+  expect_equal(tidyverse_role("dplyr", tv), "core") # core wins over member
+  expect_equal(tidyverse_role(c("a", "b"), NULL), c(NA_character_, NA_character_))
+})
+
+test_that("reverse-dependency scores are whole numbers", {
+  expect_equal(top_revdeps(c("a", "b", "c"), c(21.3, 15.6, 10.2), list(revdep_min_score = 10, revdep_min_n = 3, revdep_top_n = 3)), "a (21), b (16), c (10)")
+})

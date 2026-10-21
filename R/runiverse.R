@@ -129,6 +129,7 @@ ru_components <- function(doc) {
     update_weeks = n(doc$`_updates`),
     commits      = sum(map_dbl(doc$`_updates` %||% list(), \(u) num(u$n))),
     contributors = n(doc$`_contributors`),
+    hadley       = "hadley" %in% map_chr(doc$`_contributors` %||% list(), \(c) c$user %||% NA_character_), # top 100 by commits
     vignettes    = n(doc$`_vignettes`),
     datasets     = n(doc$`_datasets`),
     releases     = n(doc$`_releases`),
@@ -169,15 +170,40 @@ ru_formula_match <- function(detail) {
 }
 
 # One row per watched package found on r-universe: ingredients from ru_detail
-# where we have them, else the headline numbers from the index
+# where we have them, else the headline numbers from the index; plus every
+# universe that hosts a package of that name (the cran mirror aside)
 ru_metrics <- function(index, detail, watch) {
   if (is.null(index)) return(tibble(package = character(), ru_universe = character()))
   picked <- ru_pick(index, watch)
   detail <- detail %||% tibble(package = character(), universe = character())
 
+  hosts <- index |>
+    filter(!universe %in% "cran", package %in% picked$package) |>
+    summarise(ru_universes = paste(sort(unique(universe)), collapse = "; "), ru_universes_n = n_distinct(universe), .by = package)
+
   bind_rows(detail |> semi_join(picked, by = c("package", "universe")), picked) |>
     distinct(package, .keep_all = TRUE) |>
-    rename_with(\(x) paste0("ru_", x), -package)
+    rename_with(\(x) paste0("ru_", x), -package) |>
+    left_join(hosts, by = "package") |>
+    mutate(ru_universes_n = coalesce(ru_universes_n, 0)) # 0 = only on the cran mirror
+}
+
+# Names in R-multiverse's curated universe (_indexed:false rows, so not in the global search)
+fetch_ru_multiverse <- function() {
+  paste0(settings$ru_multiverse, "/api/packages?stream=true&fields=Package") |>
+    cached_get() |>
+    readLines(warn = FALSE, encoding = "UTF-8") |>
+    discard(\(line) line == "") |>
+    map_chr(\(line) fromJSON(line)$Package)
+}
+
+# The highest-scoring packages on r-universe that CRAN doesn't have
+top_not_on_cran <- function(index, db, n = settings$not_on_cran_n) {
+  index |>
+    filter(!package %in% db$Package, !universe %in% settings$not_on_cran_skip) |>
+    slice_max(score, n = 1, by = package, with_ties = FALSE) |>
+    slice_max(score, n = n, with_ties = FALSE) |>
+    select(package, universe, score, stars, dependents, scripts)
 }
 
 # NDJSON, one line per system library: {library, usedby: [{owner, package}], ...}

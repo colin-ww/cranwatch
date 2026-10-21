@@ -18,9 +18,11 @@ assign_status <- function(snap) {
 # would-be "not-found" into "unknown", so an outage doesn't raise alerts.
 finalize <- function(snap, today, complete = TRUE) {
   snap |>
+    add_na_cols("ru_hadley", na = NA) |>
     ensure_cols() |>
     mutate(
       run_date   = today,
+      hadley     = coalesce(hadley, if_else(ru_hadley %in% TRUE, "contributor", NA_character_)),
       lookups_ok = complete, # (an argument named like the column would be masked by it)
       repo     = coalesce(repo, cran_repo),
       status   = coalesce(status, case_when(

@@ -35,12 +35,16 @@ fake_index <- tribble(
   "rev2", "cran", 20, 1, 0, 0,
   "rev3", "cran", 11, 1, 0, 0,
   "rev4", "cran", 5, 1, 0, 0,
-  "foxtrot", "someone", 4, 9, 0, 0
+  "foxtrot", "someone", 4, 9, 0, 0,
+  "foxtrot", "other", 1, 0, 0, 0,
+  "golf2", "someone", 30, 99, 5, 0, # not on CRAN: top of the "not on CRAN" list
+  "bioclike", "bioc", 50, 10, 5, 0, # Bioconductor: skipped
+  "alpha2", "cran", 2, 0, 0, 0
 )
 
 fake_detail <- \(picked) {
   tibble(package = "alpha", universe = "me", score = 12, stars = 40, dependents = 4, scripts = 0,
-         downloads = 900, update_weeks = 6, commits = 30, contributors = 3, on_cran = TRUE, readme = TRUE) |>
+         downloads = 900, update_weeks = 6, commits = 30, contributors = 3, hadley = TRUE, on_cran = TRUE, readme = TRUE) |>
     semi_join(picked, by = c("package", "universe"))
 }
 
@@ -51,6 +55,7 @@ fake_fetchers <- function(...) {
     ru_index   = \() fake_index,
     ru_detail  = fake_detail,
     ru_sysdeps = \() tibble(library = c("libxml2", "glpk"), package = "beta"),
+    ru_multiverse = \() c("beta", "zulu"),
     downloads  = \(pkgs, today) tibble(package = pkgs, dl_365 = 100, dl_prev365 = if_else(pkgs == "delta", 0, 50)) |>
       mutate(dl_growth = if_else(dl_prev365 > 0, dl_365 / dl_prev365 - 1, NA_real_)),
     github     = \(repos) tibble(repo = "own/golf", gh_stars = 3, gh_pushed = test_today, gh_archived = FALSE, gh_is_pkg = TRUE) |>

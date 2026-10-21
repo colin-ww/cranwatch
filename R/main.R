@@ -8,6 +8,7 @@ default_fetchers <- function() {
     ru_index   = fetch_ru_index,
     ru_detail  = fetch_ru_detail,
     ru_sysdeps = fetch_ru_sysdeps,
+    ru_multiverse = fetch_ru_multiverse,
     downloads  = fetch_downloads,
     github     = fetch_github
   )
@@ -45,6 +46,7 @@ main <- function(root = ".", today = Sys.Date(), fetch = default_fetchers(), wri
     if (length(attr(detail, "failed"))) sources$ru_detail$failed <- attr(detail, "failed")
   }
   sysdeps <- src("ru_sysdeps")
+  mv_names <- src("ru_multiverse")
 
   snap <- list(
     watch,
@@ -54,6 +56,7 @@ main <- function(root = ".", today = Sys.Date(), fetch = default_fetchers(), wri
     revdep_metrics(cran_db, index, watch$package, complete = is.null(attr(index, "partial")))
   ) |>
     reduce(left_join, by = "package") |>
+    mutate(multiverse = if (!is.null(mv_names)) package %in% mv_names else NA) |>
     assign_status()
 
   dl <- src("downloads", snap |> filter(status %in% cran_statuses) |> pull(package), today)
@@ -69,10 +72,11 @@ main <- function(root = ".", today = Sys.Date(), fetch = default_fetchers(), wri
     finalize(today, complete = !length(degraded))
 
   msg("status: {snap |> count(status) |> glue_data('{status} {n}') |> paste(collapse = ', ')}")
-  if (write) write_outputs(snap, root, today, sources, degraded) else invisible(snap)
+  not_on_cran <- if (!is.null(index)) top_not_on_cran(index, cran_db)
+  if (write) write_outputs(snap, root, today, sources, degraded, not_on_cran) else invisible(snap)
 }
 
-write_outputs <- function(snap, root, today, sources, degraded = character()) {
+write_outputs <- function(snap, root, today, sources, degraded = character(), not_on_cran = NULL) {
   data_dir <- file.path(root, "data")
   snap_dir <- file.path(data_dir, "snapshots")
   dir.create(snap_dir, recursive = TRUE, showWarnings = FALSE)
@@ -86,6 +90,8 @@ write_outputs <- function(snap, root, today, sources, degraded = character()) {
 
   c(file.path(snap_dir, paste0(today, ".csv")), file.path(data_dir, "latest.csv")) |>
     walk(\(p) write_csv(snap, p, na = ""))
+
+  if (!is.null(not_on_cran)) write_csv(not_on_cran, file.path(data_dir, "not-on-cran.csv"), na = "")
 
   list(
     run_date   = today,
