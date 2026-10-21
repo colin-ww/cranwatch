@@ -220,6 +220,7 @@ other:
   - gert
   - lambda.r
   - yaml
+  - yaml12
   - jsonlite
   - prettydoc
   - ArCo
