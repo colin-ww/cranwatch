@@ -1,10 +1,10 @@
 {
-  "run_date": "2026-10-21",
-  "run_time": "2026-10-21 20:29:38 UTC",
-  "previous": "2026-10-19",
+  "run_date": "2026-10-26",
+  "run_time": "2026-10-26 13:13:56 UTC",
+  "previous": "2026-10-21",
   "dl_windows": {
-    "dl_365": ["2025-10-20", "2026-10-19"],
-    "dl_prev365": ["2024-10-20", "2025-10-19"]
+    "dl_365": ["2025-10-25", "2026-10-24"],
+    "dl_prev365": ["2024-10-25", "2025-10-24"]
   },
   "n_packages": 177,
   "sources": {
@@ -18,37 +18,28 @@
     },
     "ru_index": {
       "ok": true,
-      "secs": 2.2
+      "secs": 24.2
     },
     "ru_detail": {
       "ok": true,
-      "secs": 3.1,
+      "secs": 16.7,
       "formula_match": 1
     },
     "ru_sysdeps": {
       "ok": true,
-      "secs": 0.1
+      "secs": 0.8
     },
     "downloads": {
       "ok": true,
-      "secs": 10.8
+      "secs": 9.7
     },
     "github": {
       "ok": true,
-      "secs": 3.6
+      "secs": 3.7
     }
   },
   "requests": {
     "sent": {
-      "mllg.r-universe.dev": 1,
-      "gesistsa.r-universe.dev": 1,
-      "selkamand.r-universe.dev": 1,
-      "thomasp85.r-universe.dev": 1,
-      "olivierbinette.r-universe.dev": 1,
-      "cranlogs.r-pkg.org": 8,
-      "api.github.com": 8
-    },
-    "from_cache": {
       "cloud.r-project.org": 2,
       "r-universe.dev": 7,
       "cran.r-universe.dev": 18,
@@ -75,6 +66,8 @@
       "ropensci.r-universe.dev": 1,
       "easystats.r-universe.dev": 1,
       "harrelfe.r-universe.dev": 1,
+      "mllg.r-universe.dev": 1,
+      "gesistsa.r-universe.dev": 1,
       "daroczig.r-universe.dev": 1,
       "fastverse.r-universe.dev": 1,
       "duckdb.r-universe.dev": 1,
@@ -84,8 +77,8 @@
       "gergness.r-universe.dev": 1,
       "rcppcore.r-universe.dev": 1,
       "r-forge.r-universe.dev": 1,
-      "vincentarelbundock.r-universe.dev": 1,
       "qsbase.r-universe.dev": 1,
+      "vincentarelbundock.r-universe.dev": 1,
       "trinker.r-universe.dev": 1,
       "klmr.r-universe.dev": 1,
       "fstpackage.r-universe.dev": 1,
@@ -102,13 +95,19 @@
       "dbosak01.r-universe.dev": 1,
       "miachol.r-universe.dev": 1,
       "alinamateikondylis.r-universe.dev": 1,
+      "selkamand.r-universe.dev": 1,
       "dp-next.r-universe.dev": 1,
       "ddotta.r-universe.dev": 1,
+      "thomasp85.r-universe.dev": 1,
       "andrie.r-universe.dev": 1,
+      "olivierbinette.r-universe.dev": 1,
       "daranzolin.r-universe.dev": 1,
       "gvelasq.r-universe.dev": 1,
       "gabrielrvsc.r-universe.dev": 1,
-      "jmping.r-universe.dev": 1
-    }
+      "jmping.r-universe.dev": 1,
+      "cranlogs.r-pkg.org": 8,
+      "api.github.com": 8
+    },
+    "from_cache": []
   }
 }
