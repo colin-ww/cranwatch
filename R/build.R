@@ -18,9 +18,11 @@ assign_status <- function(snap) {
 # would-be "not-found" into "unknown", so an outage doesn't raise alerts.
 finalize <- function(snap, today, complete = TRUE) {
   snap |>
+    add_na_cols("ru_hadley", na = NA) |>
     ensure_cols() |>
     mutate(
       run_date   = today,
+      hadley     = coalesce(hadley, if_else(ru_hadley %in% TRUE, "contributor", NA_character_)),
       lookups_ok = complete, # (an argument named like the column would be masked by it)
       repo     = coalesce(repo, cran_repo),
       status   = coalesce(status, case_when(
@@ -28,11 +30,12 @@ finalize <- function(snap, today, complete = TRUE) {
         complete         ~ "not-found",
         .default         = "unknown"
       )),
+      # r-universe first: it has the README, docs and NEWS of CRAN packages too
       link = case_when(
+        status == "base"          ~ paste0("https://stat.ethz.ch/R-manual/R-patched/library/", package, "/html/00Index.html"),
+        !is.na(ru_universe)       ~ paste0("https://", ru_universe, ".r-universe.dev/", package),
         status %in% cran_statuses ~ paste0(settings$cran_base, "/package=", package),
-        status == "r-universe"    ~ paste0("https://", ru_universe, ".r-universe.dev/", package),
-        status == "github"        ~ paste0("https://github.com/", repo),
-        status == "base"          ~ paste0("https://stat.ethz.ch/R-manual/R-patched/library/", package, "/html/00Index.html")
+        status == "github"        ~ paste0("https://github.com/", repo)
       )
     ) |>
     add_flags(today) |>

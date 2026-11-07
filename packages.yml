@@ -111,12 +111,10 @@ read-write:
   - rio
 
 surveys:
-  - surveyanalysis # ? was "surveyanalaysis"; not on CRAN. compare w gest?!
   - srvyr
   - survey
   - sampling
   - anesrake
-  - weighting # ? not on CRAN; GitHub owner unknown
   - Hmisc
   - surveydata
   - questionr
@@ -193,14 +191,12 @@ data-cleaning: # github.com/data-cleaning (Statistics Netherlands folks)
   - data-cleaning/data.log
 
 dbplyr related:
-  - dbplyrExtra # ? not found anywhere yet
   - halpo/pivot
 
 databases: # was "github, data"
   - cynkra/dm
   - bigrquery
   - {pkg: polarssql, repo: rpolars/r-polarssql}
-  - oRm # ? not on CRAN
   - {pkg: ducklake, repo: tgerke/ducklake-r}
   - tgerke/dplyneage
 
@@ -215,6 +211,41 @@ web:
  - rvest
  - reqres
  - bslib # w shiny/for websites
+
+tidyverse: # the core, so "beyond tidyverse" dep counts and the Tidyverse column have a reference
+  - tidyverse
+  - ggplot2
+  - dplyr
+  - tidyr
+  - readr
+  - purrr
+  - tibble
+  - stringr
+  - forcats
+  - lubridate
+  - rlang
+  - tidyselect
+
+claude-code-setup: # candidates for the Claude Code cloud env's R install (colin-ww/dotfiles, claude-code/cloud)
+  - stringi
+  - skimr
+  - wrapr
+  - curl
+  - waldo
+  - reticulate
+  - nanonext
+  - DBI
+  - odbc
+  - digest
+  - nanoarrow
+  - Rcpp # dotfiles "no": compiled, brings system needs
+  - S7 # dotfiles "no"
+  - doctest # dotfiles "no"
+  - autometric # dotfiles "no"
+  - onetime # dotfiles "no"
+  - mutagen # dotfiles "no"; not on CRAN
+  - tidypolars # not on CRAN
+  - polars0 # not on CRAN; old r-polars
 
 other:
   - config # posit
@@ -231,7 +262,6 @@ other:
   - modelr # older (rsample newer) - but is tidyverse!
   - keyring
   - getPass
-  - oskey # ? not on CRAN
   - gert
   - lambda.r
   - yaml

@@ -119,3 +119,45 @@ test_that("watch flags see requirement items that the display hides", {
   out <- install_metrics(db, NULL, c("v8ish", "user"), c("libv8", "cmake"))
   expect_equal(out$sysreqs_watch, c("libv8", "libv8"))
 })
+
+test_that("funders come from the Author field's fnd role", {
+  expect_equal(author_funders("Hadley Wickham [aut, cre] (<https://orcid.org/0000-0003-4757-117X>), Posit Software, PBC [cph, fnd] (ROR: <https://ror.org/03wc8by49>)"), "Posit Software, PBC")
+  expect_equal(author_funders("A B [aut, cre], Some Fund [fnd], Other Org [cph, fnd], C D [ctb]"), "Some Fund; Other Org")
+  expect_true(is.na(author_funders("A B [aut, cre], C D [ctb]")))
+  expect_true(is.na(author_funders("A B and C D"))) # no roles at all
+  expect_true(is.na(author_funders(NA_character_)))
+})
+
+test_that("tidyverse roles: core, member, dep", {
+  tv <- list(direct = c("dplyr", "rvest"), all = c("dplyr", "rvest", "rlang"))
+  expect_equal(tidyverse_role(c("ggplot2", "rvest", "rlang", "data.table", "tidyverse"), tv), c("core", "member", "dep", NA, "core"))
+  expect_equal(tidyverse_role("dplyr", tv), "core") # core wins over member
+  expect_equal(tidyverse_role(c("a", "b"), NULL), c(NA_character_, NA_character_))
+})
+
+test_that("reverse-dependency scores are whole numbers", {
+  expect_equal(top_revdeps(c("a", "b", "c"), c(21.3, 15.6, 10.2), list(revdep_min_score = 10, revdep_min_n = 3, revdep_top_n = 3)), "a (21), b (16), c (10)")
+})
+
+test_that("not-on-CRAN list: best name per package, a few per universe", {
+  index <- tibble(package = c("a", "b", "c", "d", "a"), universe = c("u1", "u1", "u1", "u2", "u3"),
+                  score = c(9, 8, 7, 1, 2), stars = 0, dependents = 0, scripts = 0)
+  expect_equal(top_not_on_cran(index, tibble(Package = "x"), n = 10, per_universe = 2)$package, c("a", "b", "d"))
+  expect_equal(top_not_on_cran(index, tibble(Package = "a"), n = 10, per_universe = 2)$package, c("b", "c", "d"))
+})
+
+test_that("the repo slug is written the same way everywhere it's hard-coded", {
+  root <- test_path("../..")
+  slug <- read_lines(file.path(root, "R", "settings.R")) |> str_extract('GITHUB_REPOSITORY", "([^"]+)"', group = 1) |> na.omit() |> first()
+  owner <- dirname(slug)
+  name  <- basename(slug)
+
+  owners <- c("README.md", "site/_quarto.yml") |>
+    map(\(f) read_file(file.path(root, f)) |> str_match_all(glue("(?:github\\.com/([\\w-]+)|([\\w-]+)\\.github\\.io)/{name}\\b"))) |>
+    map(\(m) c(m[[1]][, 2], m[[1]][, 3])) |>
+    unlist() |>
+    na.omit()
+
+  expect_true(length(owners) >= 4) # badge, site links, _quarto.yml: the pattern really finds them
+  expect_equal(unique(str_to_lower(owners)), str_to_lower(owner))
+})

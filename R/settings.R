@@ -25,8 +25,19 @@ settings <- list(
   revdep_min_n      = 3,  # ...and only list the top ones if at least this many
   revdep_top_n      = 3,
   strong_deps       = c("Depends", "Imports", "LinkingTo"),
+  # The 9 packages library(tidyverse) attaches; install.packages("tidyverse") also
+  # brings the rest of its Imports. Deps are counted beyond that baseline.
+  tidyverse_core    = c("ggplot2", "dplyr", "tidyr", "readr", "purrr", "tibble", "stringr", "forcats", "lubridate"),
+  ru_multiverse     = "https://r-multiverse.r-universe.dev", # R-multiverse's curated universe
+  not_on_cran_n     = 25,
+  not_on_cran_per_universe = 2,
+  not_on_cran_skip  = c("cran", "bioc"), # universes left out of the "top scoring, not on CRAN" list
+
   # SystemRequirements items not worth *showing* (watch flags still see them):
   # compilers/make, and split-off continuations ("or ...", "see the README", "and ...")
   sysreq_noise      = "(?i)^(gnu make|c\\+\\+\\s*\\d*)$|^(or|see|for|and)\\b",
-  alert_types       = c("deadline", "archived", "orphaned", "not-found", "gh-archived")
+  # What goes in the alert issue: CRAN-side risks, announced once each. not-found /
+  # gh-archived are watchlist housekeeping: flags + a to-do list on the site, no email.
+  alert_types       = c("deadline", "archived", "orphaned"),
+  alert_archived_days = 90 # an archival older than this is history: on the site, not in the issue
 )
