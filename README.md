@@ -2,7 +2,11 @@
 
 [![cranwatch](https://github.com/colin-ww/cranwatch/actions/workflows/cranwatch.yml/badge.svg)](https://github.com/colin-ww/cranwatch/actions/workflows/cranwatch.yml)
 
-Health radar for the R packages I use, or am eyeing, at work: how popular they are, whether CRAN is about to archive them, and how painful they are to install somewhere locked down (air-gapped k8s, source-only mirror, no `apt-get`).
+Health radar for the R packages I use, or am eyeing, at work: how popular they are, whether CRAN is about to archive them, and how painful they are to install somewhere locked down (air-gapped k8s + CRAN mirror, no `apt-get` or r-universe/github-install).
+
+Also see, WIP Google Spreadsheet I'm tinkering with for package stuff:
+https://docs.google.com/spreadsheets/d/1FHZqo7D5KLBDilNvG0FO8r1zmw6zUUaU3UhPpGVuz_U/
+
 
 **Site → <https://colin-ww.github.io/cranwatch/>**: [Radar](https://colin-ww.github.io/cranwatch/) (the table) · [Themes](https://colin-ww.github.io/cranwatch/themes.html) (what each group of packages is for and what to pick) · [How to judge a package](https://colin-ww.github.io/cranwatch/judge.html) · [Columns & sources](https://colin-ww.github.io/cranwatch/about.html) · [latest CSV](data/latest.csv)
 
