@@ -1,28 +1,28 @@
 {
-  "run_date": "2026-11-02",
-  "run_time": "2026-11-02 16:09:39 UTC",
-  "previous": "2026-10-26",
+  "run_date": "2026-11-09",
+  "run_time": "2026-11-09 16:32:39 UTC",
+  "previous": "2026-11-02",
   "dl_windows": {
-    "dl_365": ["2025-11-01", "2026-10-31"],
-    "dl_prev365": ["2024-11-01", "2025-10-31"]
+    "dl_365": ["2025-11-08", "2026-11-07"],
+    "dl_prev365": ["2024-11-08", "2025-11-07"]
   },
   "n_packages": 177,
   "sources": {
     "cran_db": {
       "ok": true,
-      "secs": 1.2
+      "secs": 1.3
     },
     "cran_in": {
       "ok": true,
-      "secs": 0.3
+      "secs": 0.4
     },
     "ru_index": {
       "ok": true,
-      "secs": 22.4
+      "secs": 22.9
     },
     "ru_detail": {
       "ok": true,
-      "secs": 32.7,
+      "secs": 27.5,
       "formula_match": 1
     },
     "ru_sysdeps": {
@@ -31,7 +31,7 @@
     },
     "downloads": {
       "ok": true,
-      "secs": 9.4
+      "secs": 7.6
     },
     "github": {
       "ok": true,
@@ -51,16 +51,16 @@
       "yihui.r-universe.dev": 1,
       "rdatatable.r-universe.dev": 1,
       "rstudio.r-universe.dev": 1,
-      "tidymodels.r-universe.dev": 1,
       "tidyverse.r-universe.dev": 1,
+      "tidymodels.r-universe.dev": 1,
       "jeroen.r-universe.dev": 1,
       "r-lib.r-universe.dev": 1,
       "igraph.r-universe.dev": 1,
       "apache.r-universe.dev": 1,
       "kassambara.r-universe.dev": 1,
       "r-dbi.r-universe.dev": 1,
-      "ycphs.r-universe.dev": 1,
       "haozhu233.r-universe.dev": 1,
+      "ycphs.r-universe.dev": 1,
       "sfirke.r-universe.dev": 1,
       "ddsjoberg.r-universe.dev": 1,
       "ropensci.r-universe.dev": 1,
@@ -84,8 +84,8 @@
       "fstpackage.r-universe.dev": 1,
       "mayoverse.r-universe.dev": 1,
       "juba.r-universe.dev": 1,
-      "eddelbuettel.r-universe.dev": 1,
       "posit-dev.r-universe.dev": 1,
+      "eddelbuettel.r-universe.dev": 1,
       "yixuan.r-universe.dev": 1,
       "wlandau.r-universe.dev": 1,
       "wrathematics.r-universe.dev": 1,
