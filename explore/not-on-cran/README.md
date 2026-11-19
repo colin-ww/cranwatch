@@ -17,6 +17,7 @@ Rscript explore/not-on-cran/02_rank.R         # rank non-CRAN packages 3 ways
 Rscript explore/not-on-cran/03_detail.R       # why not on CRAN: Remotes, non-CRAN deps, size, CRAN comment
 Rscript explore/not-on-cran/04_repos_conda.R  # R-Forge & co, Bioc vs CRAN, conda channels
 Rscript explore/not-on-cran/05_offstats.R     # official-statistics packages + hand-picked ones
+Rscript explore/not-on-cran/06_followups.R    # awesome-offstats not on CRAN, Bioc in deps, RStudio add-ins, ggplot2 gallery
 ```
 
 `out/` holds the results (except `ru_all_flags.csv`, 4 MB, gitignored).
