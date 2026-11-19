@@ -1,0 +1,1000 @@
+cxli233/FriendsDontLetFriends	FriendsDontLetFriends	7213	false	2025-09-03	Friends don't let friends make certain types of data visualization - What are th
+tidyverse/ggplot2	ggplot2	7030	false	2026-11-16	An implementation of the Grammar of Graphics in R
+qinwf/awesome-R	awesome-R	6546	false	2025-09-18	A curated list of awesome R packages, frameworks and software.
+rstudio/shiny	shiny	5705	false	2026-11-18	Easy interactive web applications with R
+hadley/r4ds	r4ds	5206	false	2026-10-23	R for data science: a book
+tidyverse/dplyr	dplyr	5084	false	2026-11-02	dplyr: A grammar of data manipulation
+swirldev/swirl_courses	swirl_courses	4622	false	2024-01-10	:mortar_board: A collection of interactive courses for the swirl R package.
+briatte/awesome-network-analysis	awesome-network-analysis	4154	false	2026-08-20	A curated list of awesome network analysis resources.
+rmcelreath/stat_rethinking_2022	stat_rethinking_2022	4106	false	2022-03-15	Statistical Rethinking course winter 2022
+Rdatatable/data.table	data.table	3929	false	2026-11-18	R's data.table package extends data.frame:
+johnmyleswhite/ML_for_Hackers	ML_for_Hackers	3731	false	2019-05-26	Code accompanying the book "Machine Learning for Hackers"
+twitter/AnomalyDetection	AnomalyDetection	3605	true	2019-08-30	Anomaly Detection with R
+rstudio/rmarkdown	rmarkdown	3068	false	2026-11-09	Dynamic Documents for R
+satijalab/seurat	seurat	2818	false	2026-11-18	R toolkit for single cell genomics
+plotly/plotly.R	plotly.R	2684	false	2026-07-25	An interactive graphing library for R
+thomasp85/patchwork	patchwork	2619	false	2025-08-25	The Composer of ggplots
+r-lib/devtools	devtools	2528	false	2026-11-18	Tools to make an R developer's life easier
+yihui/knitr	knitr	2470	false	2026-11-02	A general-purpose tool for dynamic report generation in R
+rmcelreath/rethinking	rethinking	2432	false	2026-10-30	Statistical Rethinking course and book package
+rmcelreath/stat_rethinking_2023	stat_rethinking_2023	2387	false	2023-11-28	Statistical Rethinking Course for Jan-Mar 2023
+IndrajeetPatil/ggstatsplot	ggstatsplot	2209	false	2026-11-17	Enhancing {ggplot2} plots with statistical analysis 📊📣
+tylermorganwall/rayshader	rayshader	2190	false	2026-11-16	R Package for 2D and 3D mapping and data visualization
+genomicsclass/labs	labs	2181	false	2024-02-12	Rmd source files for the HarvardX series PH525x
+karthik/wesanderson	wesanderson	2176	false	2026-11-10	A Wes Anderson color palette for R
+rstudio/gt	gt	2162	false	2026-10-15	Easily generate information-rich, publication-quality tables from R
+ujjwalkarn/DataScienceR	DataScienceR	2154	false	2023-03-10	a curated list of R tutorials for Data Science, NLP and Machine Learning 
+toddwschneider/nyc-taxi-data	nyc-taxi-data	2085	false	2026-09-25	Import public NYC taxi and for-hire vehicle (Uber, Lyft) trip data into a Postgr
+thomasp85/gganimate	gganimate	1985	false	2025-09-04	A Grammar of Animated Graphics
+szilard/benchm-ml	benchm-ml	1894	false	2022-09-16	A minimal benchmark for scalability, speed and accuracy of commonly used open so
+dreamRs/esquisse	esquisse	1869	false	2025-02-21	RStudio add-in to make plots interactively with ggplot2
+google/CausalImpact	CausalImpact	1867	false	2026-03-31	An R package for causal inference in time series
+rmcelreath/stat_rethinking_2024	stat_rethinking_2024	1839	false	2024-03-08	
+tidyverse/tidyverse	tidyverse	1812	false	2025-06-18	Easily install and load packages from the tidyverse
+geocompx/geocompr	geocompr	1799	false	2026-09-14	Geocomputation with R: an open source book
+rstudio/blogdown	blogdown	1792	false	2026-11-18	Create Blogs and Websites with R Markdown
+rstudio/reticulate	reticulate	1766	false	2026-11-13	R Interface to Python
+rich-iannone/DiagrammeR	DiagrammeR	1749	false	2026-04-27	Graph and network visualization using tabular data in R
+zonination/investing	investing	1743	false	2016-12-27	Investing Returns on the Market as a Whole
+EmilHvitfeldt/r-color-palettes	r-color-palettes	1728	false	2026-06-01	Comprehensive list of color palettes available in R ❤️🧡💛💚💙💜
+nanxstats/awesome-shiny-extensions	awesome-shiny-extensions	1697	false	2026-11-13	🐝 Awesome R and Python packages offering extended UI or server components for th
+mlr-org/mlr	mlr	1686	false	2026-10-11	Machine Learning in R 
+topepo/caret	caret	1665	false	2026-11-16	caret (Classification And Regression Training) R package that contains misc func
+bbc/bbplot	bbplot	1645	false	2021-07-02	R package that helps create and export ggplot2 charts in the style used by the B
+hadley/stats337	stats337	1608	false	2018-06-21	Readings in applied data science
+jokergoo/ComplexHeatmap	ComplexHeatmap	1566	false	2026-04-02	Make Complex Heatmaps 
+tidymodels/broom	broom	1528	false	2026-05-14	Convert statistical analysis objects from R into tidy format
+tidyverse/rvest	rvest	1525	false	2026-10-27	Simple web scraping for R
+fossasia/tofsims	tofsims	1487	false	2017-11-29	
+sfirke/janitor	janitor	1462	false	2024-12-23	simple tools for data cleaning in R
+r-spatial/sf	sf	1458	false	2026-11-11	Simple Features for R
+tidyverse/tidyr	tidyr	1446	false	2026-06-02	Tidy Messy Data
+rstudio/plumber	plumber	1441	false	2026-02-09	Turn your R code into a web API.
+paul-buerkner/brms	brms	1439	false	2026-11-17	brms R package for Bayesian generalized multivariate non-linear multilevel model
+griffithlab/rnaseq_tutorial	rnaseq_tutorial	1437	false	2023-05-31	Informatics for RNA-seq: A web resource for analysis on the cloud. Educational t
+tidyverse/purrr	purrr	1411	false	2026-11-03	A functional programming toolkit for R
+hadley/mastering-shiny	mastering-shiny	1381	false	2026-02-03	Mastering Shiny: a book
+hrbrmstr/hrbrthemes	hrbrthemes	1362	false	2026-10-17	:lock_with_ink_pen: Opinionated, typographic-centric ggplot2 themes and theme co
+jrnold/ggthemes	ggthemes	1354	false	2026-11-11	Themes, scales, and geoms for ggplot2 that reproduce the styles of The Economist
+ropensci/drake	drake	1345	false	2024-12-04	An R-focused pipeline toolkit for reproducibility and high-performance computing
+rstudio/tensorflow	tensorflow	1341	false	2026-11-12	TensorFlow for R
+r-lib/lintr	lintr	1301	false	2026-10-29	Static Code Analysis for R
+BlakeRMills/MetBrewer	MetBrewer	1290	false	2025-01-03	Color palette package in R inspired by works at the Metropolitan Museum of Art i
+kassambara/ggpubr	ggpubr	1283	false	2026-07-31	'ggplot2' Based Publication Ready Plots
+mitchelloharawild/vitae	vitae	1275	false	2026-08-21	R Markdown Résumés and CVs
+wch/r-source	r-source	1263	false	2026-11-18	Read-only mirror of R source code from https://svn.r-project.org/R/, updated hou
+slowkow/ggrepel	ggrepel	1263	false	2026-10-09	:round_pushpin: Repel overlapping text labels away from each other in your ggplo
+YuLab-SMU/clusterProfiler	clusterProfiler	1252	false	2026-11-11	:bar_chart: A universal enrichment tool for interpreting omics data
+andrewgbruce/statistics-for-data-scientists	statistics-for-data-scientists	1241	false	2022-12-16	Code and data associated with the book "Statistics for Data Scientists: 50 Essen
+swirldev/swirl	swirl	1225	false	2023-10-27	:cyclone: Learn R, in R.
+TheAlgorithms/R	R	1225	false	2026-11-18	Collection of various algorithms implemented in R.
+ddsjoberg/gtsummary	gtsummary	1221	false	2026-10-28	Presentation-Ready Data Summary and Analytic Result Tables
+daattali/advanced-shiny	advanced-shiny	1216	false	2025-12-21	🤹 Shiny tips & tricks for improving your apps and solving common problems
+juliasilge/tidytext	tidytext	1208	false	2026-08-02	Text mining using tidy tools :sparkles::page_facing_up::sparkles:
+rstudio/tinytex	tinytex	1186	false	2026-11-09	A lightweight, cross-platform, portable, and easy-to-maintain LaTeX distribution
+robjhyndman/forecast	forecast	1185	false	2026-11-19	Forecasting Functions for Time Series and Linear Models
+matloff/fasteR	fasteR	1176	false	2026-01-03	Fast Lane to Learning R!
+rstudio/renv	renv	1166	false	2026-11-14	renv: Project environments for R.
+easystats/performance	performance	1161	false	2026-11-18	:muscle: Models' quality and performance metrics (R2, ICC, LOO, AIC, BF, ...)
+easystats/easystats	easystats	1161	false	2026-11-02	:milky_way: The R easystats-project
+thomasp85/ggraph	ggraph	1121	false	2025-08-25	Grammar of Graph Graphics
+ropensci/targets	targets	1108	false	2026-10-26	Function-oriented Make-like declarative workflows for R
+stan-dev/rstan	rstan	1090	false	2026-11-17	RStan, the R interface to Stan
+mlr-org/mlr3	mlr3	1084	false	2026-11-16	mlr3: Machine Learning in R - next generation
+rstudio/pointblank	pointblank	1056	false	2026-08-21	Data quality assessment and metadata reporting for data frames and database tabl
+EmilHvitfeldt/paletteer	paletteer	1045	false	2026-01-08	🎨🎨🎨 Collection of most color palettes in a single R package
+tidyverse/readr	readr	1041	false	2026-04-10	Read flat files (csv, tsv, fwf) into R
+jokergoo/circlize	circlize	1030	false	2023-11-11	Circular visualization in R 
+allisonhorst/palmerpenguins	palmerpenguins	1029	false	2024-09-19	A great intro dataset for data exploration & visualization (alternative to iris)
+futureverse/future	future	1016	false	2026-11-17	:rocket: R package: future: Unified Parallel and Distributed Processing in R for
+rmcelreath/stat_rethinking_2026	stat_rethinking_2026	997	false	2026-03-20	Statistical Rethinking Course 2026
+klmr/box	box	991	false	2026-08-16	Write reusable, composable and modular R code
+MichelNivard/gptstudio	gptstudio	990	false	2026-01-03	GPT RStudio addins that enable GPT assisted coding, writing & analysis
+r-lib/httr	httr	983	false	2026-09-01	httr: a friendly http package for R
+tidyverse/magrittr	magrittr	972	false	2026-04-05	Improve the readability of R code with the pipe
+sparklyr/sparklyr	sparklyr	970	false	2026-11-09	R interface for Apache Spark
+gesiscss/awesome-computational-social-science	awesome-computational-social-science	966	false	2026-10-13	A list of awesome resources for Computational Social Science
+cutterkom/generativeart	generativeart	962	false	2022-04-27	Create Generative Art with R
+hadley/r-pkgs	r-pkgs	957	false	2026-11-18	Building R packages
+easystats/see	see	956	false	2026-11-03	:art: Visualisation toolbox for beautiful and publication-ready figures
+thomasp85/ggforce	ggforce	955	false	2025-09-15	Accelerating ggplot2
+ThinkR-open/golem	golem	947	false	2026-11-12	A Framework for Building Robust Shiny Apps 
+r-lib/testthat	testthat	944	false	2026-09-30	An R 📦 to make testing 😀
+YuLab-SMU/ggtree	ggtree	937	false	2026-11-12	:christmas_tree:Visualization and annotation of phylogenetic trees
+rstudio/pagedown	pagedown	927	false	2026-10-27	Paginate the HTML Output of R Markdown with CSS for Print
+r-lib/usethis	usethis	926	false	2026-10-30	Set up commonly used 📦 components
+MilesMcBain/datapasta	datapasta	924	false	2025-12-07	On top of spaghetti, all covered in cheese....
+johnmyleswhite/BanditsBook	BanditsBook	924	false	2020-01-09	Code for my book on Multi-Armed Bandit Algorithms
+business-science/tidyquant	tidyquant	920	false	2026-11-01	Bringing financial analysis to the tidyverse
+workflowr/workflowr	workflowr	910	false	2026-07-01	Organize your project into a research website
+joshuaulrich/quantmod	quantmod	910	false	2026-07-03	Quantitative Financial Modelling Framework
+r-tmap/tmap	tmap	907	false	2026-11-17	R package for thematic maps
+Mikata-Project/ggthemr	ggthemr	905	false	2022-05-07	Themes for ggplot2.
+quanteda/quanteda	quanteda	898	false	2026-11-17	An R package for the Quantitative Analysis of Textual Data
+jmzeng1314/GEO	GEO	896	false	2022-10-18	
+rdpeng/ProgrammingAssignment2	ProgrammingAssignment2	896	false	2024-08-14	Repository for Programming Assignment 2 for R Programming on Coursera
+mjskay/ggdist	ggdist	883	false	2026-10-25	Visualizations of distributions and uncertainty
+davidgohel/ggiraph	ggiraph	882	false	2026-11-13	make 'ggplot' graphics interactive
+dselivanov/text2vec	text2vec	877	false	2025-12-01	Fast vectorization, topic modeling, distances and GloVe word embeddings in R.
+grabear/awesome-rshiny	awesome-rshiny	875	false	2022-10-07	An awesome R-shiny list!
+daattali/addinslist	addinslist	874	false	2024-08-18	📜 Discover and install useful RStudio addins 
+dreamRs/shinyWidgets	shinyWidgets	872	false	2026-07-06	shinyWidgets : Extend widgets available in shiny
+zonination/perceptions	perceptions	869	false	2017-08-25	Perceptions of Probability and Numbers
+hyu020/MoRad	MoRad	868	false	2025-10-04	
+google/rappor	rappor	868	true	2022-07-14	RAPPOR: Privacy-Preserving Reporting Algorithms
+pbiecek/xai_resources	xai_resources	865	false	2022-05-31	Interesting resources related to XAI (Explainable Artificial Intelligence)
+rstudio/keras3	keras3	857	false	2026-11-12	R Interface to Keras
+SiatBioInf/panCTC	panCTC	844	false	2026-02-18	
+z3tt/TidyTuesday	TidyTuesday	844	false	2023-09-26	My contributions to the #TidyTuesday challenge, a weekly data visualization chal
+ramnathv/slidify	slidify	843	false	2016-08-02	Generate reproducible html5 slides from R markdown
+mdozmorov/scRNA-seq_notes	scRNA-seq_notes	830	false	2026-11-10	A list of scRNA-seq analysis tools
+tidymodels/tidymodels	tidymodels	824	false	2026-09-17	Easily install and load the tidymodels packages
+Mcompetitions/M4-methods	M4-methods	816	false	2020-03-20	Data, Benchmarks, and methods submitted to the M4 forecasting competition
+rgeirhos/texture-vs-shape	texture-vs-shape	816	false	2023-05-02	Pre-trained models, data, code & materials from the paper "ImageNet-trained CNNs
+GuangchuangYu/hexSticker	hexSticker	814	false	2026-10-29	:sparkles: Hexagon sticker in R
+erikaduan/r_tips	r_tips	809	false	2025-07-16	R programming tips for data cleaning, data visualisation, statistical modelling 
+tidyverse/lubridate	lubridate	805	false	2026-06-15	Make working with dates in R just that little bit easier
+hrbrmstr/waffle	waffle	800	false	2024-01-08	:maple_leaf: Make waffle (square pie) charts in R
+ramnathv/htmlwidgets	htmlwidgets	800	false	2026-04-22	HTML Widgets for R
+gadenbuie/tidyexplain	tidyexplain	797	false	2022-01-11	🤹‍♀ Animations of tidyverse verbs using R, the tidyverse, and gganimate
+tidymodels/infer	infer	796	false	2026-04-13	An R package for tidyverse-friendly statistical inference
+dmpe/R	R	795	false	2021-04-17	Exercises (incl. analyses) with R language (math+statistics)
+selva86/datasets	datasets	794	false	2025-05-28	A collection of datasets of ML problem solving
+thackl/gggenomes	gggenomes	793	false	2026-10-05	A grammar of graphics for comparative genomics
+sqjin/CellChat	CellChat	790	true	2024-01-06	R toolkit for inference, visualization and analysis of cell-cell communication f
+jennybc/googlesheets	googlesheets	788	true	2022-02-04	Google Spreadsheets R API
+jalapic/engsoccerdata	engsoccerdata	787	false	2026-02-08	English and European soccer results 1871-2022
+natverse/malecns	malecns	784	false	2026-08-23	Access to the latest 'Janelia FlyEM' datasets
+dkahle/ggmap	ggmap	779	false	2025-08-31	A package for plotting maps in R with ggplot2
+ropensci-archive/rtweet	rtweet	778	true	2024-11-10	🐦 R client for interacting with Twitter's [stream and REST] APIs
+r-spatial/rgee	rgee	778	false	2026-11-16	Google Earth Engine for R
+r-lib/styler	styler	778	false	2026-09-29	Non-invasive pretty printing of R code
+r-lib/pkgdown	pkgdown	777	false	2026-08-12	Generate static html documentation for an R package
+erikgahner/PolData	PolData	771	false	2026-11-06	A dataset with political datasets
+tidyverse/tibble	tibble	764	false	2026-11-01	A modern re-imagining of the data frame
+opencpu/opencpu	opencpu	763	false	2026-10-30	OpenCPU system for embedded scientific computation and reproducible research
+wilkelab/cowplot	cowplot	761	false	2025-07-07	cowplot: Streamlined Plot Theme and Plot Annotations for ggplot2
+nanxstats/ggsci	ggsci	754	false	2026-07-30	🦄 Scientific journal and sci-fi themed color palettes for ggplot2
+tidyverse/reprex	reprex	754	false	2026-04-10	Render bits of R code for sharing, e.g., on GitHub or StackOverflow.
+daattali/shinyjs	shinyjs	752	false	2026-08-11	💡 Easily improve the user experience of your Shiny apps in seconds
+mjskay/tidybayes	tidybayes	750	false	2024-09-17	Bayesian analysis + tidy data + geoms (R package)
+tidyverse/glue	glue	750	false	2026-04-21	Glue strings to data in R. Small, fast, dependency free interpreted string liter
+futureverse/furrr	furrr	744	false	2026-10-30	Apply Mapping Functions in Parallel using Futures
+jbkunst/highcharter	highcharter	742	false	2026-11-19	R wrapper for highcharts
+rstudio/learnr	learnr	740	false	2025-11-13	Interactive Tutorials with R Markdown
+haozhu233/kableExtra	kableExtra	740	false	2026-10-25	Construct Complex Table with knitr::kable() + pipe. 
+r-lib/cli	cli	730	false	2026-11-07	Tools for making beautiful & useful command line interfaces
+giocomai/ganttrify	ganttrify	726	false	2025-10-21	Create beautiful Gantt charts with ggplot2
+JohsEnevoldsen/literature-clock	literature-clock	722	false	2025-03-28	Clock using time quotes from the literature, based on the work of Jaap Meijers
+benmarwick/rrtools	rrtools	722	false	2025-07-21	rrtools: Tools for Writing Reproducible Research in R
+easystats/report	report	719	false	2026-11-05	:scroll: :tada: Automated reporting of objects in R
+jbengler/tidyplots	tidyplots	717	false	2026-11-17	Tidy Plots for Scientific Papers
+r-lidar/lidR	lidR	715	false	2026-11-18	Airborne LiDAR data manipulation and visualisation for forestry application
+ben519/MLPB	MLPB	713	false	2019-11-29	Machine Learning Problem Bible | Problem Set Here >>
+rstudio/ggvis	ggvis	707	true	2026-02-10	Interactive grammar of graphics for R
+dgrtwo/fuzzyjoin	fuzzyjoin	706	false	2026-02-19	Join tables together on inexact matching
+davidgohel/officer	officer	703	false	2026-11-18	:cop: officer: office documents from R
+jinworks/CellChat	CellChat	695	false	2026-03-04	R toolkit for inference, visualization and analysis of cell-cell communication f
+saeyslab/nichenetr	nichenetr	692	false	2026-11-05	NicheNet: predict active ligand-target links between interacting cells
+hrbrmstr/ggalt	ggalt	690	false	2026-05-13	:earth_americas: Extra Coordinate Systems, Geoms,  Statistical Transformations &
+walkerke/tidycensus	tidycensus	690	false	2026-10-20	Load US Census boundary and attribute data as 'tidyverse' and 'sf'-ready data fr
+zhanghao-njmu/SCP	SCP	690	false	2026-03-11	An end-to-end Single-Cell Pipeline designed to facilitate comprehensive analysis
+broadinstitute/infercnv	infercnv	688	false	2026-10-31	Inferring CNV from Single-Cell RNA-Seq
+ModelOriented/DrWhy	DrWhy	688	false	2023-02-21	DrWhy is the collection of tools for eXplainable AI (XAI). It's based on shared 
+daattali/timevis	timevis	684	false	2024-08-18	📅 Create interactive timeline visualizations in R
+teunbrand/ggh4x	ggh4x	683	false	2025-10-02	ggplot extension: options for tailored facets, multiple colourscales and miscell
+Misterursw/interactive_modify_figures_from_python	interactive_modify_figures_from_python	681	false	2026-08-25	
+REditorSupport/languageserver	languageserver	679	false	2026-11-18	An implementation of the Language Server Protocol for R
+massimoaria/bibliometrix	bibliometrix	676	false	2026-11-09	An R-tool for comprehensive science mapping analysis. A package for quantitative
+tidyverse/dtplyr	dtplyr	676	false	2026-02-11	Data table backend for dplyr
+njtierney/naniar	naniar	675	false	2025-04-30	Tidy data structures, summaries, and visualisations for missing data
+immunogenomics/harmony	harmony	675	false	2026-10-15	Fast, sensitive and accurate integration of single-cell data with Harmony
+tidyverse/stringr	stringr	673	false	2026-10-27	A fresh approach to string manipulation in R
+wilkelab/ggtext	ggtext	667	false	2026-08-26	Improved text rendering support for ggplot2
+r-lib/roxygen2	roxygen2	666	false	2026-10-21	Generate R package documentation from inline R comments
+tidymodels/parsnip	parsnip	660	false	2026-11-13	A tidy unified interface to models
+christophergandrud/networkD3	networkD3	660	false	2025-04-18	D3 JavaScript Network Graphs from R
+leedrake5/Russia-Ukraine	Russia-Ukraine	659	false	2026-11-18	Equipment Loss Tracking
+rstudio/RStartHere	RStartHere	657	false	2019-09-16	A guide to some of the most useful R Packages that we know about
+vincentarelbundock/marginaleffects	marginaleffects	656	false	2026-11-09	R package to compute and plot predictions, slopes, marginal means, and compariso
+rmcelreath/stat_rethinking_2020	stat_rethinking_2020	656	false	2021-03-03	Statistical Rethinking Course Winter 2020/2021
+joey711/phyloseq	phyloseq	653	false	2026-02-27	phyloseq is a set of classes, wrappers, and tools (in R) to make it easier to im
+AllanCameron/geomtextpath	geomtextpath	652	false	2025-07-21	Create curved text paths in ggplot2
+tidyverse/multidplyr	multidplyr	650	false	2026-10-27	A dplyr backend that partitions a data frame over multiple processes
+strengejacke/sjPlot	sjPlot	650	false	2026-04-28	sjPlot - Data Visualization for Statistics in Social Science
+YinLiLin/CMplot	CMplot	647	false	2026-05-08	📊 Circular and Rectangular Manhattan Plot
+TheEconomist/covid-19-excess-deaths-tracker	covid-19-excess-deaths-tracker	647	false	2026-11-18	Source code and data for The Economist's covid-19 excess deaths tracker
+business-science/timetk	timetk	645	false	2025-08-29	Time series analysis in the `tidyverse`
+amplab-extras/SparkR-pkg	SparkR-pkg	640	false	2016-06-10	R frontend for Spark
+JohnCoene/echarts4r	echarts4r	632	false	2026-10-16	Echarts 5 for R
+davidgohel/flextable	flextable	630	false	2026-11-18	table farming
+KentonWhite/ProjectTemplate	ProjectTemplate	630	false	2026-05-22	A template utility for R projects that provides a skeletal project.
+ajdamico/asdfree	asdfree	629	false	2026-11-17	analyze survey data for free
+igraph/rigraph	rigraph	625	false	2026-11-18	igraph R package
+datalorax/equatiomatic	equatiomatic	625	false	2026-08-19	Convert models to LaTeX equations
+tidymodels/recipes	recipes	625	false	2026-09-17	Pipeable steps for feature engineering and data preprocessing to prepare for mod
+elbersb/tidylog	tidylog	624	false	2026-06-23	Tidylog provides feedback about dplyr and tidyr operations. It provides wrapper 
+fstpackage/fst	fst	623	false	2024-09-26	Lightning Fast Serialization of Data Frames for R
+tidyverse/ellmer	ellmer	621	false	2026-11-18	Call LLM APIs from R
+gesistsa/rio	rio	621	false	2026-10-23	🐟 A Swiss-Army Knife for Data I/O
+nstrayer/datadrivencv	datadrivencv	620	false	2024-06-18	R package for building customizable CVs from spreadsheets
+ggobi/ggally	ggally	617	false	2026-11-09	R package that extends ggplot2
+const-ae/ggsignif	ggsignif	615	false	2026-03-29	Easily add significance brackets to your ggplots
+toddwschneider/ballr	ballr	610	false	2022-12-30	Interactive NBA and NCAA Shot Charts with R and Shiny
+greta-dev/greta	greta	610	false	2026-10-29	simple and scalable statistical modelling in R
+strengejacke/ggeffects	ggeffects	609	false	2026-11-17	Estimated Marginal Means and Marginal Effects from Regression Models for ggplot2
+r-spatial/stars	stars	609	false	2026-09-20	Spatiotemporal Arrays, Raster and Vector Data Cubes
+wilkox/gggenes	gggenes	606	false	2026-07-05	➡️️➡️️⬅️️➡️️ Draw gene arrow maps in ggplot2
+easystats/bayestestR	bayestestR	599	false	2026-11-18	:ghost: Utilities for analyzing Bayesian models and posterior distributions
+JaseZiv/worldfootballR	worldfootballR	598	true	2025-09-18	A wrapper for extracting world football (soccer) data from FBref, Transfermark, 
+DiskFrame/disk.frame	disk.frame	595	false	2024-09-10	Fast Disk-Based Parallelized Data Manipulation Framework for Larger-than-RAM Dat
+r-lib/rlang	rlang	593	false	2026-10-06	Low-level API for programming with R
+tidymodels/corrr	corrr	593	false	2025-11-08	Explore correlations in R
+tidyverts/fable	fable	593	false	2026-09-15	Tidy time series forecasting
+Pecners/rayshader_portraits	rayshader_portraits	587	false	2025-07-22	
+business-science/modeltime	modeltime	586	false	2026-01-30	Modeltime unlocks time series forecast models and machine learning in one framew
+marcusvolz/strava	strava	583	false	2024-01-01	Create artistic visualisations with your exercise data
+davidsjoberg/ggbump	ggbump	583	false	2025-09-07	A geom for ggplot to create bump plots
+oncologylab/craftgrn	craftgrn	582	false	2026-09-04	Combined RNA and ATAC Footprint Training of Gene Regulatory Network
+Azure/Azure-TDSP-ProjectTemplate	Azure-TDSP-ProjectTemplate	580	true	2020-08-10	TDSP: Data science project template repository with standardized directory struc
+pola-rs/r-polars	r-polars	579	false	2026-11-13	Polars R bindings
+pzhaonet/mindr	mindr	579	false	2026-10-28	an R package which converts markdown files (.md, .Rmd) into mindmaps (brainstorm
+kassambara/survminer	survminer	576	false	2026-07-30	Survival Analysis and Visualization
+chris-mcginnis-ucsf/DoubletFinder	DoubletFinder	574	false	2025-03-21	R package for detecting doublets in single-cell RNA sequencing data
+rstudio/blastula	blastula	573	false	2025-04-03	Easily send great-looking HTML email messages from R
+thomasp85/tidygraph	tidygraph	573	false	2025-02-05	A tidy API for graph manipulation
+eclarke/ggbeeswarm	ggbeeswarm	572	false	2025-11-29	Column scatter / beeswarm-style plots in ggplot2
+ropensci/tabulapdf	tabulapdf	568	false	2025-01-03	Bindings for Tabula PDF Table Extractor Library
+CheyneyComputerScience/CREMA-D	CREMA-D	566	false	2025-03-21	Crowd Sourced Emotional Multimodal Actors Dataset (CREMA-D)
+MRCIEU/TwoSampleMR	TwoSampleMR	563	false	2026-11-10	R package for performing 2-sample MR using IEU OpenGWAS database
+benjjneb/dada2	dada2	562	false	2026-07-31	Accurate sample inference from amplicon data with single nucleotide resolution
+omnideconv/immunedeconv	immunedeconv	559	false	2026-11-02	A unified interface to immune deconvolution methods (CIBERSORT, EPIC, quanTIseq,
+nflverse/nflfastR	nflfastR	559	false	2026-11-18	A Set of Functions to Efficiently Scrape NFL Play by Play Data
+tidyverse/forcats	forcats	558	false	2026-02-02	🐈🐈🐈🐈: tools for working with categorical variables (factors)
+maksimhorowitz/nflscrapR	nflscrapR	558	false	2020-04-03	R Package for Scraping and Aggregating NFL Data
+vegandevs/vegan	vegan	554	false	2026-11-18	R package for community ecologists: popular ordination methods, ecological null 
+dcomtois/summarytools	summarytools	552	false	2026-01-27	R Package to Quickly and Neatly Summarize Data
+tidyverts/tsibble	tsibble	550	false	2026-10-05	Tidy Temporal Data Frames and Tools
+e-sensing/sits	sits	550	false	2026-11-18	Satellite image time series in R
+boxuancui/DataExplorer	DataExplorer	544	false	2026-03-10	Automate Data Exploration and Treatment
+sinhrks/ggfortify	ggfortify	541	false	2026-11-09	Define fortify and autoplot functions to allow ggplot2 to handle some popular R 
+tribalxg/redoc	redoc	540	false	2025-10-04	Reversible Reproducible Documents
+marcusvolz/mathart	mathart	536	false	2021-05-23	Create mathematical art with R
+yutannihilation/gghighlight	gghighlight	534	false	2025-06-14	Highlight points and lines in ggplot2
+r-dbi/bigrquery	bigrquery	533	false	2026-05-13	An interface to Google's BigQuery from R.
+mca91/EconometricsWithR	EconometricsWithR	532	false	2026-04-04	📖An interactive companion to the well-received textbook 'Introduction to Econome
+jiayiliujiayi/2020nCov_individual_archives	2020nCov_individual_archives	530	false	2020-04-24	"Every individual matters.  Every individual has a role to play." This is a repo
+cynkra/dm	dm	529	false	2026-11-01	Working with relational data models in R
+rstudio/r2d3	r2d3	529	false	2024-01-09	R Interface to D3 Visualizations
+corybrunson/ggalluvial	ggalluvial	527	false	2026-09-23	ggplot2 extension for alluvial plots
+rstudio/hex-stickers	hex-stickers	527	false	2026-11-02	RStudio hex stickers
+amices/mice	mice	521	false	2026-11-18	Multivariate Imputation by Chained Equations
+bedatadriven/renjin	renjin	518	false	2023-09-26	JVM-based interpreter for the R language for the statistical analysis.
+MathiasHarrer/Doing-Meta-Analysis-in-R	Doing-Meta-Analysis-in-R	518	false	2026-07-03	[Read-Only] All R code and source files for the online guide "Doing Meta-Analysi
+tidyverse/dbplyr	dbplyr	518	false	2026-06-17	Database (DBI) backend for dplyr
+yrosseel/lavaan	lavaan	517	false	2026-11-18	an R package for structural equation modeling and more
+Appsilon/shiny.semantic	shiny.semantic	512	false	2026-09-29	Shiny support for powerful Fomantic UI library.
+PoisonAlien/maftools	maftools	505	false	2026-02-25	Summarize, Analyze and Visualize MAF files from TCGA or in-house studies.
+hadley/plyr	plyr	504	false	2024-11-06	A R package for splitting, applying and combining large problems into simpler pr
+giuseppec/iml	iml	504	false	2025-02-24	iml: interpretable machine learning R package
+easystats/parameters	parameters	502	false	2026-11-15	:bar_chart: Computation and processing of models' parameters
+calligross/ggthemeassist	ggthemeassist	500	false	2026-10-01	A RStudio addin for ggplot2 theme tweaking 
+nmaggiulli/of-dollars-and-data	of-dollars-and-data	498	false	2026-11-12	Repo for ofdollarsanddata.com blog
+smorabit/hdWGCNA	hdWGCNA	497	false	2026-06-16	High dimensional weighted gene co-expression network analysis
+RConsortium/S7	S7	497	false	2026-11-18	S7: a new OO system for R
+tidymodels/lime	lime	497	false	2026-10-16	Local Interpretable Model-Agnostic Explanations (R port of original Python packa
+kassambara/rstatix	rstatix	495	false	2026-08-02	Pipe-friendly Framework for Basic Statistical Tests in R
+systematicinvestor/SIT	SIT	494	false	2023-06-03	Systematic Investor Toolkit
+walmes/Tikz	Tikz	492	false	2025-12-15	Galley of Tikz drawings.
+gadenbuie/regexplain	regexplain	492	false	2026-07-22	🔍 An RStudio addin slash regex utility belt
+thelovelab/DESeq2	DESeq2	489	false	2026-10-30	Differential expression of RNA-seq data using the Negative Binomial
+thomasp85/scico	scico	486	false	2023-12-09	Palettes for R based on the Scientific Colour-Maps
+tonyfischetti/assertr	assertr	485	false	2026-11-12	Assertive programming for R analysis pipelines
+ropensci-review-tools/goodpractice	goodpractice	483	false	2026-10-14	Advice on R Package Building
+ropensci/magick	magick	482	false	2026-11-13	Magic, madness, heaven, sin
+markfairbanks/tidytable	tidytable	476	false	2026-07-23	Tidy interface to 'data.table'
+r-lib/progress	progress	474	false	2025-10-21	Progress bar in your R terminal
+kevinblighe/EnhancedVolcano	EnhancedVolcano	472	false	2026-08-31	Publication-ready volcano plots with enhanced colouring and labeling
+cole-trapnell-lab/monocle3	monocle3	472	false	2026-09-22	
+cellgeni/sceasy	sceasy	470	false	2026-02-20	A package to help convert different single-cell data formats to each other
+GreenleafLab/ArchR	ArchR	468	false	2025-02-18	ArchR : Analysis of Regulatory Chromatin in R (www.ArchRProject.com)
+RinteRface/shinydashboardPlus	shinydashboardPlus	467	false	2025-08-25	extensions for shinydashboard
+r-causal/ggdag	ggdag	466	false	2026-09-15	:arrow_lower_left: :arrow_lower_right: An R package for working with causal dire
+ropensci/visdat	visdat	463	false	2026-09-26	Preliminary Exploratory Visualisation of Data
+lrberge/fixest	fixest	463	false	2026-11-16	Fixed-effects estimations
+alserglab/fgsea	fgsea	462	false	2026-09-22	Fast Gene Set Enrichment Analysis
+twbattaglia/RNAseq-workflow	RNAseq-workflow	460	false	2017-04-10	A repository for setting up a RNAseq workflow 
+rudeboybert/fivethirtyeight	fivethirtyeight	460	false	2026-10-19	R package of data and code behind the stories and interactives at FiveThirtyEigh
+TheEconomist/covid-19-the-economist-global-excess-deaths-model	covid-19-the-economist-global-excess-deaths-model	458	false	2026-07-06	The Economist's model to estimate excess deaths to the covid-19 pandemic
+RinteRface/bs4Dash	bs4Dash	457	false	2025-08-25	Bootstrap 4 shinydashboard using AdminLTE3
+fbreitwieser/pavian	pavian	456	false	2025-09-17	🌈 Interactive analysis of metagenomics data
+easystats/correlation	correlation	455	false	2026-11-01	:link: Methods for Correlation Analysis
+LKremer/ggpointdensity	ggpointdensity	455	false	2025-12-28	:chart_with_upwards_trend: :bar_chart: Introduces geom_pointdensity(): A Cross B
+ewenme/ghibli	ghibli	453	false	2024-03-18	Studio Ghibli colour palettes
+r-lib/scales	scales	453	false	2026-10-06	Tools for ggplot2 scales
+therneau/survival	survival	452	false	2026-11-02	Survival package for R
+ThinkR-open/remedy	remedy	451	false	2026-05-15	RStudio Addins to Simplify Markdown Writing
+MarioniLab/miloR	miloR	450	false	2026-08-25	R package implementation of Milo for testing for differential abundance in KNN g
+nflverse/nflverse-data	nflverse-data	448	false	2026-11-01	Automated nflverse data repository
+SocialCatalystLab/ape-papers	ape-papers	446	false	2026-04-10	Can policy evaluation be automated? Or inevitably create hallucinated AI slop? W
+gadenbuie/xaringanthemer	xaringanthemer	445	false	2025-08-21	😎 Give your xaringan slides some style
+stan-dev/bayesplot	bayesplot	444	false	2026-11-18	bayesplot R package for plotting Bayesian models
+ropensci/stplanr	stplanr	443	false	2025-04-28	Sustainable transport planning with R
+easystats/insight	insight	443	false	2026-11-19	:crystal_ball: Easy access to model information for various model objects
+ryantimpe/brickr	brickr	443	false	2023-11-27	3D LEGO models and mosaics from images using R and #tidyverse
+JGCRI/gcam-core	gcam-core	439	false	2026-09-18	GCAM -- The Global Change Analysis Model
+trinker/sentimentr	sentimentr	439	false	2023-08-06	Dictionary based sentiment analysis that considers valence shifters
+PaulC91/shinyauthr	shinyauthr	439	false	2024-03-04	R package with shiny authentication modules
+wleepang/DesktopDeployR	DesktopDeployR	438	false	2022-05-29	A framework for deploying self-contained R-based applications to the desktop
+r-lib/here	here	437	false	2026-10-11	A simpler way to find your files
+welch-lab/liger	liger	436	false	2026-08-18	R package for integrating and analyzing multiple single-cell datasets
+rstats-wtf/what-they-forgot	what-they-forgot	435	false	2026-11-18	"What They Forgot to Teach You About R" website / eBook
+data-cleaning/validate	validate	435	false	2026-11-09	Professional data validation for the R environment
+rstudio/tufte	tufte	433	false	2026-07-07	Tufte Styles for R Markdown Documents
+stuart-lab/signac	signac	432	false	2026-11-13	R toolkit for the analysis of single-cell chromatin data
+BillPetti/baseballr	baseballr	432	false	2026-11-09	A package written for R focused on baseball analysis. Currently in development.
+bioFAM/MOFA2	MOFA2	431	false	2026-09-10	Multi-Omics Factor Analysis
+GuangchuangYu/nCov2019	nCov2019	430	false	2021-06-10	query stats of infected coronavirus cases
+rvlenth/emmeans	emmeans	430	false	2026-10-09	Estimated marginal means
+manlius/muxViz	muxViz	430	false	2023-10-07	Analysis and Visualization of Interconnected Multilayer Networks
+RamiKrispin/TSstudio	TSstudio	429	false	2024-01-22	Tools for time series analysis and forecasting
+grantmcdermott/tinyplot	tinyplot	429	false	2026-11-18	Lightweight extension of the base R graphics system
+bcallaway11/did	did	427	false	2026-10-30	Difference in Differences with Multiple Periods, website: https://bcallaway11.gi
+r-lib/R6	R6	427	false	2025-10-20	Encapsulated object-oriented programming for R
+jennybc/row-oriented-workflows	row-oriented-workflows	426	false	2018-12-29	Row-oriented workflows in R with the tidyverse
+softdorothy/GliderPRO	GliderPRO	426	false	2021-05-04	Sources for the Macintosh game, Glider PRO, written by John Calhoun and publishe
+moodymudskipper/flow	flow	425	false	2026-10-23	View and Browse Code Using Flow Diagrams
+wilkelab/ggridges	ggridges	425	false	2026-06-18	Ridgeline plots in ggplot2
+Derek-Jones/ESEUR-code-data	ESEUR-code-data	424	false	2026-06-17	Code and data used to create the examples in "Evidence-based Software Engineerin
+RinteRface/shinyMobile	shinyMobile	421	false	2026-06-13	shiny API for Framework7 (IOS/android)
+bstewart/stm	stm	420	false	2026-11-12	An R Package for the Structural Topic Model
+anthonynorth/rscodeio	rscodeio	420	false	2023-12-05	An RStudio theme inspired by Visual Studio Code.
+hadley/emo	emo	418	false	2019-12-13	Easily insert emoji into R and RMarkdown
+xia-lab/MetaboAnalystR	MetaboAnalystR	418	false	2026-11-16	R package for MetaboAnalyst
+jeffreybreen/twitter-sentiment-analysis-tutorial-201107	twitter-sentiment-analysis-tutorial-201107	417	false	2022-08-04	Code to reproduce the simple sentiment analysis from my presentation
+crsh/citr	citr	415	false	2023-11-20	RStudio Addin to Insert Markdown Citations from a BibTeX file or Zotero
+susanli2016/Data-Analysis-with-R	Data-Analysis-with-R	412	false	2018-09-06	Using gglot2, tidyr, dplyr, ggmap, choroplethr, shiny, logistic regression, clus
+talgalili/heatmaply	heatmaply	411	false	2025-11-29	Interactive Heat Maps for R Using plotly
+rstudio/packrat	packrat	409	false	2026-11-17	Packrat is a dependency management system for R
+jespermaag/gganatogram	gganatogram	408	false	2025-08-07	Create anatograms using ggplot2
+junjunlab/scRNAtoolVis	scRNAtoolVis	408	false	2026-04-18	Useful functions to make your scRNA-seq plot more cool!
+swsoyee/2019-ncov-japan	2019-ncov-japan	407	false	2022-12-17	🦠 Interactive dashboard for real-time recording of COVID-19 outbreak in Japan
+MattCowgill/ggannotate	ggannotate	406	false	2026-03-21	Interactively annotate ggplots
+Yunuuuu/ggalign	ggalign	406	false	2026-01-15	Integrative Composable Visualization Framework for ggplot2
+tidymodels/yardstick	yardstick	406	false	2026-11-18	Tidy methods for measuring model performance
+kabacoff/RiA2	RiA2	405	false	2017-05-05	Source code for R in Action, Second Edition
+riatelab/cartography	cartography	404	false	2025-07-23	Thematic Cartography for R
+stan-dev/rstanarm	rstanarm	403	false	2026-10-14	rstanarm R package for Bayesian applied regression modeling
+luukvdmeer/sfnetworks	sfnetworks	402	false	2026-05-14	Tidy Geospatial Networks in R
+const-ae/ggupset	ggupset	401	false	2026-01-23	Combination matrix axis for 'ggplot2' to create 'UpSet' plots
+tidyverse/duckplyr	duckplyr	400	false	2026-11-14	A drop-in replacement for dplyr, powered by DuckDB for speed.
+thomasp85/tweenr	tweenr	400	false	2024-02-28	Interpolate your data
+tidyverse/modelr	modelr	399	false	2023-10-31	Helper functions for modelling
+yusuzech/r-web-scraping-cheat-sheet	r-web-scraping-cheat-sheet	396	false	2022-12-20	Guide, reference and cheatsheet on web scraping using rvest, httr and Rselenium.
+trevorld/ggpattern	ggpattern	395	false	2026-11-16	ggplot geoms with pattern fills
+daattali/ggExtra	ggExtra	395	false	2025-09-18	📊 Add marginal histograms to ggplot2, and more ggplot2 enhancements
+giotto-suite/Giotto	Giotto	395	false	2026-11-18	Spatial omics analysis toolbox
+ricardo-bion/ggtech	ggtech	395	false	2019-08-07	ggplot2 tech themes, scales, and geoms
+kpatel427/YouTubeTutorials	YouTubeTutorials	394	false	2024-10-01	
+paleolimbot/ggspatial	ggspatial	394	false	2026-09-15	Enhancing spatial visualization in ggplot2
+glmmTMB/glmmTMB	glmmTMB	393	false	2026-11-16	glmmTMB
+krzjoa/awesome-r-dataviz	awesome-r-dataviz	393	false	2022-07-06	Curated resources about Data Visualization, Drawing & Publishing in R
+kassambara/factoextra	factoextra	392	false	2026-07-24	Extract and Visualize the Results of Multivariate Data Analyses
+junjunlab/ClusterGVis	ClusterGVis	392	false	2026-11-05	One-step to Cluster and Visualize Gene Expression Matrix
+mkearney/tweetbotornot	tweetbotornot	389	false	2021-10-20	🤖 R package for detecting Twitter bots via machine learning 
+DillonHammill/DataEditR	DataEditR	389	false	2026-11-16	An Interactive R Package for Viewing, Entering Filtering and Editing Data
+r-lib/fs	fs	385	false	2026-04-23	Provide cross platform file operations based on libuv.
+dgrtwo/data-screencasts	data-screencasts	385	false	2022-12-07	Code from live exploratory analyses of data in R
+ropensci/rix	rix	385	false	2026-11-16	Reproducible Data Science environments for R with Nix
+johnmyleswhite/MLNotes	MLNotes	384	false	2012-08-05	Very concise notes on machine learning and statistics.
+cloudyr/aws.s3	aws.s3	384	false	2025-08-18	Amazon Simple Storage Service (S3) API Client
+bkelly-lab/ReplicationCrisis	ReplicationCrisis	383	false	2026-05-29	Code for "Is There a Replication Crisis in Finance" by Jensen, Kelly and Pederse
+dupadhyaya/Ranalytics18	Ranalytics18	381	false	2019-09-04	My work on Analytics and Research in Data Science
+vincentarelbundock/countrycode	countrycode	381	false	2026-10-02	R package: Convert country names and country codes. Assigns region descriptors.
+sillyplots/spotifyr	spotifyr	381	false	2024-10-24	R wrapper for Spotify's Web API
+nflverse/nfldata	nfldata	381	false	2026-11-19	NFL Data (by Lee Sharpe)
+bernatgel/karyoploteR	karyoploteR	381	false	2026-07-06	karyoploteR - An R/Bioconductor package to plot arbitrary data along the genome
+BorchLab/scRepertoire	scRepertoire	379	false	2026-11-16	A toolkit for single-cell immune profiling
+kevinblighe/PCAtools	PCAtools	379	false	2026-09-02	PCAtools: everything Principal Components Analysis
+SurajGupta/r-source	r-source	379	false	2020-11-10	R Source Code
+tidyverse/googlesheets4	googlesheets4	379	false	2026-11-18	Google Spreadsheets R API
+eddelbuettel/r2u	r2u	378	false	2026-11-01	CRAN as Ubuntu Binaries
+JoaquinAmatRodrigo/Estadistica-con-R	Estadistica-con-R	375	false	2020-11-30	Apuntes personales sobre estadística, machine learning y lenguaje de programació
+PMassicotte/gtrendsR	gtrendsR	373	false	2026-08-11	R functions to perform and display Google Trends queries
+satijalab/seurat-wrappers	seurat-wrappers	373	false	2026-10-08	Community-provided extensions to Seurat
+davidgohel/officedown	officedown	372	false	2026-10-26	
+jlmelville/uwot	uwot	371	false	2026-10-30	An R package implementing the UMAP dimensionality reduction method.
+openair-project/openair	openair	370	false	2026-11-18	🧭 Open source tools for air quality data analysis
+cols4all/cols4all-R	cols4all-R	370	false	2026-09-02	Colors for all (R package)
+max-alletsee/rstudio-themes	rstudio-themes	369	false	2024-07-04	A collection of themes for RStudio
+Azure/Microsoft365R	Microsoft365R	368	false	2026-10-19	R SDK for interacting with Microsoft 365 APIs
+r-hub/rhub	rhub	368	false	2025-03-07	R-hub API client
+bcaffo/Caffo-Coursera	Caffo-Coursera	367	false	2015-04-29	A repository of my Coursera latex code and notes
+walkerke/tigris	tigris	367	false	2026-10-16	Download and use Census TIGER/Line shapefiles in R
+awalker89/openxlsx	openxlsx	367	false	2020-10-22	R package for .xlsx file reading and writing.
+stemangiola/tidyHeatmap	tidyHeatmap	364	false	2026-10-28	Draw heatmap simply using a tidy data frame
+salimk/Rcrawler	Rcrawler	364	false	2022-03-27	An R web crawler and scraper
+tashapiro/tanya-data-viz	tanya-data-viz	363	false	2024-02-03	Personal data visualization side projects.
+primaryobjects/voice-gender	voice-gender	362	false	2023-01-16	Gender recognition by voice and speech analysis
+mages/googleVis	googleVis	362	false	2025-10-08	Interface between R and the Google Chart Tools
+nflverse/nflverse-pbp	nflverse-pbp	359	false	2026-09-11	builds play by play and player stats for nflverse/nflverse-data
+BioinformaticsFMRP/TCGAbiolinks	TCGAbiolinks	357	false	2025-10-07	TCGAbiolinks
+r-lib/remotes	remotes	357	false	2026-09-24	Install R packages from GitHub, GitLab, Bitbucket, git, svn repositories, URLs
+jtlandis/ggside	ggside	356	false	2026-05-13	ggplot2 extension allowing for plotting various geometries as side panels using 
+ricardo-bion/ggradar	ggradar	356	false	2024-02-23	radar charts with ggplot2
+nathaneastwood/poorman	poorman	354	false	2026-10-29	A poor man's dependency free grammar of data manipulation
+hafen/geofacet	geofacet	354	false	2026-01-14	R package for geographical faceting with ggplot2
+easystats/effectsize	effectsize	353	false	2026-11-09	:dragon: Compute and work with indices of effect size and standardized parameter
+TullyMonster/MendelRookie	MendelRookie	352	false	2024-04-26	新手友好的孟德尔随机化项目
+joshuaulrich/TTR	TTR	351	false	2026-02-28	Technical analysis and other functions to construct technical trading rules with
+h2oai/db-benchmark	db-benchmark	351	false	2023-06-29	reproducible benchmark of database-like ops
+pablobarbera/Rfacebook	Rfacebook	351	false	2020-05-22	Dev version of Rfacebook package: Access to Facebook API via R
+ropensci/RSelenium	RSelenium	351	false	2026-02-21	An R client for Selenium Remote WebDriver
+jhelvy/splitKbCompare	splitKbCompare	350	false	2026-02-28	An interactive tool for comparing layouts of different split mechanical keyboard
+r-lib/covr	covr	349	false	2026-11-17	Test coverage reports for R
+kstreet13/slingshot	slingshot	349	false	2024-04-23	Functions for identifying and characterizing continuous developmental trajectori
+tidyverse/googledrive	googledrive	348	false	2026-11-18	Google Drive R API
+EasyD/IntroToDataScience	IntroToDataScience	348	false	2017-11-11	GitHub Repository to accompany my YouTube series of videos on Introductory Data 
+r-lib/mirai	mirai	348	false	2026-11-06	Minimalist Async Evaluation Framework for R
+constantAmateur/SoupX	SoupX	348	false	2022-11-01	R package to quantify and remove cell free mRNAs from droplet based scRNA-seq da
+fastverse/fastverse	fastverse	347	false	2026-10-19	An Extensible Suite of High-Performance and Low-Dependency Packages for Statisti
+ropensci/software-review	software-review	347	false	2026-11-17	rOpenSci Software Peer Review. 
+vincentarelbundock/tinytable	tinytable	347	false	2026-11-16	Simple and Customizable Tables in `R`
+taiyun/corrplot	corrplot	347	false	2024-10-14	A visual exploratory tool on correlation matrix
+jumpingrivers/datasauRus	datasauRus	347	false	2026-10-14	R Package 📦 Containing the Datasaurus Dozen datasets :bar_chart:
+broadinstitute/ssGSEA2.0	ssGSEA2.0	346	false	2026-11-04	Single sample Gene Set Enrichment analysis (ssGSEA) and PTM Enrichment Analysis 
+markvanderloo/stringdist	stringdist	346	false	2026-01-16	String distance functions for R
+paws-r/paws	paws	346	false	2026-11-05	Paws, a package for Amazon Web Services in R
+swarm-lab/editR	editR	346	false	2016-10-27	A Rmarkdown editor with instant preview
+r-dbi/RPostgres	RPostgres	345	false	2026-10-11	A DBI-compliant interface to PostgreSQL
+ropensci/osmdata	osmdata	344	false	2026-11-10	R package for downloading OpenStreetMap data
+tidymodels/tune	tune	344	false	2026-10-30	Tools for tidy parameter tuning
+bnosac/taskscheduleR	taskscheduleR	344	false	2024-03-17	Schedule R scripts/processes with the Windows task scheduler.
+scRNA-tools/scRNA-tools	scRNA-tools	344	false	2026-11-18	Table of software for the analysis of single-cell RNA-seq data.
+benmarwick/wordcountaddin	wordcountaddin	344	false	2026-04-09	Word counts and readability statistics in R markdown documents
+tidymodels/rsample	rsample	343	false	2026-09-17	Classes and functions to create and summarize resampling objects
+JoGall/soccermatics	soccermatics	342	false	2021-08-09	Tools for visualisation and analysis of soccer tracking and event data
+xiaolei-lab/rMVP	rMVP	342	false	2026-05-27	:postbox: A Memory-efficient, Visualization-enhanced, and Parallel-accelerated T
+immunomind/immunarch	immunarch	342	false	2026-11-13	🧬 immunarch [R package] – Multi-Modal Immune Repertoire Analytics for Immunother
+richfitz/remake	remake	342	false	2018-06-07	Make-like declarative workflows in R
+Jfortin1/ComBatHarmonization	ComBatHarmonization	342	false	2023-07-07	Harmonization of multi-site imaging data with ComBat
+ropensci/rnoaa	rnoaa	342	false	2025-02-04	R interface to many NOAA data APIs
+r-dbi/RSQLite	RSQLite	341	false	2026-11-17	R interface for SQLite
+EmilHvitfeldt/ggpage	ggpage	340	false	2019-06-13	Creates Page Layout Visualizations in R 📄📄📄
+datacarpentry/R-ecology-lesson	R-ecology-lesson	340	false	2026-11-17	Data Analysis and Visualization in R for Ecologists
+davidsjoberg/ggsankey	ggsankey	339	false	2024-04-04	Make sankey, alluvial and sankey bump plots in ggplot
+clauswilke/colorblindr	colorblindr	338	false	2023-07-17	An R package to simulate colorblindness on R figures.
+business-science/anomalize	anomalize	337	false	2023-12-28	Tidy anomaly detection
+rstudio/pins-r	pins-r	337	false	2026-11-18	Pin, discover, and share resources
+DOI-USGS/dataRetrieval	dataRetrieval	337	false	2026-11-04	This R package is designed to obtain USGS or EPA water quality sample data, stre
+abresler/nbastatR	nbastatR	337	false	2026-10-10	NBA Stats API Wrapper and more for R
+eddelbuettel/littler	littler	336	false	2026-11-17	A scripting and command-line front-end for GNU R
+dmi3kno/polite	polite	335	false	2026-09-09	Be nice on the web
+r-lib/rex	rex	335	false	2024-03-12	Friendly regular expressions for R.
+microsoft/TagAnomaly	TagAnomaly	335	true	2024-02-08	Anomaly detection analysis and labeling tool, specifically for multiple time ser
+rfsaldanha/microdatasus	microdatasus	334	false	2026-10-20	Download de dados do DataSUS e pré-processamento no R. 
+gadenbuie/ggpomological	ggpomological	334	false	2022-02-16	🍑 Pomological plot theme for ggplot2
+georgevbsantiago/qsacnpj	qsacnpj	333	false	2021-09-18	Pacote que trata e organiza os dados do Cadastro Nacional da Pessoa Jurídica (CN
+ModelOriented/modelStudio	modelStudio	333	false	2023-08-31	📍 Interactive Studio for Explanatory Model Analysis
+juliasilge/widyr	widyr	333	false	2026-03-09	Widen, process, and re-tidy a dataset
+jrnold/r4ds-exercise-solutions	r4ds-exercise-solutions	333	true	2026-08-29	Exercise solutions to "R for Data Science"
+hughjonesd/huxtable	huxtable	333	false	2026-09-21	An R package to create styled tables in multiple output formats, with a friendly
+wch/extrafont	extrafont	332	false	2025-09-23	Tools for using fonts in R graphics
+carmonalab/ProjecTILs	ProjecTILs	331	false	2025-12-19	Interpretation of cell states using reference single-cell maps
+jkeirstead/scholar	scholar	330	false	2025-06-21	Analyse citation data from Google Scholar
+Appsilon/rhino	rhino	330	false	2026-06-10	Build high quality, enterprise-grade Shiny apps at speed
+pharmaverse/admiral	admiral	329	false	2026-11-18	ADaM in R Asset Library
+rasmusab/bayesian_first_aid	bayesian_first_aid	329	false	2016-08-03	Inside every classical test there is a Bayesian model trying to get out.
+r-lib/crayon	crayon	324	false	2025-10-21	🖍️ R package for colored terminal output — now superseded by cli
+wch/rgcookbook	rgcookbook	324	false	2025-03-04	R Graphics Cookbook 
+r-dbi/DBI	DBI	323	false	2026-10-24	A database interface (DBI) definition for communication between R and RDBMSs
+r3fang/SnapATAC	SnapATAC	323	false	2023-04-27	Analysis Pipeline for Single Cell ATAC-seq
+microbiome/microbiome	microbiome	322	false	2026-11-15	microbiome R package
+r-lib/memoise	memoise	322	false	2023-12-05	Easy memoisation for R
+jcrodriguez1989/chatgpt	chatgpt	322	false	2025-01-31	Interface to ChatGPT from R
+wviechtb/metafor	metafor	320	false	2026-11-09	A meta-analysis package for R
+mengxu98/scop	scop	320	false	2026-11-18	An R package for single-cell and spatial omics analysis, integration, interpreta
+ccodwg/Covid19Canada	Covid19Canada	319	true	2022-05-20	Epidemiological Data from the COVID-19 Epidemic in Canada
+neuhausi/canvasXpress	canvasXpress	319	false	2026-11-18	CanvasXpress: A JavaScript Library for Data Analytics with Full Audit Trail Capa
+xuranw/MuSiC	MuSiC	319	false	2024-03-04	Multi-subject Single Cell Deconvolution
+navinlabcode/copykat	copykat	318	false	2026-06-16	
+ropensci-archive/rplos	rplos	318	true	2022-09-09	:warning: ARCHIVED :warning: R client for the PLoS Journals API
+pachterlab/sleuth	sleuth	318	false	2025-05-28	Differential analysis of RNA-Seq
+synth-inference/synthdid	synthdid	317	false	2024-01-15	Synthetic difference in differences
+r-lib/slider	slider	317	false	2025-11-14	Sliding Window Functions
+hplgit/doconce	doconce	317	false	2020-08-27	Lightweight markup language - document once, include anywhere
+JohnCoene/coronavirus	coronavirus	317	true	2020-07-13	🦠 Novel Coronavirus (COVID-19) Tracker
+samuel-marsh/scCustomize	scCustomize	317	false	2026-06-30	R package with collection of functions created and/or curated to aid in the visu
+mitchelloharawild/icons	icons	316	false	2026-09-03	R package to easily insert web icons to RMarkdown
+hudl/StatsBombR	StatsBombR	315	false	2026-09-07	This repository is an R package to easily stream StatsBomb data from the API usi
+IndrajeetPatil/statsExpressions	statsExpressions	315	false	2026-11-17	Tidy data frames and expressions with statistical summaries 📜
+hughjonesd/ggmagnify	ggmagnify	315	false	2026-05-07	Create a magnified inset of part of a ggplot object
+saezlab/decoupleR	decoupleR	314	false	2026-11-17	R package to infer biological activities from omics data using a collection of m
+16EAGLE/getSpatialData	getSpatialData	314	false	2023-07-10	An R package 📦 making it easy to query, preview, download and preprocess multipl
+nik01010/dashboardthemes	dashboardthemes	314	true	2022-07-13	No Longer Supported
+gaospecial/ggVennDiagram	ggVennDiagram	313	false	2026-01-11	A 'ggplot2' implement of Venn Diagram.
+sjmgarnier/viridis	viridis	313	false	2024-01-28	Colorblind-Friendly Color Maps for R
+FrankPortman/bayesAB	bayesAB	312	false	2021-06-25	🐢 bayesAB: Fast Bayesian Methods for A/B Testing
+NickCH-K/causalgraphs	causalgraphs	311	false	2024-01-24	R code for causal graph animations
+HaobinZhou/Get_MR	Get_MR	311	false	2025-07-25	A package for running MR In batches and in parallel quickly
+bokeh/rbokeh	rbokeh	311	true	2023-11-01	R interface to Bokeh http://hafen.github.io/rbokeh/
+tidyverts/feasts	feasts	310	false	2026-11-18	Feature Extraction And Statistics for Time Series
+cailab-tamu/scTenifoldKnk	scTenifoldKnk	310	false	2026-10-08	 R/MATLAB package to perform virtual knockout experiments on single-cell gene re
+braverock/quantstrat	quantstrat	310	false	2023-09-14	
+fivethirtyeight/guns-data	guns-data	309	false	2020-01-21	
+wilkox/ggfittext	ggfittext	309	false	2026-07-05	🔠 ggplot2 geoms to fit text into boxes
+mrkaye97/slackr	slackr	309	false	2024-10-16	An R package for sending messages from R to Slack
+loukesio/ltc-color-palettes	ltc-color-palettes	308	false	2026-08-30	Artistic and nature-inspired colour palettes for R, on CRAN as 'ltc'. Curated fo
+ropensci/charlatan	charlatan	308	false	2026-10-19	Create fake data in R
+GenomicSEM/GenomicSEM	GenomicSEM	307	false	2026-09-28	R-package for structural equation modeling based on GWAS summary data
+mllg/checkmate	checkmate	307	false	2026-02-04	Fast and versatile argument checks
+jmzeng1314/my_WGCNA	my_WGCNA	307	false	2019-09-28	
+prisma-flowdiagram/PRISMA2020	PRISMA2020	307	false	2026-09-05	Produce PRISMA-2020 compliant flow diagrams
+echen/dirichlet-process	dirichlet-process	306	false	2015-04-15	Introduction to Nonparametric Bayes, Infinite Mixture Models, and the Dirichlet 
+virtualstaticvoid/heroku-buildpack-r	heroku-buildpack-r	305	false	2025-05-08	Heroku buildpack for R - Makes deploying R on Heroku easy
+rstudio-education/shiny.rstudio.com-tutorial	shiny.rstudio.com-tutorial	304	false	2019-10-25	Slides and exercises for the video tutorial at https://shiny.rstudio.com/tutoria
+r-lib/callr	callr	304	false	2026-06-08	Call R from R
+ropensci/taxize	taxize	304	false	2026-05-12	A taxonomic toolbelt for R
+jennybc/gapminder	gapminder	304	false	2025-06-12	Excerpt from the Gapminder data, as an R data package and in plain text delimite
+tidymodels/stacks	stacks	303	false	2025-10-22	An R package for tidy stacked ensemble modeling
+moldach/vapoRwave	vapoRwave	303	false	2026-11-17	📼👾🕹Vaporwave themes and color palettes for ggplot2💾👨‍🎤📺
+rstudio/fontawesome	fontawesome	302	false	2025-10-05	Easily insert FontAwesome icons into R Markdown docs and Shiny apps
+mkearney/rstudiothemes	rstudiothemes	302	false	2019-09-10	A curated list of RStudio themes found on Github
+jessecambon/tidygeocoder	tidygeocoder	302	false	2026-02-18	Geocoding Made Easy
+Rapporter/pander	pander	301	false	2026-07-16	An R Pandoc Writer: Convert arbitrary R objects into markdown
+r-lib/waldo	waldo	301	false	2025-07-11	Find differences between R objects
+kolaczyk/sand	sand	301	false	2020-07-02	Statistical Analysis of Network Data with R, 2nd Edition
+bleutner/RStoolbox	RStoolbox	301	false	2026-07-22	Remote Sensing Data Analysis in R 🛰
+sdparekh/zUMIs	zUMIs	300	false	2024-07-12	zUMIs: A fast and flexible pipeline to process RNA sequencing data with UMIs
+futureverse/progressr	progressr	299	false	2026-11-16	三 R package: An Inclusive, Unifying API for Progress Updates
+vqv/ggbiplot	ggbiplot	298	false	2024-04-24	A biplot based on ggplot2
+JamesHWade/gpttools	gpttools	298	false	2026-11-02	gpttools extends gptstudio for package development to help you document code, wr
+ChiLiubio/microeco	microeco	297	false	2026-11-15	An R package for downstream data analysis of microbiome omics data
+IOBR/IOBR	IOBR	296	false	2026-10-29	IOBR is an R package to perform comprehensive analysis of tumor microenvironment
+kosukeimai/fastLink	fastLink	295	false	2026-02-28	R package fastLink: Fast Probabilistic Record Linkage
+jakelawlor/PNWColors	PNWColors	295	false	2022-09-02	A Pacific Northwest inspired R color palette package
+o2r-project/containerit	containerit	295	false	2022-02-17	Package an R workspace and all dependencies as a Docker container
+rexyai/RestRserve	RestRserve	295	false	2025-03-21	R web API framework for building high-performance microservices and app backends
+thomas-neitmann/ggcharts	ggcharts	294	false	2021-11-16	Get You to Your Desired Plot Faster
+ecpolley/SuperLearner	SuperLearner	294	false	2026-08-16	Current version of the SuperLearner R package
+prouast/cryptocurrency-analysis	cryptocurrency-analysis	294	false	2020-02-23	Analysis and visualisation of the cryptocurrency market
+cole-trapnell-lab/monocle-release	monocle-release	294	false	2022-07-15	
+clauswilke/ggjoy	ggjoy	293	false	2018-05-18	Deprecated. Please use ggridges.
+Tazinho/Advanced-R-Solutions	Advanced-R-Solutions	292	false	2024-03-06	Set of solutions for the Advanced R programming book
+bergant/datamodelr	datamodelr	292	false	2021-03-02	Data model diagrams in R
+teunbrand/legendry	legendry	292	false	2026-05-13	A 'ggplot2' extension that focusses on expanding the plotter's arsenal of guides
+yihui/servr	servr	290	false	2026-11-01	A simple HTTP server in R
+Appsilon/shiny.fluent	shiny.fluent	290	false	2026-08-11	Microsoft's Fluent UI for Shiny apps
+r-rust/hellorust	hellorust	290	false	2026-10-12	Template R package with rust bindings
+ajtulloch/Elements-of-Statistical-Learning	Elements-of-Statistical-Learning	289	false	2013-11-10	Contains LaTeX, SciPy and R code providing solutions to exercises in Elements of
+r-spatial/leafgl	leafgl	288	false	2026-11-17	R package for fast web gl rendering for leaflet
+smartinsightsfromdata/rpivotTable	rpivotTable	288	false	2023-11-03	A R wrapper for the great library pivottable
+datalorax/slidex	slidex	288	false	2020-10-30	Convert PowerPoint Slides to xaringan (remark.js) Slides
+nrennie/tidytuesday	tidytuesday	287	false	2026-11-16	This repository contains the R, Python, D3, and Svelte code used to produce my v
+martyput/MDP_book	MDP_book	287	false	2026-02-24	
+raivokolde/pheatmap	pheatmap	285	false	2025-06-05	Pretty heatmaps
+schochastics/graphlayouts	graphlayouts	285	false	2026-07-22	new layout algorithms for network visualizations in R
+kosukeimai/qss	qss	285	false	2025-08-13	Supplementary Materials for ``Quantitative Social Science: An Introduction''
+sigven/pcgr	pcgr	284	false	2026-11-10	Personal Cancer Genome Reporter (PCGR)
+EpiModel/EpiModel	EpiModel	284	false	2026-11-18	Mathematical Modeling of Infectious Disease Dynamics
+TheEconomist/the-economist-war-fire-model	the-economist-war-fire-model	284	false	2026-11-19	Source code and data for The Economist's Ukraine war-fire model
+romantseg/rbooks	rbooks	284	false	2017-11-02	A curated list of #rstats books
+bmschmidt/wordVectors	wordVectors	283	false	2022-05-20	An R package for creating and exploring word2vec and other word embedding models
+dirkschumacher/ompr	ompr	283	false	2023-09-09	R package to model Mixed Integer Linear Programs
+microsoft/finnts	finnts	283	false	2026-11-18	Microsoft Finance Time Series Forecasting Framework (FinnTS) is a forecasting pa
+eddelbuettel/tint	tint	280	false	2026-02-12	Tint is not Tufte
+talgalili/installr	installr	280	false	2025-11-29	Functions for installing softwares from within R
+coolbutuseless/dplyr-cli	dplyr-cli	279	false	2022-02-09	Manipulate CSV files on the command line using dplyr
+R-CoderDotCom/calendR	calendR	279	false	2025-09-05	Ready to print calendars with ggplot2
+Yang-Tang/shinyjqui	shinyjqui	279	false	2023-12-30	jQuery UI Interactions and Effects for Shiny
+plger/scDblFinder	scDblFinder	278	false	2026-11-12	Methods for detecting doublets in single-cell sequencing data
+ggsegverse/ggseg	ggseg	277	false	2026-11-15	Plotting tool for brain atlases, in ggplot
+mixOmics-org/mixOmics	mixOmics	277	false	2026-11-18	Development repository for the Bioconductor package 'mixOmics '
+VerbalExpressions/RVerbalExpressions	RVerbalExpressions	277	false	2024-03-20	:speech_balloon: Create regular expressions easily
+genomicsclass/dagdata	dagdata	276	false	2015-08-26	Data for the HarvardX courses: PH525x
+OpenDroneMap/FIELDimageR	FIELDimageR	276	false	2024-05-24	FIELDimageR: A R package to analyze orthomosaic images from agricultural field t
+XSaintX/book-R-DataAnalysis	book-R-DataAnalysis	275	false	2022-08-11	This repository contains R code about analysing data from the book Analisis de d
+yufree/sciguide	sciguide	275	false	2023-08-24	现代科研指北
+lorenzwalthert/precommit	precommit	275	false	2026-11-15	pre-commit hooks for R projects
+stephenslab/susieR	susieR	275	false	2026-11-16	R package for "sum of single effects" regression.
+cjbarrie/academictwitteR	academictwitteR	274	true	2023-06-30	Repo for academictwitteR package to query the Twitter Academic Research Product 
+r-lib/httr2	httr2	274	false	2026-11-18	Make HTTP requests and process their responses. A modern reimagining of httr.
+showteeth/ggcoverage	ggcoverage	274	false	2025-01-24	Visualize and annotate genomic coverage with ggplot2
+r-lib/zeallot	zeallot	273	false	2026-10-01	Variable assignment with zeal! (or multiple, unpacking, and destructuring assign
+satijalab/sctransform	sctransform	273	false	2026-01-10	R package for modeling single cell UMI expression data using regularized negativ
+jtlovell/GENESPACE	GENESPACE	273	false	2025-01-24	
+ropensci-archive/fulltext	fulltext	271	true	2022-09-09	:warning: ARCHIVED :warning: Search across and get full text for OA & closed jou
+kevinsblake/NatParksPalettes	NatParksPalettes	271	false	2025-01-07	Color palette package inspired by National Parks
+RamiKrispin/vscode-r	vscode-r	271	false	2024-07-28	A Tutorial for Setting R Development Environment with VScode, Dev Containers, an
+bioFAM/MOFA	MOFA	271	false	2020-09-30	Multi-Omics Factor Analysis
+digitalcytometry/cytotrace2	cytotrace2	271	false	2026-07-08	CytoTRACE 2 is an interpretable AI method for predicting cellular potency and ab
+exaexa/scattermore	scattermore	271	false	2025-05-04	very fast scatterplots for R
+florianhartig/DHARMa	DHARMa	271	false	2026-11-18	Diagnostics for HierArchical Regression Models
+shenlab-sinai/ngsplot	ngsplot	270	false	2023-05-05	Quick mining and visualization of NGS data by integrating genomic databases
+facebookincubator/GeoLift	GeoLift	270	false	2026-06-30	GeoLift is an end-to-end geo-experimental methodology based on Synthetic Control
+khanhnamle1994/statistical-learning	statistical-learning	270	false	2018-01-02	Lecture Slides and R Sessions for Trevor Hastie and Rob Tibshinari's "Statistica
+ropensci/iheatmapr	iheatmapr	270	false	2026-04-29	Complex, interactive heatmaps in R
+knausb/vcfR	vcfR	270	false	2026-06-08	Tools to work with variant call format files
+R-CoderDotCom/econocharts	econocharts	270	false	2021-10-11	Microeconomics/macroeconomics charts in ggplot2
+chasemc/electricShine	electricShine	269	true	2025-08-28	Create Standalone Installable Shiny Apps 
+al2na/methylKit	methylKit	269	false	2026-07-15	R package for DNA methylation analysis
+pharmaverse/teal	teal	268	false	2026-11-18	Exploratory Web Apps for Analyzing Clinical Trial Data
+ropensci/rnaturalearth	rnaturalearth	267	false	2026-07-09	An R package to hold and facilitate interaction with natural earth map data :ear
+AtherEnergy/ggTimeSeries	ggTimeSeries	267	false	2022-02-11	Time series visualisation
+RGLab/MAST	MAST	267	false	2025-10-17	Tools and methods for analysis of single cell assay data in R
+Appsilon/shiny.router	shiny.router	266	false	2025-04-18	A minimalistic router for your Shiny apps.
+Raymo111/Raymo111	Raymo111	266	false	2026-11-12	My awesome profile README
+asardaes/dtwclust	dtwclust	265	false	2026-02-01	R Package for Time Series Clustering Along with Optimizations for DTW
+adw96/biostat561	biostat561	265	false	2019-06-05	Course materials for BIOST561
+jldbc/coffee-quality-database	coffee-quality-database	265	false	2018-06-16	Building the Coffee Quality Institute Database
+tidymodels/tidypredict	tidypredict	265	false	2026-10-18	Run predictions inside the database
+rstudio/config	config	265	false	2025-04-01	config package for R
+extendr/rextendr	rextendr	265	false	2026-11-17	An R package that helps scaffolding extendr-enabled packages or compiling Rust c
+robjhyndman/tsfeatures	tsfeatures	264	false	2026-11-01	Time series features
+hafen/trelliscopejs	trelliscopejs	264	false	2026-01-14	TrelliscopeJS R Package
+r-spatialecology/landscapemetrics	landscapemetrics	264	false	2026-10-18	Landscape Metrics for Categorical Map Patterns 🗺️ in R
+easystats/modelbased	modelbased	263	false	2026-11-19	:chart_with_upwards_trend: Estimate effects, contrasts and means based on statis
+leeper/margins	margins	263	false	2024-07-31	An R Port of Stata's 'margins' Command
+dokato/todor	todor	262	false	2026-10-31	TODOr - RStudio add-in for finding TODO, FIXME, CHANGED etc. comments in your co
+GoekeLab/bambu	bambu	262	false	2026-10-02	Reference-guided transcript discovery and quantification for long read RNA-Seq d
+pharmaverse/rtables	rtables	262	false	2026-10-01	Reporting tables with R
+erocoar/gghalves	gghalves	261	false	2022-11-20	✂️ Easy half-half geoms in ggplot2
+dariyasydykova/open_projects	open_projects	261	false	2023-11-14	This repository contains ROC and precision-recall curve animations
+jackwasey/icd	icd	261	false	2026-09-14	*New maintainer/owner needed* Fast ICD-10 and ICD-9 comorbidities, decoding and 
+yihui/formatR	formatR	261	false	2026-10-19	Format R Code Automatically
+qrmtutorial/qrm	qrm	261	false	2023-08-08	qrm
+AppliedDataSciencePartners/xgboostExplainer	xgboostExplainer	260	false	2018-06-18	An R package that makes xgboost models fully interpretable
+asheshrambachan/HonestDiD	HonestDiD	260	false	2026-04-12	Robust inference in difference-in-differences and event study designs
+lazappi/clustree	clustree	260	false	2025-06-21	Visualise Clusterings at Different Resolutions
+tmobile/r-tensorflow-api	r-tensorflow-api	259	false	2022-10-08	A small Docker container for using R and TensorFlow as an enterprise API
+trinker/textclean	textclean	259	false	2026-03-05	Tools for cleaning and normalizing text data
+vnijs/radiant	radiant	259	false	2016-08-18	Business analytics using R and Shiny
+YuLab-SMU/ChIPseeker	ChIPseeker	259	false	2026-11-12	:dart: ChIP peak Annotation, Comparison and Visualization
+YuLab-SMU/enrichplot	enrichplot	258	false	2026-11-08	Visualization of Functional Enrichment Result
+eddelbuettel/gsir-te	gsir-te	257	false	2026-02-24	Getting Started in R -- Tinyverse Edition
+r-lib/bench	bench	257	false	2025-10-23	High Precision Timing of R Expressions
+karthik/holepunch	holepunch	257	false	2023-02-10	Make your R project Binder ready
+rOpenGov/eurostat	eurostat	257	false	2026-09-24	R tools for Eurostat data
+sdmTMB/sdmTMB	sdmTMB	257	false	2026-11-17	An R package for spatial and spatiotemporal GLMMs with TMB
+thomasp85/fiery	fiery	257	false	2026-01-12	A flexible and lightweight web server
+saezlab/liana	liana	256	false	2024-08-07	LIANA: a LIgand-receptor ANalysis frAmework
+Appsilon/semantic.dashboard	semantic.dashboard	256	false	2024-04-18	Quick, beautiful and customizable dashboard template for Shiny based on shiny.se
+rstudio/pool	pool	256	false	2026-09-16	Object Pooling in R
+OpenIntroStat/openintro	openintro	256	false	2026-08-19	📦 R package for data and supplemental functions for OpenIntro resources
+trinker/wakefield	wakefield	256	false	2026-03-05	Generate random data sets
+geoffjentry/twitteR	twitteR	256	true	2018-06-07	R based twitter client
+pzhaonet/bookdownplus	bookdownplus	256	false	2021-12-31	The easiest way to use R package bookdown for  writing varied types of books and
+alastairrushworth/inspectdf	inspectdf	256	false	2026-11-08	🛠️ 📊 Tools for Exploring and Comparing Data Frames
+DuoWaMisi/ebot	ebot	256	false	2026-07-13	
+toddwschneider/nyc-citibike-data	nyc-citibike-data	256	false	2024-04-28	NYC Citi Bike system data and analysis
+rstudio/thematic	thematic	255	false	2025-09-29	Theme ggplot2, lattice, and base graphics based on a few simple settings.
+quanteda/spacyr	spacyr	255	false	2026-11-16	R wrapper to spaCy NLP
+PecanProject/pecan	pecan	254	false	2026-11-19	The Predictive Ecosystem Analyzer (PEcAn) is an integrated ecological bioinforma
+r-lib/conflicted	conflicted	254	false	2024-02-22	An alternative conflict resolution strategy for R
+jennybc/ggplot2-tutorial	ggplot2-tutorial	254	false	2017-10-20	Teaching materials for the R package ggplot2
+vincentarelbundock/WDI	WDI	253	false	2026-08-19	R package to download World Bank data
+karthik/rdrop2	rdrop2	253	false	2024-03-25	Dropbox Interface from R
+sowla/useR2019-materials	useR2019-materials	253	false	2019-10-18	Links to materials from tutorials and talks from useR 2019
+riatelab/osrm	osrm	253	true	2026-09-28	Interface between R and the OpenStreetMap-based routing service OSRM
+digitalcytometry/ecotyper	ecotyper	253	false	2026-05-11	EcoTyper is a machine learning framework for large-scale identification of cell 
+cwickham/purrr-tutorial	purrr-tutorial	253	false	2017-06-26	A introduction to purrr
+ryantibs/conformal	conformal	253	false	2024-08-21	Tools for conformal inference in regression
+ropensci/tesseract	tesseract	253	false	2026-09-06	Bindings to Tesseract OCR engine for R
+rmcelreath/causal_salad_2021	causal_salad_2021	253	false	2022-01-27	One day course on causal inference, MPI-EVA 9 September 2021
+covid19datahub/COVID19	COVID19	252	false	2026-11-19	A worldwide epidemiological database for COVID-19 at fine-grained spatial resolu
+lindeloev/job	job	252	false	2024-09-30	job: free Your RStudio Console
+AdrianAntico/AutoQuant	AutoQuant	252	false	2026-11-10	Automation framework for machine learning, forecasting, model evaluation, and in
+daattali/shiny-server	shiny-server	252	false	2025-03-28	My personal Shiny server
+bergant/finstr	finstr	252	false	2017-02-25	:chart_with_upwards_trend: Financial statements in R
+ggrothendieck/sqldf	sqldf	252	false	2026-09-12	Perform SQL Selects on R Data Frames
+cdeterman/gpuR	gpuR	251	false	2020-06-15	R interface to use GPU's
+rich-iannone/stationaRy	stationaRy	251	false	2021-07-07	Get hourly meteorological data from one of thousands of global stations
+jsta/r-docker-tutorial	r-docker-tutorial	251	false	2022-02-02	A docker tutorial for reproducible research
+jiabowang/GAPIT	GAPIT	251	false	2026-10-29	Genome Association Predict Integrate Tools
+shufinskiy/nba_data	nba_data	250	false	2026-11-06	NBA play-by-play data from stats.nba.com, data.nba.com, pbpstats.com, and also s
+jonocarroll/mathpix	mathpix	250	false	2024-04-26	Query the mathpix API to convert math images to LaTeX
+Gibbsdavidl/CatterPlots	CatterPlots	249	false	2018-03-18	Did you ever wish you could make scatter plots with cat shaped points?  Now you 
+HelenaLC/muscat	muscat	249	false	2026-07-06	Multi-sample multi-group scRNA-seq analysis tools
+mlverse/chattr	chattr	249	false	2025-11-11	
+rcastelo/GSVA	GSVA	249	false	2026-11-18	Gene set variation analysis
+riatelab/mapsf	mapsf	249	false	2026-11-09	Thematic cartography with R
+noriakis/ggkegg	ggkegg	248	false	2025-10-14	Analyzing and visualizing KEGG information using the grammar of graphics
+r-lib/processx	processx	247	false	2026-11-18	Execute and Control Subprocesses from R
+ipea/r5r	r5r	247	false	2026-11-09	
+IrinaStatsLab/Awesome-CGM	Awesome-CGM	247	false	2024-12-21	List of CGM datasets
+ZJUFanLab/scCATCH	scCATCH	247	false	2023-05-08	Automatic Annotation on Cell Types of Clusters from Single-Cell RNA Sequencing D
+daattali/shinyalert	shinyalert	246	false	2024-06-02	🗯️ Easily create pretty popup messages (modals) in Shiny
+johnmyleswhite/SimpleAintEasy	SimpleAintEasy	246	false	2014-03-06	A compendium of the pitfalls and problems that arise when using standard statist
+toddwschneider/shiny-salesman	shiny-salesman	246	false	2019-02-18	Traveling salesman with simulated annealing, R, and Shiny
+r-lib/asciicast	asciicast	245	false	2025-12-01	Turn R scripts into terminal screencasts
+rolkra/explore	explore	245	false	2025-12-10	R package that makes basic data exploration radically simple (interactive data e
+markvanderloo/tinytest	tinytest	245	false	2026-03-21	A lightweight, no-dependency, but full-featured package for unit testing in R
+ropensci-archive/elastic	elastic	245	true	2025-12-02	R client for the Elasticsearch HTTP API
+hhenoida/dataanalytics	dataanalytics	245	false	2018-10-29	This is repository is to be used alongwith with Training Provided through LMS of
+ShinyEd/intro-stats	intro-stats	245	false	2022-09-15	Shiny apps for introductory statistics
+ben519/DataWrangling	DataWrangling	245	false	2022-02-01	The ultimate reference guide to data wrangling with Python and R
+Pakillo/grateful	grateful	244	false	2026-11-09	Facilitate citation of R packages
+daranzolin/ViewPipeSteps	ViewPipeSteps	244	false	2021-12-15	Create tabs of View() output for each chained pipe
+rakshitha123/TSForecasting	TSForecasting	244	false	2022-11-11	This repository contains the implementations related to the experiments of a set
+Chicago/RSocrata	RSocrata	244	false	2025-04-15	Provides easier interaction with Socrata open data portals http://dev.socrata.co
+enblacar/SCpubr	SCpubr	244	false	2026-03-02	Generate high quality, publication ready visualizations for single cell transcri
+hadley/strict	strict	244	false	2025-05-26	Make R a little bit stricter
+etiennebacher/tidypolars	tidypolars	243	false	2026-11-13	More efficient tidyverse code, using polars in the background
+ModelOriented/randomForestExplainer	randomForestExplainer	242	false	2024-03-25	A set of tools to understand what is happening inside a Random Forest
+laresbernardo/lares	lares	242	false	2026-10-05	Analytics & Machine Learning R Sidekick
+ankane/jetpack	jetpack	242	false	2026-01-07	A friendly package manager for R
+jennybc/code-smells-and-feels	code-smells-and-feels	241	false	2020-01-24	Talk on code smells and feels and how to change that via refactoring
+ycphs/openxlsx	openxlsx	241	false	2026-09-02	openxlsx - a fast way to read and write complex xslx files
+braverock/PerformanceAnalytics	PerformanceAnalytics	241	false	2026-04-13	
+adamribaudo/storytelling-with-data-ggplot	storytelling-with-data-ggplot	240	false	2020-07-13	Recreation of Cole Nussbaumer Knaflic's Storytelling with Data plots using R an 
+kosukeimai/MatchIt	MatchIt	240	false	2026-10-31	R package MatchIt
+BorchLab/escape	escape	240	false	2026-10-27	Easy single cell analysis platform for enrichment
+VPetukhov/ggrastr	ggrastr	240	false	2023-06-06	Raster geoms for ggplot2
+dgrapov/TeachingDemos	TeachingDemos	240	false	2023-04-23	Bioinformatics related demos and tutorials using the R programming language
+junjunlab/GseaVis	GseaVis	239	false	2026-11-18	An implement R package to visualize GSEA results
+nicolewhite/RNeo4j	RNeo4j	239	true	2019-02-19	Neo4j Driver for R.
+rlbarter/superheat	superheat	239	false	2020-09-07	An r package for generating beautiful and customizable heatmaps
+dataspelunking/MLwR	MLwR	239	false	2023-05-29	Machine Learning with R
+rudeboybert/JSE_OkCupid	JSE_OkCupid	239	false	2021-04-26	Journal of Statistical Education Paper on Using OkCupid Data for Data Science Co
+davidaknowles/leafcutter	leafcutter	239	false	2024-06-01	Annotation-free quantification of RNA splicing. Yang I. Li, David A. Knowles, Ja
+easystats/datawizard	datawizard	238	false	2026-11-12	Magic potions to clean and transform your data 🧙 
+rstudio/Intro	Intro	238	false	2022-03-28	Course materials for "Introduction to Data Science with R", a video course by RS
+davidgohel/ReporteRs	ReporteRs	238	true	2020-03-23	Note that ReporteRs has been removed from CRAN the 16th of July 2018 and is not 
+corynissen/foodborne_classifier	foodborne_classifier	238	false	2017-09-02	The classifier used in the http://foodborne.smartchicagoapps.org/ application.
+sneumann/xcms	xcms	238	false	2026-10-08	This is the git repository matching the Bioconductor package xcms: LC/MS and GC/
+ambiorix-web/ambiorix	ambiorix	238	false	2026-11-17	🖥️ Web framework for R
+philchalmers/mirt	mirt	237	false	2026-11-17	Multidimensional item response theory
+talgalili/d3heatmap	d3heatmap	237	false	2025-11-29	A D3.js-based heatmap htmlwidget for R
+pewresearch/pewmethods	pewmethods	237	false	2020-03-26	Pew Research Center Methods team R package of miscellaneous functions
+r-lib/gmailr	gmailr	237	false	2026-10-29	Access the Gmail RESTful API from R.
+emanuelhuber/RGPR	RGPR	237	false	2026-10-01	Ground-penetrating radar (GPR) data processing and visualisation: a free and ope
+liamrevell/phytools	phytools	236	false	2026-10-21	
+kaz-yos/tableone	tableone	236	false	2026-03-05	R package to create "Table 1", description of baseline characteristics with or w
+Tychobra/polished	polished	236	false	2025-03-20	Authentication and Administration for Shiny apps
+brodieG/diffobj	diffobj	235	false	2026-11-10	Compare R Objects with a Diff
+posit-dev/r-shinylive	r-shinylive	235	false	2026-10-29	
+r-simmer/simmer	simmer	235	false	2026-07-18	Discrete-Event Simulation for R
+ericrayanderson/shinymaterial	shinymaterial	234	false	2025-12-23	
+kharchenkolab/numbat	numbat	234	false	2026-02-04	Haplotype-aware CNV analysis from single-cell RNA-seq, ATAC-seq, and multiome
+jamesotto852/ggdensity	ggdensity	234	false	2026-02-25	An R package for interpretable visualizations of bivariate density estimates
+Oshlack/splatter	splatter	234	false	2026-11-15	Simple simulation of single-cell RNA sequencing data
+gavinsimpson/gratia	gratia	234	false	2026-11-17	ggplot-based graphics and useful functions for GAMs fitted using the mgcv packag
+echen/ggplot2-tutorial	ggplot2-tutorial	234	false	2018-10-20	Quick introduction to ggplot2 (no knowledge of R assumed)
+zdk123/SpiecEasi	SpiecEasi	234	false	2026-11-04	Sparse InversE Covariance estimation for Ecological Association and Statistical 
+kharchenkolab/conos	conos	234	false	2026-07-02	R package for the joint analysis of multiple single-cell RNA-seq datasets
+igordot/genomics	genomics	233	false	2026-07-17	A collection of scripts and notes related to genomics and bioinformatics
+trinker/topicmodels_learning	topicmodels_learning	233	false	2016-01-30	A repository of learning & R resources related to topic models 
+r-lib/gh	gh	232	false	2026-09-02	Minimalistic GitHub API client in R
+TheUpshot/leo-senate-model	leo-senate-model	232	false	2014-05-02	Code and data for The Upshot's Senate model.
+lbenz730/ncaahoopR	ncaahoopR	232	false	2026-02-08	An R package for working with NCAA Basketball Play-by-Play Data
+gaborcsardi/prompt	prompt	232	false	2024-11-09	Dynamic R prompt
+StateOfCalifornia/CalCAT	CalCAT	232	false	2024-01-23	Application for assessing the many different models available for understanding 
+JustinMShea/wooldridge	wooldridge	232	false	2026-07-13	The official R data package for "Introductory Econometrics: A Modern Approach". 
+jotech/gapseq	gapseq	232	false	2026-10-27	Informed prediction and analysis of bacterial metabolic pathways and genome-scal
+duckdb/duckdb-r	duckdb-r	232	false	2026-11-18	The duckdb R package
+rticulate/import	import	232	false	2025-10-20	An Import Mechanism For R
+katiejolly/nationalparkcolors	nationalparkcolors	232	false	2019-10-27	R package for color themes inspired by national parks
+Pakillo/R-GIS-tutorial	R-GIS-tutorial	232	false	2018-07-08	Spatial data in R: using R as a GIS
+huayc09/SeuratExtend	SeuratExtend	232	false	2026-10-23	
+ropensci/qualtRics	qualtRics	231	false	2026-06-25	Download ⬇️ Qualtrics survey data directly into R!
+computationalstylistics/stylo	stylo	231	false	2026-06-19	R package for stylometric analyses
+tidyverse/design	design	231	false	2026-08-31	Tidyverse design principles
+ACCLAB/dabestr	dabestr	231	false	2026-07-29	Data Analysis with Bootstrap Estimation in R
+trevorstephens/titanic	titanic	231	false	2014-01-19	Getting Started With R
+Terminus2049/Wechatscope	Wechatscope	231	false	2020-09-18	被删微信公众号文章存档
+omarwagih/ggseqlogo	ggseqlogo	231	false	2026-02-14	Publication-quality sequence logos in R
+bbolker/broom.mixed	broom.mixed	231	false	2026-11-16	tidy methods for mixed models in R
+iSEE/iSEE	iSEE	230	false	2026-11-11	R/shiny interface for interactive visualization of data in SummarizedExperiment 
+hadley/data-baby-names	data-baby-names	229	false	2018-07-04	Distribution of US baby names, 1880-2008
+idmn/ggview	ggview	229	false	2026-08-12	Ggplot picture previewer
+rstudio/shinymeta	shinymeta	229	false	2026-03-02	Record and expose Shiny app logic using metaprogramming
+zachmayer/caretEnsemble	caretEnsemble	229	false	2026-11-13	caret models all the way down :turtle:
+USEPA/elevatr	elevatr	229	false	2025-09-09	An R package for accessing elevation data
+edwindj/whisker	whisker	228	false	2022-11-09	{{mustache}} for R
+Hy4m/linkET	linkET	227	false	2026-11-10	Everything is Linkable
+OHDSI/PatientLevelPrediction	PatientLevelPrediction	227	false	2026-11-17	An R package for performing patient level prediction  in an observational databa
+trestletech/shinyAce	shinyAce	227	false	2025-02-02	Integrating the Ace editor with Shiny.
+griffithlab/GenVisR	GenVisR	227	false	2026-01-10	Genome data visualizations
+mayoverse/arsenal	arsenal	227	false	2026-10-16	An Arsenal of 'R' Functions for Large-Scale Statistical Summaries
+ropensci/biomartr	biomartr	226	false	2025-12-02	Genomic Data Retrieval with R
+privefl/bigsnpr	bigsnpr	226	false	2026-07-10	R package for the analysis of massive SNP arrays.
+rasmusab/beepr	beepr	226	false	2026-11-03	The package that sounds as it is called.
+r-lib/xml2	xml2	225	false	2026-06-22	Bindings to libxml2
+lionel-/codegrip	codegrip	225	false	2024-10-03	Reshaping and navigation commands for R code
+r-spatial/qgisprocess	qgisprocess	225	false	2026-03-23	R package to use QGIS processing algorithms
+rstudio/htmltools	htmltools	224	false	2026-06-05	Tools for HTML generation and output
+trafficonese/leaflet.extras	leaflet.extras	224	false	2026-09-17	Extra functionality for leaflet R package.
+jthomasmock/gtExtras	gtExtras	224	false	2026-01-16	A Collection of Helper Functions for the gt Package.
+joshuaulrich/xts	xts	224	false	2026-09-08	Extensible time series class that provides uniform handling of many R time serie
+emitanaka/edibble	edibble	224	false	2025-03-30	An R-package that encapsulate elements of experimental design for better plannin
+koenderks/rcityviews	rcityviews	224	false	2026-04-25	rcityviews is a user-friendly R interface for creating stylized city maps using 
+gergness/srvyr	srvyr	224	false	2026-03-01	R package to add 'dplyr'-like Syntax for Summary Statistics of Survey Data
+microsoft/microsoft-r-open	microsoft-r-open	224	false	2023-06-12	Microsoft R Open Source
+cbail/textnets	textnets	224	false	2023-11-11	R package to perform automated text analysis using network techniques
+rstudio-conf-2020/time-series-forecasting	time-series-forecasting	223	false	2020-08-26	
+wilkox/treemapify	treemapify	223	false	2026-07-05	🌳 Draw treemaps in ggplot2
+thebioengineer/camcorder	camcorder	223	false	2026-09-15	Record plots generated during an R session and replay as a gif!
+toddwschneider/agency-loan-level	agency-loan-level	223	false	2020-04-26	Loan-level analysis of Fannie Mae and Freddie Mac data
+cellgeni/schard	schard	223	false	2026-07-10	reticulate-free single cell format conversion
+broadinstitute/ichorCNA	ichorCNA	223	false	2024-03-20	Estimating tumor fraction in cell-free DNA from ultra-low-pass whole genome sequ
+ropensci/rentrez	rentrez	223	false	2026-11-15	talk with NCBI entrez using R
+dynverse/dynbenchmark	dynbenchmark	222	false	2023-08-30	Comparison of methods for trajectory inference on single-cell data 🥇
+ropensci/git2r	git2r	222	false	2026-02-22	R bindings to the libgit2 library
+thengl/GeoMLA	GeoMLA	222	false	2021-03-09	Machine Learning algorithms for spatial and spatiotemporal data
+immunogenomics/presto	presto	221	false	2026-09-20	Fast Wilcoxon and auROC
+dieghernan/tidyterra	tidyterra	220	false	2026-11-16	Work with and visualize terra spatial objects using tidyverse methods and ggplot
+maxtoki/baseball_R	baseball_R	220	false	2018-01-06	Companion to Analyzing Baseball Data with R
+pablobarbera/twitter_ideology	twitter_ideology	220	false	2021-10-31	Estimating Ideological Positions with Twitter Data
+MatsuuraKentaro/RStanBook	RStanBook	220	false	2025-02-17	『StanとRでベイズ統計モデリング』のサポートページです.
+YuLab-SMU/ggmsa	ggmsa	220	false	2026-10-31	:traffic_light: Visualizing publication-quality multiple sequence alignment usin
+roblanf/minion_qc	minion_qc	220	false	2026-03-17	Quality control for MinION sequencing data
+r-spatial/mapedit	mapedit	220	false	2026-02-15	Interactive editing of spatial data in R
+jimhester/lookup	lookup	219	false	2023-11-30	Lookup R full function definitions, including compiled code, S3 and S4 methods.
+BlakeRMills/MoMAColors	MoMAColors	219	false	2026-08-20	Color Schemes based around artwork and the Museum of Modern Art. 
+futureverse/future.apply	future.apply	219	false	2026-11-05	:rocket: R package: future.apply -  Apply Function to Elements in Parallel using
+tesselle/khroma	khroma	219	false	2025-12-15	Colour Schemes for Scientific Data Visualization - :exclamation: Moved to https:
+cboettig/knitcitations	knitcitations	219	false	2024-04-01	:package: Generate citations for knitr markdown and html files
+cvxgrp/CVXR	CVXR	219	false	2026-10-19	An R modeling language for convex optimization problems.
+zatonovo/lambda.r	lambda.r	219	false	2026-10-13	Functional programming in R
+SGDDNB/ShinyCell	ShinyCell	219	false	2025-04-24	Shiny Interactive Web Apps for Single-Cell Data
+forkonlp/N2H4	N2H4	219	false	2026-02-11	네이버 뉴스 수집을 위한 도구
+r-for-educators/flair	flair	218	false	2023-10-27	decorate your R code
+youngwoos/Doit_R	Doit_R	217	false	2024-04-29	<Do it! 쉽게 배우는 R 데이터 분석> 저장소
+ateucher/rmapshaper	rmapshaper	217	false	2026-05-10	An R wrapper for the mapshaper javascript library
+VictimOfMaths/COVID-19	COVID-19	217	false	2023-10-30	Plots and analysis relating to the pandemic
+gadenbuie/epoxy	epoxy	217	false	2026-08-31	Extra-strength glue engines for R Markdown, Quarto, and Shiny
+MarcElosua/SPOTlight	SPOTlight	217	false	2025-10-20	Spatial Transcriptomics Capture Location Deconvolution 
+docopt/docopt.R	docopt.R	217	false	2025-03-25	Command-line interface description language for R (http://docopt.org)
+dtm2451/dittoSeq	dittoSeq	216	false	2025-12-10	Color blindness friendly visualization of single-cell and bulk RNA-sequencing da
+KlausVigo/phangorn	phangorn	216	false	2026-11-18	Phylogenetic analysis in R
+HenrikBengtsson/matrixStats	matrixStats	216	false	2026-11-09	R package: Methods that Apply to Rows and Columns of Matrices (and to Vectors) 
+Irrationone/cellassign	cellassign	216	false	2023-01-09	Automated, probabilistic assignment of cell types in scRNA-seq data
+mhahsler/recommenderlab	recommenderlab	216	false	2026-10-05	recommenderlab - Lab for Developing and Testing Recommender Algorithms - R packa
+cnicault/tidytuesday	tidytuesday	215	false	2023-10-14	My contribution to the #TidyTuesday challenge, with the visualizations and code
+carmonalab/UCell	UCell	215	false	2026-09-08	Gene set scoring for single-cell data
+csdaw/ggprism	ggprism	215	false	2026-01-02	ggplot2 extension inspired by GraphPad Prism
+carmonalab/GeneNMF	GeneNMF	214	false	2026-10-12	Methods to discover gene programs on single-cell data
+gluc/data.tree	data.tree	214	false	2025-08-25	General Purpose Hierarchical Data Structure for R
+hadley/reshape	reshape	214	false	2025-11-12	An R package to flexible rearrange, reshape and aggregate data
+hadley/assertthat	assertthat	214	false	2023-04-21	User friendly assertions for R
+chr1swallace/coloc	coloc	214	false	2026-10-30	Repo for the R package coloc
+datacamp/RDocumentation	RDocumentation	213	false	2024-08-22	R package to integrate rdocumentation.org into your R workflow
+kcuilla/reactablefmtr	reactablefmtr	213	false	2024-03-16	Streamlined Table Styling and Formatting for Reactable
+l-magnificence/Mime	Mime	213	false	2025-09-23	Machine learning-based integration model with elegant performance
+zhangyuqing/ComBat-seq	ComBat-seq	213	false	2020-09-24	Batch effect adjustment based on negative binomial regression for RNA sequencing
+will-r-chase/aRt	aRt	213	false	2024-03-06	Generative or data-driven artwork made with R
+choonghyunryu/dlookr	dlookr	213	false	2026-11-02	Tools for Data Diagnosis, Exploration, Transformation
+flujoo/gm	gm	212	false	2025-07-26	R Package for Music Creation
+dill/emoGG	emoGG	212	false	2023-01-20	:chart_with_upwards_trend::heart_eyes_cat: Emoji in ggplot2 :heart_eyes_cat::cha
+harrelfe/Hmisc	Hmisc	211	false	2026-11-14	Harrell Miscellaneous
+NickCH-K/causalbook	causalbook	211	false	2026-02-04	Replication code and downloadable example data sets for The Effect
+GuangchuangYu/badger	badger	210	false	2025-07-31	Badge for R Package
+rstudio/promises	promises	210	false	2026-11-13	A promise library for R
+tidymodels/workflows	workflows	210	false	2026-09-17	Modeling Workflows
+yonicd/carbonate	carbonate	210	false	2022-08-26	carbon.js for R
+eparker12/nCoV_tracker	nCoV_tracker	210	false	2022-02-10	Covid 2019 interactive mapping tool
+yihui/animation	animation	209	false	2026-10-19	A gallery of animations in statistics and utilities to create animations
+spatstat/spatstat	spatstat	209	false	2026-09-28	Umbrella package of the 'spatstat' family................                       
+gkaramanis/aRtist	aRtist	209	false	2026-07-12	Making art with R
+theislab/zellkonverter	zellkonverter	209	false	2026-11-10	Conversion between scRNA-seq objects
+aertslab/AUCell	AUCell	208	false	2024-03-09	AUCell: score single cells with gene regulatory networks
+cafferychen777/ggpicrust2	ggpicrust2	208	false	2026-11-01	Make Picrust2 Output Analysis and Visualization Easier
+JJ/top-github-users-data	top-github-users-data	208	false	2023-07-10	Data obtained with the top-github-users script
+davidsjoberg/ggstream	ggstream	208	false	2022-04-05	A package to make streamplots
+mjskay/ggblend	ggblend	208	false	2025-10-05	Support for blend modes in ggplot2
+johannesbjork/LaCroixColoR	LaCroixColoR	208	false	2019-03-15	LaCroix Color Palettes for R.
+MatthewBJane/ThemePark	ThemePark	208	false	2024-05-25	Fun ggplot themes for popular culture 
+SingleR-inc/SingleR	SingleR	207	false	2026-09-10	Clone of the Bioconductor repository for the SingleR package.
+SSSYDYSSS/TransProR	TransProR	206	false	2026-01-15	Analysis and visualization of multi-omics data. In ongoing development: multi-mo
+egeulgen/pathfindR	pathfindR	206	false	2026-09-17	pathfindR: Enrichment Analysis Utilizing Active Subnetworks
+posit-dev/mcptools	mcptools	206	false	2026-10-20	Model Context Protocol For R
+hadley/pryr	pryr	205	false	2024-05-17	Pry open the covers of R
+GeneticistHere/ggplot2-20-journal-cases	ggplot2-20-journal-cases	205	false	2026-07-19	
+nsgrantham/ggdark	ggdark	205	false	2019-10-10	Dark mode for ggplot2 themes
+thibautjombart/adegenet	adegenet	205	false	2025-02-07	adegenet: a R package for the multivariate analysis of genetic markers
+r-quantities/units	units	205	false	2026-11-18	Measurement units for R
+dirkschumacher/llr	llr	205	false	2021-12-03	Lisp-like-R: A clojure inspired lisp that compiles to R in R
+ropensci/piggyback	piggyback	205	false	2025-11-10	:package: for using large(r) data files on GitHub
+wu-yc/scMetabolism	scMetabolism	204	false	2026-08-20	Quantifying metabolism activity at the single-cell resolution
+sctyner/memer	memer	204	false	2021-08-05	A tidyverse compatible package for creating memes in R using the magick package.
+shinyFiles/shinyFiles	shinyFiles	204	false	2026-11-18	A shiny extension for server side file access
+renkun-ken/rlist	rlist	204	false	2023-03-11	A Toolbox for Non-Tabular Data Manipulation
+Laurae2/Laurae	Laurae	203	false	2017-03-24	Advanced High Performance Data Science Toolbox for R by Laurae
+JanMarvin/openxlsx2	openxlsx2	203	false	2026-11-18	openxlsx2 - read, write and modify xlsx files
+hgeorgako/rfortraders	rfortraders	203	false	2018-05-10	Quantitative Trading with R
+freeCodeCamp/2016-new-coder-survey	2016-new-coder-survey	202	true	2017-10-05	
+mikejohnson51/climateR	climateR	202	false	2026-04-09	An R 📦   for getting point and gridded climate data by AOI
+mkearney/resist_oped	resist_oped	202	false	2018-09-10	🕵🏽‍♀️ Identifying the author behind New York Time’s op-ed from inside the Trump 
+jokergoo/EnrichedHeatmap	EnrichedHeatmap	202	false	2026-01-30	make enriched heatmap which visualizes the enrichment of genomic signals to spec
+funkyheatmap/funkyheatmap	funkyheatmap	202	false	2025-12-12	Visualising data frames as funky heatmaps 📊
+skranz/RTutor	RTutor	202	false	2026-11-17	Creating interactive R Problem Sets. Automatic hints and solution checks. (Shiny
+lionel-/ggstance	ggstance	202	false	2024-05-20	Horizontal ggplot2 components
+davidhodge931/ggblanket	ggblanket	202	false	2026-10-29	Publication-Quality 'ggplot2' Visualisation
+jennybc/send-email-with-r	send-email-with-r	202	false	2018-06-02	How to send a bunch of email from R
+TickingClock1992/RIdeogram	RIdeogram	202	false	2020-09-22	
+scverse/anndataR	anndataR	201	false	2026-11-17	AnnData interoperability in R
+harrelfe/rms	rms	201	false	2026-11-17	Regression Modeling Strategies
+kjhealy/socviz	socviz	201	false	2026-08-21	Support files for a data visualization course and book
+rspatial/geodata	geodata	201	false	2026-06-16	download geographic data
+hadley/genzplyr	genzplyr	201	false	2025-11-07	dplyr but make it bussin fr fr no cap
+linjf15/MR_tricks	MR_tricks	200	false	2023-12-24	
+stan-dev/shinystan	shinystan	200	false	2026-09-28	shinystan R package and ShinyStan GUI
+Lchiffon/leafletCN	leafletCN	200	false	2024-01-17	An R gallery for China and other geojson choropleth map in leaflet
+tomwenseleers/export	export	200	false	2026-06-22	R package for streamlined export of graphs and data tables.
+ropensci/textreuse	textreuse	200	false	2026-07-25	Detect text reuse and document similarity
+rstudio/vetiver-r	vetiver-r	199	false	2026-08-23	Version, share, deploy, and monitor models
+yiluheihei/microbiomeMarker	microbiomeMarker	199	false	2025-02-19	R package for microbiome biomarker discovery
+cwatson/brainGraph	brainGraph	199	false	2024-02-20	Graph theory analysis of brain MRI data
+kassambara/ggcorrplot	ggcorrplot	199	false	2026-07-28	Visualization of a correlation matrix using ggplot2
+weizhouUMICH/SAIGE	SAIGE	199	false	2022-05-02	
+briatte/ggnet	ggnet	199	false	2016-01-29	Network visualization with ggplot2
+DUanalytics/rAnalytics	rAnalytics	198	false	2025-06-19	Analytics in R 
+ropensci/osmextract	osmextract	198	false	2026-10-19	Download and import OpenStreetMap data from Geofabrik and other providers
+m-clark/Miscellaneous-R-Code	Miscellaneous-R-Code	198	false	2020-11-25	Code that might be useful to others for learning/demonstration purposes, specifi
+ropensci-archive/opendata	opendata	198	true	2022-05-10	:no_entry: ARCHIVED :no_entry: 
+GreenleafLab/chromVAR	chromVAR	198	false	2026-05-01	chromatin Variability Across Regions (of the genome!)
+financial-astrology-research/financial-astrology-stats	financial-astrology-stats	198	false	2023-01-25	We research the correlations between astrology planet cycles and price effect fo
+YuLab-SMU/MicrobiotaProcess	MicrobiotaProcess	197	false	2026-04-29	:microbe: A comprehensive R package for deep mining microbiome
+zumbov2/votemapswitzerland	votemapswitzerland	197	false	2021-11-02	A Swiss version of the famous visualization «Land doesn't vote, people do.»
+gtatters/Thermimage	Thermimage	197	false	2025-05-28	R Package for working with radiometric thermal image files and data
+juba/explor	explor	197	false	2026-07-03	Interfaces for Multivariate Analysis in R
+dayoonkwon/BioAge	BioAge	197	false	2026-04-02	Biological Age Calculations Using Several Biomarker Algorithms
+stefanedwards/lemon	lemon	196	false	2025-09-04	🍋 Lemon --- Freshing up your ggplots
+koenderks/aRtsy	aRtsy	196	false	2026-11-18	aRtsy is an R package that implements algorithms for making generative art in a 
+tidyverse/ragnar	ragnar	195	false	2026-11-11	RAG in R
+psychbruce/bruceR	bruceR	195	false	2026-02-02	📦 BRoadly Useful Convenient and Efficient R functions that BRing Users Concise a
+velocyto-team/velocyto.R	velocyto.R	195	false	2023-09-14	RNA velocity estimation in R
+MicheleNuijten/statcheck	statcheck	195	false	2026-10-29	A spellchecker for statistics
+JoniColeman/gwas_scripts	gwas_scripts	195	false	2022-05-26	Codebook from my GWAS cookbook
+seananderson/glmm-course	glmm-course	194	false	2025-08-12	Workshop exercises on regression, GLMs, mixed-effects models, and GLMMs in R
+coolbutuseless/ggrgl	ggrgl	194	false	2020-12-21	3d extension to ggplot
+merlinoa/shinyFeedback	shinyFeedback	193	false	2023-01-31	display user feedback next to Shiny inputs
+datawookie/emayili	emayili	193	false	2026-11-02	An R package for sending email messages.
+stefano-meschiari/latex2exp	latex2exp	193	false	2024-08-16	Use LaTeX in R graphics.
+psychbruce/ChineseNames	ChineseNames	193	false	2025-08-20	🀄 Chinese Name Database (1930-2008).
+xuzhougeng/Learn-Bioinformatics-by-RNA-seq	Learn-Bioinformatics-by-RNA-seq	193	false	2017-08-16	
+bgreenwell/vip	vip	193	false	2026-07-05	Variable Importance Plots (VIPs)
+colearendt/tidyjson	tidyjson	193	false	2026-01-21	Tidy your JSON data in R with tidyjson
+ifunam/programacion-estadistica-r	programacion-estadistica-r	192	false	2021-01-06	
+PoisonAlien/trackplot	trackplot	192	false	2024-10-28	Generate IGV style locus tracks from bigWig files in R 
+edward130603/BayesSpace	BayesSpace	192	false	2026-01-08	Bayesian model for clustering and enhancing the resolution of spatial gene expre
+decryptr/decryptr	decryptr	192	false	2020-11-25	An extensible API for breaking captchas
+FantasyFootballAnalytics/ffanalytics	ffanalytics	192	false	2026-09-09	ffanalytics R package 
+compbiomed/singleCellTK	singleCellTK	191	false	2026-10-09	Interactively analyze single cell genomic data
+gojiplus/tuber	tuber	191	false	2026-11-18	:sweet_potato: Access YouTube from R
+cynkra/fledge	fledge	191	false	2026-11-01	Wings for your R packages: Streamline the process of versioning R packages and u
+Twitter-Sentiment-Analysis/R	R	190	false	2020-02-15	Sentiment analysis and visualization of real-time tweets using R
+opengeos/whiteboxR	whiteboxR	190	false	2026-10-21	WhiteboxTools R Frontend
+strengejacke/sjstats	sjstats	190	false	2025-06-13	Effect size measures and significance tests
+lmullen/gender	gender	190	false	2021-10-08	Predict Gender from Names Using Historical Data
+nacnudus/unpivotr	unpivotr	190	false	2026-10-11	Unpivot complex and irregular data layouts in R
+mplatzer/BTYDplus	BTYDplus	190	false	2026-06-17	R package for Customer Behavior Analysis
+jennybc/r-graph-catalog	r-graph-catalog	190	false	2016-02-18	All graphs in “Creating More Effective Graphs”, made with R package ggplot2.
+RamiKrispin/shinylive-r	shinylive-r	190	false	2024-01-17	A guide for deploying Shinylive R application into Github Pages
+sachit27/greenR	greenR	189	false	2026-10-02	greenR is an R package that enables the quantification, analysis, and visualizat
+ankane/dbx	dbx	189	false	2026-11-06	A fast, easy-to-use database library for R
+trinker/qdap	qdap	189	false	2020-09-27	Quantitative Discourse Analysis Package: Bridging the gap between qualitative da
+JohnCoene/cicerone	cicerone	189	true	2025-01-17	🏛️ Give tours of your Shiny apps
+leeper/slopegraph	slopegraph	189	false	2018-08-07	Edward Tufte-Inspired Slopegraphs
+t-kalinowski/quickr	quickr	189	false	2026-11-17	R to Fortran Transpiler
+AnalytixWare/ShinySky	ShinySky	188	false	2020-02-27	Various UI widgets/components not part of Shiny e.g. alerts, styled buttons
+ropensci/tokenizers	tokenizers	188	false	2024-03-27	Fast, Consistent Tokenization of Natural Language Text
+CausalInference/gfoRmula	gfoRmula	188	false	2026-11-12	The gfoRmula package implements the parametric g-formula in R. The parametric g-
+ropensci/webchem	webchem	188	false	2026-10-15	Chemical Information from the Web
+AliciaSchep/gglabeller	gglabeller	188	false	2021-03-12	Shiny gadget for labeling points on ggplot
+surveydown-dev/surveydown	surveydown	188	false	2026-06-23	Markdown-Based, Programmable Surveys Using R, Quarto, Shiny, and PostgreSQL
+openpharma/visR	visR	188	false	2024-06-04	A package to wrap functionality for plots, tables and diagrams adhering to graph
+timelyportfolio/listviewer	listviewer	187	false	2023-10-01	R htmlwidget to view lists
+ThinkR-open/dockerfiler	dockerfiler	187	false	2026-09-15	Easy Dockerfile Creation from R
+mlr-org/mlrMBO	mlrMBO	187	false	2026-03-01	Toolbox for Bayesian Optimization and Model-Based Optimization in R
+CSSEGISandData/COVID-19_Unified-Dataset	COVID-19_Unified-Dataset	187	false	2023-06-11	Unified COVID-19 Dataset
+TongZhou2017/itol.toolkit	itol.toolkit	186	false	2025-11-02	Helper Functions for Interactive Tree Of Life (iTOL)
+rpremraj/mailR	mailR	186	false	2021-08-24	A utility to send emails from the R programming environment
+rstudio-conf-2022/ggplot2-graphic-design	ggplot2-graphic-design	186	false	2025-01-02	"Graphic Design with ggplot2", a 2-day rstudio::conf(2022) Workshop by Cédric Sc
+davidski/evaluator	evaluator	186	false	2022-12-21	⚖Open Source Toolkit for Quantitative Risk Assessment
+YosefLab/VISION	VISION	186	false	2024-06-10	Signature Analysis and Visualization for Single-Cell RNA-seq
+dynverse/dyno	dyno	186	false	2021-06-24	Inferring, interpreting and visualising trajectories using a streamlined set of 
+GraphicsPrinciples/CheatSheet	CheatSheet	186	false	2018-08-26	Repository for the cheatsheet and R code for generating the examples displayed. 
+r-spatial/RQGIS	RQGIS	186	true	2020-04-19	RQGIS - integrating R with QGIS
+hrecht/censusapi	censusapi	186	false	2026-05-20	R package to retrieve U.S. Census data and metadata via API
+neurorestore/Libra	Libra	186	false	2026-05-04	

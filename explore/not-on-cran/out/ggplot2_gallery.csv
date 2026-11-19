@@ -1,0 +1,171 @@
+package,repo,gallery_cran,tags,short,universe,score,stars,where,conda_forge
+ggram,EvaMaeRey/ggram,FALSE,"ggplot2 syntax,graphical poems","Create a side-by-side code-plot display by clearing your history, executing your plot code, and then executing `ggram()`.",NA,NA,NA,GitHub/other,FALSE
+ggQQunif,rcorty/ggQQunif,TRUE,"visualization,quantiles,p-values,statistics,big data","Make QQ plots for big data expected to be uniformly distributed, e.g. p-values.",rcorty,3.6020599913279625,8,CRAN,FALSE
+ggupset,const-ae/ggupset,TRUE,"visualization,upset,combination matrix",Combination Matrix Axis for 'ggplot2' to Create 'UpSet' Plots,const-ae,9.81430234812868,401,CRAN,TRUE
+xmrr,Zanidean/xmrr,TRUE,"XmR, Visualization, Control Charts, QC, XBar",Generate XMR Control Chart Data from Time-Series Data.,zanidean,4.748188027006201,7,CRAN,FALSE
+gg3D,AckerDWM/gg3D,FALSE,"3D, Visualization",3D perspective plots for ggplot2,NA,NA,NA,GitHub/other,FALSE
+ggQC,kenithgrey/ggQC,TRUE,"QC, XmR, XbarR, SixSigma, Visualization","Use ggQC to plot single, faceted and multi-layered quality control charts .",NA,NA,NA,CRAN-archived,FALSE
+ggdist,mjskay/ggdist,TRUE,"visualization,uncertainty,confidence,probability",'ggdist' provides stats and geoms for visualizing distributions and uncertainty.,mjskay,13.258612771336695,883,CRAN,TRUE
+ggedit,metrumresearchgroup/ggedit,TRUE,"visualization, interactive, shiny, general,themes","ggedit is aimed to interactively edit ggplot layers, scales and themes aesthetics",NA,NA,NA,CRAN-archived,TRUE
+ggpage,emilhvitfeldt/ggpage,TRUE,"visualization,text",Creates Page Layout Visualizations.,emilhvitfeldt,7.582631439489637,340,CRAN,TRUE
+ggpca,YaoxiangLi/ggpca,TRUE,"visualization,dimensionality_reduction,PCA,t-SNE,UMAP","Provides tools for creating publication-ready PCA, t-SNE, and UMAP plots.",yaoxiangli,2.903089986991944,4,CRAN,FALSE
+ggbreak,YuLab-SMU/ggbreak,TRUE,"visualization, geoms",Set Axis Break for 'ggplot2',yulab-smu,11.081687640550635,148,CRAN,TRUE
+ggimg,statsmaths/ggimg,TRUE,"visualization, geoms",Graphics Layers for Plotting Image Data with ggplot2.,taylor-arnold,2.278753600952829,0,CRAN,FALSE
+gganatogram,jespermaag/gganatogram,FALSE,"anatograms, tissue, visualization, anatomy, expression, pharmacology",gganatogram makes it possible to visualise tissues for different organisms or cell compartments.,NA,NA,NA,GitHub/other,FALSE
+ggforce,thomasp85/ggforce,TRUE,"visualization,general",ggforce is aimed at providing missing functionality to ggplot2 through the extension system introduced with ggplot2 v2.0.0.,thomasp85,16.354195971171933,958,CRAN,TRUE
+ggalt,hrbrmstr/ggalt,TRUE,"visualization,general","A compendium of ‘geoms’, ‘coords’ and ‘stats’ for ‘ggplot2’.",NA,NA,NA,CRAN-archived,TRUE
+ggiraph,davidgohel/ggiraph,TRUE,"visualization,general",htmlwidget to make 'ggplot' graphics interactive.,davidgohel,16.43135381226682,882,CRAN,TRUE
+ggmuller,robjohnnoble/ggmuller,TRUE,"visualization,evolution,dynamics",Creates Muller plots for visualizing evolutionary dynamics.,robjohnnoble,7.448953534644588,66,CRAN,TRUE
+ggstance,lionel-/ggstance,TRUE,"visualization,general",ggstance implements horizontal versions of common ggplot2 geoms.,lionel-,8.112561569914767,202,CRAN,TRUE
+ggrepel,slowkow/ggrepel,TRUE,"visualization,general",Repel overlapping text labels away from each other.,slowkow,20.04605643889169,1263,CRAN,TRUE
+ggraph,thomasp85/ggraph,TRUE,"visualization,general","ggraph is tailored at plotting graph-like data structures (graphs, networks, trees, hierarchies...).",thomasp85,17.106564248661822,1121,CRAN,TRUE
+gginnards,aphalo/gginnards,TRUE,"visualization,general,layer manipulation,debug","Find, delete, insert and move plot layers. Delete unused variables from the data stored within a ggplot object. Dump data to the R console.",aphalo,8.864850950778509,28,CRAN,TRUE
+ggpp,aphalo/ggpp,TRUE,"visualization,general","Plot annotations, data labels, plot insets, filter labels by local density (geoms, statistics, positions).",aphalo,12.359565609055789,137,CRAN,TRUE
+ggpmisc,aphalo/ggpmisc,TRUE,"visualization,statistics,general","Model equation, line, residuals (lm, quantile, MA, rlm, etc.), P, F, AIC, BIC, n, correlation, ANOVA and summary tables, multiple comparisons, peaks and valleys, centroid, data labels.",aphalo,13.9723248710718,120,CRAN,TRUE
+geomnet,sctyner/geomnet,FALSE,"visualization,general",geomnet implements network visualizations in ggplot2 via geom_net.,NA,NA,NA,CRAN-archived,FALSE
+ggExtra,daattali/ggExtra,TRUE,"histogram,marginal,density",ggExtra lets you add marginal density plots or histograms to ggplot2 scatterplots.,daattali,13.892515231083271,394,CRAN,TRUE
+ggfortify,sinhrks/ggfortify,TRUE,"visualization,general",The unified interface to ggplot2 many popular statistical pakackage results.,sinhrks,15.151891731177034,541,CRAN,TRUE
+autoplotly,terrytangyuan/autoplotly,TRUE,"visualization,general",Automatic generation of interactive visualizations for popular statistical results.,terrytangyuan,6.564192460626198,94,CRAN,TRUE
+gganimate,thomasp85/gganimate,TRUE,"visualization,general",A Grammar of Animated Graphics.,thomasp85,15.363455382267492,1984,CRAN,TRUE
+ggfx,thomasp85/ggfx,TRUE,"visualization,general",Pixel Filters for 'ggplot2' and 'grid',thomasp85,9.69124564386995,177,CRAN,TRUE
+plotROC,sachsmc/plotROC,TRUE,"visualization,general","plotROC provides functions to generate an interactive ROC curve plot for web use, and print versions.",sachsmc,8.972486009755736,89,CRAN,TRUE
+ggbump,davidsjoberg/ggbump,TRUE,"visualization,general,geoms",Bump Chart and Sigmoid Curves.,NA,NA,NA,CRAN-archived,TRUE
+ggthemes,jrnold/ggthemes,TRUE,"visualization,general,themes","Some extra geoms, scales, and themes for ggplot.",jrnold,17.46940135425292,1354,CRAN,TRUE
+ggspectra,aphalo/ggspectra,TRUE,"visualization,general","Plot light-related spectra, peaks, valleys, half maximum, labels with summaries and colours from spectral data (autoplot, stats, geoms, scales).",aphalo,8.047944294244873,6,CRAN,TRUE
+ggstatsplot,IndrajeetPatil/ggstatsplot,TRUE,"visualization,statistics",'ggstatsplot' provides a collection of functions to enhance 'ggplot2' plots with results from statistical tests.,indrajeetpatil,12.80076044641315,2209,CRAN,TRUE
+ggnetwork,briatte/ggnetwork,TRUE,"visualization,general",The ggnetwork package provides a way to build network plots with ggplot2.,briatte,12.158548506723568,156,CRAN,TRUE
+ggtech,ricardo-bion/ggtech,FALSE,"visualization,general,themes","ggplot2 tech themes, scales, and geoms.",NA,NA,NA,GitHub/other,FALSE
+ggradar,ricardo-bion/ggradar,FALSE,"visualization,general",ggradar allows you to build radar charts with ggplot2.,NA,NA,NA,GitHub/other,FALSE
+ggx,brandmaier/ggx,TRUE,"visualization,nlp",A Natural Language Interface to 'ggplot2'.,brandmaier,6.631849462159819,153,CRAN,FALSE
+ggTimeSeries,Ather-Energy/ggTimeSeries,TRUE,"visualization,general",This R package offers novel time series visualisations.,NA,NA,NA,CRAN-archived,FALSE
+ggtree,GuangchuangYu/ggtree,FALSE,"visualization,general",gtree is designed for visualizing phylogenetic tree and different types of associated annotation data.,bioc,17.772626419713955,937,Bioc,FALSE
+ggseas,ellisp/ggseas,TRUE,"visualization,general",Seasonal adjustment on the fly extension for ggplot2.,NA,NA,NA,CRAN-archived,FALSE
+ggsci,road2stat/ggsci,TRUE,"visualization,general",A collection of ‘ggplot2’ color palettes inspired by scientific journals and science fiction TV shows.,nanxstats,18.019599730598124,751,CRAN,TRUE
+ggmosaic,haleyjeppson/ggmosaic,TRUE,"visualization,general",ggmosaic implements mosaic plots in ‘ggplot2’ via geom_mosaic.,NA,NA,NA,CRAN-archived,TRUE
+survminer,kassambara/survminer,TRUE,"visualization,survival",Drawing Survival Curves using 'ggplot2',kassambara,15.329161081063496,577,CRAN,TRUE
+ggeasy,jonocarroll/ggeasy,TRUE,"visualization,teaching",Easy Access to 'ggplot2' Commands,jonocarroll,10.648682268573967,277,CRAN,TRUE
+ggside,jtlandis/ggside,TRUE,"visualization,correlation",Side Grammar Graphics,jtlandis,11.254494781628344,356,CRAN,TRUE
+ggcorrplot,kassambara/ggcorrplot,TRUE,"visualization,correlation",Visualization of a correlation matrix using 'ggplot2',kassambara,14.706210155268453,198,CRAN,TRUE
+ggpubr,kassambara/ggpubr,TRUE,"visualization,statistics",‘ggplot2’ Based Publication Ready Plots,kassambara,19.67950708564654,1281,CRAN,TRUE
+ggthemr,cttobin/ggthemr,FALSE,"visualization,general,themes",Themes for ggplot,NA,NA,NA,GitHub/other,FALSE
+GGally,ggobi/ggally,TRUE,"visualization,general",ggally extends 'ggplot2' by adding several functions to reduce the complexity of combining geometric objects with transformed data.,ggobi,16.7058495999699,617,CRAN,TRUE
+ggseqlogo,omarwagih/ggseqlogo,TRUE,"visualization,general",Publication-ready sequence logos using ggplot2.,omarwagih,11.750329653500993,231,CRAN,TRUE
+ggChernoff,Selbosh/ggChernoff,TRUE,visualization,Visualise multivariate data using human faces,selbosh,4.447932865592181,33,CRAN,FALSE
+ggridges,clauswilke/ggridges,TRUE,"visualization,general",Ridgeline plot geoms for 'ggplot2',wilkelab,14.607265346246129,425,CRAN,TRUE
+lemon,stefanedwards/lemon,TRUE,"visualization,brackets,axis",Repositioning legends and adding brackets to axes to 'ggplot2'.,stefanedwards,11.548286280125376,195,CRAN,TRUE
+cowplot,wilkelab/cowplot,TRUE,"visualization,general,themes",Streamlined plot theme and plot annotations for 'ggplot2',wilkelab,18.998371701035673,761,CRAN,TRUE
+qqplotr,aloy/qqplotr,TRUE,"quantile-quantile,probability-probability",Quantile-quantile and probability-probability plot extensions for 'ggplot2',aloy,11.04950530889618,51,CRAN,TRUE
+ggalluvial,corybrunson/ggalluvial,TRUE,"visualization,categorical,time series",A 'ggplot2' extension for alluvial diagrams.,corybrunson,15.169436990736092,526,CRAN,TRUE
+patchwork,thomasp85/patchwork,TRUE,"visualization,composition",Easy composition of ggplot plots using arithmetic operators,thomasp85,18.45241493313696,2616,CRAN,TRUE
+ggquiver,mitchelloharawild/ggquiver,TRUE,"visualization,quiver,velocity,vector",Quiver/velocity plots for 'ggplot2'.,mitchelloharawild,5.615423952885944,55,CRAN,FALSE
+ggsignif,const-ae/ggsignif,TRUE,"visualization,multiple comparisons",Significance Brackets for 'ggplot2'.,const-ae,16.605135460575816,614,CRAN,TRUE
+ggdag,malcolmbarrett/ggdag,TRUE,"visualization,dags,inference",Causal directed acyclic graphs (DAGs) in `ggplot2`,r-causal,13.050064676135673,466,CRAN,TRUE
+ggformula,ProjectMOSAIC/ggformula,TRUE,"visualization,general,interface",`ggplot2` via formulas and pipes,projectmosaic,11.569771988390173,38,CRAN,TRUE
+ggbeeswarm,eclarke/ggbeeswarm,TRUE,"visualization, beeswarm, categorical","Create beeswarm plots, which avoids overlapping datapoints.",eclarke,15.71666611294614,571,CRAN,TRUE
+ggperiodic,eliocamp/ggperiodic,TRUE,"visualization,periodic",Automagically augment periodic data in `ggplot2`,NA,NA,NA,CRAN,FALSE
+ggpol,erocoar/ggpol,TRUE,"visualization,general",ggpol adds parliament diagrams and several other geoms to ggplot2.,NA,NA,NA,CRAN-archived,TRUE
+ggpirate,mikabr/ggpirate,FALSE,visualization,Pirate plots for `ggplot2`,mikabr,3.966141732739033,25,r-universe,FALSE
+esquisse,dreamrs/esquisse,TRUE,"visualization,interface",Explore and Visualize Your Data Interactively with `ggplot2`,dreamrs,11.851408922003344,1866,CRAN,TRUE
+ggerror,iamyannc/ggerror,TRUE,"errors, geom",Simplifying and extanding `ggplot2`'s error geoms,iamyannc,4.6020599913279625,0,CRAN,FALSE
+ggdark,nsgrantham/ggdark,TRUE,"visualization,general,themes",Dark Mode for `ggplot2` Themes,NA,NA,NA,CRAN-archived,TRUE
+sugrrants,earowang/sugrrants,TRUE,"visualization,calendar,time-series",Supporting Graphs for Analysing Temporal Data with `ggplot2`.,earowang,7.8233568364187,81,CRAN,FALSE
+tvthemes,Ryo-N7/tvthemes,TRUE,"visualization,general,palettes,themes",`ggplot2` Themes & Palettes from popular TV shows!,NA,NA,NA,CRAN-archived,FALSE
+ggfittext,wilkox/ggfittext,TRUE,"visualization,general,text",`ggplot2` geoms to fit text in a box,wilkox,11.974774154211984,309,CRAN,TRUE
+ggparty,martin-borkovec/ggparty,TRUE,"visualization,tree,partykit",`ggplot2` visualizations for the `partykit` package,martin-borkovec,8.496384473925838,148,CRAN,TRUE
+gggenes,wilkox/gggenes,TRUE,"visualization,general,genetics",`ggplot2` geoms to draw gene arrow maps,wilkox,11.859716946911634,606,CRAN,TRUE
+gggenomes,thackl/gggenomes,TRUE,"visualization,genetics,genomics",a grammar of graphics for comparative genomics,thackl,9.94554799172013,792,CRAN,TRUE
+treemapify,wilkox/treemapify,TRUE,"visualization,general,treemap",Draw treemaps in `ggplot2`,wilkox,12.911691657859183,223,CRAN,TRUE
+lindia,yeukyul/lindia,TRUE,"visualization,general,diagnostics,regression",Create diagnostics plots for linear regression,yeukyul,6.2987875999442355,101,CRAN,FALSE
+gghalves,erocoar/gghalves,TRUE,"visualization,general",gghalves adds half-geoms to `ggplot2`.,NA,NA,NA,CRAN-archived,TRUE
+ggrastr,vpetukhov/ggrastr,TRUE,"visualization,raster",Rasterize only specific layers of your plot,vpetukhov,12.225751379354612,240,CRAN,TRUE
+ggpointdensity,LKremer/ggpointdensity,TRUE,"visualization,general",Introduces `geom_pointdensity()`: A cross between a scatter plot and a 2D density plot.,lkremer,7.451312750270228,455,CRAN,TRUE
+ggsom,oldlipe/ggsom,TRUE,"visualization,SOM,multi-dimensional,parallel-coordinates",The aim of this package is to offer more variability of graphics based on the self-organizing maps.,oldlipe,3.812913356642856,13,CRAN,FALSE
+ggnewscale,eliocamp/ggnewscale,TRUE,"visualization,general,scales",Use multiple fill and colour scales in 'ggplot2'.,eliocamp,14.013386039977888,430,CRAN,TRUE
+ggh4x,teunbrand/ggh4x,TRUE,"visualization,general,scales,facets","Options for tailored facets, multiple colourscales and miscellaneous",teunbrand,11.13398204068152,683,CRAN,TRUE
+ggarrow,teunbrand/ggarrow,TRUE,"visualization, arrows, lines",Arrow geoms and arrow theme element with customisation options,teunbrand,9.253328920430333,59,CRAN,FALSE
+legendry,teunbrand/legendry,TRUE,"visualization, guide, legend, axis",Extended legends and axes,teunbrand,8.606121605141842,289,CRAN,TRUE
+ggcharts,thomas-neitmann/ggcharts,TRUE,"visualization,general",Shorten the distance from data visualization idea to actual plot,thomas-neitmann,8.610110560687946,294,CRAN,TRUE
+humapr,benskov/humapr,FALSE,"visualization,general,tabulation,choropleth",Visualise topographic human data with choropleths,NA,NA,NA,GitHub/other,FALSE
+ggshadow,marcmenem/ggshadow,TRUE,"visualization,general",Draw a shadow below lines to make busy plots more aesthetically pleasing,marcmenem,6.422589839851482,63,CRAN,FALSE
+ggseg,LCBC-UiO/ggseg,TRUE,"visualization,brain imaging",Draw polygons of brain atlas segmentations,ggsegverse,10.424805285521613,277,CRAN,FALSE
+mdthemes,thomas-neitmann/mdthemes,FALSE,"visualization,themes",'ggplot2' themes that render text as markdown/HTML,NA,NA,NA,CRAN-archived,FALSE
+ggwordcloud,lepennec/ggwordcloud,TRUE,"visualization,text",A word cloud text geom for 'ggplot2'.,lepennec,10.559671202055782,176,CRAN,TRUE
+ggasym,jhrcook/ggasym,FALSE,"visualization,multi-dimensional,matrix,scales",Asymmetric matrix plotting with multiple scales.,NA,NA,NA,CRAN-archived,FALSE
+gglorenz,jjchern/gglorenz,TRUE,"visualization,general,statistics",Plotting Lorenz curves with the blessing of ggplot2.,jjchern,5.2356546769569485,31,CRAN,FALSE
+hrbrthemes,hrbrmstr/hrbrthemes,TRUE,"theme,typography","A compilation of extra {ggplot2} themes, scales and utilities, including a spell check function for plot label fields and an overall emphasis on typography.",hrbrmstr,9.39387847179476,1362,CRAN,TRUE
+ggpattern,trevorld/ggpattern,TRUE,"visualization,pattern",Pattern fills for ggplot2 geoms.,trevorld,10.646747849106022,395,CRAN,TRUE
+ggtext,clauswilke/ggtext,TRUE,"general,theme,typography",Improved text rendering support for `ggplot2`,wilkelab,16.567507379096853,667,CRAN,TRUE
+calendR,R-CoderDotCom/calendR,TRUE,"visualization, calendar, time-series",Ready to Print Monthly and Yearly Calendars,sidoruvigo,2.629409599102719,0,CRAN,TRUE
+ggip,davidchall/ggip,TRUE,"visualization, cyber, space-filling curves",Data visualization of IP addresses and networks,davidchall,5.79309160017658,27,CRAN,FALSE
+gglm,graysonwhite/gglm,TRUE,"visualization,modeling,diagnostic",Grammar of Graphics for linear model diagnostic plots.,graysonwhite,6.551268044151061,87,CRAN,FALSE
+econocharts,R-CoderDotCom/econocharts,FALSE,"economics, microeconomics, macroeconomics",Microeconomics and Macroeconomics Charts,NA,NA,NA,GitHub/other,FALSE
+ComplexUpset,krassowski/complex-upset,TRUE,"visualization,venn,set,intersections,venn-diagram,upset",Visualize set intersections and add `ggplot2` annotations,krassowski,10.865214886563791,572,CRAN,TRUE
+ggchromatic,teunbrand/ggchromatic,FALSE,"visualization,scales",Colourspace Scales for 'ggplot2',NA,NA,NA,GitHub/other,FALSE
+ggheatmap,XiaoLuo-boy/ggheatmap,TRUE,"visualization, heatmap",ggplot2 version of heatmap,renova-r,1.6989700043360187,0,CRAN-archived,FALSE
+see,easystats/see,TRUE,"visualizations,statistics","Visualisation Toolbox for 'easystats' and Extra Geoms, Themes and Color Palettes for 'ggplot2'",easystats,11.347127504901492,957,CRAN,TRUE
+directlabels,tdhock/directlabels,TRUE,"visualization, direct-labels, positioning, general, plot-labelling",Framework for adding direct labels to lattice or ggplot2 plots.,tdhock,11.278448813353592,88,CRAN,TRUE
+ggHoriPlot,rivasiker/ggHoriPlot,TRUE,"visualization,general,horizon-plot,time-series",Horizon Plots for `ggplot2`,rivasiker,6.181843587944773,152,CRAN,TRUE
+ggtrace,rnabioco/ggtrace,TRUE,visualization,Outline groups of data points using ggplot2,rnabioco,5.505149978319906,16,CRAN,FALSE
+ggESDA,kiangkiangkiang/ggESDA,TRUE,"visualization,symbolic data,interval-valued data",Exploratory Symbolic Data Analysis with 'ggplot2'.,NA,NA,NA,CRAN-archived,FALSE
+geomtextpath,AllanCameron/geomtextpath,TRUE,"typography,plot-labelling,visualization",Create curved text and directly label lines in `ggplot`,allancameron,11.766103486730078,652,CRAN,TRUE
+ggdensity,jamesotto852/ggdensity,TRUE,"visualization,density-estimation",Interpretable bivariate density visualization with highest density regions,jamesotto852,7.769995533923112,234,CRAN,TRUE
+ggtranscript,dzhang32/ggtranscript,FALSE,"visualization,genetics,genomics,transcripts,annotation",Visualizing transcript structure and annotation using `ggplot2`,NA,NA,NA,GitHub/other,FALSE
+piecepackr,piecepackr/piecepackr,TRUE,"board games, geoms",Board game graphics,piecepackr,5.878521795501206,60,CRAN,FALSE
+oblicubes,trevorld/oblicubes,TRUE,"visualization, geoms",3D Rendering Using Obliquely Projected Cubes and Cuboids,trevorld,5.3979400086720375,25,CRAN,FALSE
+ggDoubleHeat,PursuitOfDataScience/ggDoubleHeat,TRUE,"visualization, geoms",A heatmap-like visualization tool,pursuitofdatascience,4.584331224367531,16,CRAN,FALSE
+nflplotR,nflverse/nflplotR,TRUE,"general,scales,geoms,images,theme,elements",'nflplotR' provides a set of functions to visualize National Football League analysis in 'ggplot2'.,nflverse,7.784360383888933,25,CRAN,FALSE
+ggbraid,nsgrantham/ggbraid,FALSE,"visualization,general,geoms",Braid ribbons in `ggplot2`.,NA,NA,NA,CRAN-archived,FALSE
+ggblanket,davidhodge931/ggblanket,TRUE,visualization,Simplify ggplot2 visualisation,davidhodge931,6.778107818763836,202,CRAN,TRUE
+ggpie,showteeth/ggpie,TRUE,"visualization,general,pie,donut,rose pie",Create pie and donut plot using `ggplot2`.,NA,NA,NA,CRAN-archived,FALSE
+ggstar,xiangpin/ggstar,TRUE,"visualization, different shape points",Multiple Geometric Shape Point Layer for 'ggplot2',xiangpin,8.068180516550413,106,CRAN,TRUE
+ggarchery,mdhall272/ggarchery,TRUE,"visualization, arrows",Flexible segment geoms with arrows for 'ggplot2',mdhall272,4.720159303405957,35,CRAN,FALSE
+tidyterra,dieghernan/tidyterra,TRUE,"visualization, raster, spatial",'ggplot2' geoms for 'terra' rasters and vectors,dieghernan,11.729847369463132,220,CRAN,FALSE
+ggseqplot,maraab23/ggseqplot,TRUE,"visualization,sequence analysis",'ggseqplot' renders sequence plots using ggplot2.,maraab23,7.3167249841904995,16,CRAN,TRUE
+ggsurvfit,pharmaverse/ggsurvfit,TRUE,"visualization,survival,statistics",Flexible Time-to-Event Figures,pharmaverse,11.744123389052604,105,CRAN,TRUE
+ggsector,yanpd01/ggsector,TRUE,"visualization, geoms, sector, fan",Create sector plots using `ggplot2`.,NA,NA,NA,CRAN-archived,FALSE
+ggterror,mivalek/ggterrorbar,FALSE,"visualization, geoms",Create T-errorbars like in THAT paper,NA,NA,NA,GitHub/other,FALSE
+ggragged,mikmart/ggragged,TRUE,facets,Facets for panel layouts with ragged edges,mikmart,5.786751422145561,36,CRAN,TRUE
+ggmapinset,cidm-ph/ggmapinset,TRUE,"visualization,spatial",Add zoomed inset panels to your ggplot maps,cidm-ph,6.555215405126074,38,CRAN,FALSE
+ggmagnify,hughjonesd/ggmagnify,FALSE,"visualization,geoms,inset,zoom,magnification",Create a magnified inset of part of a ggplot object.,hughjonesd,4.683001984607199,315,r-universe,FALSE
+ggblend,mjskay/ggblend,TRUE,"visualization,blending,affine transformation,layer algebra,compositing","Algebra of operations for blending, copying, adjusting, transforming, and compositing ggplot2 layers.",mjskay,6.149450058942079,209,CRAN,TRUE
+ggflowchart,nrennie/ggflowchart,TRUE,"visualization,flowchart,network,diagram",Create flowcharts using `ggplot2`.,nrennie,7.059411937438657,91,CRAN,TRUE
+ggrain,njudd/ggrain,TRUE,"visualization, general",Raincloud geom for 'ggplot2',njudd,8.024595540975998,98,CRAN,FALSE
+ggoutlierscatterplot,lukastay/ggoutlierscatterplot,FALSE,"visualization,outlier,outliers,scatterplot,algorithms,algorithm,regression",Visualize multidimensional outlier detection algorithms,NA,NA,NA,GitHub/other,FALSE
+ggautothemes,lukastay/ggautothemes,FALSE,"visualization,theme,themeing,color,fill,hue,ggthemes",Quickly see how different themes will look on your ggplot visual.,NA,NA,NA,GitHub/other,FALSE
+AMR,msberends/AMR,TRUE,"visualization,epidemiology,color,fill","Plotting AMR results for SIR categories, MIC values, and disk diffusion diameters",msberends,11.15317054093486,118,CRAN,FALSE
+ichimoku,shikokuchuo/ichimoku,TRUE,"visualization,time-series,finance,trading,candlestick",Visualization and Tools for Ichimoku Kinko Hyo Strategies,shikokuchuo,7.143389568994657,37,CRAN,FALSE
+eheat,Yunuuuu/eheat,FALSE,"visualization,heatmap",Extended ComplexHeatmap with ggplot2,NA,NA,NA,GitHub/other,FALSE
+ggstats,larmarange/ggstats,TRUE,"visualization,p-values,forest plot,geoms,positions,statistics,Likert","Forest plots of model coefficients, Likert plots and custom proportions",larmarange,13.699160394763092,56,CRAN,TRUE
+ggfoundry,cgoo4/ggfoundry,TRUE,"visualization,geoms,color,fill,shapes",Shape Foundry & Geom for 'ggplot2'.,cgoo4,6.370328007779511,17,CRAN,FALSE
+ggalign,Yunuuuu/ggalign,TRUE,"visualization,composition,heatmap",A 'ggplot2' Extension for Consistent Axis Alignment,yunuuuu,6.729099964783044,406,CRAN,TRUE
+ggreveal,weverthonmachado/ggreveal,TRUE,"visualization,presentation,slides",Reveal a 'ggplot' Incrementally,weverthonmachado,4.732393759822969,36,CRAN,FALSE
+geofacet,hafen/geofacet,TRUE,"visualization,facet,facets,geo,geography,composition",Easy faceting according to geographic position,hafen,10.246894529992575,354,CRAN,TRUE
+tidyplots,jbengler/tidyplots,TRUE,"visualization,general,theme,color,statistics",Tidy plots for scientific papers,jbengler,9.4358247347297,717,CRAN,TRUE
+rphylopic,palaeoverse/rphylopic,TRUE,"visualization,silhouettes,images,biology",Get and use silhouettes of organisms from PhyloPic,palaeoverse,9.644592190281942,97,CRAN,TRUE
+deeptime,willgearty/deeptime,TRUE,"visualization,earth sciences,phylogenetics,pattern,color,time-series",Plotting tools for anyone working in deep time,willgearty,10.951066597778754,109,CRAN,TRUE
+ggpcp,heike/ggpcp,TRUE,"visualization,parallel coordinate plot,multivariate, categorical",Generalized Parallel Coordinate Plots in ggplot2,heike,5.018086061677057,2,CRAN,FALSE
+ggvolcano,YaoxiangLi/ggvolcano,TRUE,"visualization,volcano_plot,differential_expression",Provides tools for creating publication-ready volcano plots.,yaoxiangli,4.897627091290442,0,CRAN,FALSE
+ggfootball,aymennasri/ggfootball,TRUE,"general,football,interactive,visualization",'Plotting Football matches Expected Goals (xG) Stats with 'Understat' Data'.,aymennasri,2.903089986991944,1,CRAN,FALSE
+ggfields,pepijn-devries/ggfields,TRUE,"visualization,vector,velocity,angle,spatial,fields","Plot arrows or arrow fields, with accompanying scales and guides.",pepijn-devries,5.079181246047625,5,CRAN,FALSE
+ggsankeyfier,pepijn-devries/ggsankeyfier,TRUE,"visualization,Sankey,alluvial,diagram,flow,network",visualise your data as Sankey or Alluvial diagrams,pepijn-devries,7.620448384711709,26,CRAN,FALSE
+ggpath,mrcaseb/ggpath,TRUE,"general,geoms,images,theme,elements",Robust Image Rendering Support for 'ggplot2'.,mrcaseb,7.101329895965857,48,CRAN,FALSE
+gglinedensity,hrryt/gglinedensity,TRUE,"visualization,general,heatmap,time-series,density-estimation",Make heatmaps of line density using the DenseLines algorithm,hrryt,4.079181246047625,12,CRAN,FALSE
+ggsurveillance,biostats-dev/ggsurveillance,TRUE,"visualization,general,scales,time-series,diverging bar charts,population pyramids,epicurves,epigantt",Visualisations for Outbreak Investigation and Infectious Disease Surveillance,biostats-dev,5.03342375548695,12,CRAN,FALSE
+gguapo,eliansoutu/gguapo,FALSE,"themes,art,styles,general,visualization",Charts with unique styles inspired by renowned artists,NA,NA,NA,GitHub/other,FALSE
+ggDNAvis,ejade42/ggDNAvis,TRUE,"DNA,RNA,genetics,biology,visualization,visualisation,customisable,customizable,medicine,methylation,sequence,FASTQ",'ggplot2'-Based Tools for Visualising DNA Sequences and Modifications,ejade42,5.6020599913279625,4,CRAN,FALSE
+ggdibbler,harriet-mason/ggdibbler,TRUE,"uncertainty, visualization, general, statistics",Uncertainty visualisation for signal supression,harriet-mason,7.835360762891434,31,CRAN,FALSE
+ggprop.test,EvaMaeRey/ggprop.test,FALSE,"ggplot2 syntax, longform graphical poems",A ggplot2 extension package to teach/learn the logic of the prop test.,NA,NA,NA,GitHub/other,FALSE
+ggsky,uskovgs/ggsky,TRUE,"visualization,astronomy,coordinates,projection,axis",Draw all-sky maps in Galactic or equatorial coordinates with a Hammer-Aitoff projection,uskovgs,4.6020599913279625,2,CRAN,FALSE
+ggpop,jurjoroa/ggpop,TRUE,"visualization,population,icons,fontawesome,isotype",Create icon-based representative population and geomcharts with Font Awesome icons,jurjoroa,7.756308933151811,19,CRAN,FALSE
+ggpointless,flrd/ggpointless,TRUE,"visualisation, general","A Collection of Geometries, and Stats for 'ggplot2'",flrd,4.702430536445526,7,CRAN,TRUE
+ggincerta,maggiexma/ggincerta,TRUE,"uncertainty,spatial,sf,maps,visualization","Visualise uncertainty in spatial areal data through bivariate colour palettes, pixelation and glyphs",maggiexma,5.819543935541868,22,CRAN,FALSE
+ggRandomForests,ehrlinger/ggRandomForests,TRUE,"visualization,random forests,randomForestSRC,survival,regression,classification",Visually exploring random forests from the randomForestSRC package with ggplot2.,ehrlinger,9.976705028933814,154,CRAN,TRUE
+ggcube,matthewkling/ggcube,TRUE,"visualization,general,3D",Create 3D ggplots by combining a 3D coordinate specification with 3D layer functions.,matthewkling,7.202215775801132,59,CRAN,FALSE
+ggtaichi,PursuitOfDataScience/ggtaichi,FALSE,"visualization,geoms",Compare two data sources on a single grid of taichi (yin-yang) diagrams.,pursuitofdatascience,5.133538908370218,1,CRAN,FALSE
+ggchord2,nrennie/ggchord2,FALSE,"visualization,chords,arcs,flows,general,categorical",Create chord diagrams with 'ggplot2'.,cran,3,0,CRAN,FALSE
+ggtintshade,wkumler/ggtintshade,TRUE,"visualization,color,tint,shade,value,saturation,lightness,aesthetic",Tinting and Shading Aesthetics for 'ggplot2'.,wkumler,5.380211241711606,8,CRAN,FALSE
+glydraw,glycoverse/glydraw,TRUE,"glycan,SNFG,biology,scales",Draw customizable SNFG glycan cartoons in ggplot2 plots from structures or text notations.,glycoverse,7.227243781503063,3,CRAN,FALSE
+ggmultiglyph,aravind-j/ggmultiglyph,TRUE,"visualization,multivariate,glyphs,geoms",Multivariate Data Visualization using Glyphs.,aravind-j,5.000434077479318,7,CRAN,FALSE
+clockplot,mahmudstat/clockplot,TRUE,"visualization, temporal, time-series, clock, circular, ggplot2",A novel visualization technique for plotting timestamped events on a 24-hour circular clock face.,mahmudstat,5.635483746814912,9,CRAN,FALSE
+ggfourfold,gklorfine/ggfourfold,TRUE,"visualization,categorical,statistics,geoms,themes",Fourfold displays for visualizing odds ratios in contingency tables.,gklorfine,4.477121254719663,0,CRAN,FALSE
+ggmosaic2,friendly/ggmosaic2,TRUE,"visualization,categorical,mosaic,statistics,geoms,themes","Mosaic plots for frequency tables, extending 'ggmosaic'.",friendly,6.542321402774361,3,CRAN,FALSE

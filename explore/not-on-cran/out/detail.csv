@@ -1,0 +1,25 @@
+package,universe,version,size_mb,remotes,noncran_strong,noncran_sugg,sysreq,cran_comment,url
+TwoSampleMR,mrcieu,0.7.14,8.8,gqi/MRMix mrcieu/MRInstruments MRPRESSO=rondolab/MR-PRESSO qingyuanzhao/mr.raps WSpiller/RadialMR,R MRMix MRPRESSO RadialMR,mr.raps MRInstruments,,NA,https://github.com/MRCIEU/TwoSampleMR
+polars,rpolars,2.1.0.9000,2.5,,R,,"Cargo (Rust's package manager), rustc","Archived on 2023-07-18 for policy violations. Misrepresentation of authorship, not covering downloaded material. Use of many (at least 15) CPUs during installation.",https://github.com/pola-rs/r-polars
+PEcAn.DB,pecanproject,1.8.2.9000,0.6,,R PEcAn.logger PEcAn.remote PEcAn.utils,,,NA,https://github.com/PecanProject/pecan
+ospsuite,open-systems-pharmacology,12.4.5,47.3,,R ospsuite.utils tlf ospsuite.plots rSharp,,,NA,https://github.com/Open-Systems-Pharmacology/OSPSuite-R
+sl3,tlverse,1.4.5,1.2,github::nhejazi/haldensify,R,,,NA,https://github.com/tlverse/sl3
+FIMS,noaa-fisheries-integrated-toolbox,0.11.0,18.5,github::nmfs-ost/stockplotr github::noaa-afsc/SparseNUTS,R stockplotr,SparseNUTS,GNU make,NA,https://github.com/noaa-fims/fims
+weathercan,ropensci,1.0.1,1,,R,,,"2021-12-31 for repeated policy violation. On Internet access. Also, on allowed areas to be used in the file system.",https://github.com/ropensci/weathercan
+FLCore,flr,2.6.34,2.6,,R,,,NA,https://github.com/flr/FLCore
+epinowcast,epiforecasts,0.7.0,53.5,,R,cmdstanr,,NA,https://github.com/epiforecasts/epinowcast
+htmltomarkdown,xberg-io,3.22.2,0.2,,R,,"Cargo (Rust's package manager), rustc (>= 1.99)",NA,https://github.com/xberg-io/html-to-markdown
+BPCells,bnprks,0.3.1,4.5,,R,IRanges GenomicRanges,,NA,https://github.com/bnprks/BPCells
+tidypolars,etiennebacher,0.20.0,1.1,etiennebacher/quickcheck@use-constructive,R polars,,,NA,https://github.com/etiennebacher/tidypolars
+lasR,r-lidar,0.21.4,27.6,,R,,"C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3, GNU make",NA,https://github.com/r-lidar/lasR
+rnoaa,ropensci,1.4.0,4.5,,R,rgdal,,Archived on 2024-02-24 as issues were not corrected in time.,https://github.com/ropensci/rnoaa
+cmdstanr,stan-dev,0.9.0,0.8,,R,,CmdStan (https://mc-stan.org/users/interfaces/cmdstan),NA,https://github.com/stan-dev/cmdstanr
+sedonadb,apache,0.5.0.9000,6.2,,R,,"Cargo (Rust's package manager), rustc, CMake, Git, curl, pkg-config, GEOS, GDAL (>= 3.5), PROJ (>= 6.2)",NA,https://github.com/apache/sedona-db
+tmle3,tlverse,0.2.1,0.3,github::tlverse/sl3@fix-tests,R sl3,tmle3shift,,NA,https://github.com/tlverse/tmle3
+mlr3extralearners,mlr-org,1.7.0,1.9,bioc::ropls catboost/catboost/catboost/R-package mlr-org/mlr3cmprsk mlr-org/mlr3proba,R mlr3cmprsk mlr3proba,catboost ropls,,NA,https://github.com/mlr-org/mlr3extralearners
+sess,reditorsupport,3.4.9000.9000,0.2,,,,,NA,https://github.com/REditorSupport/vscode-R
+nichenetr,zaoqu-liu,2.2.2,21,,R ComplexHeatmap,limma qs,,NA,https://github.com/Zaoqu-Liu/nichenetr
+spDataLarge,nowosad,2.2.0,26.8,,R,,,NA,https://github.com/nowosad/spDataLarge
+rnaturalearthhires,ropensci,1.0.0.9000,21.5,,R,,,NA,https://github.com/ropensci/rnaturalearthhires
+DoubletFinder,blaserlab,2.0.4,1.6,,,,,NA,https://github.com/blaserlab/DoubletFinder
+rethinking,staffanbetner,2.42,2.6,,R cmdstanr,,,NA,https://github.com/staffanbetner/rethinking

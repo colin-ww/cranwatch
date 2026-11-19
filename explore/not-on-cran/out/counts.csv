@@ -1,0 +1,14 @@
+what,n
+"CRAN, current",25803
+"CRAN, ever (incl. archived)",34512
+"Bioconductor release, all repos",3785
+"r-universe, /api/summary packages",33421
+"r-universe, unique names in search index",31996
+"r-universe, not on CRAN or Bioc",4015
+"r-universe, not on CRAN or Bioc, CRAN-archived",465
+R-multiverse community,116
+"R-multiverse community, not on CRAN",50
+R-multiverse production (latest snapshot),78
+conda-forge r-*,3897
+conda-forge r-* that are current CRAN,3437
+bioconda r-* + bioconductor-*,5163
