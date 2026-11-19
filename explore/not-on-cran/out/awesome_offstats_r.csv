@@ -1,0 +1,129 @@
+section,package,link,universe,score,stars,multiverse,title,where,conda_forge
+Design frame and sample,SamplingStrata,https://cran.r-project.org/package=SamplingStrata,barcaroli,8.086758344351965,16,NA,"Optimal Stratification of Sampling Frames for Multipurpose
+Sampling Surveys",CRAN,FALSE
+Design frame and sample,R2BEAT,https://cran.r-project.org/package=R2BEAT,barcaroli,3.778151250383644,2,NA,Multistage Sampling Allocation and Sample Selection,CRAN,FALSE
+Sampling,sampling,https://cran.r-project.org/package=sampling,alinamateikondylis,6.395770492002326,2,NA,Survey Sampling,CRAN,TRUE
+Sampling,surveyplanning,https://cran.r-project.org/package=surveyplanning,csblatvia,5.003460532109507,8,NA,Survey Planning Tools,CRAN,FALSE
+Sampling,PracTools,https://cran.r-project.org/package=PracTools,cran,4.761777537508179,1,NA,Designing and Weighting Survey Samples,CRAN,FALSE
+Sampling,prnsamplr,https://cran.r-project.org/package=prnsamplr,kirajcg,2.6989700043360187,1,NA,Permanent Random Number Sampling,CRAN,FALSE
+Sampling,sps,https://cran.r-project.org/package=sps,marberts,5.1303337684950066,NA,NA,Sequential Poisson Sampling,CRAN,TRUE
+Sampling,samplingin,https://cran.r-project.org/package=samplingin,choerulafifanto,4.176091259055681,3,NA,Dynamic Survey Sampling Solutions,CRAN,FALSE
+Run collection,risq,https://cran.r-project.org/package=risq,reijeridema,3.1760912590556813,0,NA,Representativity Indicators for Survey Quality,CRAN,FALSE
+Process,dcmodify,https://cran.r-project.org/package=dcmodify,data-cleaning,6.080806804334362,11,NA,Modify Data Using Externally Defined Modification Rules,CRAN,FALSE
+Process,datapackage,https://cran.r-project.org/package=datapackage,djvanderlaan,5.409087369447835,3,NA,Creating and Reading Data Packages,CRAN,FALSE
+Process,blaise,https://cran.r-project.org/package=blaise,sophof,4.301029995663981,2,NA,Read and Write FWF Files in the 'Blaise' Format,CRAN,FALSE
+Data integration and record linkage,reclin2,https://cran.r-project.org/package=reclin2,djvanderlaan,7.979548374704095,53,NA,Record Linkage Toolkit,CRAN,FALSE
+Data integration and record linkage,RecordLinkage,https://cran.r-project.org/package=RecordLinkage,sym33,8.5902762286862675,0,NA,Record Linkage Functions for Linking and Deduplicating Data Sets,CRAN,TRUE
+Data integration and record linkage,StatMatch,https://cran.r-project.org/package=StatMatch,cran,4.953453113671691,0,NA,Statistical Matching or Data Fusion,CRAN,FALSE
+Data integration and record linkage,fastLink,https://cran.r-project.org/package=fastLink,kosukeimai,7.711881432244219,294,NA,Fast Probabilistic Record Linkage with Missing Data,CRAN,FALSE
+Data integration and record linkage,XBRL,https://cran.r-project.org/package=XBRL,NA,NA,NA,NA,NA,CRAN-archived,FALSE
+Data integration and record linkage,blocking,https://cran.r-project.org/package=blocking,ncn-foreigners,7.006166425485432,14,NA,Various Blocking Methods for Entity Resolution,CRAN,FALSE
+Statistical data editing and imputation,validate,https://cran.r-project.org/package=validate,data-cleaning,12.42698085148692,435,NA,Data Validation Infrastructure,CRAN,TRUE
+Statistical data editing and imputation,validatedb,https://cran.r-project.org/package=validatedb,NA,NA,NA,NA,NA,CRAN-archived,FALSE
+Statistical data editing and imputation,validatetools,https://cran.r-project.org/package=validatetools,data-cleaning,4.593286067020458,16,NA,Checking and Simplifying Validation Rule Sets,CRAN,FALSE
+Statistical data editing and imputation,errorlocate,https://cran.r-project.org/package=errorlocate,data-cleaning,6.847572659142112,22,NA,Locate Errors with Validation Rules,CRAN,FALSE
+Statistical data editing and imputation,VIM,https://cran.r-project.org/package=VIM,statistikat,15.586051977994874,93,NA,Visualization and Imputation of Missing Values,CRAN,TRUE
+Statistical data editing and imputation,simputation,https://cran.r-project.org/package=simputation,markvanderloo,6.515205999935324,94,NA,Simple Imputation,CRAN,FALSE
+Statistical data editing and imputation,SeleMix,https://cran.r-project.org/package=SeleMix,cran,1.1139433523068367,0,NA,Selective Editing via Mixture Models,CRAN,FALSE
+Statistical data editing and imputation,univOutl,https://cran.r-project.org/package=univOutl,cran,1.9084850188786495,0,NA,Detection of Univariate Outliers,CRAN,FALSE
+Statistical data editing and imputation,extremevalues,https://cran.r-project.org/package=extremevalues,markvanderloo,3.4983105537896004,0,NA,Univariate Outlier Detection,CRAN,TRUE
+Statistical data editing and imputation,deductive,https://cran.r-project.org/package=deductive,data-cleaning,4.123851640967086,14,NA,Data Correction and Imputation Using Deductive Methods,CRAN,FALSE
+Statistical data editing and imputation,rspa,https://cran.r-project.org/package=rspa,markvanderloo,3.4771212547196626,3,NA,Adapt Numerical Records to Fit (in)Equality Restrictions,CRAN,FALSE
+Statistical data editing and imputation,mice,https://cran.r-project.org/package=mice,amices,13.92850427965983,521,NA,Multivariate Imputation by Chained Equations,CRAN,TRUE
+Statistical data editing and imputation,HRTnomaly,https://cran.r-project.org/package=HRTnomaly,drwolf85,4.2552725051033065,1,NA,"Historical, Relational, and Tail Anomaly-Detection Algorithms",CRAN,FALSE
+Estimation and weighting,survey,https://cran.r-project.org/package=survey,r-forge,13.772667552841462,1,NA,Analysis of Complex Survey Samples,CRAN,TRUE
+Estimation and weighting,hbsae,https://cran.r-project.org/package=hbsae,hjboonstra,2.079181246047625,2,NA,Hierarchical Bayesian Small Area Estimation,CRAN,FALSE
+Estimation and weighting,mcmcsae,https://cran.r-project.org/package=mcmcsae,hjboonstra,2.778151250383644,0,NA,Markov Chain Monte Carlo Small Area Estimation,CRAN,FALSE
+Estimation and weighting,rsae,https://cran.r-project.org/package=rsae,tobiasschoch,3.9804578922761,1,NA,Robust Small Area Estimation,CRAN,FALSE
+Estimation and weighting,CalibrateSSB,https://cran.r-project.org/package=CalibrateSSB,statisticsnorway,3,2,NA,Weighting and Estimation for Panel Data with Non-Response,CRAN,FALSE
+Estimation and weighting,jointCalib,https://cran.r-project.org/package=jointCalib,ncn-foreigners,5.204119982655925,8,NA,A Joint Calibration of Totals and Quantiles,CRAN,FALSE
+Estimation and weighting,PriceIndices,https://cran.r-project.org/package=PriceIndices,jacekbialek,6.017033339298781,13,NA,Calculating Bilateral and Multilateral Price Indexes,CRAN,FALSE
+Estimation and weighting,ReGenesees,https://github.com/DiegoZardetto/ReGenesees,NA,NA,NA,NA,NA,GitHub/other,FALSE
+Estimation and weighting,vardpoor,https://cran.r-project.org/package=vardpoor,csblatvia,6.6188844849954505,10,NA,"Variance Estimation for Sample Surveys by the Ultimate Cluster
+Method",CRAN,FALSE
+Estimation and weighting,convey,https://cran.r-project.org/package=convey,ajdamico,5.823037498052297,19,NA,Income Concentration Analysis with Complex Survey Samples,CRAN,FALSE
+Estimation and weighting,icarus,https://cran.r-project.org/package=icarus,khaledlarbi,3.0067013104976255,0,NA,Calibrates and Reweights Units in Samples,CRAN,TRUE
+Estimation and weighting,gustave,https://cran.r-project.org/package=gustave,inseefr,3.931966114728173,9,NA,"A User-Oriented Statistical Toolkit for Analytical Variance
+Estimation",CRAN,FALSE
+Estimation and weighting,rtrim,https://cran.r-project.org/package=rtrim,snstatcomp,6.935154447216169,11,NA,Trends and Indices for Monitoring Data,CRAN,FALSE
+Estimation and weighting,surveysd,https://cran.r-project.org/package=surveysd,statistikat,7.13912313410958,12,NA,"Survey Standard Error Estimation for Cumulated Estimates and
+their Differences in Complex Panel Designs",CRAN,FALSE
+Estimation and weighting,inca,https://cran.r-project.org/package=inca,drwolf85,2.3979400086720375,2,NA,Integer Calibration,CRAN,FALSE
+Estimation and weighting,weightflow,https://cran.r-project.org/package=weightflow,jpferreira33,7.1003705451175625,8,NA,"Weighting Probability and Non-Probability Survey Samples with
+Recipe-Aware Replicate Variances",CRAN,FALSE
+Estimation and weighting,piar,https://cran.r-project.org/package=piar,marberts,6.927524340875029,NA,NA,Price Index Aggregation,CRAN,TRUE
+Estimation and weighting,seasonal,https://cran.r-project.org/package=seasonal,christophsax,9.234839088837903,122,NA,R Interface to X-13-ARIMA-SEATS,CRAN,TRUE
+Estimation and weighting,x12,https://cran.r-project.org/package=x12,statistikat,5.503245771465113,18,NA,"Interface to 'X12-ARIMA'/'X13-ARIMA-SEATS' and Structure for
+Batch Processing of Seasonal Adjustment",CRAN,FALSE
+Estimation and weighting,tempdisagg,https://cran.r-project.org/package=tempdisagg,cynkra,8.446416666257864,42,NA,"Methods for Temporal Disaggregation and Interpolation of Time
+Series",CRAN,FALSE
+Estimation and weighting,nonprobsvy,https://cran.r-project.org/package=nonprobsvy,ncn-foreigners,7.683245218711515,57,NA,Inference Based on Non-Probability Samples,CRAN,FALSE
+Estimation and weighting,SSBtools,https://cran.r-project.org/package=SSBtools,statisticsnorway,7.92162214052345,13,NA,"Algorithms and Tools for Tabular Statistics and Hierarchical
+Computations",CRAN,TRUE
+Estimation and weighting,svrep,https://cran.r-project.org/package=svrep,bschneidr,7.550296856077496,10,NA,"Tools for Creating, Updating, and Analyzing Survey Replicate
+Weights",CRAN,FALSE
+Estimation and weighting,gseries,https://cran.r-project.org/package=gseries,statcan,5.847572659142112,8,NA,Improve the Coherence of Your Time Series Data,CRAN,FALSE
+Estimation and weighting,REPS,https://cran.r-project.org/package=REPS,vivekag7,6.062581984228164,7,NA,"Hedonic and Multilateral Index Methods for Real Estate Price
+Statistics",CRAN,FALSE
+Output validation,validate,https://cran.r-project.org/package=validate,data-cleaning,12.42698085148692,435,NA,Data Validation Infrastructure,CRAN,TRUE
+Output validation,nrba,https://cran.r-project.org/package=nrba,westat-schneider,3.1760912590556813,0,NA,Methods for Conducting Nonresponse Bias Analysis (NRBA),CRAN,FALSE
+Statistical disclosure control,sdcMicro,https://cran.r-project.org/package=sdcMicro,sdctools,10.500070974022892,97,NA,"Statistical Disclosure Control Methods for Anonymization of Data
+and Risk Estimation",CRAN,TRUE
+Statistical disclosure control,sdcTable,https://cran.r-project.org/package=sdcTable,bernhard-da,3.751630093821718,1,NA,Methods for Statistical Disclosure Control in Tabular Data,CRAN,FALSE
+Statistical disclosure control,easySdcTable,https://cran.r-project.org/package=easySdcTable,statisticsnorway,4.57978359661681,1,NA,"Easy Interface to the Statistical Disclosure Control Package
+'sdcTable' Extended with Own Implementation of
+'GaussSuppression'",CRAN,FALSE
+Statistical disclosure control,GaussSuppression,https://cran.r-project.org/package=GaussSuppression,statisticsnorway,6.787921587821339,4,NA,Tabular Data Suppression using Gaussian Elimination,CRAN,FALSE
+Statistical disclosure control,sdcHierarchies,https://cran.r-project.org/package=sdcHierarchies,bernhard-da,6.405451548144354,2,NA,Create and (Interactively) Modify Nested Hierarchies,CRAN,FALSE
+Statistical disclosure control,SmallCountRounding,https://cran.r-project.org/package=SmallCountRounding,statisticsnorway,4.176091259055681,3,NA,Small Count Rounding of Tabular Data,CRAN,FALSE
+Statistical disclosure control,simPop,https://cran.r-project.org/package=simPop,statistikat,6.814780145745805,34,NA,Simulation of Complex Synthetic Data Information,CRAN,FALSE
+Statistical disclosure control,sdcSpatial,https://cran.r-project.org/package=sdcSpatial,edwindj,5.171726453653231,9,NA,Statistical Disclosure Control for Spatial Data,CRAN,FALSE
+Statistical disclosure control,synthpop,https://cran.r-project.org/package=synthpop,bnowok,9.74550425950191,62,NA,"Generating Synthetic Versions of Sensitive Microdata for
+Statistical Disclosure Control",CRAN,TRUE
+Statistical Dissemination,cols4all,https://cran.r-project.org/package=cols4all,cols4all,11.001070712424,370,NA,Colors for all,CRAN,TRUE
+Statistical Dissemination,qbinplots,https://cran.r-project.org/package=qbinplots,edwindj,3,2,NA,Quantile Binned Plots,CRAN,FALSE
+Statistical Dissemination,tmap,https://cran.r-project.org/package=tmap,r-tmap,12.984866867880308,907,NA,Thematic Maps,CRAN,TRUE
+Statistical Dissemination,mapsf,https://cran.r-project.org/package=mapsf,riatelab,11.788446343979526,249,NA,Thematic Cartography,CRAN,FALSE
+Statistical Dissemination,treemap,https://cran.r-project.org/package=treemap,mtennekes,7.655773930483615,0,NA,Treemap Visualization,CRAN,TRUE
+Statistical Dissemination,btb,https://cran.r-project.org/package=btb,inseefr,6.681241237375588,20,NA,"Beyond the Border - Kernel Density Estimation for Urban
+Geography",CRAN,FALSE
+Statistical Dissemination,PantaRhei,https://cran.r-project.org/package=PantaRhei,pwbogaart,3.2174839442139063,3,NA,Plots Sankey Diagrams,CRAN,FALSE
+Access to official statistics,rsdmx,https://cran.r-project.org/package=rsdmx,eblondel,9.74526516454813,110,NA,Tools for Reading SDMX Data and Metadata,CRAN,FALSE
+Access to official statistics,readsdmx,https://cran.r-project.org/package=readsdmx,mdequeljoe,5.143639235274543,16,NA,Read SDMX-XML Data,CRAN,FALSE
+Access to official statistics,rjstat,https://cran.r-project.org/package=rjstat,ajschumacher,6.724210310768767,32,NA,Handle 'JSON-stat' Format in R,CRAN,FALSE
+Access to official statistics,OECD,https://cran.r-project.org/package=OECD,expersso,8.507761449588294,147,NA,Search and Extract Data from the OECD,CRAN,FALSE
+Access to official statistics,sorvi,https://cran.r-project.org/package=sorvi,ropengov,6.831613855309099,13,NA,Functions for Finnish Open Data,CRAN,FALSE
+Access to official statistics,eurostat,https://cran.r-project.org/package=eurostat,ropengov,12.25655087272201,257,NA,Tools for Eurostat Open Data,CRAN,FALSE
+Access to official statistics,restatapi,https://cran.r-project.org/package=restatapi,eurostat,6.662481494729861,36,NA,Search and Retrieve Data from Eurostat Database,CRAN,FALSE
+Access to official statistics,inegiR,https://cran.r-project.org/package=inegiR,NA,NA,NA,NA,NA,CRAN-archived,FALSE
+Access to official statistics,cbsodataR,https://cran.r-project.org/package=cbsodataR,edwindj,7.219270085885396,38,NA,Statistics Netherlands (CBS) Open Data API Client,CRAN,FALSE
+Access to official statistics,cbsodata4,https://github.com/statistiekcbs/cbsodata4,NA,NA,NA,NA,NA,GitHub/other,FALSE
+Access to official statistics,censusapi,https://cran.r-project.org/package=censusapi,hrecht,7.773004010511297,186,NA,Retrieve Data from the Census APIs,CRAN,TRUE
+Access to official statistics,CANSIM2R,https://cran.r-project.org/package=CANSIM2R,NA,NA,NA,NA,NA,CRAN-archived,FALSE
+Access to official statistics,pxweb,https://cran.r-project.org/package=pxweb,ropengov,10.00833168202291,74,NA,R Interface to PXWEB APIs,CRAN,FALSE
+Access to official statistics,PxWebApiData,https://cran.r-project.org/package=PxWebApiData,statisticsnorway,6.567026366159061,5,NA,PX-Web Data by API,CRAN,FALSE
+Access to official statistics,pxR,https://cran.r-project.org/package=pxR,cjgb,5.372819981678968,39,NA,PC-Axis with R,CRAN,FALSE
+Access to official statistics,pxmake,https://cran.r-project.org/package=pxmake,statisticsgreenland,7.312177356439779,12,NA,Make PX-Files in R,CRAN,FALSE
+Access to official statistics,rdbnomics,https://cran.r-project.org/package=rdbnomics,s915,3.7363965022766426,1,NA,Download DBnomics Data,CRAN,FALSE
+Access to official statistics,readabs,https://cran.r-project.org/package=readabs,mattcowgill,8.695157428196055,114,NA,"Download and Tidy Time Series Data from the Australian Bureau of
+Statistics",CRAN,FALSE
+Access to official statistics,statcanR,https://cran.r-project.org/package=statcanR,warint,6.4920616045126,30,NA,Client for Statistics Canada's Open Economic Data,CRAN,TRUE
+Access to official statistics,cdlTools,https://cran.r-project.org/package=cdlTools,jlisic,4.933487287848706,12,NA,Tools to Download and Work with USDA Cropscape Data,CRAN,FALSE
+Access to official statistics,csodata,https://cran.r-project.org/package=csodata,csoireland,5.732393759822968,20,NA,Download Data from the CSO 'PxStat' API,CRAN,FALSE
+Access to official statistics,czso,https://cran.r-project.org/package=czso,petrbouchal,4.598243191653623,13,NA,Use Open Data from the Czech Statistical Office in R,CRAN,FALSE
+Access to official statistics,ipumsr,https://cran.r-project.org/package=ipumsr,ipums,11.512019212507116,44,NA,"An R Interface for Downloading, Reading, and Handling IPUMS Data",CRAN,FALSE
+Access to official statistics,eph,https://cran.r-project.org/package=eph,ropensci,8.330088945748482,66,NA,"Argentina's Permanent Household Survey Data and Manipulation
+Utilities",CRAN,FALSE
+Access to official statistics,blsR,https://cran.r-project.org/package=blsR,groditi,3.929418925714293,17,NA,Make Requests from the Bureau of Labor Statistics API,CRAN,FALSE
+Access to official statistics,danstat,https://cran.r-project.org/package=danstat,NA,NA,NA,NA,NA,CRAN-archived,FALSE
+Access to official statistics,restatis,https://cran.r-project.org/package=restatis,correlaid,6.3044905277734875,36,NA,"R Wrapper to Access a Wide Range of Germany's Federal
+Statistical System Databases Based on the GENESIS Web Service
+RESTful API of the German Federal Statistical Office
+(Statistisches Bundesamt/Destatis)",CRAN,FALSE
+Access to official statistics,cancensus,https://cran.r-project.org/package=cancensus,mountainmath,9.552758131308137,90,NA,"Access, Retrieve, and Work with Canadian Census Data and
+Geography",CRAN,TRUE
+Access to official statistics,nomisr,https://cran.r-project.org/package=nomisr,ropensci,6.045322978786658,50,NA,Access 'Nomis' UK Labour Market Data,CRAN-archived,FALSE
+Access to official statistics,insee,https://cran.r-project.org/package=insee,pyr-opendatafr,6.730459260045769,8,NA,Tools to Easily Download Data from INSEE BDM Database,CRAN,FALSE
+Access to official statistics,STATcubeR,https://cran.r-project.org/package=STATcubeR,statistikat,3.6020599913279625,20,NA,R Interface for the 'STATcube' REST API and Open Government Data,CRAN,FALSE
+Access to official statistics,TEMPO,https://cran.r-project.org/package=TEMPO,rprojectromania,5.021189299069938,0,NA,Tools for Romania's National Institute of Statistics Tempo Data,CRAN,FALSE
+Access to official statistics,tuiksdmx,https://cran.r-project.org/package=tuiksdmx,mfatihtuzen,5.556302500767288,3,NA,Access the Turkish Statistical Institute SDMX REST API,CRAN,FALSE

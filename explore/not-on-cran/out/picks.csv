@@ -1,0 +1,116 @@
+theme,package,universe,score,stars,multiverse,title,where,conda_forge
+seasonal / benchmarking,rjd3toolkit,rjdverse,8.254185409462092,10,NA,Utility Functions Around 'JDemetra+ 3.0',CRAN,FALSE
+seasonal / benchmarking,rjd3x13,rjdverse,7.200741090235126,7,NA,Seasonal Adjustment with 'X-13' in 'JDemetra+' 3.x,CRAN,FALSE
+seasonal / benchmarking,rjd3tramoseats,rjdverse,6.756788198768119,7,NA,Seasonal Adjustment with TRAMO-SEATS in 'JDemetra+' 3.x,CRAN,FALSE
+seasonal / benchmarking,rjd3bench,rjdverse,6,4,NA,Temporal Disaggregation and Benchmarking in 'JDemetra+' 3.x,CRAN,FALSE
+seasonal / benchmarking,rjd3filters,rjdverse,6.638189640190837,3,NA,Trend-Cycle Extraction with Linear Filters with 'JDemetra+ 3.x',CRAN,FALSE
+seasonal / benchmarking,rjd3nowcasting,rjdverse,3.653212513775344,3,NA,Nowcasting with 'JDemetra+ 3.0',r-universe,FALSE
+seasonal / benchmarking,ggdemetra3,aqlt,4.079181246047625,3,NA,"'ggplot2' Extension for Seasonal and Trading Day Adjustment with
+'JDemetra+' 3.0",r-universe,FALSE
+seasonal / benchmarking,RJDemetra,rjdverse,7.836368429209357,55,NA,Interface to 'JDemetra+' Seasonal Adjustment Software,CRAN,FALSE
+seasonal / benchmarking,seasonal,christophsax,9.234839088837903,122,NA,R Interface to X-13-ARIMA-SEATS,CRAN,TRUE
+seasonal / benchmarking,gseries,statcan,5.847572659142112,8,NA,Improve the Coherence of Your Time Series Data,CRAN,FALSE
+seasonal / benchmarking,tempdisagg,cynkra,8.446416666257864,42,NA,"Methods for Temporal Disaggregation and Interpolation of Time
+Series",CRAN,FALSE
+seasonal / benchmarking,disaggR,inseefr,5.933487287848705,11,NA,Two-Steps Benchmarks for Time Series Disaggregation,CRAN,FALSE
+Canada data / maps,cansim,mountainmath,7.415855072322698,51,NA,Accessing Statistics Canada Data Table and Vectors,CRAN,TRUE
+Canada data / maps,cancensus,mountainmath,9.552758131308137,90,NA,"Access, Retrieve, and Work with Canadian Census Data and
+Geography",CRAN,TRUE
+Canada data / maps,tongfen,mountainmath,7.4184338800803244,28,NA,Make Data Based on Different Geographies Comparable,CRAN,FALSE
+Canada data / maps,canpumf,mountainmath,7.0326187608507205,8,NA,Parse StatCan PUMF Files,CRAN,FALSE
+Canada data / maps,cmhc,mountainmath,5.954242509439325,30,NA,"Access, Retrieve, and Work with CMHC Data",CRAN,FALSE
+Canada data / maps,statcanR,warint,6.4920616045126,30,NA,Client for Statistics Canada's Open Economic Data,CRAN,TRUE
+Canada data / maps,mountainmathHelpers,NA,NA,NA,NA,NA,GitHub/other,FALSE
+Canada data / maps,mapcan,mccormackandrew,5.225309281725863,7,NA,"Tools for Plotting Canadian Choropleth Maps and Choropleth
+Alternatives",CRAN,FALSE
+Canada data / maps,weathercan,ropensci,9.292533930919316,118,community,Download Weather Data from Environment and Climate Change Canada,CRAN-archived,FALSE
+Canada data / maps,tidyhydat,ropensci,10.23844757714112,74,NA,Extract and Tidy Canadian 'Hydrometric' Data,CRAN,FALSE
+Canada data / maps,bcdata,bcgov,10.664767381694723,89,NA,Search and Retrieve Data from the BC Data Catalogue,CRAN,FALSE
+Canada data / maps,bcmaps,bcgov,6.57978359661681,76,NA,Map Layers and Spatial Utilities for British Columbia,CRAN,FALSE
+Canada data / maps,rnaturalearthhires,ropensci,6.213995616368085,31,NA,"High Resolution World Vector Map Data from Natural Earth used in
+rnaturalearth",r-universe,FALSE
+Canada data / maps,canadianmaps,joellecayen,3.6989700043360183,10,NA,Effortlessly Create Stunning Canadian Maps,CRAN,FALSE
+survey / weighting,ReGenesees,NA,NA,NA,NA,NA,GitHub/other,FALSE
+survey / weighting,survey,r-forge,13.772667552841462,1,NA,Analysis of Complex Survey Samples,CRAN,TRUE
+survey / weighting,srvyr,gergness,11.577113625314738,224,NA,'dplyr'-Like Syntax for Summary Statistics of Survey Data,CRAN,TRUE
+survey / weighting,svrep,bschneidr,7.550296856077496,10,NA,"Tools for Creating, Updating, and Analyzing Survey Replicate
+Weights",CRAN,FALSE
+survey / weighting,surveysd,statistikat,7.13912313410958,12,NA,"Survey Standard Error Estimation for Cumulated Estimates and
+their Differences in Complex Panel Designs",CRAN,FALSE
+survey / weighting,icarus,khaledlarbi,3.0067013104976255,0,NA,Calibrates and Reweights Units in Samples,CRAN,TRUE
+survey / weighting,gustave,inseefr,3.931966114728173,9,NA,"A User-Oriented Statistical Toolkit for Analytical Variance
+Estimation",CRAN,FALSE
+survey / weighting,vardpoor,csblatvia,6.6188844849954505,10,NA,"Variance Estimation for Sample Surveys by the Ultimate Cluster
+Method",CRAN,FALSE
+survey / weighting,laeken,aalfons,8.199211969575522,3,NA,Estimation of Indicators on Social Exclusion and Poverty,CRAN,TRUE
+survey / weighting,PracTools,cran,4.761777537508179,1,NA,Designing and Weighting Survey Samples,CRAN,FALSE
+survey / weighting,sampling,alinamateikondylis,6.395770492002326,2,NA,Survey Sampling,CRAN,TRUE
+survey / weighting,mase,mcconvil,5.801815168581437,8,NA,Model-Assisted Survey Estimators,CRAN,FALSE
+survey / weighting,emdi,soerenpannier,6.853143128107312,16,NA,Estimating and Mapping Disaggregated Indicators,CRAN,FALSE
+survey / weighting,autumn,NA,NA,NA,NA,NA,GitHub/other,FALSE
+survey / weighting,anesrake,jmping,3.2692677087519297,3,NA,ANES Raking Implementation,CRAN,TRUE
+editing / imputation / SDC,validate,data-cleaning,12.42698085148692,435,NA,Data Validation Infrastructure,CRAN,TRUE
+editing / imputation / SDC,errorlocate,data-cleaning,6.847572659142112,22,NA,Locate Errors with Validation Rules,CRAN,FALSE
+editing / imputation / SDC,deductive,data-cleaning,4.123851640967086,14,NA,Data Correction and Imputation Using Deductive Methods,CRAN,FALSE
+editing / imputation / SDC,dcmodify,data-cleaning,6.080806804334362,11,NA,Modify Data Using Externally Defined Modification Rules,CRAN,FALSE
+editing / imputation / SDC,simputation,markvanderloo,6.515205999935324,94,NA,Simple Imputation,CRAN,FALSE
+editing / imputation / SDC,VIM,statistikat,15.586051977994874,93,NA,Visualization and Imputation of Missing Values,CRAN,TRUE
+editing / imputation / SDC,rspa,markvanderloo,3.4771212547196626,3,NA,Adapt Numerical Records to Fit (in)Equality Restrictions,CRAN,FALSE
+editing / imputation / SDC,lumberjack,markvanderloo,7.298241578496486,72,NA,Track Changes in Data,CRAN,FALSE
+editing / imputation / SDC,sdcMicro,sdctools,10.500070974022892,97,NA,"Statistical Disclosure Control Methods for Anonymization of Data
+and Risk Estimation",CRAN,TRUE
+editing / imputation / SDC,sdcTable,bernhard-da,3.751630093821718,1,NA,Methods for Statistical Disclosure Control in Tabular Data,CRAN,FALSE
+editing / imputation / SDC,simPop,statistikat,6.814780145745805,34,NA,Simulation of Complex Synthetic Data Information,CRAN,FALSE
+editing / imputation / SDC,banff,NA,NA,NA,NA,NA,GitHub/other,FALSE
+big data / formats,polars,rpolars,11.557913463341242,578,production,R Bindings for the 'polars' Rust Library,CRAN-archived,FALSE
+big data / formats,tidypolars,etiennebacher,8.850751090246634,243,community,"More Efficient Tidyverse Code, Using Polars in the Background",r-universe,FALSE
+big data / formats,sedonadb,apache,8.528542377608009,528,community,Bindings for Apache SedonaDB,r-universe,FALSE
+big data / formats,duckplyr,tidyverse,13.39462675147801,399,NA,A 'DuckDB'-Backed Version of 'dplyr',CRAN,TRUE
+big data / formats,arrow,apache,19.87233959744543,17273,community,Integration to 'Apache' 'Arrow',CRAN,TRUE
+big data / formats,nanoparquet,r-lib,11.96656829357648,87,NA,Read and Write 'Parquet' Files,CRAN,TRUE
+big data / formats,ROracle,rajendrapingte,3.8089613902679074,12,NA,OCI Based Oracle Database Interface for R,CRAN,FALSE
+big data / formats,readsas,janmarvin,2.1760912590556813,3,NA,Importing SAS Files,r-universe,FALSE
+dataviz,ggradar,NA,NA,NA,NA,NA,GitHub/other,FALSE
+dataviz,bbplot,NA,NA,NA,NA,NA,GitHub/other,FALSE
+dataviz,ggthemr,NA,NA,NA,NA,NA,GitHub/other,FALSE
+dataviz,ganttrify,giocomai,4.559906625036112,726,NA,Create beautiful Gantt charts with ggplot2,r-universe,FALSE
+dataviz,ggmagnify,hughjonesd,4.683001984607199,315,community,"Create a Magnified Inset of Part of a ""Ggplot"" Object",r-universe,FALSE
+dataviz,ggsankey,NA,NA,NA,NA,NA,GitHub/other,FALSE
+dataviz,ggannotate,NA,NA,NA,NA,NA,GitHub/other,FALSE
+dataviz,ggchicklet,NA,NA,NA,NA,NA,GitHub/other,FALSE
+dataviz,streamgraph,NA,NA,NA,NA,NA,GitHub/other,FALSE
+dataviz,reactablefmtr,renova-r,4.621384028481653,0,NA,Streamlined Table Styling and Formatting for Reactable,CRAN-archived,TRUE
+dataviz,ggalt,NA,NA,NA,NA,NA,CRAN-archived,TRUE
+dataviz,ggflags,jimjam-slam,4.305351369446624,101,NA,Plot flags of the world in ggplot2,r-universe,FALSE
+dataviz,emo,NA,NA,NA,NA,NA,GitHub/other,FALSE
+dataviz,ggpomological,NA,NA,NA,NA,NA,GitHub/other,FALSE
+dataviz,charter,NA,NA,NA,NA,NA,GitHub/other,FALSE
+dataviz,ggbrace,nicolash2,5.11826472608948,13,NA,Curly Braces for 'ggplot2',CRAN,FALSE
+dataviz,tidycharts,mi2datalab,5.079181246047625,6,NA,Generate Tidy Charts Inspired by 'IBCS',CRAN,FALSE
+dataviz,ComplexHeatmap,bioc,17.732012582514983,1561,NA,Make Complex Heatmaps,r-universe,FALSE
+reporting / bilingual,babelquarto,ropensci,8.193792230279799,62,NA,Renders a Multilingual Quarto Book,r-universe,FALSE
+reporting / bilingual,babeldown,ropensci,4.700876708376903,31,NA,Helpers for Automatic Translation of Markdown-based Content,r-universe,FALSE
+reporting / bilingual,datadrivencv,cct-datascience,3.4913616938342726,5,NA,"Templates and helper functions for building a CV with
+spreadsheets",r-universe,FALSE
+reporting / bilingual,pagedreport,NA,NA,NA,NA,NA,GitHub/other,FALSE
+reporting / bilingual,xaringanExtra,gadenbuie,8.028823298059836,449,NA,Extras and Extensions for 'xaringan' Slides,CRAN,FALSE
+dev tools,revdepcheck,NA,NA,NA,NA,NA,GitHub/other,FALSE
+dev tools,vscDebugger,manuelhentschel,7.326048967946741,107,NA,Support for Visual Studio Code Debugger,r-universe,FALSE
+dev tools,sess,reditorsupport,7.903432672962514,1187,NA,High-Performance IPC Bridge for R Sessions,r-universe,FALSE
+dev tools,colorout,NA,NA,NA,NA,NA,CRAN-archived,FALSE
+dev tools,regexplain,gadenbuie,4.28302970979386,492,NA,"Rstudio Addin to Explain, Test and Build Regular Expressions",r-universe,FALSE
+dev tools,rscodeio,anthonynorth,4.622214022966295,419,NA,A VSCode skin for RStudio,r-universe,FALSE
+dev tools,gpttools,jameshwade,6.523434286746437,298,NA,Extensions and Tools for gptstudio,r-universe,FALSE
+dev tools,flir,etiennebacher,7.074816440645175,90,NA,Find and Fix Lints in R Code,CRAN,FALSE
+models,cmdstanr,stan-dev,8.668040953632236,166,production,R Interface to 'CmdStan',r-universe,TRUE
+models,rethinking,staffanbetner,5.018367578387845,0,NA,Statistical Rethinking book package,r-universe,FALSE
+models,INLA,NA,NA,NA,NA,NA,GitHub/other,FALSE
+models,synthdid,skranz,4.113609151073028,0,NA,Synthetic Difference-in-Difference Estimation,r-universe,FALSE
+models,HonestDiD,asheshrambachan,9.14390315107839,259,NA,"Robust Inference in Difference-in-Differences and Event Study
+Designs",CRAN,FALSE
+models,fwildclusterboot,s3alfisc,6.122592649625269,35,NA,Fast Wild Cluster Bootstrap Inference for Linear Models,CRAN-archived,FALSE
+models,sl3,tlverse,9.682306556945548,108,NA,Pipelines for Machine Learning and Super Learning,r-universe,FALSE
+models,tmle3,tlverse,8.30869670917265,43,NA,The Extensible TMLE Framework,r-universe,FALSE
+models,mlr3extralearners,mlr-org,8.1153108949105,115,NA,Extra Learners For mlr3,r-universe,TRUE
+models,catboost,NA,NA,NA,NA,NA,GitHub/other,TRUE
+models,gamlss2,gamlss-dev,8.179448375405228,19,NA,GAMLSS Infrastructure for Flexible Distributional Regression,r-universe,FALSE

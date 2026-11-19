@@ -6,3 +6,7 @@ site/*_files/
 .Rproj.user/
 .Rhistory
 .RData
+
+# explore/: one-off analyses
+explore/*/_cache/
+explore/not-on-cran/out/ru_all_flags.csv

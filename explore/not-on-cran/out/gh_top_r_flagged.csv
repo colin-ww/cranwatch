@@ -1,0 +1,1001 @@
+repo,name,gh_stars,archived,pushed,desc,lc,package,cran,universe,conda_forge,status
+cxli233/FriendsDontLetFriends,FriendsDontLetFriends,7213,FALSE,2025-09-03,Friends don't let friends make certain types of data visualization - What are th,friendsdontletfriends,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+tidyverse/ggplot2,ggplot2,7030,FALSE,2026-11-16,An implementation of the Grammar of Graphics in R,ggplot2,ggplot2,cran,tidyverse,TRUE,cran/bioc
+qinwf/awesome-R,awesome-R,6546,FALSE,2025-09-18,"A curated list of awesome R packages, frameworks and software.",awesome,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+rstudio/shiny,shiny,5705,FALSE,2026-11-18,Easy interactive web applications with R,shiny,shiny,cran,rstudio,TRUE,cran/bioc
+hadley/r4ds,r4ds,5206,FALSE,2026-10-23,R for data science: a book,r4ds,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+tidyverse/dplyr,dplyr,5084,FALSE,2026-11-02,dplyr: A grammar of data manipulation,dplyr,dplyr,cran,tidyverse,TRUE,cran/bioc
+swirldev/swirl_courses,swirl_courses,4622,FALSE,2024-01-10,:mortar_board: A collection of interactive courses for the swirl R package.,swirl_courses,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+briatte/awesome-network-analysis,awesome-network-analysis,4154,FALSE,2026-08-20,A curated list of awesome network analysis resources.,awesome-network-analysis,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+rmcelreath/stat_rethinking_2022,stat_rethinking_2022,4106,FALSE,2022-03-15,Statistical Rethinking course winter 2022,stat_rethinking_2022,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+Rdatatable/data.table,data.table,3929,FALSE,2026-11-18,R's data.table package extends data.frame:,data.table,data.table,cran,rdatatable,TRUE,cran/bioc
+johnmyleswhite/ML_for_Hackers,ML_for_Hackers,3731,FALSE,2019-05-26,"Code accompanying the book ""Machine Learning for Hackers""",ml_for_hackers,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+twitter/AnomalyDetection,AnomalyDetection,3605,TRUE,2019-08-30,Anomaly Detection with R,anomalydetection,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+rstudio/rmarkdown,rmarkdown,3068,FALSE,2026-11-09,Dynamic Documents for R,rmarkdown,rmarkdown,cran,rstudio,TRUE,cran/bioc
+satijalab/seurat,seurat,2818,FALSE,2026-11-18,R toolkit for single cell genomics,seurat,Seurat,cran,satijalab,TRUE,cran/bioc
+plotly/plotly.R,plotly.R,2684,FALSE,2026-07-25,An interactive graphing library for R,plotly,plotly,cran,plotly,TRUE,cran/bioc
+thomasp85/patchwork,patchwork,2619,FALSE,2025-08-25,The Composer of ggplots,patchwork,patchwork,cran,thomasp85,TRUE,cran/bioc
+r-lib/devtools,devtools,2528,FALSE,2026-11-18,Tools to make an R developer's life easier,devtools,devtools,cran,r-lib,TRUE,cran/bioc
+yihui/knitr,knitr,2470,FALSE,2026-11-02,A general-purpose tool for dynamic report generation in R,knitr,knitr,cran,yihui,TRUE,cran/bioc
+rmcelreath/rethinking,rethinking,2432,FALSE,2026-10-30,Statistical Rethinking course and book package,rethinking,rethinking,never,staffanbetner,FALSE,r-universe (cran: never)
+rmcelreath/stat_rethinking_2023,stat_rethinking_2023,2387,FALSE,2023-11-28,Statistical Rethinking Course for Jan-Mar 2023,stat_rethinking_2023,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+IndrajeetPatil/ggstatsplot,ggstatsplot,2209,FALSE,2026-11-17,Enhancing {ggplot2} plots with statistical analysis 📊📣,ggstatsplot,ggstatsplot,cran,indrajeetpatil,TRUE,cran/bioc
+tylermorganwall/rayshader,rayshader,2190,FALSE,2026-11-16,R Package for 2D and 3D mapping and data visualization,rayshader,rayshader,cran,tylermorganwall,TRUE,cran/bioc
+genomicsclass/labs,labs,2181,FALSE,2024-02-12,Rmd source files for the HarvardX series PH525x,labs,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+karthik/wesanderson,wesanderson,2176,FALSE,2026-11-10,A Wes Anderson color palette for R,wesanderson,wesanderson,cran,karthik,TRUE,cran/bioc
+rstudio/gt,gt,2162,FALSE,2026-10-15,"Easily generate information-rich, publication-quality tables from R",gt,gt,cran,rstudio,TRUE,cran/bioc
+ujjwalkarn/DataScienceR,DataScienceR,2154,FALSE,2023-03-10,"a curated list of R tutorials for Data Science, NLP and Machine Learning",datasciencer,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+toddwschneider/nyc-taxi-data,nyc-taxi-data,2085,FALSE,2026-09-25,"Import public NYC taxi and for-hire vehicle (Uber, Lyft) trip data into a Postgr",nyc-taxi-data,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+thomasp85/gganimate,gganimate,1985,FALSE,2025-09-04,A Grammar of Animated Graphics,gganimate,gganimate,cran,thomasp85,TRUE,cran/bioc
+szilard/benchm-ml,benchm-ml,1894,FALSE,2022-09-16,"A minimal benchmark for scalability, speed and accuracy of commonly used open so",benchm-ml,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+dreamRs/esquisse,esquisse,1869,FALSE,2025-02-21,RStudio add-in to make plots interactively with ggplot2,esquisse,esquisse,cran,dreamrs,TRUE,cran/bioc
+google/CausalImpact,CausalImpact,1867,FALSE,2026-03-31,An R package for causal inference in time series,causalimpact,CausalImpact,cran,google,TRUE,cran/bioc
+rmcelreath/stat_rethinking_2024,stat_rethinking_2024,1839,FALSE,2024-03-08,NA,stat_rethinking_2024,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+tidyverse/tidyverse,tidyverse,1812,FALSE,2025-06-18,Easily install and load packages from the tidyverse,tidyverse,tidyverse,cran,tidyverse,TRUE,cran/bioc
+geocompx/geocompr,geocompr,1799,FALSE,2026-09-14,Geocomputation with R: an open source book,geocompr,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+rstudio/blogdown,blogdown,1792,FALSE,2026-11-18,Create Blogs and Websites with R Markdown,blogdown,blogdown,cran,rstudio,TRUE,cran/bioc
+rstudio/reticulate,reticulate,1766,FALSE,2026-11-13,R Interface to Python,reticulate,reticulate,cran,rstudio,TRUE,cran/bioc
+rich-iannone/DiagrammeR,DiagrammeR,1749,FALSE,2026-04-27,Graph and network visualization using tabular data in R,diagrammer,DiagrammeR,cran,rich-iannone,TRUE,cran/bioc
+zonination/investing,investing,1743,FALSE,2016-12-27,Investing Returns on the Market as a Whole,investing,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+EmilHvitfeldt/r-color-palettes,r-color-palettes,1728,FALSE,2026-06-01,Comprehensive list of color palettes available in R ❤️🧡💛💚💙💜,color-palettes,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+nanxstats/awesome-shiny-extensions,awesome-shiny-extensions,1697,FALSE,2026-11-13,🐝 Awesome R and Python packages offering extended UI or server components for th,awesome-shiny-extensions,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+mlr-org/mlr,mlr,1686,FALSE,2026-10-11,Machine Learning in R,mlr,NA,NA,NA,NA,cran/bioc
+topepo/caret,caret,1665,FALSE,2026-11-16,caret (Classification And Regression Training) R package that contains misc func,caret,caret,cran,topepo,TRUE,cran/bioc
+bbc/bbplot,bbplot,1645,FALSE,2021-07-02,R package that helps create and export ggplot2 charts in the style used by the B,bbplot,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+hadley/stats337,stats337,1608,FALSE,2018-06-21,Readings in applied data science,stats337,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+jokergoo/ComplexHeatmap,ComplexHeatmap,1566,FALSE,2026-04-02,Make Complex Heatmaps,complexheatmap,ComplexHeatmap,never,bioc,FALSE,cran/bioc
+tidymodels/broom,broom,1528,FALSE,2026-05-14,Convert statistical analysis objects from R into tidy format,broom,broom,cran,tidymodels,TRUE,cran/bioc
+tidyverse/rvest,rvest,1525,FALSE,2026-10-27,Simple web scraping for R,rvest,rvest,cran,tidyverse,TRUE,cran/bioc
+fossasia/tofsims,tofsims,1487,FALSE,2017-11-29,NA,tofsims,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+sfirke/janitor,janitor,1462,FALSE,2024-12-23,simple tools for data cleaning in R,janitor,janitor,cran,sfirke,TRUE,cran/bioc
+r-spatial/sf,sf,1458,FALSE,2026-11-11,Simple Features for R,sf,sf,cran,r-spatial,TRUE,cran/bioc
+tidyverse/tidyr,tidyr,1446,FALSE,2026-06-02,Tidy Messy Data,tidyr,tidyr,cran,tidyverse,TRUE,cran/bioc
+rstudio/plumber,plumber,1441,FALSE,2026-02-09,Turn your R code into a web API.,plumber,plumber,cran,rstudio,TRUE,cran/bioc
+paul-buerkner/brms,brms,1439,FALSE,2026-11-17,brms R package for Bayesian generalized multivariate non-linear multilevel model,brms,brms,cran,paul-buerkner,TRUE,cran/bioc
+griffithlab/rnaseq_tutorial,rnaseq_tutorial,1437,FALSE,2023-05-31,Informatics for RNA-seq: A web resource for analysis on the cloud. Educational t,rnaseq_tutorial,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+tidyverse/purrr,purrr,1411,FALSE,2026-11-03,A functional programming toolkit for R,purrr,purrr,cran,tidyverse,TRUE,cran/bioc
+hadley/mastering-shiny,mastering-shiny,1381,FALSE,2026-02-03,Mastering Shiny: a book,mastering-shiny,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+hrbrmstr/hrbrthemes,hrbrthemes,1362,FALSE,2026-10-17,":lock_with_ink_pen: Opinionated, typographic-centric ggplot2 themes and theme co",hrbrthemes,hrbrthemes,cran,hrbrmstr,TRUE,cran/bioc
+jrnold/ggthemes,ggthemes,1354,FALSE,2026-11-11,"Themes, scales, and geoms for ggplot2 that reproduce the styles of The Economist",ggthemes,ggthemes,cran,jrnold,TRUE,cran/bioc
+ropensci/drake,drake,1345,FALSE,2024-12-04,An R-focused pipeline toolkit for reproducibility and high-performance computing,drake,drake,cran,ropensci,TRUE,cran/bioc
+rstudio/tensorflow,tensorflow,1341,FALSE,2026-11-12,TensorFlow for R,tensorflow,tensorflow,cran,rstudio,TRUE,cran/bioc
+r-lib/lintr,lintr,1301,FALSE,2026-10-29,Static Code Analysis for R,lintr,lintr,cran,r-lib,TRUE,cran/bioc
+BlakeRMills/MetBrewer,MetBrewer,1290,FALSE,2025-01-03,Color palette package in R inspired by works at the Metropolitan Museum of Art i,metbrewer,MetBrewer,cran,cran,TRUE,cran/bioc
+kassambara/ggpubr,ggpubr,1283,FALSE,2026-07-31,'ggplot2' Based Publication Ready Plots,ggpubr,ggpubr,cran,kassambara,TRUE,cran/bioc
+mitchelloharawild/vitae,vitae,1275,FALSE,2026-08-21,R Markdown Résumés and CVs,vitae,vitae,cran,mitchelloharawild,TRUE,cran/bioc
+wch/r-source,r-source,1263,FALSE,2026-11-18,"Read-only mirror of R source code from https://svn.r-project.org/R/, updated hou",source,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+slowkow/ggrepel,ggrepel,1263,FALSE,2026-10-09,:round_pushpin: Repel overlapping text labels away from each other in your ggplo,ggrepel,ggrepel,cran,slowkow,TRUE,cran/bioc
+YuLab-SMU/clusterProfiler,clusterProfiler,1252,FALSE,2026-11-11,:bar_chart: A universal enrichment tool for interpreting omics data,clusterprofiler,clusterProfiler,never,bioc,FALSE,cran/bioc
+andrewgbruce/statistics-for-data-scientists,statistics-for-data-scientists,1241,FALSE,2022-12-16,"Code and data associated with the book ""Statistics for Data Scientists: 50 Essen",statistics-for-data-scientists,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+swirldev/swirl,swirl,1225,FALSE,2023-10-27,":cyclone: Learn R, in R.",swirl,swirl,cran,seankross,FALSE,cran/bioc
+TheAlgorithms/R,R,1225,FALSE,2026-11-18,Collection of various algorithms implemented in R.,r,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+ddsjoberg/gtsummary,gtsummary,1221,FALSE,2026-10-28,Presentation-Ready Data Summary and Analytic Result Tables,gtsummary,gtsummary,cran,ddsjoberg,TRUE,cran/bioc
+daattali/advanced-shiny,advanced-shiny,1216,FALSE,2025-12-21,🤹 Shiny tips & tricks for improving your apps and solving common problems,advanced-shiny,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+juliasilge/tidytext,tidytext,1208,FALSE,2026-08-02,Text mining using tidy tools :sparkles::page_facing_up::sparkles:,tidytext,tidytext,cran,juliasilge,TRUE,cran/bioc
+rstudio/tinytex,tinytex,1186,FALSE,2026-11-09,"A lightweight, cross-platform, portable, and easy-to-maintain LaTeX distribution",tinytex,tinytex,cran,rstudio,TRUE,cran/bioc
+robjhyndman/forecast,forecast,1185,FALSE,2026-11-19,Forecasting Functions for Time Series and Linear Models,forecast,forecast,cran,robjhyndman,TRUE,cran/bioc
+matloff/fasteR,fasteR,1176,FALSE,2026-01-03,Fast Lane to Learning R!,faster,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+rstudio/renv,renv,1166,FALSE,2026-11-14,renv: Project environments for R.,renv,renv,cran,rstudio,TRUE,cran/bioc
+easystats/performance,performance,1161,FALSE,2026-11-18,":muscle: Models' quality and performance metrics (R2, ICC, LOO, AIC, BF, ...)",performance,performance,cran,easystats,TRUE,cran/bioc
+easystats/easystats,easystats,1161,FALSE,2026-11-02,:milky_way: The R easystats-project,easystats,easystats,cran,easystats,TRUE,cran/bioc
+thomasp85/ggraph,ggraph,1121,FALSE,2025-08-25,Grammar of Graph Graphics,ggraph,ggraph,cran,thomasp85,TRUE,cran/bioc
+ropensci/targets,targets,1108,FALSE,2026-10-26,Function-oriented Make-like declarative workflows for R,targets,targets,cran,ropensci,TRUE,cran/bioc
+stan-dev/rstan,rstan,1090,FALSE,2026-11-17,"RStan, the R interface to Stan",rstan,rstan,cran,stan-dev,TRUE,cran/bioc
+mlr-org/mlr3,mlr3,1084,FALSE,2026-11-16,mlr3: Machine Learning in R - next generation,mlr3,mlr3,cran,mlr-org,TRUE,cran/bioc
+rstudio/pointblank,pointblank,1056,FALSE,2026-08-21,Data quality assessment and metadata reporting for data frames and database tabl,pointblank,pointblank,cran,rstudio,TRUE,cran/bioc
+EmilHvitfeldt/paletteer,paletteer,1045,FALSE,2026-01-08,🎨🎨🎨 Collection of most color palettes in a single R package,paletteer,paletteer,cran,emilhvitfeldt,TRUE,cran/bioc
+tidyverse/readr,readr,1041,FALSE,2026-04-10,"Read flat files (csv, tsv, fwf) into R",readr,readr,cran,tidyverse,TRUE,cran/bioc
+jokergoo/circlize,circlize,1030,FALSE,2023-11-11,Circular visualization in R,circlize,circlize,cran,jokergoo,TRUE,cran/bioc
+allisonhorst/palmerpenguins,palmerpenguins,1029,FALSE,2024-09-19,A great intro dataset for data exploration & visualization (alternative to iris),palmerpenguins,palmerpenguins,cran,allisonhorst,TRUE,cran/bioc
+futureverse/future,future,1016,FALSE,2026-11-17,:rocket: R package: future: Unified Parallel and Distributed Processing in R for,future,NA,NA,NA,NA,cran/bioc
+rmcelreath/stat_rethinking_2026,stat_rethinking_2026,997,FALSE,2026-03-20,Statistical Rethinking Course 2026,stat_rethinking_2026,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+klmr/box,box,991,FALSE,2026-08-16,"Write reusable, composable and modular R code",box,box,cran,klmr,TRUE,cran/bioc
+MichelNivard/gptstudio,gptstudio,990,FALSE,2026-01-03,"GPT RStudio addins that enable GPT assisted coding, writing & analysis",gptstudio,gptstudio,cran,michelnivard,FALSE,cran/bioc
+r-lib/httr,httr,983,FALSE,2026-09-01,httr: a friendly http package for R,httr,httr,cran,r-lib,TRUE,cran/bioc
+tidyverse/magrittr,magrittr,972,FALSE,2026-04-05,Improve the readability of R code with the pipe,magrittr,magrittr,cran,tidyverse,TRUE,cran/bioc
+sparklyr/sparklyr,sparklyr,970,FALSE,2026-11-09,R interface for Apache Spark,sparklyr,sparklyr,cran,sparklyr,TRUE,cran/bioc
+gesiscss/awesome-computational-social-science,awesome-computational-social-science,966,FALSE,2026-10-13,A list of awesome resources for Computational Social Science,awesome-computational-social-science,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+cutterkom/generativeart,generativeart,962,FALSE,2022-04-27,Create Generative Art with R,generativeart,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+hadley/r-pkgs,r-pkgs,957,FALSE,2026-11-18,Building R packages,pkgs,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+easystats/see,see,956,FALSE,2026-11-03,:art: Visualisation toolbox for beautiful and publication-ready figures,see,see,cran,easystats,TRUE,cran/bioc
+thomasp85/ggforce,ggforce,955,FALSE,2025-09-15,Accelerating ggplot2,ggforce,ggforce,cran,thomasp85,TRUE,cran/bioc
+ThinkR-open/golem,golem,947,FALSE,2026-11-12,A Framework for Building Robust Shiny Apps,golem,golem,cran,thinkr-open,TRUE,cran/bioc
+r-lib/testthat,testthat,944,FALSE,2026-09-30,An R 📦 to make testing 😀,testthat,testthat,cran,r-lib,TRUE,cran/bioc
+YuLab-SMU/ggtree,ggtree,937,FALSE,2026-11-12,:christmas_tree:Visualization and annotation of phylogenetic trees,ggtree,ggtree,never,bioc,FALSE,cran/bioc
+rstudio/pagedown,pagedown,927,FALSE,2026-10-27,Paginate the HTML Output of R Markdown with CSS for Print,pagedown,pagedown,cran,rstudio,TRUE,cran/bioc
+r-lib/usethis,usethis,926,FALSE,2026-10-30,Set up commonly used 📦 components,usethis,usethis,cran,r-lib,TRUE,cran/bioc
+MilesMcBain/datapasta,datapasta,924,FALSE,2025-12-07,"On top of spaghetti, all covered in cheese....",datapasta,datapasta,cran,milesmcbain,TRUE,cran/bioc
+johnmyleswhite/BanditsBook,BanditsBook,924,FALSE,2020-01-09,Code for my book on Multi-Armed Bandit Algorithms,banditsbook,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+business-science/tidyquant,tidyquant,920,FALSE,2026-11-01,Bringing financial analysis to the tidyverse,tidyquant,tidyquant,cran,business-science,TRUE,cran/bioc
+workflowr/workflowr,workflowr,910,FALSE,2026-07-01,Organize your project into a research website,workflowr,workflowr,cran,workflowr,TRUE,cran/bioc
+joshuaulrich/quantmod,quantmod,910,FALSE,2026-07-03,Quantitative Financial Modelling Framework,quantmod,quantmod,cran,joshuaulrich,TRUE,cran/bioc
+r-tmap/tmap,tmap,907,FALSE,2026-11-17,R package for thematic maps,tmap,tmap,cran,r-tmap,TRUE,cran/bioc
+Mikata-Project/ggthemr,ggthemr,905,FALSE,2022-05-07,Themes for ggplot2.,ggthemr,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+quanteda/quanteda,quanteda,898,FALSE,2026-11-17,An R package for the Quantitative Analysis of Textual Data,quanteda,quanteda,cran,quanteda,TRUE,cran/bioc
+jmzeng1314/GEO,GEO,896,FALSE,2022-10-18,NA,geo,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+rdpeng/ProgrammingAssignment2,ProgrammingAssignment2,896,FALSE,2024-08-14,Repository for Programming Assignment 2 for R Programming on Coursera,programmingassignment2,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+mjskay/ggdist,ggdist,883,FALSE,2026-10-25,Visualizations of distributions and uncertainty,ggdist,ggdist,cran,mjskay,TRUE,cran/bioc
+davidgohel/ggiraph,ggiraph,882,FALSE,2026-11-13,make 'ggplot' graphics interactive,ggiraph,ggiraph,cran,davidgohel,TRUE,cran/bioc
+dselivanov/text2vec,text2vec,877,FALSE,2025-12-01,"Fast vectorization, topic modeling, distances and GloVe word embeddings in R.",text2vec,text2vec,cran,dselivanov,TRUE,cran/bioc
+grabear/awesome-rshiny,awesome-rshiny,875,FALSE,2022-10-07,An awesome R-shiny list!,awesome-rshiny,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+daattali/addinslist,addinslist,874,FALSE,2024-08-18,📜 Discover and install useful RStudio addins,addinslist,addinslist,cran,daattali,FALSE,cran/bioc
+dreamRs/shinyWidgets,shinyWidgets,872,FALSE,2026-07-06,shinyWidgets : Extend widgets available in shiny,shinywidgets,shinyWidgets,cran,dreamrs,TRUE,cran/bioc
+zonination/perceptions,perceptions,869,FALSE,2017-08-25,Perceptions of Probability and Numbers,perceptions,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+hyu020/MoRad,MoRad,868,FALSE,2025-10-04,NA,morad,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+google/rappor,rappor,868,TRUE,2022-07-14,RAPPOR: Privacy-Preserving Reporting Algorithms,rappor,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+pbiecek/xai_resources,xai_resources,865,FALSE,2022-05-31,Interesting resources related to XAI (Explainable Artificial Intelligence),xai_resources,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+rstudio/keras3,keras3,857,FALSE,2026-11-12,R Interface to Keras,keras3,keras3,cran,rstudio,FALSE,cran/bioc
+SiatBioInf/panCTC,panCTC,844,FALSE,2026-02-18,NA,panctc,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+z3tt/TidyTuesday,TidyTuesday,844,FALSE,2023-09-26,"My contributions to the #TidyTuesday challenge, a weekly data visualization chal",tidytuesday,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+ramnathv/slidify,slidify,843,FALSE,2016-08-02,Generate reproducible html5 slides from R markdown,slidify,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+mdozmorov/scRNA-seq_notes,scRNA-seq_notes,830,FALSE,2026-11-10,A list of scRNA-seq analysis tools,scrna-seq_notes,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+tidymodels/tidymodels,tidymodels,824,FALSE,2026-09-17,Easily install and load the tidymodels packages,tidymodels,tidymodels,cran,tidymodels,TRUE,cran/bioc
+Mcompetitions/M4-methods,M4-methods,816,FALSE,2020-03-20,"Data, Benchmarks, and methods submitted to the M4 forecasting competition",m4-methods,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+rgeirhos/texture-vs-shape,texture-vs-shape,816,FALSE,2023-05-02,"Pre-trained models, data, code & materials from the paper ""ImageNet-trained CNNs",texture-vs-shape,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+GuangchuangYu/hexSticker,hexSticker,814,FALSE,2026-10-29,:sparkles: Hexagon sticker in R,hexsticker,hexSticker,cran,guangchuangyu,FALSE,cran/bioc
+erikaduan/r_tips,r_tips,809,FALSE,2025-07-16,"R programming tips for data cleaning, data visualisation, statistical modelling",r_tips,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+tidyverse/lubridate,lubridate,805,FALSE,2026-06-15,Make working with dates in R just that little bit easier,lubridate,lubridate,cran,tidyverse,TRUE,cran/bioc
+hrbrmstr/waffle,waffle,800,FALSE,2024-01-08,:maple_leaf: Make waffle (square pie) charts in R,waffle,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+ramnathv/htmlwidgets,htmlwidgets,800,FALSE,2026-04-22,HTML Widgets for R,htmlwidgets,htmlwidgets,cran,ramnathv,TRUE,cran/bioc
+gadenbuie/tidyexplain,tidyexplain,797,FALSE,2022-01-11,"🤹‍♀ Animations of tidyverse verbs using R, the tidyverse, and gganimate",tidyexplain,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+tidymodels/infer,infer,796,FALSE,2026-04-13,An R package for tidyverse-friendly statistical inference,infer,infer,cran,tidymodels,TRUE,cran/bioc
+dmpe/R,R,795,FALSE,2021-04-17,Exercises (incl. analyses) with R language (math+statistics),r,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+selva86/datasets,datasets,794,FALSE,2025-05-28,A collection of datasets of ML problem solving,datasets,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+thackl/gggenomes,gggenomes,793,FALSE,2026-10-05,A grammar of graphics for comparative genomics,gggenomes,gggenomes,cran,thackl,TRUE,cran/bioc
+sqjin/CellChat,CellChat,790,TRUE,2024-01-06,"R toolkit for inference, visualization and analysis of cell-cell communication f",cellchat,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+jennybc/googlesheets,googlesheets,788,TRUE,2022-02-04,Google Spreadsheets R API,googlesheets,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+jalapic/engsoccerdata,engsoccerdata,787,FALSE,2026-02-08,English and European soccer results 1871-2022,engsoccerdata,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+natverse/malecns,malecns,784,FALSE,2026-08-23,Access to the latest 'Janelia FlyEM' datasets,malecns,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+dkahle/ggmap,ggmap,779,FALSE,2025-08-31,A package for plotting maps in R with ggplot2,ggmap,ggmap,cran,dkahle,TRUE,cran/bioc
+ropensci-archive/rtweet,rtweet,778,TRUE,2024-11-10,🐦 R client for interacting with Twitter's [stream and REST] APIs,rtweet,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+r-spatial/rgee,rgee,778,FALSE,2026-11-16,Google Earth Engine for R,rgee,rgee,cran,r-spatial,TRUE,cran/bioc
+r-lib/styler,styler,778,FALSE,2026-09-29,Non-invasive pretty printing of R code,styler,styler,cran,r-lib,TRUE,cran/bioc
+r-lib/pkgdown,pkgdown,777,FALSE,2026-08-12,Generate static html documentation for an R package,pkgdown,pkgdown,cran,r-lib,TRUE,cran/bioc
+erikgahner/PolData,PolData,771,FALSE,2026-11-06,A dataset with political datasets,poldata,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+tidyverse/tibble,tibble,764,FALSE,2026-11-01,A modern re-imagining of the data frame,tibble,tibble,cran,tidyverse,TRUE,cran/bioc
+opencpu/opencpu,opencpu,763,FALSE,2026-10-30,OpenCPU system for embedded scientific computation and reproducible research,opencpu,opencpu,cran,opencpu,TRUE,cran/bioc
+wilkelab/cowplot,cowplot,761,FALSE,2025-07-07,cowplot: Streamlined Plot Theme and Plot Annotations for ggplot2,cowplot,cowplot,cran,wilkelab,TRUE,cran/bioc
+nanxstats/ggsci,ggsci,754,FALSE,2026-07-30,🦄 Scientific journal and sci-fi themed color palettes for ggplot2,ggsci,ggsci,cran,nanxstats,TRUE,cran/bioc
+tidyverse/reprex,reprex,754,FALSE,2026-04-10,"Render bits of R code for sharing, e.g., on GitHub or StackOverflow.",reprex,reprex,cran,tidyverse,TRUE,cran/bioc
+daattali/shinyjs,shinyjs,752,FALSE,2026-08-11,💡 Easily improve the user experience of your Shiny apps in seconds,shinyjs,shinyjs,cran,daattali,TRUE,cran/bioc
+mjskay/tidybayes,tidybayes,750,FALSE,2024-09-17,Bayesian analysis + tidy data + geoms (R package),tidybayes,tidybayes,cran,mjskay,TRUE,cran/bioc
+tidyverse/glue,glue,750,FALSE,2026-04-21,"Glue strings to data in R. Small, fast, dependency free interpreted string liter",glue,glue,cran,tidyverse,TRUE,cran/bioc
+futureverse/furrr,furrr,744,FALSE,2026-10-30,Apply Mapping Functions in Parallel using Futures,furrr,NA,NA,NA,NA,cran/bioc
+jbkunst/highcharter,highcharter,742,FALSE,2026-11-19,R wrapper for highcharts,highcharter,highcharter,cran,jbkunst,TRUE,cran/bioc
+rstudio/learnr,learnr,740,FALSE,2025-11-13,Interactive Tutorials with R Markdown,learnr,learnr,cran,rstudio,TRUE,cran/bioc
+haozhu233/kableExtra,kableExtra,740,FALSE,2026-10-25,Construct Complex Table with knitr::kable() + pipe.,kableextra,kableExtra,cran,haozhu233,TRUE,cran/bioc
+r-lib/cli,cli,730,FALSE,2026-11-07,Tools for making beautiful & useful command line interfaces,cli,cli,cran,r-lib,TRUE,cran/bioc
+giocomai/ganttrify,ganttrify,726,FALSE,2025-10-21,Create beautiful Gantt charts with ggplot2,ganttrify,ganttrify,never,giocomai,FALSE,r-universe (cran: never)
+JohsEnevoldsen/literature-clock,literature-clock,722,FALSE,2025-03-28,"Clock using time quotes from the literature, based on the work of Jaap Meijers",literature-clock,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+benmarwick/rrtools,rrtools,722,FALSE,2025-07-21,rrtools: Tools for Writing Reproducible Research in R,rrtools,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+easystats/report,report,719,FALSE,2026-11-05,:scroll: :tada: Automated reporting of objects in R,report,report,cran,easystats,TRUE,cran/bioc
+jbengler/tidyplots,tidyplots,717,FALSE,2026-11-17,Tidy Plots for Scientific Papers,tidyplots,tidyplots,cran,jbengler,TRUE,cran/bioc
+r-lidar/lidR,lidR,715,FALSE,2026-11-18,Airborne LiDAR data manipulation and visualisation for forestry application,lidr,lidR,cran,r-lidar,TRUE,cran/bioc
+ben519/MLPB,MLPB,713,FALSE,2019-11-29,Machine Learning Problem Bible | Problem Set Here >>,mlpb,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+rstudio/ggvis,ggvis,707,TRUE,2026-02-10,Interactive grammar of graphics for R,ggvis,ggvis,cran,hadley,TRUE,cran/bioc
+dgrtwo/fuzzyjoin,fuzzyjoin,706,FALSE,2026-02-19,Join tables together on inexact matching,fuzzyjoin,fuzzyjoin,cran,dgrtwo,TRUE,cran/bioc
+davidgohel/officer,officer,703,FALSE,2026-11-18,:cop: officer: office documents from R,officer,officer,cran,davidgohel,TRUE,cran/bioc
+jinworks/CellChat,CellChat,695,FALSE,2026-03-04,"R toolkit for inference, visualization and analysis of cell-cell communication f",cellchat,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+saeyslab/nichenetr,nichenetr,692,FALSE,2026-11-05,NicheNet: predict active ligand-target links between interacting cells,nichenetr,nichenetr,never,zaoqu-liu,FALSE,r-universe (cran: never)
+hrbrmstr/ggalt,ggalt,690,FALSE,2026-05-13,":earth_americas: Extra Coordinate Systems, Geoms,  Statistical Transformations &",ggalt,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+walkerke/tidycensus,tidycensus,690,FALSE,2026-10-20,Load US Census boundary and attribute data as 'tidyverse' and 'sf'-ready data fr,tidycensus,tidycensus,cran,walkerke,TRUE,cran/bioc
+zhanghao-njmu/SCP,SCP,690,FALSE,2026-03-11,An end-to-end Single-Cell Pipeline designed to facilitate comprehensive analysis,scp,scp,never,bioc,FALSE,cran/bioc
+broadinstitute/infercnv,infercnv,688,FALSE,2026-10-31,Inferring CNV from Single-Cell RNA-Seq,infercnv,infercnv,never,bioc,FALSE,cran/bioc
+ModelOriented/DrWhy,DrWhy,688,FALSE,2023-02-21,DrWhy is the collection of tools for eXplainable AI (XAI). It's based on shared,drwhy,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+daattali/timevis,timevis,684,FALSE,2024-08-18,📅 Create interactive timeline visualizations in R,timevis,timevis,cran,daattali,TRUE,cran/bioc
+teunbrand/ggh4x,ggh4x,683,FALSE,2025-10-02,"ggplot extension: options for tailored facets, multiple colourscales and miscell",ggh4x,ggh4x,cran,teunbrand,TRUE,cran/bioc
+Misterursw/interactive_modify_figures_from_python,interactive_modify_figures_from_python,681,FALSE,2026-08-25,NA,interactive_modify_figures_from_python,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+REditorSupport/languageserver,languageserver,679,FALSE,2026-11-18,An implementation of the Language Server Protocol for R,languageserver,languageserver,cran,reditorsupport,TRUE,cran/bioc
+massimoaria/bibliometrix,bibliometrix,676,FALSE,2026-11-09,An R-tool for comprehensive science mapping analysis. A package for quantitative,bibliometrix,bibliometrix,cran,massimoaria,TRUE,cran/bioc
+tidyverse/dtplyr,dtplyr,676,FALSE,2026-02-11,Data table backend for dplyr,dtplyr,dtplyr,cran,tidyverse,TRUE,cran/bioc
+njtierney/naniar,naniar,675,FALSE,2025-04-30,"Tidy data structures, summaries, and visualisations for missing data",naniar,naniar,cran,njtierney,TRUE,cran/bioc
+immunogenomics/harmony,harmony,675,FALSE,2026-10-15,"Fast, sensitive and accurate integration of single-cell data with Harmony",harmony,harmony,cran,immunogenomics,TRUE,cran/bioc
+tidyverse/stringr,stringr,673,FALSE,2026-10-27,A fresh approach to string manipulation in R,stringr,stringr,cran,tidyverse,TRUE,cran/bioc
+wilkelab/ggtext,ggtext,667,FALSE,2026-08-26,Improved text rendering support for ggplot2,ggtext,ggtext,cran,wilkelab,TRUE,cran/bioc
+r-lib/roxygen2,roxygen2,666,FALSE,2026-10-21,Generate R package documentation from inline R comments,roxygen2,roxygen2,cran,r-lib,TRUE,cran/bioc
+tidymodels/parsnip,parsnip,660,FALSE,2026-11-13,A tidy unified interface to models,parsnip,parsnip,cran,tidymodels,TRUE,cran/bioc
+christophergandrud/networkD3,networkD3,660,FALSE,2025-04-18,D3 JavaScript Network Graphs from R,networkd3,networkD3,cran,christophergandrud,TRUE,cran/bioc
+leedrake5/Russia-Ukraine,Russia-Ukraine,659,FALSE,2026-11-18,Equipment Loss Tracking,russia-ukraine,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+rstudio/RStartHere,RStartHere,657,FALSE,2019-09-16,A guide to some of the most useful R Packages that we know about,rstarthere,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+vincentarelbundock/marginaleffects,marginaleffects,656,FALSE,2026-11-09,"R package to compute and plot predictions, slopes, marginal means, and compariso",marginaleffects,marginaleffects,cran,vincentarelbundock,TRUE,cran/bioc
+rmcelreath/stat_rethinking_2020,stat_rethinking_2020,656,FALSE,2021-03-03,Statistical Rethinking Course Winter 2020/2021,stat_rethinking_2020,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+joey711/phyloseq,phyloseq,653,FALSE,2026-02-27,"phyloseq is a set of classes, wrappers, and tools (in R) to make it easier to im",phyloseq,phyloseq,never,bioc,FALSE,cran/bioc
+AllanCameron/geomtextpath,geomtextpath,652,FALSE,2025-07-21,Create curved text paths in ggplot2,geomtextpath,geomtextpath,cran,allancameron,TRUE,cran/bioc
+tidyverse/multidplyr,multidplyr,650,FALSE,2026-10-27,A dplyr backend that partitions a data frame over multiple processes,multidplyr,multidplyr,cran,tidyverse,TRUE,cran/bioc
+strengejacke/sjPlot,sjPlot,650,FALSE,2026-04-28,sjPlot - Data Visualization for Statistics in Social Science,sjplot,NA,NA,NA,NA,cran/bioc
+YinLiLin/CMplot,CMplot,647,FALSE,2026-05-08,📊 Circular and Rectangular Manhattan Plot,cmplot,CMplot,cran,yinlilin,TRUE,cran/bioc
+TheEconomist/covid-19-excess-deaths-tracker,covid-19-excess-deaths-tracker,647,FALSE,2026-11-18,Source code and data for The Economist's covid-19 excess deaths tracker,covid-19-excess-deaths-tracker,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+business-science/timetk,timetk,645,FALSE,2025-08-29,Time series analysis in the `tidyverse`,timetk,timetk,cran,business-science,TRUE,cran/bioc
+amplab-extras/SparkR-pkg,SparkR-pkg,640,FALSE,2016-06-10,R frontend for Spark,sparkr-pkg,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+JohnCoene/echarts4r,echarts4r,632,FALSE,2026-10-16,Echarts 5 for R,echarts4r,echarts4r,cran,johncoene,TRUE,cran/bioc
+davidgohel/flextable,flextable,630,FALSE,2026-11-18,table farming,flextable,flextable,cran,davidgohel,TRUE,cran/bioc
+KentonWhite/ProjectTemplate,ProjectTemplate,630,FALSE,2026-05-22,A template utility for R projects that provides a skeletal project.,projecttemplate,ProjectTemplate,cran,kentonwhite,FALSE,cran/bioc
+ajdamico/asdfree,asdfree,629,FALSE,2026-11-17,analyze survey data for free,asdfree,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+igraph/rigraph,rigraph,625,FALSE,2026-11-18,igraph R package,rigraph,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+datalorax/equatiomatic,equatiomatic,625,FALSE,2026-08-19,Convert models to LaTeX equations,equatiomatic,equatiomatic,cran,datalorax,FALSE,cran/bioc
+tidymodels/recipes,recipes,625,FALSE,2026-09-17,Pipeable steps for feature engineering and data preprocessing to prepare for mod,recipes,recipes,cran,tidymodels,TRUE,cran/bioc
+elbersb/tidylog,tidylog,624,FALSE,2026-06-23,Tidylog provides feedback about dplyr and tidyr operations. It provides wrapper,tidylog,tidylog,cran,elbersb,TRUE,cran/bioc
+fstpackage/fst,fst,623,FALSE,2024-09-26,Lightning Fast Serialization of Data Frames for R,fst,fst,cran,fstpackage,TRUE,cran/bioc
+tidyverse/ellmer,ellmer,621,FALSE,2026-11-18,Call LLM APIs from R,ellmer,ellmer,cran,tidyverse,TRUE,cran/bioc
+gesistsa/rio,rio,621,FALSE,2026-10-23,🐟 A Swiss-Army Knife for Data I/O,rio,rio,cran,gesistsa,TRUE,cran/bioc
+nstrayer/datadrivencv,datadrivencv,620,FALSE,2024-06-18,R package for building customizable CVs from spreadsheets,datadrivencv,datadrivencv,never,cct-datascience,FALSE,r-universe (cran: never)
+ggobi/ggally,ggally,617,FALSE,2026-11-09,R package that extends ggplot2,ggally,GGally,cran,ggobi,TRUE,cran/bioc
+const-ae/ggsignif,ggsignif,615,FALSE,2026-03-29,Easily add significance brackets to your ggplots,ggsignif,ggsignif,cran,const-ae,TRUE,cran/bioc
+toddwschneider/ballr,ballr,610,FALSE,2022-12-30,Interactive NBA and NCAA Shot Charts with R and Shiny,ballr,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+greta-dev/greta,greta,610,FALSE,2026-10-29,simple and scalable statistical modelling in R,greta,greta,cran,greta-dev,TRUE,cran/bioc
+strengejacke/ggeffects,ggeffects,609,FALSE,2026-11-17,Estimated Marginal Means and Marginal Effects from Regression Models for ggplot2,ggeffects,ggeffects,cran,strengejacke,TRUE,cran/bioc
+r-spatial/stars,stars,609,FALSE,2026-09-20,"Spatiotemporal Arrays, Raster and Vector Data Cubes",stars,stars,cran,r-spatial,TRUE,cran/bioc
+wilkox/gggenes,gggenes,606,FALSE,2026-07-05,➡️️➡️️⬅️️➡️️ Draw gene arrow maps in ggplot2,gggenes,gggenes,cran,wilkox,TRUE,cran/bioc
+easystats/bayestestR,bayestestR,599,FALSE,2026-11-18,:ghost: Utilities for analyzing Bayesian models and posterior distributions,bayestestr,bayestestR,cran,easystats,TRUE,cran/bioc
+JaseZiv/worldfootballR,worldfootballR,598,TRUE,2025-09-18,"A wrapper for extracting world football (soccer) data from FBref, Transfermark,",worldfootballr,worldfootballR,cran,jaseziv,FALSE,cran/bioc
+DiskFrame/disk.frame,disk.frame,595,FALSE,2024-09-10,Fast Disk-Based Parallelized Data Manipulation Framework for Larger-than-RAM Dat,disk.frame,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+r-lib/rlang,rlang,593,FALSE,2026-10-06,Low-level API for programming with R,rlang,rlang,cran,r-lib,TRUE,cran/bioc
+tidymodels/corrr,corrr,593,FALSE,2025-11-08,Explore correlations in R,corrr,corrr,cran,tidymodels,TRUE,cran/bioc
+tidyverts/fable,fable,593,FALSE,2026-09-15,Tidy time series forecasting,fable,fable,cran,tidyverts,TRUE,cran/bioc
+Pecners/rayshader_portraits,rayshader_portraits,587,FALSE,2025-07-22,NA,rayshader_portraits,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+business-science/modeltime,modeltime,586,FALSE,2026-01-30,Modeltime unlocks time series forecast models and machine learning in one framew,modeltime,modeltime,cran,business-science,TRUE,cran/bioc
+marcusvolz/strava,strava,583,FALSE,2024-01-01,Create artistic visualisations with your exercise data,strava,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+davidsjoberg/ggbump,ggbump,583,FALSE,2025-09-07,A geom for ggplot to create bump plots,ggbump,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+oncologylab/craftgrn,craftgrn,582,FALSE,2026-09-04,Combined RNA and ATAC Footprint Training of Gene Regulatory Network,craftgrn,craftgrn,cran,oncologylab,FALSE,cran/bioc
+Azure/Azure-TDSP-ProjectTemplate,Azure-TDSP-ProjectTemplate,580,TRUE,2020-08-10,TDSP: Data science project template repository with standardized directory struc,azure-tdsp-projecttemplate,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+pola-rs/r-polars,r-polars,579,FALSE,2026-11-13,Polars R bindings,polars,polars,archived,rpolars,FALSE,r-universe (cran: archived)
+pzhaonet/mindr,mindr,579,FALSE,2026-10-28,"an R package which converts markdown files (.md, .Rmd) into mindmaps (brainstorm",mindr,mindr,cran,pzhaonet,FALSE,cran/bioc
+kassambara/survminer,survminer,576,FALSE,2026-07-30,Survival Analysis and Visualization,survminer,survminer,cran,kassambara,TRUE,cran/bioc
+chris-mcginnis-ucsf/DoubletFinder,DoubletFinder,574,FALSE,2025-03-21,R package for detecting doublets in single-cell RNA sequencing data,doubletfinder,DoubletFinder,never,blaserlab,FALSE,r-universe (cran: never)
+rstudio/blastula,blastula,573,FALSE,2025-04-03,Easily send great-looking HTML email messages from R,blastula,blastula,cran,rstudio,TRUE,cran/bioc
+thomasp85/tidygraph,tidygraph,573,FALSE,2025-02-05,A tidy API for graph manipulation,tidygraph,tidygraph,cran,thomasp85,TRUE,cran/bioc
+eclarke/ggbeeswarm,ggbeeswarm,572,FALSE,2025-11-29,Column scatter / beeswarm-style plots in ggplot2,ggbeeswarm,ggbeeswarm,cran,eclarke,TRUE,cran/bioc
+ropensci/tabulapdf,tabulapdf,568,FALSE,2025-01-03,Bindings for Tabula PDF Table Extractor Library,tabulapdf,tabulapdf,cran,ropensci,FALSE,cran/bioc
+CheyneyComputerScience/CREMA-D,CREMA-D,566,FALSE,2025-03-21,Crowd Sourced Emotional Multimodal Actors Dataset (CREMA-D),crema-d,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+MRCIEU/TwoSampleMR,TwoSampleMR,563,FALSE,2026-11-10,R package for performing 2-sample MR using IEU OpenGWAS database,twosamplemr,TwoSampleMR,never,mrcieu,FALSE,r-universe (cran: never)
+benjjneb/dada2,dada2,562,FALSE,2026-07-31,Accurate sample inference from amplicon data with single nucleotide resolution,dada2,dada2,never,bioc,FALSE,cran/bioc
+omnideconv/immunedeconv,immunedeconv,559,FALSE,2026-11-02,"A unified interface to immune deconvolution methods (CIBERSORT, EPIC, quanTIseq,",immunedeconv,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+nflverse/nflfastR,nflfastR,559,FALSE,2026-11-18,A Set of Functions to Efficiently Scrape NFL Play by Play Data,nflfastr,nflfastR,cran,nflverse,FALSE,cran/bioc
+tidyverse/forcats,forcats,558,FALSE,2026-02-02,🐈🐈🐈🐈: tools for working with categorical variables (factors),forcats,forcats,cran,tidyverse,TRUE,cran/bioc
+maksimhorowitz/nflscrapR,nflscrapR,558,FALSE,2020-04-03,R Package for Scraping and Aggregating NFL Data,nflscrapr,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+vegandevs/vegan,vegan,554,FALSE,2026-11-18,"R package for community ecologists: popular ordination methods, ecological null",vegan,vegan,cran,vegandevs,TRUE,cran/bioc
+dcomtois/summarytools,summarytools,552,FALSE,2026-01-27,R Package to Quickly and Neatly Summarize Data,summarytools,summarytools,cran,dcomtois,TRUE,cran/bioc
+tidyverts/tsibble,tsibble,550,FALSE,2026-10-05,Tidy Temporal Data Frames and Tools,tsibble,tsibble,cran,tidyverts,TRUE,cran/bioc
+e-sensing/sits,sits,550,FALSE,2026-11-18,Satellite image time series in R,sits,sits,cran,ropensci,TRUE,cran/bioc
+boxuancui/DataExplorer,DataExplorer,544,FALSE,2026-03-10,Automate Data Exploration and Treatment,dataexplorer,DataExplorer,cran,boxuancui,TRUE,cran/bioc
+sinhrks/ggfortify,ggfortify,541,FALSE,2026-11-09,Define fortify and autoplot functions to allow ggplot2 to handle some popular R,ggfortify,ggfortify,cran,sinhrks,TRUE,cran/bioc
+tribalxg/redoc,redoc,540,FALSE,2025-10-04,Reversible Reproducible Documents,redoc,redoc,cran,meztez,FALSE,cran/bioc
+marcusvolz/mathart,mathart,536,FALSE,2021-05-23,Create mathematical art with R,mathart,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+yutannihilation/gghighlight,gghighlight,534,FALSE,2025-06-14,Highlight points and lines in ggplot2,gghighlight,gghighlight,cran,yutannihilation,TRUE,cran/bioc
+r-dbi/bigrquery,bigrquery,533,FALSE,2026-05-13,An interface to Google's BigQuery from R.,bigrquery,bigrquery,cran,r-dbi,TRUE,cran/bioc
+mca91/EconometricsWithR,EconometricsWithR,532,FALSE,2026-04-04,📖An interactive companion to the well-received textbook 'Introduction to Econome,econometricswithr,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+jiayiliujiayi/2020nCov_individual_archives,2020nCov_individual_archives,530,FALSE,2020-04-24,"""Every individual matters.  Every individual has a role to play."" This is a repo",2020ncov_individual_archives,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+cynkra/dm,dm,529,FALSE,2026-11-01,Working with relational data models in R,dm,dm,cran,cynkra,FALSE,cran/bioc
+rstudio/r2d3,r2d3,529,FALSE,2024-01-09,R Interface to D3 Visualizations,r2d3,r2d3,cran,rstudio,TRUE,cran/bioc
+corybrunson/ggalluvial,ggalluvial,527,FALSE,2026-09-23,ggplot2 extension for alluvial plots,ggalluvial,ggalluvial,cran,corybrunson,TRUE,cran/bioc
+rstudio/hex-stickers,hex-stickers,527,FALSE,2026-11-02,RStudio hex stickers,hex-stickers,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+amices/mice,mice,521,FALSE,2026-11-18,Multivariate Imputation by Chained Equations,mice,mice,cran,amices,TRUE,cran/bioc
+bedatadriven/renjin,renjin,518,FALSE,2023-09-26,JVM-based interpreter for the R language for the statistical analysis.,renjin,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+MathiasHarrer/Doing-Meta-Analysis-in-R,Doing-Meta-Analysis-in-R,518,FALSE,2026-07-03,"[Read-Only] All R code and source files for the online guide ""Doing Meta-Analysi",doing-meta-analysis-in,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+tidyverse/dbplyr,dbplyr,518,FALSE,2026-06-17,Database (DBI) backend for dplyr,dbplyr,dbplyr,cran,tidyverse,TRUE,cran/bioc
+yrosseel/lavaan,lavaan,517,FALSE,2026-11-18,an R package for structural equation modeling and more,lavaan,lavaan,cran,yrosseel,TRUE,cran/bioc
+Appsilon/shiny.semantic,shiny.semantic,512,FALSE,2026-09-29,Shiny support for powerful Fomantic UI library.,shiny.semantic,shiny.semantic,cran,appsilon,TRUE,cran/bioc
+PoisonAlien/maftools,maftools,505,FALSE,2026-02-25,"Summarize, Analyze and Visualize MAF files from TCGA or in-house studies.",maftools,maftools,never,bioc,FALSE,cran/bioc
+hadley/plyr,plyr,504,FALSE,2024-11-06,"A R package for splitting, applying and combining large problems into simpler pr",plyr,plyr,cran,hadley,TRUE,cran/bioc
+giuseppec/iml,iml,504,FALSE,2025-02-24,iml: interpretable machine learning R package,iml,iml,cran,giuseppec,TRUE,cran/bioc
+easystats/parameters,parameters,502,FALSE,2026-11-15,:bar_chart: Computation and processing of models' parameters,parameters,parameters,cran,easystats,TRUE,cran/bioc
+calligross/ggthemeassist,ggthemeassist,500,FALSE,2026-10-01,A RStudio addin for ggplot2 theme tweaking,ggthemeassist,ggThemeAssist,cran,calligross,FALSE,cran/bioc
+nmaggiulli/of-dollars-and-data,of-dollars-and-data,498,FALSE,2026-11-12,Repo for ofdollarsanddata.com blog,of-dollars-and-data,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+smorabit/hdWGCNA,hdWGCNA,497,FALSE,2026-06-16,High dimensional weighted gene co-expression network analysis,hdwgcna,hdWGCNA,never,zaoqu-liu,FALSE,r-universe (cran: never)
+RConsortium/S7,S7,497,FALSE,2026-11-18,S7: a new OO system for R,s7,S7,cran,rconsortium,TRUE,cran/bioc
+tidymodels/lime,lime,497,FALSE,2026-10-16,Local Interpretable Model-Agnostic Explanations (R port of original Python packa,lime,lime,cran,tidymodels,TRUE,cran/bioc
+kassambara/rstatix,rstatix,495,FALSE,2026-08-02,Pipe-friendly Framework for Basic Statistical Tests in R,rstatix,rstatix,cran,kassambara,TRUE,cran/bioc
+systematicinvestor/SIT,SIT,494,FALSE,2023-06-03,Systematic Investor Toolkit,sit,SIT,cran,canyi-chen,FALSE,cran/bioc
+walmes/Tikz,Tikz,492,FALSE,2025-12-15,Galley of Tikz drawings.,tikz,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+gadenbuie/regexplain,regexplain,492,FALSE,2026-07-22,🔍 An RStudio addin slash regex utility belt,regexplain,regexplain,never,gadenbuie,FALSE,r-universe (cran: never)
+thelovelab/DESeq2,DESeq2,489,FALSE,2026-10-30,Differential expression of RNA-seq data using the Negative Binomial,deseq2,DESeq2,never,bioc,FALSE,cran/bioc
+thomasp85/scico,scico,486,FALSE,2023-12-09,Palettes for R based on the Scientific Colour-Maps,scico,scico,cran,thomasp85,TRUE,cran/bioc
+tonyfischetti/assertr,assertr,485,FALSE,2026-11-12,Assertive programming for R analysis pipelines,assertr,assertr,cran,ropensci,TRUE,cran/bioc
+ropensci-review-tools/goodpractice,goodpractice,483,FALSE,2026-10-14,Advice on R Package Building,goodpractice,goodpractice,cran,ropensci,TRUE,cran/bioc
+ropensci/magick,magick,482,FALSE,2026-11-13,"Magic, madness, heaven, sin",magick,magick,cran,ropensci,TRUE,cran/bioc
+markfairbanks/tidytable,tidytable,476,FALSE,2026-07-23,Tidy interface to 'data.table',tidytable,tidytable,cran,markfairbanks,TRUE,cran/bioc
+r-lib/progress,progress,474,FALSE,2025-10-21,Progress bar in your R terminal,progress,progress,cran,r-lib,TRUE,cran/bioc
+kevinblighe/EnhancedVolcano,EnhancedVolcano,472,FALSE,2026-08-31,Publication-ready volcano plots with enhanced colouring and labeling,enhancedvolcano,EnhancedVolcano,never,bioc,FALSE,cran/bioc
+cole-trapnell-lab/monocle3,monocle3,472,FALSE,2026-09-22,NA,monocle3,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+cellgeni/sceasy,sceasy,470,FALSE,2026-02-20,A package to help convert different single-cell data formats to each other,sceasy,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+GreenleafLab/ArchR,ArchR,468,FALSE,2025-02-18,ArchR : Analysis of Regulatory Chromatin in R (www.ArchRProject.com),archr,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+RinteRface/shinydashboardPlus,shinydashboardPlus,467,FALSE,2025-08-25,extensions for shinydashboard,shinydashboardplus,shinydashboardPlus,cran,rinterface,TRUE,cran/bioc
+r-causal/ggdag,ggdag,466,FALSE,2026-09-15,:arrow_lower_left: :arrow_lower_right: An R package for working with causal dire,ggdag,ggdag,cran,r-causal,TRUE,cran/bioc
+ropensci/visdat,visdat,463,FALSE,2026-09-26,Preliminary Exploratory Visualisation of Data,visdat,visdat,cran,ropensci,TRUE,cran/bioc
+lrberge/fixest,fixest,463,FALSE,2026-11-16,Fixed-effects estimations,fixest,fixest,cran,lrberge,TRUE,cran/bioc
+alserglab/fgsea,fgsea,462,FALSE,2026-09-22,Fast Gene Set Enrichment Analysis,fgsea,fgsea,never,bioc,FALSE,cran/bioc
+twbattaglia/RNAseq-workflow,RNAseq-workflow,460,FALSE,2017-04-10,A repository for setting up a RNAseq workflow,rnaseq-workflow,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+rudeboybert/fivethirtyeight,fivethirtyeight,460,FALSE,2026-10-19,R package of data and code behind the stories and interactives at FiveThirtyEigh,fivethirtyeight,fivethirtyeight,cran,rudeboybert,TRUE,cran/bioc
+TheEconomist/covid-19-the-economist-global-excess-deaths-model,covid-19-the-economist-global-excess-deaths-model,458,FALSE,2026-07-06,The Economist's model to estimate excess deaths to the covid-19 pandemic,covid-19-the-economist-global-excess-deaths-model,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+RinteRface/bs4Dash,bs4Dash,457,FALSE,2025-08-25,Bootstrap 4 shinydashboard using AdminLTE3,bs4dash,bs4Dash,cran,rinterface,TRUE,cran/bioc
+fbreitwieser/pavian,pavian,456,FALSE,2025-09-17,🌈 Interactive analysis of metagenomics data,pavian,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+easystats/correlation,correlation,455,FALSE,2026-11-01,:link: Methods for Correlation Analysis,correlation,correlation,cran,easystats,TRUE,cran/bioc
+LKremer/ggpointdensity,ggpointdensity,455,FALSE,2025-12-28,:chart_with_upwards_trend: :bar_chart: Introduces geom_pointdensity(): A Cross B,ggpointdensity,ggpointdensity,cran,lkremer,TRUE,cran/bioc
+ewenme/ghibli,ghibli,453,FALSE,2024-03-18,Studio Ghibli colour palettes,ghibli,ghibli,cran,ewenme,TRUE,cran/bioc
+r-lib/scales,scales,453,FALSE,2026-10-06,Tools for ggplot2 scales,scales,scales,cran,r-lib,TRUE,cran/bioc
+therneau/survival,survival,452,FALSE,2026-11-02,Survival package for R,survival,survival,cran,therneau,TRUE,cran/bioc
+ThinkR-open/remedy,remedy,451,FALSE,2026-05-15,RStudio Addins to Simplify Markdown Writing,remedy,remedy,cran,thinkr-open,FALSE,cran/bioc
+MarioniLab/miloR,miloR,450,FALSE,2026-08-25,R package implementation of Milo for testing for differential abundance in KNN g,milor,miloR,never,bioc,FALSE,cran/bioc
+nflverse/nflverse-data,nflverse-data,448,FALSE,2026-11-01,Automated nflverse data repository,nflverse-data,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+SocialCatalystLab/ape-papers,ape-papers,446,FALSE,2026-04-10,Can policy evaluation be automated? Or inevitably create hallucinated AI slop? W,ape-papers,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+gadenbuie/xaringanthemer,xaringanthemer,445,FALSE,2025-08-21,😎 Give your xaringan slides some style,xaringanthemer,xaringanthemer,cran,gadenbuie,TRUE,cran/bioc
+stan-dev/bayesplot,bayesplot,444,FALSE,2026-11-18,bayesplot R package for plotting Bayesian models,bayesplot,bayesplot,cran,stan-dev,TRUE,cran/bioc
+ropensci/stplanr,stplanr,443,FALSE,2025-04-28,Sustainable transport planning with R,stplanr,stplanr,cran,ropensci,FALSE,cran/bioc
+easystats/insight,insight,443,FALSE,2026-11-19,:crystal_ball: Easy access to model information for various model objects,insight,insight,cran,easystats,TRUE,cran/bioc
+ryantimpe/brickr,brickr,443,FALSE,2023-11-27,3D LEGO models and mosaics from images using R and #tidyverse,brickr,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+JGCRI/gcam-core,gcam-core,439,FALSE,2026-09-18,GCAM -- The Global Change Analysis Model,gcam-core,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+trinker/sentimentr,sentimentr,439,FALSE,2023-08-06,Dictionary based sentiment analysis that considers valence shifters,sentimentr,sentimentr,cran,trinker,TRUE,cran/bioc
+PaulC91/shinyauthr,shinyauthr,439,FALSE,2024-03-04,R package with shiny authentication modules,shinyauthr,shinyauthr,cran,paulc91,FALSE,cran/bioc
+wleepang/DesktopDeployR,DesktopDeployR,438,FALSE,2022-05-29,A framework for deploying self-contained R-based applications to the desktop,desktopdeployr,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+r-lib/here,here,437,FALSE,2026-10-11,A simpler way to find your files,here,here,cran,r-lib,TRUE,cran/bioc
+welch-lab/liger,liger,436,FALSE,2026-08-18,R package for integrating and analyzing multiple single-cell datasets,liger,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+rstats-wtf/what-they-forgot,what-they-forgot,435,FALSE,2026-11-18,"""What They Forgot to Teach You About R"" website / eBook",what-they-forgot,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+data-cleaning/validate,validate,435,FALSE,2026-11-09,Professional data validation for the R environment,validate,validate,cran,data-cleaning,TRUE,cran/bioc
+rstudio/tufte,tufte,433,FALSE,2026-07-07,Tufte Styles for R Markdown Documents,tufte,tufte,cran,rstudio,TRUE,cran/bioc
+stuart-lab/signac,signac,432,FALSE,2026-11-13,R toolkit for the analysis of single-cell chromatin data,signac,Signac,cran,stuart-lab,FALSE,cran/bioc
+BillPetti/baseballr,baseballr,432,FALSE,2026-11-09,A package written for R focused on baseball analysis. Currently in development.,baseballr,baseballr,cran,billpetti,FALSE,cran/bioc
+bioFAM/MOFA2,MOFA2,431,FALSE,2026-09-10,Multi-Omics Factor Analysis,mofa2,MOFA2,never,bioc,FALSE,cran/bioc
+GuangchuangYu/nCov2019,nCov2019,430,FALSE,2021-06-10,query stats of infected coronavirus cases,ncov2019,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+rvlenth/emmeans,emmeans,430,FALSE,2026-10-09,Estimated marginal means,emmeans,emmeans,cran,rvlenth,TRUE,cran/bioc
+manlius/muxViz,muxViz,430,FALSE,2023-10-07,Analysis and Visualization of Interconnected Multilayer Networks,muxviz,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+RamiKrispin/TSstudio,TSstudio,429,FALSE,2024-01-22,Tools for time series analysis and forecasting,tsstudio,TSstudio,cran,ramikrispin,TRUE,cran/bioc
+grantmcdermott/tinyplot,tinyplot,429,FALSE,2026-11-18,Lightweight extension of the base R graphics system,tinyplot,tinyplot,cran,grantmcdermott,TRUE,cran/bioc
+bcallaway11/did,did,427,FALSE,2026-10-30,"Difference in Differences with Multiple Periods, website: https://bcallaway11.gi",did,did,cran,bcallaway11,TRUE,cran/bioc
+r-lib/R6,R6,427,FALSE,2025-10-20,Encapsulated object-oriented programming for R,r6,R6,cran,r-lib,TRUE,cran/bioc
+jennybc/row-oriented-workflows,row-oriented-workflows,426,FALSE,2018-12-29,Row-oriented workflows in R with the tidyverse,row-oriented-workflows,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+softdorothy/GliderPRO,GliderPRO,426,FALSE,2021-05-04,"Sources for the Macintosh game, Glider PRO, written by John Calhoun and publishe",gliderpro,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+moodymudskipper/flow,flow,425,FALSE,2026-10-23,View and Browse Code Using Flow Diagrams,flow,flow,cran,moodymudskipper,TRUE,cran/bioc
+wilkelab/ggridges,ggridges,425,FALSE,2026-06-18,Ridgeline plots in ggplot2,ggridges,ggridges,cran,wilkelab,TRUE,cran/bioc
+Derek-Jones/ESEUR-code-data,ESEUR-code-data,424,FALSE,2026-06-17,"Code and data used to create the examples in ""Evidence-based Software Engineerin",eseur-code-data,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+RinteRface/shinyMobile,shinyMobile,421,FALSE,2026-06-13,shiny API for Framework7 (IOS/android),shinymobile,shinyMobile,cran,rinterface,TRUE,cran/bioc
+bstewart/stm,stm,420,FALSE,2026-11-12,An R Package for the Structural Topic Model,stm,stm,cran,bstewart,TRUE,cran/bioc
+anthonynorth/rscodeio,rscodeio,420,FALSE,2023-12-05,An RStudio theme inspired by Visual Studio Code.,rscodeio,rscodeio,never,anthonynorth,FALSE,r-universe (cran: never)
+hadley/emo,emo,418,FALSE,2019-12-13,Easily insert emoji into R and RMarkdown,emo,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+xia-lab/MetaboAnalystR,MetaboAnalystR,418,FALSE,2026-11-16,R package for MetaboAnalyst,metaboanalystr,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+jeffreybreen/twitter-sentiment-analysis-tutorial-201107,twitter-sentiment-analysis-tutorial-201107,417,FALSE,2022-08-04,Code to reproduce the simple sentiment analysis from my presentation,twitter-sentiment-analysis-tutorial-201107,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+crsh/citr,citr,415,FALSE,2023-11-20,RStudio Addin to Insert Markdown Citations from a BibTeX file or Zotero,citr,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+susanli2016/Data-Analysis-with-R,Data-Analysis-with-R,412,FALSE,2018-09-06,"Using gglot2, tidyr, dplyr, ggmap, choroplethr, shiny, logistic regression, clus",data-analysis-with,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+talgalili/heatmaply,heatmaply,411,FALSE,2025-11-29,Interactive Heat Maps for R Using plotly,heatmaply,heatmaply,cran,talgalili,TRUE,cran/bioc
+rstudio/packrat,packrat,409,FALSE,2026-11-17,Packrat is a dependency management system for R,packrat,packrat,cran,rstudio,TRUE,cran/bioc
+jespermaag/gganatogram,gganatogram,408,FALSE,2025-08-07,Create anatograms using ggplot2,gganatogram,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+junjunlab/scRNAtoolVis,scRNAtoolVis,408,FALSE,2026-04-18,Useful functions to make your scRNA-seq plot more cool!,scrnatoolvis,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+swsoyee/2019-ncov-japan,2019-ncov-japan,407,FALSE,2022-12-17,🦠 Interactive dashboard for real-time recording of COVID-19 outbreak in Japan,2019-ncov-japan,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+MattCowgill/ggannotate,ggannotate,406,FALSE,2026-03-21,Interactively annotate ggplots,ggannotate,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+Yunuuuu/ggalign,ggalign,406,FALSE,2026-01-15,Integrative Composable Visualization Framework for ggplot2,ggalign,ggalign,cran,yunuuuu,TRUE,cran/bioc
+tidymodels/yardstick,yardstick,406,FALSE,2026-11-18,Tidy methods for measuring model performance,yardstick,yardstick,cran,tidymodels,TRUE,cran/bioc
+kabacoff/RiA2,RiA2,405,FALSE,2017-05-05,"Source code for R in Action, Second Edition",ria2,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+riatelab/cartography,cartography,404,FALSE,2025-07-23,Thematic Cartography for R,cartography,cartography,cran,riatelab,TRUE,cran/bioc
+stan-dev/rstanarm,rstanarm,403,FALSE,2026-10-14,rstanarm R package for Bayesian applied regression modeling,rstanarm,rstanarm,cran,stan-dev,TRUE,cran/bioc
+luukvdmeer/sfnetworks,sfnetworks,402,FALSE,2026-05-14,Tidy Geospatial Networks in R,sfnetworks,sfnetworks,cran,luukvdmeer,FALSE,cran/bioc
+const-ae/ggupset,ggupset,401,FALSE,2026-01-23,Combination matrix axis for 'ggplot2' to create 'UpSet' plots,ggupset,ggupset,cran,const-ae,TRUE,cran/bioc
+tidyverse/duckplyr,duckplyr,400,FALSE,2026-11-14,"A drop-in replacement for dplyr, powered by DuckDB for speed.",duckplyr,duckplyr,cran,tidyverse,TRUE,cran/bioc
+thomasp85/tweenr,tweenr,400,FALSE,2024-02-28,Interpolate your data,tweenr,tweenr,cran,thomasp85,TRUE,cran/bioc
+tidyverse/modelr,modelr,399,FALSE,2023-10-31,Helper functions for modelling,modelr,modelr,cran,tidyverse,TRUE,cran/bioc
+yusuzech/r-web-scraping-cheat-sheet,r-web-scraping-cheat-sheet,396,FALSE,2022-12-20,"Guide, reference and cheatsheet on web scraping using rvest, httr and Rselenium.",web-scraping-cheat-sheet,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+trevorld/ggpattern,ggpattern,395,FALSE,2026-11-16,ggplot geoms with pattern fills,ggpattern,ggpattern,cran,trevorld,TRUE,cran/bioc
+daattali/ggExtra,ggExtra,395,FALSE,2025-09-18,"📊 Add marginal histograms to ggplot2, and more ggplot2 enhancements",ggextra,ggExtra,cran,daattali,TRUE,cran/bioc
+giotto-suite/Giotto,Giotto,395,FALSE,2026-11-18,Spatial omics analysis toolbox,giotto,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+ricardo-bion/ggtech,ggtech,395,FALSE,2019-08-07,"ggplot2 tech themes, scales, and geoms",ggtech,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+kpatel427/YouTubeTutorials,YouTubeTutorials,394,FALSE,2024-10-01,NA,youtubetutorials,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+paleolimbot/ggspatial,ggspatial,394,FALSE,2026-09-15,Enhancing spatial visualization in ggplot2,ggspatial,NA,NA,NA,NA,cran/bioc
+glmmTMB/glmmTMB,glmmTMB,393,FALSE,2026-11-16,glmmTMB,glmmtmb,glmmTMB,cran,glmmtmb,TRUE,cran/bioc
+krzjoa/awesome-r-dataviz,awesome-r-dataviz,393,FALSE,2022-07-06,"Curated resources about Data Visualization, Drawing & Publishing in R",awesome-r-dataviz,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+kassambara/factoextra,factoextra,392,FALSE,2026-07-24,Extract and Visualize the Results of Multivariate Data Analyses,factoextra,factoextra,cran,kassambara,TRUE,cran/bioc
+junjunlab/ClusterGVis,ClusterGVis,392,FALSE,2026-11-05,One-step to Cluster and Visualize Gene Expression Matrix,clustergvis,ClusterGVis,archived,bioc,FALSE,cran/bioc
+mkearney/tweetbotornot,tweetbotornot,389,FALSE,2021-10-20,🤖 R package for detecting Twitter bots via machine learning,tweetbotornot,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+DillonHammill/DataEditR,DataEditR,389,FALSE,2026-11-16,"An Interactive R Package for Viewing, Entering Filtering and Editing Data",dataeditr,DataEditR,cran,dillonhammill,TRUE,cran/bioc
+r-lib/fs,fs,385,FALSE,2026-04-23,Provide cross platform file operations based on libuv.,fs,fs,cran,r-lib,TRUE,cran/bioc
+dgrtwo/data-screencasts,data-screencasts,385,FALSE,2022-12-07,Code from live exploratory analyses of data in R,data-screencasts,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+ropensci/rix,rix,385,FALSE,2026-11-16,Reproducible Data Science environments for R with Nix,rix,rix,cran,ropensci,FALSE,cran/bioc
+johnmyleswhite/MLNotes,MLNotes,384,FALSE,2012-08-05,Very concise notes on machine learning and statistics.,mlnotes,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+cloudyr/aws.s3,aws.s3,384,FALSE,2025-08-18,Amazon Simple Storage Service (S3) API Client,aws.s3,aws.s3,cran,cloudyr,TRUE,cran/bioc
+bkelly-lab/ReplicationCrisis,ReplicationCrisis,383,FALSE,2026-05-29,"Code for ""Is There a Replication Crisis in Finance"" by Jensen, Kelly and Pederse",replicationcrisis,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+dupadhyaya/Ranalytics18,Ranalytics18,381,FALSE,2019-09-04,My work on Analytics and Research in Data Science,ranalytics18,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+vincentarelbundock/countrycode,countrycode,381,FALSE,2026-10-02,R package: Convert country names and country codes. Assigns region descriptors.,countrycode,countrycode,cran,vincentarelbundock,TRUE,cran/bioc
+sillyplots/spotifyr,spotifyr,381,FALSE,2024-10-24,R wrapper for Spotify's Web API,spotifyr,spotifyr,cran,sillyplots,TRUE,cran/bioc
+nflverse/nfldata,nfldata,381,FALSE,2026-11-19,NFL Data (by Lee Sharpe),nfldata,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+bernatgel/karyoploteR,karyoploteR,381,FALSE,2026-07-06,karyoploteR - An R/Bioconductor package to plot arbitrary data along the genome,karyoploter,karyoploteR,never,bioc,FALSE,cran/bioc
+BorchLab/scRepertoire,scRepertoire,379,FALSE,2026-11-16,A toolkit for single-cell immune profiling,screpertoire,scRepertoire,never,bioc,FALSE,cran/bioc
+kevinblighe/PCAtools,PCAtools,379,FALSE,2026-09-02,PCAtools: everything Principal Components Analysis,pcatools,PCAtools,never,bioc,FALSE,cran/bioc
+SurajGupta/r-source,r-source,379,FALSE,2020-11-10,R Source Code,source,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+tidyverse/googlesheets4,googlesheets4,379,FALSE,2026-11-18,Google Spreadsheets R API,googlesheets4,googlesheets4,cran,tidyverse,TRUE,cran/bioc
+eddelbuettel/r2u,r2u,378,FALSE,2026-11-01,CRAN as Ubuntu Binaries,r2u,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+JoaquinAmatRodrigo/Estadistica-con-R,Estadistica-con-R,375,FALSE,2020-11-30,"Apuntes personales sobre estadística, machine learning y lenguaje de programació",estadistica-con,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+PMassicotte/gtrendsR,gtrendsR,373,FALSE,2026-08-11,R functions to perform and display Google Trends queries,gtrendsr,gtrendsR,cran,pmassicotte,FALSE,cran/bioc
+satijalab/seurat-wrappers,seurat-wrappers,373,FALSE,2026-10-08,Community-provided extensions to Seurat,seurat-wrappers,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+davidgohel/officedown,officedown,372,FALSE,2026-10-26,NA,officedown,officedown,cran,davidgohel,TRUE,cran/bioc
+jlmelville/uwot,uwot,371,FALSE,2026-10-30,An R package implementing the UMAP dimensionality reduction method.,uwot,uwot,cran,jlmelville,TRUE,cran/bioc
+openair-project/openair,openair,370,FALSE,2026-11-18,🧭 Open source tools for air quality data analysis,openair,openair,cran,openair-project,TRUE,cran/bioc
+cols4all/cols4all-R,cols4all-R,370,FALSE,2026-09-02,Colors for all (R package),cols4all,cols4all,cran,cols4all,TRUE,cran/bioc
+max-alletsee/rstudio-themes,rstudio-themes,369,FALSE,2024-07-04,A collection of themes for RStudio,rstudio-themes,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+Azure/Microsoft365R,Microsoft365R,368,FALSE,2026-10-19,R SDK for interacting with Microsoft 365 APIs,microsoft365r,Microsoft365R,cran,azure,FALSE,cran/bioc
+r-hub/rhub,rhub,368,FALSE,2025-03-07,R-hub API client,rhub,rhub,cran,r-hub,TRUE,cran/bioc
+bcaffo/Caffo-Coursera,Caffo-Coursera,367,FALSE,2015-04-29,A repository of my Coursera latex code and notes,caffo-coursera,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+walkerke/tigris,tigris,367,FALSE,2026-10-16,Download and use Census TIGER/Line shapefiles in R,tigris,tigris,cran,walkerke,TRUE,cran/bioc
+awalker89/openxlsx,openxlsx,367,FALSE,2020-10-22,R package for .xlsx file reading and writing.,openxlsx,openxlsx,cran,ycphs,TRUE,cran/bioc
+stemangiola/tidyHeatmap,tidyHeatmap,364,FALSE,2026-10-28,Draw heatmap simply using a tidy data frame,tidyheatmap,tidyHeatmap,cran,stemangiola,FALSE,cran/bioc
+salimk/Rcrawler,Rcrawler,364,FALSE,2022-03-27,An R web crawler and scraper,rcrawler,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+tashapiro/tanya-data-viz,tanya-data-viz,363,FALSE,2024-02-03,Personal data visualization side projects.,tanya-data-viz,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+primaryobjects/voice-gender,voice-gender,362,FALSE,2023-01-16,Gender recognition by voice and speech analysis,voice-gender,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+mages/googleVis,googleVis,362,FALSE,2025-10-08,Interface between R and the Google Chart Tools,googlevis,googleVis,cran,mages,TRUE,cran/bioc
+nflverse/nflverse-pbp,nflverse-pbp,359,FALSE,2026-09-11,builds play by play and player stats for nflverse/nflverse-data,nflverse-pbp,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+BioinformaticsFMRP/TCGAbiolinks,TCGAbiolinks,357,FALSE,2025-10-07,TCGAbiolinks,tcgabiolinks,TCGAbiolinks,never,bioc,FALSE,cran/bioc
+r-lib/remotes,remotes,357,FALSE,2026-09-24,"Install R packages from GitHub, GitLab, Bitbucket, git, svn repositories, URLs",remotes,remotes,cran,r-lib,TRUE,cran/bioc
+jtlandis/ggside,ggside,356,FALSE,2026-05-13,ggplot2 extension allowing for plotting various geometries as side panels using,ggside,ggside,cran,jtlandis,TRUE,cran/bioc
+ricardo-bion/ggradar,ggradar,356,FALSE,2024-02-23,radar charts with ggplot2,ggradar,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+nathaneastwood/poorman,poorman,354,FALSE,2026-10-29,A poor man's dependency free grammar of data manipulation,poorman,poorman,cran,nathaneastwood,TRUE,cran/bioc
+hafen/geofacet,geofacet,354,FALSE,2026-01-14,R package for geographical faceting with ggplot2,geofacet,geofacet,cran,hafen,TRUE,cran/bioc
+easystats/effectsize,effectsize,353,FALSE,2026-11-09,:dragon: Compute and work with indices of effect size and standardized parameter,effectsize,effectsize,cran,easystats,TRUE,cran/bioc
+TullyMonster/MendelRookie,MendelRookie,352,FALSE,2024-04-26,新手友好的孟德尔随机化项目,mendelrookie,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+joshuaulrich/TTR,TTR,351,FALSE,2026-02-28,Technical analysis and other functions to construct technical trading rules with,ttr,TTR,cran,joshuaulrich,TRUE,cran/bioc
+h2oai/db-benchmark,db-benchmark,351,FALSE,2023-06-29,reproducible benchmark of database-like ops,db-benchmark,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+pablobarbera/Rfacebook,Rfacebook,351,FALSE,2020-05-22,Dev version of Rfacebook package: Access to Facebook API via R,rfacebook,Rfacebook,cran,pablobarbera,FALSE,cran/bioc
+ropensci/RSelenium,RSelenium,351,FALSE,2026-02-21,An R client for Selenium Remote WebDriver,rselenium,RSelenium,cran,ropensci,TRUE,cran/bioc
+jhelvy/splitKbCompare,splitKbCompare,350,FALSE,2026-02-28,An interactive tool for comparing layouts of different split mechanical keyboard,splitkbcompare,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+r-lib/covr,covr,349,FALSE,2026-11-17,Test coverage reports for R,covr,covr,cran,r-lib,TRUE,cran/bioc
+kstreet13/slingshot,slingshot,349,FALSE,2024-04-23,Functions for identifying and characterizing continuous developmental trajectori,slingshot,slingshot,never,bioc,FALSE,cran/bioc
+tidyverse/googledrive,googledrive,348,FALSE,2026-11-18,Google Drive R API,googledrive,googledrive,cran,tidyverse,TRUE,cran/bioc
+EasyD/IntroToDataScience,IntroToDataScience,348,FALSE,2017-11-11,GitHub Repository to accompany my YouTube series of videos on Introductory Data,introtodatascience,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+r-lib/mirai,mirai,348,FALSE,2026-11-06,Minimalist Async Evaluation Framework for R,mirai,mirai,cran,r-lib,TRUE,cran/bioc
+constantAmateur/SoupX,SoupX,348,FALSE,2022-11-01,R package to quantify and remove cell free mRNAs from droplet based scRNA-seq da,soupx,SoupX,cran,constantamateur,TRUE,cran/bioc
+fastverse/fastverse,fastverse,347,FALSE,2026-10-19,An Extensible Suite of High-Performance and Low-Dependency Packages for Statisti,fastverse,fastverse,cran,fastverse,TRUE,cran/bioc
+ropensci/software-review,software-review,347,FALSE,2026-11-17,rOpenSci Software Peer Review.,software-review,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+vincentarelbundock/tinytable,tinytable,347,FALSE,2026-11-16,Simple and Customizable Tables in `R`,tinytable,tinytable,cran,vincentarelbundock,TRUE,cran/bioc
+taiyun/corrplot,corrplot,347,FALSE,2024-10-14,A visual exploratory tool on correlation matrix,corrplot,corrplot,cran,taiyun,TRUE,cran/bioc
+jumpingrivers/datasauRus,datasauRus,347,FALSE,2026-10-14,R Package 📦 Containing the Datasaurus Dozen datasets :bar_chart:,datasaurus,NA,NA,NA,NA,cran/bioc
+broadinstitute/ssGSEA2.0,ssGSEA2.0,346,FALSE,2026-11-04,Single sample Gene Set Enrichment analysis (ssGSEA) and PTM Enrichment Analysis,ssgsea2.0,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+markvanderloo/stringdist,stringdist,346,FALSE,2026-01-16,String distance functions for R,stringdist,stringdist,cran,markvanderloo,TRUE,cran/bioc
+paws-r/paws,paws,346,FALSE,2026-11-05,"Paws, a package for Amazon Web Services in R",paws,paws,cran,paws-r,TRUE,cran/bioc
+swarm-lab/editR,editR,346,FALSE,2016-10-27,A Rmarkdown editor with instant preview,editr,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+r-dbi/RPostgres,RPostgres,345,FALSE,2026-10-11,A DBI-compliant interface to PostgreSQL,rpostgres,RPostgres,cran,r-dbi,TRUE,cran/bioc
+ropensci/osmdata,osmdata,344,FALSE,2026-11-10,R package for downloading OpenStreetMap data,osmdata,osmdata,cran,ropensci,TRUE,cran/bioc
+tidymodels/tune,tune,344,FALSE,2026-10-30,Tools for tidy parameter tuning,tune,tune,cran,tidymodels,TRUE,cran/bioc
+bnosac/taskscheduleR,taskscheduleR,344,FALSE,2024-03-17,Schedule R scripts/processes with the Windows task scheduler.,taskscheduler,NA,NA,NA,NA,cran/bioc
+scRNA-tools/scRNA-tools,scRNA-tools,344,FALSE,2026-11-18,Table of software for the analysis of single-cell RNA-seq data.,scrna-tools,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+benmarwick/wordcountaddin,wordcountaddin,344,FALSE,2026-04-09,Word counts and readability statistics in R markdown documents,wordcountaddin,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+tidymodels/rsample,rsample,343,FALSE,2026-09-17,Classes and functions to create and summarize resampling objects,rsample,rsample,cran,tidymodels,TRUE,cran/bioc
+JoGall/soccermatics,soccermatics,342,FALSE,2021-08-09,Tools for visualisation and analysis of soccer tracking and event data,soccermatics,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+xiaolei-lab/rMVP,rMVP,342,FALSE,2026-05-27,":postbox: A Memory-efficient, Visualization-enhanced, and Parallel-accelerated T",rmvp,rMVP,cran,xiaolei-lab,TRUE,cran/bioc
+immunomind/immunarch,immunarch,342,FALSE,2026-11-13,🧬 immunarch [R package] – Multi-Modal Immune Repertoire Analytics for Immunother,immunarch,immunarch,cran,immunomind,TRUE,cran/bioc
+richfitz/remake,remake,342,FALSE,2018-06-07,Make-like declarative workflows in R,remake,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+Jfortin1/ComBatHarmonization,ComBatHarmonization,342,FALSE,2023-07-07,Harmonization of multi-site imaging data with ComBat,combatharmonization,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+ropensci/rnoaa,rnoaa,342,FALSE,2025-02-04,R interface to many NOAA data APIs,rnoaa,rnoaa,archived,ropensci,FALSE,r-universe (cran: archived)
+r-dbi/RSQLite,RSQLite,341,FALSE,2026-11-17,R interface for SQLite,rsqlite,RSQLite,cran,r-dbi,TRUE,cran/bioc
+EmilHvitfeldt/ggpage,ggpage,340,FALSE,2019-06-13,Creates Page Layout Visualizations in R 📄📄📄,ggpage,ggpage,cran,emilhvitfeldt,TRUE,cran/bioc
+datacarpentry/R-ecology-lesson,R-ecology-lesson,340,FALSE,2026-11-17,Data Analysis and Visualization in R for Ecologists,ecology-lesson,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+davidsjoberg/ggsankey,ggsankey,339,FALSE,2024-04-04,"Make sankey, alluvial and sankey bump plots in ggplot",ggsankey,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+clauswilke/colorblindr,colorblindr,338,FALSE,2023-07-17,An R package to simulate colorblindness on R figures.,colorblindr,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+business-science/anomalize,anomalize,337,FALSE,2023-12-28,Tidy anomaly detection,anomalize,anomalize,cran,business-science,FALSE,cran/bioc
+rstudio/pins-r,pins-r,337,FALSE,2026-11-18,"Pin, discover, and share resources",pins,pins,cran,rstudio,TRUE,cran/bioc
+DOI-USGS/dataRetrieval,dataRetrieval,337,FALSE,2026-11-04,"This R package is designed to obtain USGS or EPA water quality sample data, stre",dataretrieval,dataRetrieval,cran,doi-usgs,TRUE,cran/bioc
+abresler/nbastatR,nbastatR,337,FALSE,2026-10-10,NBA Stats API Wrapper and more for R,nbastatr,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+eddelbuettel/littler,littler,336,FALSE,2026-11-17,A scripting and command-line front-end for GNU R,littler,littler,cran,eddelbuettel,TRUE,cran/bioc
+dmi3kno/polite,polite,335,FALSE,2026-09-09,Be nice on the web,polite,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+r-lib/rex,rex,335,FALSE,2024-03-12,Friendly regular expressions for R.,rex,rex,cran,r-lib,TRUE,cran/bioc
+microsoft/TagAnomaly,TagAnomaly,335,TRUE,2024-02-08,"Anomaly detection analysis and labeling tool, specifically for multiple time ser",taganomaly,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+rfsaldanha/microdatasus,microdatasus,334,FALSE,2026-10-20,Download de dados do DataSUS e pré-processamento no R.,microdatasus,microdatasus,cran,rfsaldanha,FALSE,cran/bioc
+gadenbuie/ggpomological,ggpomological,334,FALSE,2022-02-16,🍑 Pomological plot theme for ggplot2,ggpomological,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+georgevbsantiago/qsacnpj,qsacnpj,333,FALSE,2021-09-18,Pacote que trata e organiza os dados do Cadastro Nacional da Pessoa Jurídica (CN,qsacnpj,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+ModelOriented/modelStudio,modelStudio,333,FALSE,2023-08-31,📍 Interactive Studio for Explanatory Model Analysis,modelstudio,modelStudio,cran,modeloriented,TRUE,cran/bioc
+juliasilge/widyr,widyr,333,FALSE,2026-03-09,"Widen, process, and re-tidy a dataset",widyr,widyr,cran,juliasilge,TRUE,cran/bioc
+jrnold/r4ds-exercise-solutions,r4ds-exercise-solutions,333,TRUE,2026-08-29,"Exercise solutions to ""R for Data Science""",r4ds-exercise-solutions,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+hughjonesd/huxtable,huxtable,333,FALSE,2026-09-21,"An R package to create styled tables in multiple output formats, with a friendly",huxtable,huxtable,cran,hughjonesd,TRUE,cran/bioc
+wch/extrafont,extrafont,332,FALSE,2025-09-23,Tools for using fonts in R graphics,extrafont,extrafont,cran,fbertran,TRUE,cran/bioc
+carmonalab/ProjecTILs,ProjecTILs,331,FALSE,2025-12-19,Interpretation of cell states using reference single-cell maps,projectils,ProjecTILs,never,carmonalab,FALSE,r-universe (cran: never)
+jkeirstead/scholar,scholar,330,FALSE,2025-06-21,Analyse citation data from Google Scholar,scholar,scholar,cran,yulab-smu,TRUE,cran/bioc
+Appsilon/rhino,rhino,330,FALSE,2026-06-10,"Build high quality, enterprise-grade Shiny apps at speed",rhino,rhino,cran,appsilon,TRUE,cran/bioc
+pharmaverse/admiral,admiral,329,FALSE,2026-11-18,ADaM in R Asset Library,admiral,admiral,cran,pharmaverse,TRUE,cran/bioc
+rasmusab/bayesian_first_aid,bayesian_first_aid,329,FALSE,2016-08-03,Inside every classical test there is a Bayesian model trying to get out.,bayesian_first_aid,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+r-lib/crayon,crayon,324,FALSE,2025-10-21,🖍️ R package for colored terminal output — now superseded by cli,crayon,crayon,cran,r-lib,TRUE,cran/bioc
+wch/rgcookbook,rgcookbook,324,FALSE,2025-03-04,R Graphics Cookbook,rgcookbook,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+r-dbi/DBI,DBI,323,FALSE,2026-10-24,A database interface (DBI) definition for communication between R and RDBMSs,dbi,DBI,cran,r-dbi,TRUE,cran/bioc
+r3fang/SnapATAC,SnapATAC,323,FALSE,2023-04-27,Analysis Pipeline for Single Cell ATAC-seq,snapatac,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+microbiome/microbiome,microbiome,322,FALSE,2026-11-15,microbiome R package,microbiome,microbiome,never,bioc,FALSE,cran/bioc
+r-lib/memoise,memoise,322,FALSE,2023-12-05,Easy memoisation for R,memoise,memoise,cran,r-lib,TRUE,cran/bioc
+jcrodriguez1989/chatgpt,chatgpt,322,FALSE,2025-01-31,Interface to ChatGPT from R,chatgpt,chatgpt,cran,jcrodriguez1989,TRUE,cran/bioc
+wviechtb/metafor,metafor,320,FALSE,2026-11-09,A meta-analysis package for R,metafor,metafor,cran,wviechtb,TRUE,cran/bioc
+mengxu98/scop,scop,320,FALSE,2026-11-18,"An R package for single-cell and spatial omics analysis, integration, interpreta",scop,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+ccodwg/Covid19Canada,Covid19Canada,319,TRUE,2022-05-20,Epidemiological Data from the COVID-19 Epidemic in Canada,covid19canada,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+neuhausi/canvasXpress,canvasXpress,319,FALSE,2026-11-18,CanvasXpress: A JavaScript Library for Data Analytics with Full Audit Trail Capa,canvasxpress,canvasXpress,cran,neuhausi,FALSE,cran/bioc
+xuranw/MuSiC,MuSiC,319,FALSE,2024-03-04,Multi-subject Single Cell Deconvolution,music,music,cran,egenn,FALSE,cran/bioc
+navinlabcode/copykat,copykat,318,FALSE,2026-06-16,NA,copykat,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+ropensci-archive/rplos,rplos,318,TRUE,2022-09-09,:warning: ARCHIVED :warning: R client for the PLoS Journals API,rplos,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+pachterlab/sleuth,sleuth,318,FALSE,2025-05-28,Differential analysis of RNA-Seq,sleuth,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+synth-inference/synthdid,synthdid,317,FALSE,2024-01-15,Synthetic difference in differences,synthdid,synthdid,never,skranz,FALSE,r-universe (cran: never)
+r-lib/slider,slider,317,FALSE,2025-11-14,Sliding Window Functions,slider,slider,cran,r-lib,TRUE,cran/bioc
+hplgit/doconce,doconce,317,FALSE,2020-08-27,"Lightweight markup language - document once, include anywhere",doconce,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+JohnCoene/coronavirus,coronavirus,317,TRUE,2020-07-13,🦠 Novel Coronavirus (COVID-19) Tracker,coronavirus,coronavirus,cran,ramikrispin,FALSE,cran/bioc
+samuel-marsh/scCustomize,scCustomize,317,FALSE,2026-06-30,R package with collection of functions created and/or curated to aid in the visu,sccustomize,scCustomize,cran,samuel-marsh,TRUE,cran/bioc
+mitchelloharawild/icons,icons,316,FALSE,2026-09-03,R package to easily insert web icons to RMarkdown,icons,icons,cran,mitchelloharawild,FALSE,cran/bioc
+hudl/StatsBombR,StatsBombR,315,FALSE,2026-09-07,This repository is an R package to easily stream StatsBomb data from the API usi,statsbombr,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+IndrajeetPatil/statsExpressions,statsExpressions,315,FALSE,2026-11-17,Tidy data frames and expressions with statistical summaries 📜,statsexpressions,statsExpressions,cran,indrajeetpatil,TRUE,cran/bioc
+hughjonesd/ggmagnify,ggmagnify,315,FALSE,2026-05-07,Create a magnified inset of part of a ggplot object,ggmagnify,ggmagnify,never,hughjonesd,FALSE,r-universe (cran: never)
+saezlab/decoupleR,decoupleR,314,FALSE,2026-11-17,R package to infer biological activities from omics data using a collection of m,decoupler,decoupleR,never,bioc,FALSE,cran/bioc
+16EAGLE/getSpatialData,getSpatialData,314,FALSE,2023-07-10,"An R package 📦 making it easy to query, preview, download and preprocess multipl",getspatialdata,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+nik01010/dashboardthemes,dashboardthemes,314,TRUE,2022-07-13,No Longer Supported,dashboardthemes,dashboardthemes,cran,nik01010,TRUE,cran/bioc
+gaospecial/ggVennDiagram,ggVennDiagram,313,FALSE,2026-01-11,A 'ggplot2' implement of Venn Diagram.,ggvenndiagram,ggVennDiagram,cran,gaospecial,TRUE,cran/bioc
+sjmgarnier/viridis,viridis,313,FALSE,2024-01-28,Colorblind-Friendly Color Maps for R,viridis,viridis,cran,sjmgarnier,TRUE,cran/bioc
+FrankPortman/bayesAB,bayesAB,312,FALSE,2021-06-25,🐢 bayesAB: Fast Bayesian Methods for A/B Testing,bayesab,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+NickCH-K/causalgraphs,causalgraphs,311,FALSE,2024-01-24,R code for causal graph animations,causalgraphs,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+HaobinZhou/Get_MR,Get_MR,311,FALSE,2025-07-25,A package for running MR In batches and in parallel quickly,get_mr,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+bokeh/rbokeh,rbokeh,311,TRUE,2023-11-01,R interface to Bokeh http://hafen.github.io/rbokeh/,rbokeh,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+tidyverts/feasts,feasts,310,FALSE,2026-11-18,Feature Extraction And Statistics for Time Series,feasts,feasts,cran,tidyverts,TRUE,cran/bioc
+cailab-tamu/scTenifoldKnk,scTenifoldKnk,310,FALSE,2026-10-08,R/MATLAB package to perform virtual knockout experiments on single-cell gene re,sctenifoldknk,scTenifoldKnk,cran,cailab-tamu,FALSE,cran/bioc
+braverock/quantstrat,quantstrat,310,FALSE,2023-09-14,NA,quantstrat,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+fivethirtyeight/guns-data,guns-data,309,FALSE,2020-01-21,NA,guns-data,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+wilkox/ggfittext,ggfittext,309,FALSE,2026-07-05,🔠 ggplot2 geoms to fit text into boxes,ggfittext,ggfittext,cran,wilkox,TRUE,cran/bioc
+mrkaye97/slackr,slackr,309,FALSE,2024-10-16,An R package for sending messages from R to Slack,slackr,slackr,cran,mrkaye97,FALSE,cran/bioc
+loukesio/ltc-color-palettes,ltc-color-palettes,308,FALSE,2026-08-30,"Artistic and nature-inspired colour palettes for R, on CRAN as 'ltc'. Curated fo",ltc-color-palettes,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+ropensci/charlatan,charlatan,308,FALSE,2026-10-19,Create fake data in R,charlatan,charlatan,cran,ropensci,TRUE,cran/bioc
+GenomicSEM/GenomicSEM,GenomicSEM,307,FALSE,2026-09-28,R-package for structural equation modeling based on GWAS summary data,genomicsem,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+mllg/checkmate,checkmate,307,FALSE,2026-02-04,Fast and versatile argument checks,checkmate,checkmate,cran,mllg,TRUE,cran/bioc
+jmzeng1314/my_WGCNA,my_WGCNA,307,FALSE,2019-09-28,NA,my_wgcna,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+prisma-flowdiagram/PRISMA2020,PRISMA2020,307,FALSE,2026-09-05,Produce PRISMA-2020 compliant flow diagrams,prisma2020,PRISMA2020,cran,prisma-flowdiagram,FALSE,cran/bioc
+echen/dirichlet-process,dirichlet-process,306,FALSE,2015-04-15,"Introduction to Nonparametric Bayes, Infinite Mixture Models, and the Dirichlet",dirichlet-process,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+virtualstaticvoid/heroku-buildpack-r,heroku-buildpack-r,305,FALSE,2025-05-08,Heroku buildpack for R - Makes deploying R on Heroku easy,heroku-buildpack,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+rstudio-education/shiny.rstudio.com-tutorial,shiny.rstudio.com-tutorial,304,FALSE,2019-10-25,Slides and exercises for the video tutorial at https://shiny.rstudio.com/tutoria,shiny.rstudio.com-tutorial,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+r-lib/callr,callr,304,FALSE,2026-06-08,Call R from R,callr,callr,cran,r-lib,TRUE,cran/bioc
+ropensci/taxize,taxize,304,FALSE,2026-05-12,A taxonomic toolbelt for R,taxize,taxize,cran,ropensci,TRUE,cran/bioc
+jennybc/gapminder,gapminder,304,FALSE,2025-06-12,"Excerpt from the Gapminder data, as an R data package and in plain text delimite",gapminder,gapminder,cran,jennybc,TRUE,cran/bioc
+tidymodels/stacks,stacks,303,FALSE,2025-10-22,An R package for tidy stacked ensemble modeling,stacks,stacks,cran,tidymodels,TRUE,cran/bioc
+moldach/vapoRwave,vapoRwave,303,FALSE,2026-11-17,📼👾🕹Vaporwave themes and color palettes for ggplot2💾👨‍🎤📺,vaporwave,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+rstudio/fontawesome,fontawesome,302,FALSE,2025-10-05,Easily insert FontAwesome icons into R Markdown docs and Shiny apps,fontawesome,fontawesome,cran,rstudio,TRUE,cran/bioc
+mkearney/rstudiothemes,rstudiothemes,302,FALSE,2019-09-10,A curated list of RStudio themes found on Github,rstudiothemes,rstudiothemes,cran,dieghernan,FALSE,cran/bioc
+jessecambon/tidygeocoder,tidygeocoder,302,FALSE,2026-02-18,Geocoding Made Easy,tidygeocoder,tidygeocoder,cran,jessecambon,TRUE,cran/bioc
+Rapporter/pander,pander,301,FALSE,2026-07-16,An R Pandoc Writer: Convert arbitrary R objects into markdown,pander,pander,cran,rapporter,TRUE,cran/bioc
+r-lib/waldo,waldo,301,FALSE,2025-07-11,Find differences between R objects,waldo,waldo,cran,r-lib,TRUE,cran/bioc
+kolaczyk/sand,sand,301,FALSE,2020-07-02,"Statistical Analysis of Network Data with R, 2nd Edition",sand,sand,cran,kolaczyk,FALSE,cran/bioc
+bleutner/RStoolbox,RStoolbox,301,FALSE,2026-07-22,Remote Sensing Data Analysis in R 🛰,rstoolbox,RStoolbox,cran,bleutner,TRUE,cran/bioc
+sdparekh/zUMIs,zUMIs,300,FALSE,2024-07-12,zUMIs: A fast and flexible pipeline to process RNA sequencing data with UMIs,zumis,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+futureverse/progressr,progressr,299,FALSE,2026-11-16,"三 R package: An Inclusive, Unifying API for Progress Updates",progressr,NA,NA,NA,NA,cran/bioc
+vqv/ggbiplot,ggbiplot,298,FALSE,2024-04-24,A biplot based on ggplot2,ggbiplot,ggbiplot,cran,friendly,FALSE,cran/bioc
+JamesHWade/gpttools,gpttools,298,FALSE,2026-11-02,"gpttools extends gptstudio for package development to help you document code, wr",gpttools,gpttools,never,jameshwade,FALSE,r-universe (cran: never)
+ChiLiubio/microeco,microeco,297,FALSE,2026-11-15,An R package for downstream data analysis of microbiome omics data,microeco,microeco,cran,chiliubio,FALSE,cran/bioc
+IOBR/IOBR,IOBR,296,FALSE,2026-10-29,IOBR is an R package to perform comprehensive analysis of tumor microenvironment,iobr,IOBR,cran,iobr,FALSE,cran/bioc
+kosukeimai/fastLink,fastLink,295,FALSE,2026-02-28,R package fastLink: Fast Probabilistic Record Linkage,fastlink,fastLink,cran,kosukeimai,FALSE,cran/bioc
+jakelawlor/PNWColors,PNWColors,295,FALSE,2022-09-02,A Pacific Northwest inspired R color palette package,pnwcolors,PNWColors,cran,jakelawlor,TRUE,cran/bioc
+o2r-project/containerit,containerit,295,FALSE,2022-02-17,Package an R workspace and all dependencies as a Docker container,containerit,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+rexyai/RestRserve,RestRserve,295,FALSE,2025-03-21,R web API framework for building high-performance microservices and app backends,restrserve,RestRserve,cran,rexyai,FALSE,cran/bioc
+thomas-neitmann/ggcharts,ggcharts,294,FALSE,2021-11-16,Get You to Your Desired Plot Faster,ggcharts,ggcharts,cran,thomas-neitmann,TRUE,cran/bioc
+ecpolley/SuperLearner,SuperLearner,294,FALSE,2026-08-16,Current version of the SuperLearner R package,superlearner,SuperLearner,cran,ecpolley,TRUE,cran/bioc
+prouast/cryptocurrency-analysis,cryptocurrency-analysis,294,FALSE,2020-02-23,Analysis and visualisation of the cryptocurrency market,cryptocurrency-analysis,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+cole-trapnell-lab/monocle-release,monocle-release,294,FALSE,2022-07-15,NA,monocle-release,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+clauswilke/ggjoy,ggjoy,293,FALSE,2018-05-18,Deprecated. Please use ggridges.,ggjoy,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+Tazinho/Advanced-R-Solutions,Advanced-R-Solutions,292,FALSE,2024-03-06,Set of solutions for the Advanced R programming book,advanced-r-solutions,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+bergant/datamodelr,datamodelr,292,FALSE,2021-03-02,Data model diagrams in R,datamodelr,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+teunbrand/legendry,legendry,292,FALSE,2026-05-13,A 'ggplot2' extension that focusses on expanding the plotter's arsenal of guides,legendry,legendry,cran,teunbrand,TRUE,cran/bioc
+yihui/servr,servr,290,FALSE,2026-11-01,A simple HTTP server in R,servr,servr,cran,yihui,TRUE,cran/bioc
+Appsilon/shiny.fluent,shiny.fluent,290,FALSE,2026-08-11,Microsoft's Fluent UI for Shiny apps,shiny.fluent,shiny.fluent,cran,appsilon,TRUE,cran/bioc
+r-rust/hellorust,hellorust,290,FALSE,2026-10-12,Template R package with rust bindings,hellorust,hellorust,cran,r-rust,FALSE,cran/bioc
+ajtulloch/Elements-of-Statistical-Learning,Elements-of-Statistical-Learning,289,FALSE,2013-11-10,"Contains LaTeX, SciPy and R code providing solutions to exercises in Elements of",elements-of-statistical-learning,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+r-spatial/leafgl,leafgl,288,FALSE,2026-11-17,R package for fast web gl rendering for leaflet,leafgl,leafgl,cran,r-spatial,TRUE,cran/bioc
+smartinsightsfromdata/rpivotTable,rpivotTable,288,FALSE,2023-11-03,A R wrapper for the great library pivottable,rpivottable,rpivotTable,cran,lilyclements,TRUE,cran/bioc
+datalorax/slidex,slidex,288,FALSE,2020-10-30,Convert PowerPoint Slides to xaringan (remark.js) Slides,slidex,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+nrennie/tidytuesday,tidytuesday,287,FALSE,2026-11-16,"This repository contains the R, Python, D3, and Svelte code used to produce my v",tidytuesday,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+martyput/MDP_book,MDP_book,287,FALSE,2026-02-24,NA,mdp_book,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+raivokolde/pheatmap,pheatmap,285,FALSE,2025-06-05,Pretty heatmaps,pheatmap,pheatmap,cran,raivokolde,TRUE,cran/bioc
+schochastics/graphlayouts,graphlayouts,285,FALSE,2026-07-22,new layout algorithms for network visualizations in R,graphlayouts,graphlayouts,cran,schochastics,TRUE,cran/bioc
+kosukeimai/qss,qss,285,FALSE,2025-08-13,Supplementary Materials for ``Quantitative Social Science: An Introduction'',qss,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+sigven/pcgr,pcgr,284,FALSE,2026-11-10,Personal Cancer Genome Reporter (PCGR),pcgr,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+EpiModel/EpiModel,EpiModel,284,FALSE,2026-11-18,Mathematical Modeling of Infectious Disease Dynamics,epimodel,EpiModel,cran,epimodel,FALSE,cran/bioc
+TheEconomist/the-economist-war-fire-model,the-economist-war-fire-model,284,FALSE,2026-11-19,Source code and data for The Economist's Ukraine war-fire model,the-economist-war-fire-model,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+romantseg/rbooks,rbooks,284,FALSE,2017-11-02,A curated list of #rstats books,rbooks,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+bmschmidt/wordVectors,wordVectors,283,FALSE,2022-05-20,An R package for creating and exploring word2vec and other word embedding models,wordvectors,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+dirkschumacher/ompr,ompr,283,FALSE,2023-09-09,R package to model Mixed Integer Linear Programs,ompr,ompr,cran,dirkschumacher,FALSE,cran/bioc
+microsoft/finnts,finnts,283,FALSE,2026-11-18,Microsoft Finance Time Series Forecasting Framework (FinnTS) is a forecasting pa,finnts,finnts,cran,microsoft,FALSE,cran/bioc
+eddelbuettel/tint,tint,280,FALSE,2026-02-12,Tint is not Tufte,tint,tint,cran,eddelbuettel,FALSE,cran/bioc
+talgalili/installr,installr,280,FALSE,2025-11-29,Functions for installing softwares from within R,installr,installr,cran,talgalili,TRUE,cran/bioc
+coolbutuseless/dplyr-cli,dplyr-cli,279,FALSE,2022-02-09,Manipulate CSV files on the command line using dplyr,dplyr-cli,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+R-CoderDotCom/calendR,calendR,279,FALSE,2025-09-05,Ready to print calendars with ggplot2,calendr,calendR,cran,sidoruvigo,TRUE,cran/bioc
+Yang-Tang/shinyjqui,shinyjqui,279,FALSE,2023-12-30,jQuery UI Interactions and Effects for Shiny,shinyjqui,shinyjqui,cran,yang-tang,TRUE,cran/bioc
+plger/scDblFinder,scDblFinder,278,FALSE,2026-11-12,Methods for detecting doublets in single-cell sequencing data,scdblfinder,scDblFinder,never,bioc,FALSE,cran/bioc
+ggsegverse/ggseg,ggseg,277,FALSE,2026-11-15,"Plotting tool for brain atlases, in ggplot",ggseg,ggseg,cran,ggsegverse,FALSE,cran/bioc
+mixOmics-org/mixOmics,mixOmics,277,FALSE,2026-11-18,Development repository for the Bioconductor package 'mixOmics ',mixomics,mixOmics,archived,bioc,TRUE,cran/bioc
+VerbalExpressions/RVerbalExpressions,RVerbalExpressions,277,FALSE,2024-03-20,:speech_balloon: Create regular expressions easily,rverbalexpressions,RVerbalExpressions,cran,verbalexpressions,FALSE,cran/bioc
+genomicsclass/dagdata,dagdata,276,FALSE,2015-08-26,Data for the HarvardX courses: PH525x,dagdata,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+OpenDroneMap/FIELDimageR,FIELDimageR,276,FALSE,2024-05-24,FIELDimageR: A R package to analyze orthomosaic images from agricultural field t,fieldimager,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+XSaintX/book-R-DataAnalysis,book-R-DataAnalysis,275,FALSE,2022-08-11,This repository contains R code about analysing data from the book Analisis de d,book-r-dataanalysis,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+yufree/sciguide,sciguide,275,FALSE,2023-08-24,现代科研指北,sciguide,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+lorenzwalthert/precommit,precommit,275,FALSE,2026-11-15,pre-commit hooks for R projects,precommit,precommit,cran,lorenzwalthert,TRUE,cran/bioc
+stephenslab/susieR,susieR,275,FALSE,2026-11-16,"R package for ""sum of single effects"" regression.",susier,susieR,cran,stephenslab,TRUE,cran/bioc
+cjbarrie/academictwitteR,academictwitteR,274,TRUE,2023-06-30,Repo for academictwitteR package to query the Twitter Academic Research Product,academictwitter,academictwitteR,cran,cjbarrie,TRUE,cran/bioc
+r-lib/httr2,httr2,274,FALSE,2026-11-18,Make HTTP requests and process their responses. A modern reimagining of httr.,httr2,httr2,cran,r-lib,TRUE,cran/bioc
+showteeth/ggcoverage,ggcoverage,274,FALSE,2025-01-24,Visualize and annotate genomic coverage with ggplot2,ggcoverage,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+r-lib/zeallot,zeallot,273,FALSE,2026-10-01,"Variable assignment with zeal! (or multiple, unpacking, and destructuring assign",zeallot,zeallot,cran,r-lib,TRUE,cran/bioc
+satijalab/sctransform,sctransform,273,FALSE,2026-01-10,R package for modeling single cell UMI expression data using regularized negativ,sctransform,NA,NA,NA,NA,cran/bioc
+jtlovell/GENESPACE,GENESPACE,273,FALSE,2025-01-24,NA,genespace,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+ropensci-archive/fulltext,fulltext,271,TRUE,2022-09-09,:warning: ARCHIVED :warning: Search across and get full text for OA & closed jou,fulltext,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+kevinsblake/NatParksPalettes,NatParksPalettes,271,FALSE,2025-01-07,Color palette package inspired by National Parks,natparkspalettes,NatParksPalettes,cran,kevinsblake,FALSE,cran/bioc
+RamiKrispin/vscode-r,vscode-r,271,FALSE,2024-07-28,"A Tutorial for Setting R Development Environment with VScode, Dev Containers, an",vscode,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+bioFAM/MOFA,MOFA,271,FALSE,2020-09-30,Multi-Omics Factor Analysis,mofa,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+digitalcytometry/cytotrace2,cytotrace2,271,FALSE,2026-07-08,CytoTRACE 2 is an interpretable AI method for predicting cellular potency and ab,cytotrace2,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+exaexa/scattermore,scattermore,271,FALSE,2025-05-04,very fast scatterplots for R,scattermore,scattermore,cran,exaexa,TRUE,cran/bioc
+florianhartig/DHARMa,DHARMa,271,FALSE,2026-11-18,Diagnostics for HierArchical Regression Models,dharma,DHARMa,cran,florianhartig,TRUE,cran/bioc
+shenlab-sinai/ngsplot,ngsplot,270,FALSE,2023-05-05,Quick mining and visualization of NGS data by integrating genomic databases,ngsplot,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+facebookincubator/GeoLift,GeoLift,270,FALSE,2026-06-30,GeoLift is an end-to-end geo-experimental methodology based on Synthetic Control,geolift,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+khanhnamle1994/statistical-learning,statistical-learning,270,FALSE,2018-01-02,"Lecture Slides and R Sessions for Trevor Hastie and Rob Tibshinari's ""Statistica",statistical-learning,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+ropensci/iheatmapr,iheatmapr,270,FALSE,2026-04-29,"Complex, interactive heatmaps in R",iheatmapr,iheatmapr,cran,ropensci,TRUE,cran/bioc
+knausb/vcfR,vcfR,270,FALSE,2026-06-08,Tools to work with variant call format files,vcfr,vcfR,cran,knausb,TRUE,cran/bioc
+R-CoderDotCom/econocharts,econocharts,270,FALSE,2021-10-11,Microeconomics/macroeconomics charts in ggplot2,econocharts,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+chasemc/electricShine,electricShine,269,TRUE,2025-08-28,Create Standalone Installable Shiny Apps,electricshine,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+al2na/methylKit,methylKit,269,FALSE,2026-07-15,R package for DNA methylation analysis,methylkit,methylKit,never,bioc,FALSE,cran/bioc
+pharmaverse/teal,teal,268,FALSE,2026-11-18,Exploratory Web Apps for Analyzing Clinical Trial Data,teal,teal,cran,pharmaverse,FALSE,cran/bioc
+ropensci/rnaturalearth,rnaturalearth,267,FALSE,2026-07-09,An R package to hold and facilitate interaction with natural earth map data :ear,rnaturalearth,rnaturalearth,cran,ropensci,TRUE,cran/bioc
+AtherEnergy/ggTimeSeries,ggTimeSeries,267,FALSE,2022-02-11,Time series visualisation,ggtimeseries,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+RGLab/MAST,MAST,267,FALSE,2025-10-17,Tools and methods for analysis of single cell assay data in R,mast,MAST,never,bioc,FALSE,cran/bioc
+Appsilon/shiny.router,shiny.router,266,FALSE,2025-04-18,A minimalistic router for your Shiny apps.,shiny.router,shiny.router,cran,appsilon,TRUE,cran/bioc
+Raymo111/Raymo111,Raymo111,266,FALSE,2026-11-12,My awesome profile README,raymo111,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+asardaes/dtwclust,dtwclust,265,FALSE,2026-02-01,R Package for Time Series Clustering Along with Optimizations for DTW,dtwclust,dtwclust,cran,asardaes,TRUE,cran/bioc
+adw96/biostat561,biostat561,265,FALSE,2019-06-05,Course materials for BIOST561,biostat561,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+jldbc/coffee-quality-database,coffee-quality-database,265,FALSE,2018-06-16,Building the Coffee Quality Institute Database,coffee-quality-database,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+tidymodels/tidypredict,tidypredict,265,FALSE,2026-10-18,Run predictions inside the database,tidypredict,tidypredict,cran,tidymodels,TRUE,cran/bioc
+rstudio/config,config,265,FALSE,2025-04-01,config package for R,config,config,cran,rstudio,TRUE,cran/bioc
+extendr/rextendr,rextendr,265,FALSE,2026-11-17,An R package that helps scaffolding extendr-enabled packages or compiling Rust c,rextendr,rextendr,cran,extendr,TRUE,cran/bioc
+robjhyndman/tsfeatures,tsfeatures,264,FALSE,2026-11-01,Time series features,tsfeatures,tsfeatures,cran,robjhyndman,TRUE,cran/bioc
+hafen/trelliscopejs,trelliscopejs,264,FALSE,2026-01-14,TrelliscopeJS R Package,trelliscopejs,trelliscopejs,cran,hafen,FALSE,cran/bioc
+r-spatialecology/landscapemetrics,landscapemetrics,264,FALSE,2026-10-18,Landscape Metrics for Categorical Map Patterns 🗺️ in R,landscapemetrics,landscapemetrics,cran,r-spatialecology,TRUE,cran/bioc
+easystats/modelbased,modelbased,263,FALSE,2026-11-19,":chart_with_upwards_trend: Estimate effects, contrasts and means based on statis",modelbased,modelbased,cran,easystats,TRUE,cran/bioc
+leeper/margins,margins,263,FALSE,2024-07-31,An R Port of Stata's 'margins' Command,margins,margins,cran,bbolker,TRUE,cran/bioc
+dokato/todor,todor,262,FALSE,2026-10-31,"TODOr - RStudio add-in for finding TODO, FIXME, CHANGED etc. comments in your co",todor,todor,cran,dokato,FALSE,cran/bioc
+GoekeLab/bambu,bambu,262,FALSE,2026-10-02,Reference-guided transcript discovery and quantification for long read RNA-Seq d,bambu,bambu,never,bioc,FALSE,cran/bioc
+pharmaverse/rtables,rtables,262,FALSE,2026-10-01,Reporting tables with R,rtables,rtables,cran,pharmaverse,TRUE,cran/bioc
+erocoar/gghalves,gghalves,261,FALSE,2022-11-20,✂️ Easy half-half geoms in ggplot2,gghalves,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+dariyasydykova/open_projects,open_projects,261,FALSE,2023-11-14,This repository contains ROC and precision-recall curve animations,open_projects,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+jackwasey/icd,icd,261,FALSE,2026-09-14,"*New maintainer/owner needed* Fast ICD-10 and ICD-9 comorbidities, decoding and",icd,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+yihui/formatR,formatR,261,FALSE,2026-10-19,Format R Code Automatically,formatr,formatR,cran,yihui,TRUE,cran/bioc
+qrmtutorial/qrm,qrm,261,FALSE,2023-08-08,qrm,qrm,QRM,cran,bpfaff,TRUE,cran/bioc
+AppliedDataSciencePartners/xgboostExplainer,xgboostExplainer,260,FALSE,2018-06-18,An R package that makes xgboost models fully interpretable,xgboostexplainer,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+asheshrambachan/HonestDiD,HonestDiD,260,FALSE,2026-04-12,Robust inference in difference-in-differences and event study designs,honestdid,HonestDiD,cran,asheshrambachan,FALSE,cran/bioc
+lazappi/clustree,clustree,260,FALSE,2025-06-21,Visualise Clusterings at Different Resolutions,clustree,clustree,cran,lazappi,TRUE,cran/bioc
+tmobile/r-tensorflow-api,r-tensorflow-api,259,FALSE,2022-10-08,A small Docker container for using R and TensorFlow as an enterprise API,tensorflow-api,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+trinker/textclean,textclean,259,FALSE,2026-03-05,Tools for cleaning and normalizing text data,textclean,textclean,cran,trinker,TRUE,cran/bioc
+vnijs/radiant,radiant,259,FALSE,2016-08-18,Business analytics using R and Shiny,radiant,radiant,cran,radiant-rstats,FALSE,cran/bioc
+YuLab-SMU/ChIPseeker,ChIPseeker,259,FALSE,2026-11-12,":dart: ChIP peak Annotation, Comparison and Visualization",chipseeker,ChIPseeker,never,bioc,FALSE,cran/bioc
+YuLab-SMU/enrichplot,enrichplot,258,FALSE,2026-11-08,Visualization of Functional Enrichment Result,enrichplot,enrichplot,never,bioc,FALSE,cran/bioc
+eddelbuettel/gsir-te,gsir-te,257,FALSE,2026-02-24,Getting Started in R -- Tinyverse Edition,gsir-te,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+r-lib/bench,bench,257,FALSE,2025-10-23,High Precision Timing of R Expressions,bench,bench,cran,r-lib,TRUE,cran/bioc
+karthik/holepunch,holepunch,257,FALSE,2023-02-10,Make your R project Binder ready,holepunch,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+rOpenGov/eurostat,eurostat,257,FALSE,2026-09-24,R tools for Eurostat data,eurostat,eurostat,cran,ropengov,FALSE,cran/bioc
+sdmTMB/sdmTMB,sdmTMB,257,FALSE,2026-11-17,An R package for spatial and spatiotemporal GLMMs with TMB,sdmtmb,sdmTMB,cran,sdmtmb,FALSE,cran/bioc
+thomasp85/fiery,fiery,257,FALSE,2026-01-12,A flexible and lightweight web server,fiery,fiery,cran,thomasp85,FALSE,cran/bioc
+saezlab/liana,liana,256,FALSE,2024-08-07,LIANA: a LIgand-receptor ANalysis frAmework,liana,liana,never,zaoqu-liu,FALSE,r-universe (cran: never)
+Appsilon/semantic.dashboard,semantic.dashboard,256,FALSE,2024-04-18,"Quick, beautiful and customizable dashboard template for Shiny based on shiny.se",semantic.dashboard,semantic.dashboard,cran,appsilon,FALSE,cran/bioc
+rstudio/pool,pool,256,FALSE,2026-09-16,Object Pooling in R,pool,pool,cran,rstudio,TRUE,cran/bioc
+OpenIntroStat/openintro,openintro,256,FALSE,2026-08-19,📦 R package for data and supplemental functions for OpenIntro resources,openintro,openintro,cran,openintrostat,FALSE,cran/bioc
+trinker/wakefield,wakefield,256,FALSE,2026-03-05,Generate random data sets,wakefield,wakefield,cran,trinker,FALSE,cran/bioc
+geoffjentry/twitteR,twitteR,256,TRUE,2018-06-07,R based twitter client,twitter,twitteR,archived,renova-r,FALSE,r-universe (cran: archived)
+pzhaonet/bookdownplus,bookdownplus,256,FALSE,2021-12-31,The easiest way to use R package bookdown for  writing varied types of books and,bookdownplus,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+alastairrushworth/inspectdf,inspectdf,256,FALSE,2026-11-08,🛠️ 📊 Tools for Exploring and Comparing Data Frames,inspectdf,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+DuoWaMisi/ebot,ebot,256,FALSE,2026-07-13,NA,ebot,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+toddwschneider/nyc-citibike-data,nyc-citibike-data,256,FALSE,2024-04-28,NYC Citi Bike system data and analysis,nyc-citibike-data,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+rstudio/thematic,thematic,255,FALSE,2025-09-29,"Theme ggplot2, lattice, and base graphics based on a few simple settings.",thematic,thematic,cran,rstudio,TRUE,cran/bioc
+quanteda/spacyr,spacyr,255,FALSE,2026-11-16,R wrapper to spaCy NLP,spacyr,spacyr,cran,quanteda,TRUE,cran/bioc
+PecanProject/pecan,pecan,254,FALSE,2026-11-19,The Predictive Ecosystem Analyzer (PEcAn) is an integrated ecological bioinforma,pecan,pecan,cran,carol-seven,FALSE,cran/bioc
+r-lib/conflicted,conflicted,254,FALSE,2024-02-22,An alternative conflict resolution strategy for R,conflicted,conflicted,cran,r-lib,TRUE,cran/bioc
+jennybc/ggplot2-tutorial,ggplot2-tutorial,254,FALSE,2017-10-20,Teaching materials for the R package ggplot2,ggplot2-tutorial,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+vincentarelbundock/WDI,WDI,253,FALSE,2026-08-19,R package to download World Bank data,wdi,WDI,cran,vincentarelbundock,TRUE,cran/bioc
+karthik/rdrop2,rdrop2,253,FALSE,2024-03-25,Dropbox Interface from R,rdrop2,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+sowla/useR2019-materials,useR2019-materials,253,FALSE,2019-10-18,Links to materials from tutorials and talks from useR 2019,user2019-materials,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+riatelab/osrm,osrm,253,TRUE,2026-09-28,Interface between R and the OpenStreetMap-based routing service OSRM,osrm,osrm,cran,riatelab,FALSE,cran/bioc
+digitalcytometry/ecotyper,ecotyper,253,FALSE,2026-05-11,EcoTyper is a machine learning framework for large-scale identification of cell,ecotyper,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+cwickham/purrr-tutorial,purrr-tutorial,253,FALSE,2017-06-26,A introduction to purrr,purrr-tutorial,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+ryantibs/conformal,conformal,253,FALSE,2024-08-21,Tools for conformal inference in regression,conformal,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+ropensci/tesseract,tesseract,253,FALSE,2026-09-06,Bindings to Tesseract OCR engine for R,tesseract,tesseract,cran,ropensci,TRUE,cran/bioc
+rmcelreath/causal_salad_2021,causal_salad_2021,253,FALSE,2022-01-27,"One day course on causal inference, MPI-EVA 9 September 2021",causal_salad_2021,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+covid19datahub/COVID19,COVID19,252,FALSE,2026-11-19,A worldwide epidemiological database for COVID-19 at fine-grained spatial resolu,covid19,COVID19,cran,covid19datahub,FALSE,cran/bioc
+lindeloev/job,job,252,FALSE,2024-09-30,job: free Your RStudio Console,job,job,cran,lindeloev,FALSE,cran/bioc
+AdrianAntico/AutoQuant,AutoQuant,252,FALSE,2026-11-10,"Automation framework for machine learning, forecasting, model evaluation, and in",autoquant,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+daattali/shiny-server,shiny-server,252,FALSE,2025-03-28,My personal Shiny server,shiny-server,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+bergant/finstr,finstr,252,FALSE,2017-02-25,:chart_with_upwards_trend: Financial statements in R,finstr,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+ggrothendieck/sqldf,sqldf,252,FALSE,2026-09-12,Perform SQL Selects on R Data Frames,sqldf,sqldf,cran,ggrothendieck,TRUE,cran/bioc
+cdeterman/gpuR,gpuR,251,FALSE,2020-06-15,R interface to use GPU's,gpur,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+rich-iannone/stationaRy,stationaRy,251,FALSE,2021-07-07,Get hourly meteorological data from one of thousands of global stations,stationary,stationaRy,cran,rich-iannone,FALSE,cran/bioc
+jsta/r-docker-tutorial,r-docker-tutorial,251,FALSE,2022-02-02,A docker tutorial for reproducible research,docker-tutorial,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+jiabowang/GAPIT,GAPIT,251,FALSE,2026-10-29,Genome Association Predict Integrate Tools,gapit,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+shufinskiy/nba_data,nba_data,250,FALSE,2026-11-06,"NBA play-by-play data from stats.nba.com, data.nba.com, pbpstats.com, and also s",nba_data,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+jonocarroll/mathpix,mathpix,250,FALSE,2024-04-26,Query the mathpix API to convert math images to LaTeX,mathpix,mathpix,cran,jonocarroll,FALSE,cran/bioc
+Gibbsdavidl/CatterPlots,CatterPlots,249,FALSE,2018-03-18,Did you ever wish you could make scatter plots with cat shaped points?  Now you,catterplots,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+HelenaLC/muscat,muscat,249,FALSE,2026-07-06,Multi-sample multi-group scRNA-seq analysis tools,muscat,muscat,never,bioc,FALSE,cran/bioc
+mlverse/chattr,chattr,249,FALSE,2025-11-11,NA,chattr,chattr,cran,mlverse,FALSE,cran/bioc
+rcastelo/GSVA,GSVA,249,FALSE,2026-11-18,Gene set variation analysis,gsva,GSVA,never,bioc,FALSE,cran/bioc
+riatelab/mapsf,mapsf,249,FALSE,2026-11-09,Thematic cartography with R,mapsf,mapsf,cran,riatelab,FALSE,cran/bioc
+noriakis/ggkegg,ggkegg,248,FALSE,2025-10-14,Analyzing and visualizing KEGG information using the grammar of graphics,ggkegg,ggkegg,never,bioc,FALSE,cran/bioc
+r-lib/processx,processx,247,FALSE,2026-11-18,Execute and Control Subprocesses from R,processx,processx,cran,r-lib,TRUE,cran/bioc
+ipea/r5r,r5r,247,FALSE,2026-11-09,NA,r5r,r5r,cran,rafapereirabr,FALSE,cran/bioc
+IrinaStatsLab/Awesome-CGM,Awesome-CGM,247,FALSE,2024-12-21,List of CGM datasets,awesome-cgm,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+ZJUFanLab/scCATCH,scCATCH,247,FALSE,2023-05-08,Automatic Annotation on Cell Types of Clusters from Single-Cell RNA Sequencing D,sccatch,scCATCH,cran,zjufanlab,FALSE,cran/bioc
+daattali/shinyalert,shinyalert,246,FALSE,2024-06-02,🗯️ Easily create pretty popup messages (modals) in Shiny,shinyalert,shinyalert,cran,daattali,TRUE,cran/bioc
+johnmyleswhite/SimpleAintEasy,SimpleAintEasy,246,FALSE,2014-03-06,A compendium of the pitfalls and problems that arise when using standard statist,simpleainteasy,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+toddwschneider/shiny-salesman,shiny-salesman,246,FALSE,2019-02-18,"Traveling salesman with simulated annealing, R, and Shiny",shiny-salesman,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+r-lib/asciicast,asciicast,245,FALSE,2025-12-01,Turn R scripts into terminal screencasts,asciicast,asciicast,cran,r-lib,FALSE,cran/bioc
+rolkra/explore,explore,245,FALSE,2025-12-10,R package that makes basic data exploration radically simple (interactive data e,explore,explore,cran,rolkra,TRUE,cran/bioc
+markvanderloo/tinytest,tinytest,245,FALSE,2026-03-21,"A lightweight, no-dependency, but full-featured package for unit testing in R",tinytest,tinytest,cran,markvanderloo,TRUE,cran/bioc
+ropensci-archive/elastic,elastic,245,TRUE,2025-12-02,R client for the Elasticsearch HTTP API,elastic,elastic,cran,rfhb,FALSE,cran/bioc
+hhenoida/dataanalytics,dataanalytics,245,FALSE,2018-10-29,This is repository is to be used alongwith with Training Provided through LMS of,dataanalytics,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+ShinyEd/intro-stats,intro-stats,245,FALSE,2022-09-15,Shiny apps for introductory statistics,intro-stats,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+ben519/DataWrangling,DataWrangling,245,FALSE,2022-02-01,The ultimate reference guide to data wrangling with Python and R,datawrangling,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+Pakillo/grateful,grateful,244,FALSE,2026-11-09,Facilitate citation of R packages,grateful,grateful,cran,pakillo,FALSE,cran/bioc
+daranzolin/ViewPipeSteps,ViewPipeSteps,244,FALSE,2021-12-15,Create tabs of View() output for each chained pipe,viewpipesteps,ViewPipeSteps,cran,daranzolin,FALSE,cran/bioc
+rakshitha123/TSForecasting,TSForecasting,244,FALSE,2022-11-11,This repository contains the implementations related to the experiments of a set,tsforecasting,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+Chicago/RSocrata,RSocrata,244,FALSE,2025-04-15,Provides easier interaction with Socrata open data portals http://dev.socrata.co,rsocrata,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+enblacar/SCpubr,SCpubr,244,FALSE,2026-03-02,"Generate high quality, publication ready visualizations for single cell transcri",scpubr,SCpubr,cran,enblacar,TRUE,cran/bioc
+hadley/strict,strict,244,FALSE,2025-05-26,Make R a little bit stricter,strict,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+etiennebacher/tidypolars,tidypolars,243,FALSE,2026-11-13,"More efficient tidyverse code, using polars in the background",tidypolars,tidypolars,never,etiennebacher,FALSE,r-universe (cran: never)
+ModelOriented/randomForestExplainer,randomForestExplainer,242,FALSE,2024-03-25,A set of tools to understand what is happening inside a Random Forest,randomforestexplainer,randomForestExplainer,cran,modeloriented,FALSE,cran/bioc
+laresbernardo/lares,lares,242,FALSE,2026-10-05,Analytics & Machine Learning R Sidekick,lares,lares,cran,laresbernardo,FALSE,cran/bioc
+ankane/jetpack,jetpack,242,FALSE,2026-01-07,A friendly package manager for R,jetpack,jetpack,cran,ankane,FALSE,cran/bioc
+jennybc/code-smells-and-feels,code-smells-and-feels,241,FALSE,2020-01-24,Talk on code smells and feels and how to change that via refactoring,code-smells-and-feels,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+ycphs/openxlsx,openxlsx,241,FALSE,2026-09-02,openxlsx - a fast way to read and write complex xslx files,openxlsx,openxlsx,cran,ycphs,TRUE,cran/bioc
+braverock/PerformanceAnalytics,PerformanceAnalytics,241,FALSE,2026-04-13,NA,performanceanalytics,PerformanceAnalytics,cran,braverock,TRUE,cran/bioc
+adamribaudo/storytelling-with-data-ggplot,storytelling-with-data-ggplot,240,FALSE,2020-07-13,Recreation of Cole Nussbaumer Knaflic's Storytelling with Data plots using R an,storytelling-with-data-ggplot,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+kosukeimai/MatchIt,MatchIt,240,FALSE,2026-10-31,R package MatchIt,matchit,MatchIt,cran,kosukeimai,TRUE,cran/bioc
+BorchLab/escape,escape,240,FALSE,2026-10-27,Easy single cell analysis platform for enrichment,escape,escape,never,bioc,FALSE,cran/bioc
+VPetukhov/ggrastr,ggrastr,240,FALSE,2023-06-06,Raster geoms for ggplot2,ggrastr,ggrastr,cran,vpetukhov,TRUE,cran/bioc
+dgrapov/TeachingDemos,TeachingDemos,240,FALSE,2023-04-23,Bioinformatics related demos and tutorials using the R programming language,teachingdemos,TeachingDemos,cran,glsnow,TRUE,cran/bioc
+junjunlab/GseaVis,GseaVis,239,FALSE,2026-11-18,An implement R package to visualize GSEA results,gseavis,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+nicolewhite/RNeo4j,RNeo4j,239,TRUE,2019-02-19,Neo4j Driver for R.,rneo4j,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+rlbarter/superheat,superheat,239,FALSE,2020-09-07,An r package for generating beautiful and customizable heatmaps,superheat,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+dataspelunking/MLwR,MLwR,239,FALSE,2023-05-29,Machine Learning with R,mlwr,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+rudeboybert/JSE_OkCupid,JSE_OkCupid,239,FALSE,2021-04-26,Journal of Statistical Education Paper on Using OkCupid Data for Data Science Co,jse_okcupid,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+davidaknowles/leafcutter,leafcutter,239,FALSE,2024-06-01,"Annotation-free quantification of RNA splicing. Yang I. Li, David A. Knowles, Ja",leafcutter,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+easystats/datawizard,datawizard,238,FALSE,2026-11-12,Magic potions to clean and transform your data 🧙,datawizard,datawizard,cran,easystats,TRUE,cran/bioc
+rstudio/Intro,Intro,238,FALSE,2022-03-28,"Course materials for ""Introduction to Data Science with R"", a video course by RS",intro,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+davidgohel/ReporteRs,ReporteRs,238,TRUE,2020-03-23,Note that ReporteRs has been removed from CRAN the 16th of July 2018 and is not,reporters,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+corynissen/foodborne_classifier,foodborne_classifier,238,FALSE,2017-09-02,The classifier used in the http://foodborne.smartchicagoapps.org/ application.,foodborne_classifier,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+sneumann/xcms,xcms,238,FALSE,2026-10-08,This is the git repository matching the Bioconductor package xcms: LC/MS and GC/,xcms,xcms,never,bioc,FALSE,cran/bioc
+ambiorix-web/ambiorix,ambiorix,238,FALSE,2026-11-17,🖥️ Web framework for R,ambiorix,ambiorix,cran,ambiorix-web,FALSE,cran/bioc
+philchalmers/mirt,mirt,237,FALSE,2026-11-17,Multidimensional item response theory,mirt,mirt,cran,philchalmers,TRUE,cran/bioc
+talgalili/d3heatmap,d3heatmap,237,FALSE,2025-11-29,A D3.js-based heatmap htmlwidget for R,d3heatmap,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+pewresearch/pewmethods,pewmethods,237,FALSE,2020-03-26,Pew Research Center Methods team R package of miscellaneous functions,pewmethods,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+r-lib/gmailr,gmailr,237,FALSE,2026-10-29,Access the Gmail RESTful API from R.,gmailr,gmailr,cran,r-lib,FALSE,cran/bioc
+emanuelhuber/RGPR,RGPR,237,FALSE,2026-10-01,Ground-penetrating radar (GPR) data processing and visualisation: a free and ope,rgpr,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+liamrevell/phytools,phytools,236,FALSE,2026-10-21,NA,phytools,phytools,cran,liamrevell,TRUE,cran/bioc
+kaz-yos/tableone,tableone,236,FALSE,2026-03-05,"R package to create ""Table 1"", description of baseline characteristics with or w",tableone,tableone,cran,kaz-yos,TRUE,cran/bioc
+Tychobra/polished,polished,236,FALSE,2025-03-20,Authentication and Administration for Shiny apps,polished,polished,cran,tychobra,FALSE,cran/bioc
+brodieG/diffobj,diffobj,235,FALSE,2026-11-10,Compare R Objects with a Diff,diffobj,diffobj,cran,brodieg,TRUE,cran/bioc
+posit-dev/r-shinylive,r-shinylive,235,FALSE,2026-10-29,NA,shinylive,shinylive,cran,posit-dev,FALSE,cran/bioc
+r-simmer/simmer,simmer,235,FALSE,2026-07-18,Discrete-Event Simulation for R,simmer,simmer,cran,r-simmer,FALSE,cran/bioc
+ericrayanderson/shinymaterial,shinymaterial,234,FALSE,2025-12-23,NA,shinymaterial,shinymaterial,cran,ericrayanderson,FALSE,cran/bioc
+kharchenkolab/numbat,numbat,234,FALSE,2026-02-04,"Haplotype-aware CNV analysis from single-cell RNA-seq, ATAC-seq, and multiome",numbat,numbat,cran,kharchenkolab,FALSE,cran/bioc
+jamesotto852/ggdensity,ggdensity,234,FALSE,2026-02-25,An R package for interpretable visualizations of bivariate density estimates,ggdensity,ggdensity,cran,jamesotto852,TRUE,cran/bioc
+Oshlack/splatter,splatter,234,FALSE,2026-11-15,Simple simulation of single-cell RNA sequencing data,splatter,splatter,never,bioc,FALSE,cran/bioc
+gavinsimpson/gratia,gratia,234,FALSE,2026-11-17,ggplot-based graphics and useful functions for GAMs fitted using the mgcv packag,gratia,gratia,cran,gavinsimpson,FALSE,cran/bioc
+echen/ggplot2-tutorial,ggplot2-tutorial,234,FALSE,2018-10-20,Quick introduction to ggplot2 (no knowledge of R assumed),ggplot2-tutorial,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+zdk123/SpiecEasi,SpiecEasi,234,FALSE,2026-11-04,Sparse InversE Covariance estimation for Ecological Association and Statistical,spieceasi,SpiecEasi,never,bioc,FALSE,cran/bioc
+kharchenkolab/conos,conos,234,FALSE,2026-07-02,R package for the joint analysis of multiple single-cell RNA-seq datasets,conos,conos,cran,kharchenkolab,FALSE,cran/bioc
+igordot/genomics,genomics,233,FALSE,2026-07-17,A collection of scripts and notes related to genomics and bioinformatics,genomics,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+trinker/topicmodels_learning,topicmodels_learning,233,FALSE,2016-01-30,A repository of learning & R resources related to topic models,topicmodels_learning,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+r-lib/gh,gh,232,FALSE,2026-09-02,Minimalistic GitHub API client in R,gh,gh,cran,r-lib,TRUE,cran/bioc
+TheUpshot/leo-senate-model,leo-senate-model,232,FALSE,2014-05-02,Code and data for The Upshot's Senate model.,leo-senate-model,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+lbenz730/ncaahoopR,ncaahoopR,232,FALSE,2026-02-08,An R package for working with NCAA Basketball Play-by-Play Data,ncaahoopr,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+gaborcsardi/prompt,prompt,232,FALSE,2024-11-09,Dynamic R prompt,prompt,prompt,cran,gaborcsardi,FALSE,cran/bioc
+StateOfCalifornia/CalCAT,CalCAT,232,FALSE,2024-01-23,Application for assessing the many different models available for understanding,calcat,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+JustinMShea/wooldridge,wooldridge,232,FALSE,2026-07-13,"The official R data package for ""Introductory Econometrics: A Modern Approach"".",wooldridge,wooldridge,cran,justinmshea,FALSE,cran/bioc
+jotech/gapseq,gapseq,232,FALSE,2026-10-27,Informed prediction and analysis of bacterial metabolic pathways and genome-scal,gapseq,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+duckdb/duckdb-r,duckdb-r,232,FALSE,2026-11-18,The duckdb R package,duckdb,duckdb,cran,duckdb,TRUE,cran/bioc
+rticulate/import,import,232,FALSE,2025-10-20,An Import Mechanism For R,import,import,cran,rticulate,TRUE,cran/bioc
+katiejolly/nationalparkcolors,nationalparkcolors,232,FALSE,2019-10-27,R package for color themes inspired by national parks,nationalparkcolors,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+Pakillo/R-GIS-tutorial,R-GIS-tutorial,232,FALSE,2018-07-08,Spatial data in R: using R as a GIS,gis-tutorial,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+huayc09/SeuratExtend,SeuratExtend,232,FALSE,2026-10-23,NA,seuratextend,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+ropensci/qualtRics,qualtRics,231,FALSE,2026-06-25,Download ⬇️ Qualtrics survey data directly into R!,qualtrics,qualtRics,cran,ropensci,FALSE,cran/bioc
+computationalstylistics/stylo,stylo,231,FALSE,2026-06-19,R package for stylometric analyses,stylo,stylo,cran,computationalstylistics,FALSE,cran/bioc
+tidyverse/design,design,231,FALSE,2026-08-31,Tidyverse design principles,design,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+ACCLAB/dabestr,dabestr,231,FALSE,2026-07-29,Data Analysis with Bootstrap Estimation in R,dabestr,dabestr,cran,acclab,FALSE,cran/bioc
+trevorstephens/titanic,titanic,231,FALSE,2014-01-19,Getting Started With R,titanic,titanic,cran,paulhendricks,TRUE,cran/bioc
+Terminus2049/Wechatscope,Wechatscope,231,FALSE,2020-09-18,被删微信公众号文章存档,wechatscope,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+omarwagih/ggseqlogo,ggseqlogo,231,FALSE,2026-02-14,Publication-quality sequence logos in R,ggseqlogo,ggseqlogo,cran,omarwagih,TRUE,cran/bioc
+bbolker/broom.mixed,broom.mixed,231,FALSE,2026-11-16,tidy methods for mixed models in R,broom.mixed,broom.mixed,cran,bbolker,TRUE,cran/bioc
+iSEE/iSEE,iSEE,230,FALSE,2026-11-11,R/shiny interface for interactive visualization of data in SummarizedExperiment,isee,iSEE,never,bioc,FALSE,cran/bioc
+hadley/data-baby-names,data-baby-names,229,FALSE,2018-07-04,"Distribution of US baby names, 1880-2008",data-baby-names,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+idmn/ggview,ggview,229,FALSE,2026-08-12,Ggplot picture previewer,ggview,ggview,cran,idmn,FALSE,cran/bioc
+rstudio/shinymeta,shinymeta,229,FALSE,2026-03-02,Record and expose Shiny app logic using metaprogramming,shinymeta,shinymeta,cran,rstudio,TRUE,cran/bioc
+zachmayer/caretEnsemble,caretEnsemble,229,FALSE,2026-11-13,caret models all the way down :turtle:,caretensemble,caretEnsemble,cran,zachmayer,TRUE,cran/bioc
+USEPA/elevatr,elevatr,229,FALSE,2025-09-09,An R package for accessing elevation data,elevatr,elevatr,cran,usepa,FALSE,cran/bioc
+edwindj/whisker,whisker,228,FALSE,2022-11-09,{{mustache}} for R,whisker,whisker,cran,edwindj,TRUE,cran/bioc
+Hy4m/linkET,linkET,227,FALSE,2026-11-10,Everything is Linkable,linket,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+OHDSI/PatientLevelPrediction,PatientLevelPrediction,227,FALSE,2026-11-17,An R package for performing patient level prediction  in an observational databa,patientlevelprediction,PatientLevelPrediction,cran,ohdsi,FALSE,cran/bioc
+trestletech/shinyAce,shinyAce,227,FALSE,2025-02-02,Integrating the Ace editor with Shiny.,shinyace,shinyAce,cran,trestletech,TRUE,cran/bioc
+griffithlab/GenVisR,GenVisR,227,FALSE,2026-01-10,Genome data visualizations,genvisr,GenVisR,never,bioc,FALSE,cran/bioc
+mayoverse/arsenal,arsenal,227,FALSE,2026-10-16,An Arsenal of 'R' Functions for Large-Scale Statistical Summaries,arsenal,arsenal,cran,mayoverse,TRUE,cran/bioc
+ropensci/biomartr,biomartr,226,FALSE,2025-12-02,Genomic Data Retrieval with R,biomartr,biomartr,cran,ropensci,FALSE,cran/bioc
+privefl/bigsnpr,bigsnpr,226,FALSE,2026-07-10,R package for the analysis of massive SNP arrays.,bigsnpr,bigsnpr,cran,privefl,TRUE,cran/bioc
+rasmusab/beepr,beepr,226,FALSE,2026-11-03,The package that sounds as it is called.,beepr,beepr,cran,rasmusab,TRUE,cran/bioc
+r-lib/xml2,xml2,225,FALSE,2026-06-22,Bindings to libxml2,xml2,xml2,cran,r-lib,TRUE,cran/bioc
+lionel-/codegrip,codegrip,225,FALSE,2024-10-03,Reshaping and navigation commands for R code,codegrip,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+r-spatial/qgisprocess,qgisprocess,225,FALSE,2026-03-23,R package to use QGIS processing algorithms,qgisprocess,qgisprocess,cran,r-spatial,TRUE,cran/bioc
+rstudio/htmltools,htmltools,224,FALSE,2026-06-05,Tools for HTML generation and output,htmltools,htmltools,cran,rstudio,TRUE,cran/bioc
+trafficonese/leaflet.extras,leaflet.extras,224,FALSE,2026-09-17,Extra functionality for leaflet R package.,leaflet.extras,leaflet.extras,cran,trafficonese,TRUE,cran/bioc
+jthomasmock/gtExtras,gtExtras,224,FALSE,2026-01-16,A Collection of Helper Functions for the gt Package.,gtextras,gtExtras,cran,jthomasmock,TRUE,cran/bioc
+joshuaulrich/xts,xts,224,FALSE,2026-09-08,Extensible time series class that provides uniform handling of many R time serie,xts,xts,cran,joshuaulrich,TRUE,cran/bioc
+emitanaka/edibble,edibble,224,FALSE,2025-03-30,An R-package that encapsulate elements of experimental design for better plannin,edibble,edibble,cran,emitanaka,FALSE,cran/bioc
+koenderks/rcityviews,rcityviews,224,FALSE,2026-04-25,rcityviews is a user-friendly R interface for creating stylized city maps using,rcityviews,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+gergness/srvyr,srvyr,224,FALSE,2026-03-01,R package to add 'dplyr'-like Syntax for Summary Statistics of Survey Data,srvyr,srvyr,cran,gergness,TRUE,cran/bioc
+microsoft/microsoft-r-open,microsoft-r-open,224,FALSE,2023-06-12,Microsoft R Open Source,microsoft-r-open,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+cbail/textnets,textnets,224,FALSE,2023-11-11,R package to perform automated text analysis using network techniques,textnets,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+rstudio-conf-2020/time-series-forecasting,time-series-forecasting,223,FALSE,2020-08-26,NA,time-series-forecasting,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+wilkox/treemapify,treemapify,223,FALSE,2026-07-05,🌳 Draw treemaps in ggplot2,treemapify,treemapify,cran,wilkox,TRUE,cran/bioc
+thebioengineer/camcorder,camcorder,223,FALSE,2026-09-15,Record plots generated during an R session and replay as a gif!,camcorder,camcorder,cran,thebioengineer,FALSE,cran/bioc
+toddwschneider/agency-loan-level,agency-loan-level,223,FALSE,2020-04-26,Loan-level analysis of Fannie Mae and Freddie Mac data,agency-loan-level,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+cellgeni/schard,schard,223,FALSE,2026-07-10,reticulate-free single cell format conversion,schard,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+broadinstitute/ichorCNA,ichorCNA,223,FALSE,2024-03-20,Estimating tumor fraction in cell-free DNA from ultra-low-pass whole genome sequ,ichorcna,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+ropensci/rentrez,rentrez,223,FALSE,2026-11-15,talk with NCBI entrez using R,rentrez,rentrez,cran,ropensci,TRUE,cran/bioc
+dynverse/dynbenchmark,dynbenchmark,222,FALSE,2023-08-30,Comparison of methods for trajectory inference on single-cell data 🥇,dynbenchmark,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+ropensci/git2r,git2r,222,FALSE,2026-02-22,R bindings to the libgit2 library,git2r,git2r,cran,ropensci,TRUE,cran/bioc
+thengl/GeoMLA,GeoMLA,222,FALSE,2021-03-09,Machine Learning algorithms for spatial and spatiotemporal data,geomla,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+immunogenomics/presto,presto,221,FALSE,2026-09-20,Fast Wilcoxon and auROC,presto,presto,cran,slowkow,FALSE,cran/bioc
+dieghernan/tidyterra,tidyterra,220,FALSE,2026-11-16,Work with and visualize terra spatial objects using tidyverse methods and ggplot,tidyterra,tidyterra,cran,dieghernan,FALSE,cran/bioc
+maxtoki/baseball_R,baseball_R,220,FALSE,2018-01-06,Companion to Analyzing Baseball Data with R,baseball_r,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+pablobarbera/twitter_ideology,twitter_ideology,220,FALSE,2021-10-31,Estimating Ideological Positions with Twitter Data,twitter_ideology,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+MatsuuraKentaro/RStanBook,RStanBook,220,FALSE,2025-02-17,『StanとRでベイズ統計モデリング』のサポートページです.,rstanbook,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+YuLab-SMU/ggmsa,ggmsa,220,FALSE,2026-10-31,:traffic_light: Visualizing publication-quality multiple sequence alignment usin,ggmsa,ggmsa,archived,bioc,FALSE,cran/bioc
+roblanf/minion_qc,minion_qc,220,FALSE,2026-03-17,Quality control for MinION sequencing data,minion_qc,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+r-spatial/mapedit,mapedit,220,FALSE,2026-02-15,Interactive editing of spatial data in R,mapedit,mapedit,cran,r-spatial,TRUE,cran/bioc
+jimhester/lookup,lookup,219,FALSE,2023-11-30,"Lookup R full function definitions, including compiled code, S3 and S4 methods.",lookup,lookup,cran,kwstat,FALSE,cran/bioc
+BlakeRMills/MoMAColors,MoMAColors,219,FALSE,2026-08-20,Color Schemes based around artwork and the Museum of Modern Art.,momacolors,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+futureverse/future.apply,future.apply,219,FALSE,2026-11-05,:rocket: R package: future.apply -  Apply Function to Elements in Parallel using,future.apply,NA,NA,NA,NA,cran/bioc
+tesselle/khroma,khroma,219,FALSE,2025-12-15,Colour Schemes for Scientific Data Visualization - :exclamation: Moved to https:,khroma,khroma,cran,tesselle,FALSE,cran/bioc
+cboettig/knitcitations,knitcitations,219,FALSE,2024-04-01,:package: Generate citations for knitr markdown and html files,knitcitations,knitcitations,cran,cboettig,TRUE,cran/bioc
+cvxgrp/CVXR,CVXR,219,FALSE,2026-10-19,An R modeling language for convex optimization problems.,cvxr,CVXR,cran,cvxgrp,TRUE,cran/bioc
+zatonovo/lambda.r,lambda.r,219,FALSE,2026-10-13,Functional programming in R,lambda,lambda,never,jimhester,FALSE,r-universe (cran: never)
+SGDDNB/ShinyCell,ShinyCell,219,FALSE,2025-04-24,Shiny Interactive Web Apps for Single-Cell Data,shinycell,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+forkonlp/N2H4,N2H4,219,FALSE,2026-02-11,네이버 뉴스 수집을 위한 도구,n2h4,N2H4,cran,forkonlp,FALSE,cran/bioc
+r-for-educators/flair,flair,218,FALSE,2023-10-27,decorate your R code,flair,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+youngwoos/Doit_R,Doit_R,217,FALSE,2024-04-29,<Do it! 쉽게 배우는 R 데이터 분석> 저장소,doit_r,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+ateucher/rmapshaper,rmapshaper,217,FALSE,2026-05-10,An R wrapper for the mapshaper javascript library,rmapshaper,rmapshaper,cran,ateucher,TRUE,cran/bioc
+VictimOfMaths/COVID-19,COVID-19,217,FALSE,2023-10-30,Plots and analysis relating to the pandemic,covid-19,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+gadenbuie/epoxy,epoxy,217,FALSE,2026-08-31,"Extra-strength glue engines for R Markdown, Quarto, and Shiny",epoxy,epoxy,cran,gadenbuie,FALSE,cran/bioc
+MarcElosua/SPOTlight,SPOTlight,217,FALSE,2025-10-20,Spatial Transcriptomics Capture Location Deconvolution,spotlight,SPOTlight,never,bioc,FALSE,cran/bioc
+docopt/docopt.R,docopt.R,217,FALSE,2025-03-25,Command-line interface description language for R (http://docopt.org),docopt,docopt,cran,docopt,TRUE,cran/bioc
+dtm2451/dittoSeq,dittoSeq,216,FALSE,2025-12-10,Color blindness friendly visualization of single-cell and bulk RNA-sequencing da,dittoseq,dittoSeq,never,bioc,FALSE,cran/bioc
+KlausVigo/phangorn,phangorn,216,FALSE,2026-11-18,Phylogenetic analysis in R,phangorn,phangorn,cran,klausvigo,TRUE,cran/bioc
+HenrikBengtsson/matrixStats,matrixStats,216,FALSE,2026-11-09,R package: Methods that Apply to Rows and Columns of Matrices (and to Vectors),matrixstats,NA,NA,NA,NA,cran/bioc
+Irrationone/cellassign,cellassign,216,FALSE,2023-01-09,"Automated, probabilistic assignment of cell types in scRNA-seq data",cellassign,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+mhahsler/recommenderlab,recommenderlab,216,FALSE,2026-10-05,recommenderlab - Lab for Developing and Testing Recommender Algorithms - R packa,recommenderlab,recommenderlab,cran,mhahsler,TRUE,cran/bioc
+cnicault/tidytuesday,tidytuesday,215,FALSE,2023-10-14,"My contribution to the #TidyTuesday challenge, with the visualizations and code",tidytuesday,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+carmonalab/UCell,UCell,215,FALSE,2026-09-08,Gene set scoring for single-cell data,ucell,UCell,never,bioc,FALSE,cran/bioc
+csdaw/ggprism,ggprism,215,FALSE,2026-01-02,ggplot2 extension inspired by GraphPad Prism,ggprism,ggprism,cran,csdaw,TRUE,cran/bioc
+carmonalab/GeneNMF,GeneNMF,214,FALSE,2026-10-12,Methods to discover gene programs on single-cell data,genenmf,GeneNMF,cran,carmonalab,FALSE,cran/bioc
+gluc/data.tree,data.tree,214,FALSE,2025-08-25,General Purpose Hierarchical Data Structure for R,data.tree,data.tree,cran,gluc,TRUE,cran/bioc
+hadley/reshape,reshape,214,FALSE,2025-11-12,"An R package to flexible rearrange, reshape and aggregate data",reshape,reshape,cran,hadley,TRUE,cran/bioc
+hadley/assertthat,assertthat,214,FALSE,2023-04-21,User friendly assertions for R,assertthat,assertthat,cran,hadley,TRUE,cran/bioc
+chr1swallace/coloc,coloc,214,FALSE,2026-10-30,Repo for the R package coloc,coloc,coloc,cran,chr1swallace,TRUE,cran/bioc
+datacamp/RDocumentation,RDocumentation,213,FALSE,2024-08-22,R package to integrate rdocumentation.org into your R workflow,rdocumentation,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+kcuilla/reactablefmtr,reactablefmtr,213,FALSE,2024-03-16,Streamlined Table Styling and Formatting for Reactable,reactablefmtr,reactablefmtr,archived,renova-r,TRUE,r-universe (cran: archived)
+l-magnificence/Mime,Mime,213,FALSE,2025-09-23,Machine learning-based integration model with elegant performance,mime,mime,cran,yihui,TRUE,cran/bioc
+zhangyuqing/ComBat-seq,ComBat-seq,213,FALSE,2020-09-24,Batch effect adjustment based on negative binomial regression for RNA sequencing,combat-seq,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+will-r-chase/aRt,aRt,213,FALSE,2024-03-06,Generative or data-driven artwork made with R,art,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+choonghyunryu/dlookr,dlookr,213,FALSE,2026-11-02,"Tools for Data Diagnosis, Exploration, Transformation",dlookr,dlookr,cran,choonghyunryu,TRUE,cran/bioc
+flujoo/gm,gm,212,FALSE,2025-07-26,R Package for Music Creation,gm,gm,cran,flujoo,FALSE,cran/bioc
+dill/emoGG,emoGG,212,FALSE,2023-01-20,:chart_with_upwards_trend::heart_eyes_cat: Emoji in ggplot2 :heart_eyes_cat::cha,emogg,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+harrelfe/Hmisc,Hmisc,211,FALSE,2026-11-14,Harrell Miscellaneous,hmisc,Hmisc,cran,harrelfe,TRUE,cran/bioc
+NickCH-K/causalbook,causalbook,211,FALSE,2026-02-04,Replication code and downloadable example data sets for The Effect,causalbook,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+GuangchuangYu/badger,badger,210,FALSE,2025-07-31,Badge for R Package,badger,badger,cran,guangchuangyu,TRUE,cran/bioc
+rstudio/promises,promises,210,FALSE,2026-11-13,A promise library for R,promises,promises,cran,rstudio,TRUE,cran/bioc
+tidymodels/workflows,workflows,210,FALSE,2026-09-17,Modeling Workflows,workflows,workflows,cran,tidymodels,TRUE,cran/bioc
+yonicd/carbonate,carbonate,210,FALSE,2022-08-26,carbon.js for R,carbonate,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+eparker12/nCoV_tracker,nCoV_tracker,210,FALSE,2022-02-10,Covid 2019 interactive mapping tool,ncov_tracker,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+yihui/animation,animation,209,FALSE,2026-10-19,A gallery of animations in statistics and utilities to create animations,animation,animation,cran,yihui,TRUE,cran/bioc
+spatstat/spatstat,spatstat,209,FALSE,2026-09-28,Umbrella package of the 'spatstat' family................,spatstat,spatstat,cran,spatstat,TRUE,cran/bioc
+gkaramanis/aRtist,aRtist,209,FALSE,2026-07-12,Making art with R,artist,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+theislab/zellkonverter,zellkonverter,209,FALSE,2026-11-10,Conversion between scRNA-seq objects,zellkonverter,zellkonverter,never,bioc,FALSE,cran/bioc
+aertslab/AUCell,AUCell,208,FALSE,2024-03-09,AUCell: score single cells with gene regulatory networks,aucell,AUCell,never,bioc,FALSE,cran/bioc
+cafferychen777/ggpicrust2,ggpicrust2,208,FALSE,2026-11-01,Make Picrust2 Output Analysis and Visualization Easier,ggpicrust2,ggpicrust2,cran,cafferychen777,FALSE,cran/bioc
+JJ/top-github-users-data,top-github-users-data,208,FALSE,2023-07-10,Data obtained with the top-github-users script,top-github-users-data,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+davidsjoberg/ggstream,ggstream,208,FALSE,2022-04-05,A package to make streamplots,ggstream,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+mjskay/ggblend,ggblend,208,FALSE,2025-10-05,Support for blend modes in ggplot2,ggblend,ggblend,cran,mjskay,TRUE,cran/bioc
+johannesbjork/LaCroixColoR,LaCroixColoR,208,FALSE,2019-03-15,LaCroix Color Palettes for R.,lacroixcolor,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+MatthewBJane/ThemePark,ThemePark,208,FALSE,2024-05-25,Fun ggplot themes for popular culture,themepark,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+SingleR-inc/SingleR,SingleR,207,FALSE,2026-09-10,Clone of the Bioconductor repository for the SingleR package.,singler,SingleR,never,bioc,FALSE,cran/bioc
+SSSYDYSSS/TransProR,TransProR,206,FALSE,2026-01-15,Analysis and visualization of multi-omics data. In ongoing development: multi-mo,transpror,NA,NA,NA,NA,cran/bioc
+egeulgen/pathfindR,pathfindR,206,FALSE,2026-09-17,pathfindR: Enrichment Analysis Utilizing Active Subnetworks,pathfindr,pathfindR,cran,egeulgen,FALSE,cran/bioc
+posit-dev/mcptools,mcptools,206,FALSE,2026-10-20,Model Context Protocol For R,mcptools,mcptools,cran,posit-dev,FALSE,cran/bioc
+hadley/pryr,pryr,205,FALSE,2024-05-17,Pry open the covers of R,pryr,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+GeneticistHere/ggplot2-20-journal-cases,ggplot2-20-journal-cases,205,FALSE,2026-07-19,NA,ggplot2-20-journal-cases,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+nsgrantham/ggdark,ggdark,205,FALSE,2019-10-10,Dark mode for ggplot2 themes,ggdark,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+thibautjombart/adegenet,adegenet,205,FALSE,2025-02-07,adegenet: a R package for the multivariate analysis of genetic markers,adegenet,adegenet,cran,thibautjombart,TRUE,cran/bioc
+r-quantities/units,units,205,FALSE,2026-11-18,Measurement units for R,units,units,cran,r-quantities,TRUE,cran/bioc
+dirkschumacher/llr,llr,205,FALSE,2021-12-03,Lisp-like-R: A clojure inspired lisp that compiles to R in R,llr,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+ropensci/piggyback,piggyback,205,FALSE,2025-11-10,:package: for using large(r) data files on GitHub,piggyback,piggyback,cran,ropensci,TRUE,cran/bioc
+wu-yc/scMetabolism,scMetabolism,204,FALSE,2026-08-20,Quantifying metabolism activity at the single-cell resolution,scmetabolism,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+sctyner/memer,memer,204,FALSE,2021-08-05,A tidyverse compatible package for creating memes in R using the magick package.,memer,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+shinyFiles/shinyFiles,shinyFiles,204,FALSE,2026-11-18,A shiny extension for server side file access,shinyfiles,shinyFiles,cran,shinyfiles,TRUE,cran/bioc
+renkun-ken/rlist,rlist,204,FALSE,2023-03-11,A Toolbox for Non-Tabular Data Manipulation,rlist,rlist,cran,renkun-ken,TRUE,cran/bioc
+Laurae2/Laurae,Laurae,203,FALSE,2017-03-24,Advanced High Performance Data Science Toolbox for R by Laurae,laurae,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+JanMarvin/openxlsx2,openxlsx2,203,FALSE,2026-11-18,"openxlsx2 - read, write and modify xlsx files",openxlsx2,openxlsx2,cran,janmarvin,TRUE,cran/bioc
+hgeorgako/rfortraders,rfortraders,203,FALSE,2018-05-10,Quantitative Trading with R,rfortraders,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+freeCodeCamp/2016-new-coder-survey,2016-new-coder-survey,202,TRUE,2017-10-05,NA,2016-new-coder-survey,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+mikejohnson51/climateR,climateR,202,FALSE,2026-04-09,An R 📦   for getting point and gridded climate data by AOI,climater,climateR,never,mikejohnson51,FALSE,r-universe (cran: never)
+mkearney/resist_oped,resist_oped,202,FALSE,2018-09-10,🕵🏽‍♀️ Identifying the author behind New York Time’s op-ed from inside the Trump,resist_oped,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+jokergoo/EnrichedHeatmap,EnrichedHeatmap,202,FALSE,2026-01-30,make enriched heatmap which visualizes the enrichment of genomic signals to spec,enrichedheatmap,EnrichedHeatmap,never,bioc,FALSE,cran/bioc
+funkyheatmap/funkyheatmap,funkyheatmap,202,FALSE,2025-12-12,Visualising data frames as funky heatmaps 📊,funkyheatmap,funkyheatmap,cran,funkyheatmap,FALSE,cran/bioc
+skranz/RTutor,RTutor,202,FALSE,2026-11-17,Creating interactive R Problem Sets. Automatic hints and solution checks. (Shiny,rtutor,RTutor,never,skranz,FALSE,r-universe (cran: never)
+lionel-/ggstance,ggstance,202,FALSE,2024-05-20,Horizontal ggplot2 components,ggstance,ggstance,cran,lionel-,TRUE,cran/bioc
+davidhodge931/ggblanket,ggblanket,202,FALSE,2026-10-29,Publication-Quality 'ggplot2' Visualisation,ggblanket,ggblanket,cran,davidhodge931,TRUE,cran/bioc
+jennybc/send-email-with-r,send-email-with-r,202,FALSE,2018-06-02,How to send a bunch of email from R,send-email-with,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+TickingClock1992/RIdeogram,RIdeogram,202,FALSE,2020-09-22,NA,rideogram,RIdeogram,cran,tickingclock1992,TRUE,cran/bioc
+scverse/anndataR,anndataR,201,FALSE,2026-11-17,AnnData interoperability in R,anndatar,anndataR,never,bioc,FALSE,cran/bioc
+harrelfe/rms,rms,201,FALSE,2026-11-17,Regression Modeling Strategies,rms,rms,cran,harrelfe,TRUE,cran/bioc
+kjhealy/socviz,socviz,201,FALSE,2026-08-21,Support files for a data visualization course and book,socviz,socviz,cran,kjhealy,FALSE,cran/bioc
+rspatial/geodata,geodata,201,FALSE,2026-06-16,download geographic data,geodata,geodata,cran,rspatial,FALSE,cran/bioc
+hadley/genzplyr,genzplyr,201,FALSE,2025-11-07,dplyr but make it bussin fr fr no cap,genzplyr,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+linjf15/MR_tricks,MR_tricks,200,FALSE,2023-12-24,NA,mr_tricks,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+stan-dev/shinystan,shinystan,200,FALSE,2026-09-28,shinystan R package and ShinyStan GUI,shinystan,shinystan,cran,stan-dev,TRUE,cran/bioc
+Lchiffon/leafletCN,leafletCN,200,FALSE,2024-01-17,An R gallery for China and other geojson choropleth map in leaflet,leafletcn,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+tomwenseleers/export,export,200,FALSE,2026-06-22,R package for streamlined export of graphs and data tables.,export,export,cran,tomwenseleers,FALSE,cran/bioc
+ropensci/textreuse,textreuse,200,FALSE,2026-07-25,Detect text reuse and document similarity,textreuse,textreuse,cran,ropensci,FALSE,cran/bioc
+rstudio/vetiver-r,vetiver-r,199,FALSE,2026-08-23,"Version, share, deploy, and monitor models",vetiver,vetiver,cran,rstudio,TRUE,cran/bioc
+yiluheihei/microbiomeMarker,microbiomeMarker,199,FALSE,2025-02-19,R package for microbiome biomarker discovery,microbiomemarker,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+cwatson/brainGraph,brainGraph,199,FALSE,2024-02-20,Graph theory analysis of brain MRI data,braingraph,brainGraph,cran,cwatson,FALSE,cran/bioc
+kassambara/ggcorrplot,ggcorrplot,199,FALSE,2026-07-28,Visualization of a correlation matrix using ggplot2,ggcorrplot,ggcorrplot,cran,kassambara,TRUE,cran/bioc
+weizhouUMICH/SAIGE,SAIGE,199,FALSE,2022-05-02,NA,saige,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+briatte/ggnet,ggnet,199,FALSE,2016-01-29,Network visualization with ggplot2,ggnet,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+DUanalytics/rAnalytics,rAnalytics,198,FALSE,2025-06-19,Analytics in R,ranalytics,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+ropensci/osmextract,osmextract,198,FALSE,2026-10-19,Download and import OpenStreetMap data from Geofabrik and other providers,osmextract,osmextract,cran,ropensci,FALSE,cran/bioc
+m-clark/Miscellaneous-R-Code,Miscellaneous-R-Code,198,FALSE,2020-11-25,"Code that might be useful to others for learning/demonstration purposes, specifi",miscellaneous-r-code,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+ropensci-archive/opendata,opendata,198,TRUE,2022-05-10,:no_entry: ARCHIVED :no_entry:,opendata,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+GreenleafLab/chromVAR,chromVAR,198,FALSE,2026-05-01,chromatin Variability Across Regions (of the genome!),chromvar,chromVAR,never,bioc,FALSE,cran/bioc
+financial-astrology-research/financial-astrology-stats,financial-astrology-stats,198,FALSE,2023-01-25,We research the correlations between astrology planet cycles and price effect fo,financial-astrology-stats,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+YuLab-SMU/MicrobiotaProcess,MicrobiotaProcess,197,FALSE,2026-04-29,:microbe: A comprehensive R package for deep mining microbiome,microbiotaprocess,MicrobiotaProcess,never,bioc,FALSE,cran/bioc
+zumbov2/votemapswitzerland,votemapswitzerland,197,FALSE,2021-11-02,"A Swiss version of the famous visualization «Land doesn't vote, people do.»",votemapswitzerland,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+gtatters/Thermimage,Thermimage,197,FALSE,2025-05-28,R Package for working with radiometric thermal image files and data,thermimage,Thermimage,cran,gtatters,FALSE,cran/bioc
+juba/explor,explor,197,FALSE,2026-07-03,Interfaces for Multivariate Analysis in R,explor,explor,cran,juba,FALSE,cran/bioc
+dayoonkwon/BioAge,BioAge,197,FALSE,2026-04-02,Biological Age Calculations Using Several Biomarker Algorithms,bioage,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+stefanedwards/lemon,lemon,196,FALSE,2025-09-04,🍋 Lemon --- Freshing up your ggplots,lemon,lemon,cran,stefanedwards,TRUE,cran/bioc
+koenderks/aRtsy,aRtsy,196,FALSE,2026-11-18,aRtsy is an R package that implements algorithms for making generative art in a,artsy,aRtsy,cran,koenderks,FALSE,cran/bioc
+tidyverse/ragnar,ragnar,195,FALSE,2026-11-11,RAG in R,ragnar,ragnar,cran,tidyverse,FALSE,cran/bioc
+psychbruce/bruceR,bruceR,195,FALSE,2026-02-02,📦 BRoadly Useful Convenient and Efficient R functions that BRing Users Concise a,brucer,bruceR,cran,psychbruce,FALSE,cran/bioc
+velocyto-team/velocyto.R,velocyto.R,195,FALSE,2023-09-14,RNA velocity estimation in R,velocyto,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+MicheleNuijten/statcheck,statcheck,195,FALSE,2026-10-29,A spellchecker for statistics,statcheck,statcheck,cran,michelenuijten,TRUE,cran/bioc
+JoniColeman/gwas_scripts,gwas_scripts,195,FALSE,2022-05-26,Codebook from my GWAS cookbook,gwas_scripts,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+seananderson/glmm-course,glmm-course,194,FALSE,2025-08-12,"Workshop exercises on regression, GLMs, mixed-effects models, and GLMMs in R",glmm-course,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+coolbutuseless/ggrgl,ggrgl,194,FALSE,2020-12-21,3d extension to ggplot,ggrgl,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+merlinoa/shinyFeedback,shinyFeedback,193,FALSE,2023-01-31,display user feedback next to Shiny inputs,shinyfeedback,shinyFeedback,cran,merlinoa,TRUE,cran/bioc
+datawookie/emayili,emayili,193,FALSE,2026-11-02,An R package for sending email messages.,emayili,emayili,cran,datawookie,TRUE,cran/bioc
+stefano-meschiari/latex2exp,latex2exp,193,FALSE,2024-08-16,Use LaTeX in R graphics.,latex2exp,latex2exp,cran,stefano-meschiari,TRUE,cran/bioc
+psychbruce/ChineseNames,ChineseNames,193,FALSE,2025-08-20,🀄 Chinese Name Database (1930-2008).,chinesenames,ChineseNames,cran,psychbruce,FALSE,cran/bioc
+xuzhougeng/Learn-Bioinformatics-by-RNA-seq,Learn-Bioinformatics-by-RNA-seq,193,FALSE,2017-08-16,NA,learn-bioinformatics-by-rna-seq,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+bgreenwell/vip,vip,193,FALSE,2026-07-05,Variable Importance Plots (VIPs),vip,vip,archived,bgreenwell,TRUE,r-universe (cran: archived)
+colearendt/tidyjson,tidyjson,193,FALSE,2026-01-21,Tidy your JSON data in R with tidyjson,tidyjson,tidyjson,cran,colearendt,TRUE,cran/bioc
+ifunam/programacion-estadistica-r,programacion-estadistica-r,192,FALSE,2021-01-06,NA,programacion-estadistica,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+PoisonAlien/trackplot,trackplot,192,FALSE,2024-10-28,Generate IGV style locus tracks from bigWig files in R,trackplot,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+edward130603/BayesSpace,BayesSpace,192,FALSE,2026-01-08,Bayesian model for clustering and enhancing the resolution of spatial gene expre,bayesspace,BayesSpace,never,bioc,FALSE,cran/bioc
+decryptr/decryptr,decryptr,192,FALSE,2020-11-25,An extensible API for breaking captchas,decryptr,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+FantasyFootballAnalytics/ffanalytics,ffanalytics,192,FALSE,2026-09-09,ffanalytics R package,ffanalytics,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+compbiomed/singleCellTK,singleCellTK,191,FALSE,2026-10-09,Interactively analyze single cell genomic data,singlecelltk,singleCellTK,never,bioc,FALSE,cran/bioc
+gojiplus/tuber,tuber,191,FALSE,2026-11-18,:sweet_potato: Access YouTube from R,tuber,tuber,cran,gojiplus,FALSE,cran/bioc
+cynkra/fledge,fledge,191,FALSE,2026-11-01,Wings for your R packages: Streamline the process of versioning R packages and u,fledge,fledge,cran,cynkra,FALSE,cran/bioc
+Twitter-Sentiment-Analysis/R,R,190,FALSE,2020-02-15,Sentiment analysis and visualization of real-time tweets using R,r,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+opengeos/whiteboxR,whiteboxR,190,FALSE,2026-10-21,WhiteboxTools R Frontend,whiteboxr,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+strengejacke/sjstats,sjstats,190,FALSE,2025-06-13,Effect size measures and significance tests,sjstats,NA,NA,NA,NA,cran/bioc
+lmullen/gender,gender,190,FALSE,2021-10-08,Predict Gender from Names Using Historical Data,gender,gender,cran,lmullen,TRUE,cran/bioc
+nacnudus/unpivotr,unpivotr,190,FALSE,2026-10-11,Unpivot complex and irregular data layouts in R,unpivotr,unpivotr,cran,nacnudus,FALSE,cran/bioc
+mplatzer/BTYDplus,BTYDplus,190,FALSE,2026-06-17,R package for Customer Behavior Analysis,btydplus,BTYDplus,archived,renova-r,FALSE,r-universe (cran: archived)
+jennybc/r-graph-catalog,r-graph-catalog,190,FALSE,2016-02-18,"All graphs in “Creating More Effective Graphs”, made with R package ggplot2.",graph-catalog,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+RamiKrispin/shinylive-r,shinylive-r,190,FALSE,2024-01-17,A guide for deploying Shinylive R application into Github Pages,shinylive,shinylive,cran,posit-dev,FALSE,cran/bioc
+sachit27/greenR,greenR,189,FALSE,2026-10-02,"greenR is an R package that enables the quantification, analysis, and visualizat",greenr,greenR,cran,sachit27,FALSE,cran/bioc
+ankane/dbx,dbx,189,FALSE,2026-11-06,"A fast, easy-to-use database library for R",dbx,dbx,cran,ankane,FALSE,cran/bioc
+trinker/qdap,qdap,189,FALSE,2020-09-27,Quantitative Discourse Analysis Package: Bridging the gap between qualitative da,qdap,qdap,cran,trinker,TRUE,cran/bioc
+JohnCoene/cicerone,cicerone,189,TRUE,2025-01-17,🏛️ Give tours of your Shiny apps,cicerone,cicerone,cran,johncoene,TRUE,cran/bioc
+leeper/slopegraph,slopegraph,189,FALSE,2018-08-07,Edward Tufte-Inspired Slopegraphs,slopegraph,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+t-kalinowski/quickr,quickr,189,FALSE,2026-11-17,R to Fortran Transpiler,quickr,quickr,cran,t-kalinowski,FALSE,cran/bioc
+AnalytixWare/ShinySky,ShinySky,188,FALSE,2020-02-27,"Various UI widgets/components not part of Shiny e.g. alerts, styled buttons",shinysky,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+ropensci/tokenizers,tokenizers,188,FALSE,2024-03-27,"Fast, Consistent Tokenization of Natural Language Text",tokenizers,tokenizers,cran,ropensci,TRUE,cran/bioc
+CausalInference/gfoRmula,gfoRmula,188,FALSE,2026-11-12,The gfoRmula package implements the parametric g-formula in R. The parametric g-,gformula,gfoRmula,cran,causalinference,FALSE,cran/bioc
+ropensci/webchem,webchem,188,FALSE,2026-10-15,Chemical Information from the Web,webchem,webchem,cran,ropensci,TRUE,cran/bioc
+AliciaSchep/gglabeller,gglabeller,188,FALSE,2021-03-12,Shiny gadget for labeling points on ggplot,gglabeller,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+surveydown-dev/surveydown,surveydown,188,FALSE,2026-06-23,"Markdown-Based, Programmable Surveys Using R, Quarto, Shiny, and PostgreSQL",surveydown,surveydown,cran,surveydown-dev,FALSE,cran/bioc
+openpharma/visR,visR,188,FALSE,2024-06-04,"A package to wrap functionality for plots, tables and diagrams adhering to graph",visr,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+timelyportfolio/listviewer,listviewer,187,FALSE,2023-10-01,R htmlwidget to view lists,listviewer,listviewer,cran,timelyportfolio,TRUE,cran/bioc
+ThinkR-open/dockerfiler,dockerfiler,187,FALSE,2026-09-15,Easy Dockerfile Creation from R,dockerfiler,NA,NA,NA,NA,cran/bioc
+mlr-org/mlrMBO,mlrMBO,187,FALSE,2026-03-01,Toolbox for Bayesian Optimization and Model-Based Optimization in R,mlrmbo,NA,NA,NA,NA,cran/bioc
+CSSEGISandData/COVID-19_Unified-Dataset,COVID-19_Unified-Dataset,187,FALSE,2023-06-11,Unified COVID-19 Dataset,covid-19_unified-dataset,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+TongZhou2017/itol.toolkit,itol.toolkit,186,FALSE,2025-11-02,Helper Functions for Interactive Tree Of Life (iTOL),itol.toolkit,itol.toolkit,cran,tongzhou2017,FALSE,cran/bioc
+rpremraj/mailR,mailR,186,FALSE,2021-08-24,A utility to send emails from the R programming environment,mailr,mailR,cran,rpremrajgit,TRUE,cran/bioc
+rstudio-conf-2022/ggplot2-graphic-design,ggplot2-graphic-design,186,FALSE,2025-01-02,"""Graphic Design with ggplot2"", a 2-day rstudio::conf(2022) Workshop by Cédric Sc",ggplot2-graphic-design,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+davidski/evaluator,evaluator,186,FALSE,2022-12-21,⚖Open Source Toolkit for Quantitative Risk Assessment,evaluator,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+YosefLab/VISION,VISION,186,FALSE,2024-06-10,Signature Analysis and Visualization for Single-Cell RNA-seq,vision,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+dynverse/dyno,dyno,186,FALSE,2021-06-24,"Inferring, interpreting and visualising trajectories using a streamlined set of",dyno,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+GraphicsPrinciples/CheatSheet,CheatSheet,186,FALSE,2018-08-26,Repository for the cheatsheet and R code for generating the examples displayed.,cheatsheet,cheatsheet,cran,bradlindblad,FALSE,cran/bioc
+r-spatial/RQGIS,RQGIS,186,TRUE,2020-04-19,RQGIS - integrating R with QGIS,rqgis,NA,NA,NA,NA,"? (not a package, or GitHub-only)"
+hrecht/censusapi,censusapi,186,FALSE,2026-05-20,R package to retrieve U.S. Census data and metadata via API,censusapi,censusapi,cran,hrecht,TRUE,cran/bioc
+neurorestore/Libra,Libra,186,FALSE,2026-05-04,NA,libra,Libra,cran,cran,FALSE,cran/bioc
